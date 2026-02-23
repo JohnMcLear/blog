@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+
+title: "PHP -- Given a year.  For every possible date in that year" date: 2011-12-05 categories:
+
+* "php"
+
+--------------------------------------------------------------------------------
+
+[php] $year = 2004 $yearplusone = $year+1; $start = mktime(0,0,0,1,1,$year); $end = mktime(0,0,0,1,1,$yearplusone);
+
+$day = $start; while($day < $end) { echo date('r', $day); $day = strtotime("+1 day", $day); } [/php]

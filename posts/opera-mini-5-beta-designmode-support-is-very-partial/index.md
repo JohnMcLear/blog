@@ -1,0 +1,6 @@
+---
+title: "Opera mini 5 beta designMode support is very partial"
+date: 2010-03-31
+---
+
+[![opera-mini-logo[1]](images/opera-mini-logo1-300x264.jpg "opera-mini-logo[1]")](https://mclear.co.uk/wp-content/uploads/2010/03/opera-mini-logo1.jpg) I decided to test Opera mini 5 beta today on my android phone and although it claims to support designMode I couldn't get many sites that use the feature working, Etherpad, as an example does not work and no output/error is displayed by the browser.

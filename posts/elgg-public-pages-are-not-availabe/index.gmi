@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+
+title: "elgg public pages are not availabe" date: 2009-06-22 categories:
+
+* "allpublic"
+* "elgg"
+* "files"
+* "page"
+* "pages"
+* "photos"
+* "plugin"
+* "public"
+* "rate"
+* "resources"
+
+--------------------------------------------------------------------------------
+
+I'm struggling with public pages actually being publicly available on elgg, I'm using the elgg allpublic plugin and I still get asked to log in to view pages.
+
+Files and Photos etc. work fine, just seems to be a pages issue. I will update this thread if I find a fix.
+
+I have recently discovered the fix for this, all of my pages were access_id 2 so that was fine. The problem was...
+
+**With the rate plugin which required a user to be logged in to rate a page**.. Disabled the plugin. This is now fixed.. Huraa

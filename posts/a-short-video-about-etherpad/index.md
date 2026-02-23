@@ -1,0 +1,8 @@
+---
+title: "A Short video about Etherpad"
+date: 2012-01-02
+categories: 
+  - "etherpad"
+---
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/O0iUfphD6UA" frameborder="0" allowfullscreen></iframe>

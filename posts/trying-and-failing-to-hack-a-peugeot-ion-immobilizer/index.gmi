@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+
+title: "Trying and Failing to Hack a Peugeot Ion immobilizer." date: 2019-10-11
+
+--------------------------------------------------------------------------------
+
+This was a journey I went on with Duncan, Duncan deserves the props for the technical understanding of the car security, I was just the wrench monkey and author. Duncan runs Fobfix and if you need an immobilizer fix, replacement key or secondary key you should definitely check out Fobfix's store.[1]
+
+In this post I'm going to document our attempts and ultimately our failure to clone a Mitsubishi i-Mievs Immobilizer system EEPROMs from one car to another.  I will hopefully explain a bit about the security architecture and I will also my discoveries and some "pro tips" for not getting yourself in the same pickle as me. I appreciate most readers wont expect me to publish a failure story but a huge amount of time I spend working on projects is failure after failure, without writing the failures down myself and others could replicate the failure and that's not a good path to progress.
+
+The Peugeot Ion AKA Mitsubishi i-Miev & Citroen C-Zero is an electric car that was built for both Peugeot and Citroen by Mitsubishi motors.
+The car has a relatively standard security implementation. The vehicle we worked on had an industry standard RKE implementation. The remote locking part operating at the UK standard 433.92Mhz and the immobilizer implemented using the standard 125khz RFID "barrel ring" setup.
+
+Contrary to popular understanding Mitsubishi do not include transponder data in a Body Control Unit (BCU).  This is in contrast to Peugeot and Citroen who usually do.  Do not think of the Ion or C-Zero as a Peugeot or Citroen, I have had countless offers of people saying they can help but not really understanding the entire car is built by Mitsubishi and as such any knowledge of other manufacturers implementations is irrelevant.
+
+## Background
+
+I am transplanting a written off Ion drive train, ignition barrel, batteries et al into a Peugeot 205.  I had everything working after being stripped from the Ion then once I had transplanted the items into the 205 nothing worked.  I could of course have bought an entirely new Electric drive train setup but my goal here was to learn from others and reuse existing electronics so avoid them landing in the scrap pile.  I was able to pick up a damaged Ion for ~£2000 which is a fraction of the cost of an electric drive train and I was able to break the car for a decent return on my spend.
+
+## Debugging
+
+After a serious amount of head scratching and ensuring each wire was properly reinstalled we decided to test the key.  Actually it wasn't even on our to-do list to check the key, nothing really pointed at the key failing but my buddy Duncan had an inclination it was at fault so took it to his lab to check it.
+
+Duncan runs Fobfix and specializes in key repairs and programming so it was lucky I ran the problem past him.  The key did show some signs of physical distress, at one point during the transplant the key was in the barrel and did experience some impact but I thought it was a negligible amount and not enough to cause a failure, especially not of the transponder internal the key.
+
+We checked the Key two different ways, firstly we checked the 433Mhz RF characteristics and after this passed (we could see noise on an SDR) we tried to read the ID from the key using a standard RFID reader.  The IC in the key is a commonly used NXP PCF7942. This family of IC's incorporate an 125Khz RFID transponder and rolling code remote section all in a single IC.
+
+After verifying the reader using another key that the reader was successfully obtaining an ID from another similar key we discovered that the Ion key was not providing an ID, this was a huge red flag.  It is very rare that this type of  IC fails at the silicon level. The RFID section of these fobs is made up of a simple LC resonant circuit so we checked that it wasn't a dry solder joint, coil or resonant capacitor. Patching a known good IC into the LC circuit gave us an ID, patching the suspect IC into a know good LC circuit still failed so therefor we had no way to authenticate to the car.
+
+The key is pretty normal, nothing new, it is just a transponder which stores key data that communicates through the antenna coil in the car barrel to the car.
+
+With Tin Foil wrapping my cranium I would say that somehow my tinkering made the Ion nuke the key, why, I don't know but perhaps I managed to get the car into some panic mode which decided to attempt to rewrite / blank the key data and then nuke it's ability to communicate an ID.  It's highly unlikely Mitsubishi or the Key IC manufacturer would do this though, all of the car access control is handled by the EV ECU and ETACS so that's where Mitsubishi would focus on providing protection.
+
+## Attacking
+
+As we had lost our ability to authenticate to the vehicle with a key and had no ability to request Mitsubishi program a new key we were stuck between a rock and a hard place.  This left us with only two options:
+
+Option 1 was to purchase a key, ETACS and EV ECU from a breakers yard.  We went ahead and did this and when the components arrived it was clear they were heavily water damaged and it would have been fruitless to use these.  As no other units were available at breakers we decided to go for Option 2.
+
+*A side note here on buying car parts from eBay.  I receive roughly 80% faulty/incorrect parts for cars.*
+
+Option 2 was to dump the Transponder Key Data and the EEPROM from the ETACS and EV ECU from a known working vehicle.  Thankfully my buddy Ash had already offered his services when we explained the project to him.  Ash has two 2012 i-Mievs, our recipient vehicle is an Ion but the EEPROM contents from the i-Miev should be transplant-able, theoretically...
+
+To provide a starting point we used an aftermarket tool to clone the Hitag2 transponder in the i-Miev. The main security of the Hitag2 stream cipher is a 48 bit security of key used to seed the initial cipher state known as the ISK (Initial Secret Key). Once we had access to this ISK, it gave us a reference to search for in the dumps that we would be taking. We would also be looking for the specific transponder ID (32 bit).
+
+## Dumping the EV ECU EEPROM
+
+The EV ECU is located under the rear seat.  Removal and dumping the EV ECU was relatively simple.  Using an EEPROM reader and targeting the IC "BR93H86" (Apparently a common 93C86 serial EEPROM variant)we were able to dump successfully and after bit flipping we could clearly see the car VIN.  We repeated the dump process on Ashes i-Miev EV ECU and now had two successful EV ECU dumps. The ISK we retrieved from the cloning procedure was also identified in the dump. Interestingly the transponder Id wasn't found in this dump.
+
+## Writing the EV ECU EEPROM
+
+Writing the Ion EV ECU EEPROM was when things started getting problematic..   The EEPROM is Write protected and shifting the pin used for write protection to high didn't make the IC writable.  Only one thing for it, throw in some fly leads and a header and put a similar writable EEPROM on the board.  This worked (we think) but without the correct data being on the ETACS we were not able to validate anything.
+
+## Dumping the ETACS EEPROM
+
+The ETACS is buried in the drivers footwell / under the dash. It appears that the ETACS ECU handles the remote locking functions of the vehicle. Dumping the ETACS from the Ion was again pain free.  We used the same process but this time targeted the Seiko S25A32.  The Ion ETACS Part number is 8637A7.
+
+Dumping the ETACS from the i-Miev was a problem.  The EEPROM was flagged as "READ PROTECTED".  The actually EEPROM datasheet doesn't include this functionality so this left us stuck.  It appears that there may be a variant of this IC that has implemented some form of read protection, perhaps Ion doesn't have it and i-Miev does?  Perhaps somehow my Ion removed Read protection prior to me dumping it's content?
+
+The ETACS on the Ion and i-Miev do have different part numbers/model numbers but it was a real surprise to me that one would be read protected and one not.  It's unclear which models do/don't have read protection but it's worth documenting that 2012 Ion P/N 8637A7 did not have read protection but the 2012 i-Miev did.
+
+## Accepting failure
+
+The read protection on the EEPROM made it too time expensive to continue with our Option 2 approach (dumping and cloning).  I was forced back to Option 1, purchasing a key, matching ETACS and EV ECU.  The EEPROM from the ETACS I needed to dump was from Ashes daily driver so I could only have the IC for a maximum of a few hours, shipping it to someone to investigate further was also not viable.
+
+## What we learned
+
+With the EV ECU and ETACS both storing key immobilizer data it appears that somehow (further digging required) the barrel talks to the EV ECU and the EV ECU asks the ETACS unit to validate if the data is correct or not..  I assume the flow is like this:
+
+*
+
+ 1. Transponder enters field
+*
+
+ 2. Transponder handles challenge response with EV ECU through coil in barrel. It can do this as the EV ECU stores the ISK.
+*
+
+ 3. EV ECU asks ETACS if key ID value is in its whitelist table.4) ETACS responds with white/blacklist response.
+
+One assumes that the reason for using two devices that are physically separated is to ensure that a thief can't quickly brake into the vehicle, undo two 10mm bolts, swap out the ECU and then authenticate successfully.  Remember the security of the barrel in modern cars is no longer the physical key, it is the challenge/response of the transponder.  By making a thief change out two units it increases attack time from 30 seconds to ~5 minutes as the ETACS has two 10mm bolts but also 10 or so connectors that are difficult to access without some gymnastics.  It is common in modern cars to have key data stored in two physical locations, I have to admit, it's actually a pretty good idea/design.
+
+I am not impressed with read and write protected EEPROM.  If you have the ETACS and EV ECU out and EEPROMs off the PCB you have been able to physically attack the car for at least an hour and have access to a decent chunk of bench based equipment.  I'm of the opinion read and write protection of EEPROMs are just overkill and only really stops people like me re-purposing the equipment -- Right to repair 'n all that.
+
+The key data is not stored in the other obvious place, the Battery Control Unit.  In all honesty I could have known this from further reading of the i-Miev workshop manual.  It makes sense it's not with the BCU as the BCU and EV ECU are mounted together to attacking and replacing both would be quick.
+
+## Avoiding this problem in the future
+
+For future EV conversions I will ensure I create additional keys as back ups.  If I had simply spent £20 on another key and used the internal to car process to add the new key I would have had an insurance policy should I lose a key or it fails.
+
+Thanks to Digital Kaos, Duncan @ Fobfix and Ash
+
+=> http://fobfix.com 1: http://fobfix.com

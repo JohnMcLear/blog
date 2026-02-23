@@ -1,0 +1,12 @@
+---
+title: "libcurl library on a shibboleth 2.2+ SP install on debian"
+date: 2009-10-23
+categories: 
+  - "shibboleth"
+---
+
+The easiest way to install the libcurl library on debian is to run this command:
+
+  
+
+**apt-get install libcurl4-openssl-dev**

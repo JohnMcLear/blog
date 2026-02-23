@@ -1,0 +1,34 @@
+---
+title: "Cloudflare - My experience."
+date: 2012-04-29
+categories: 
+  - "developing"
+  - "development"
+---
+
+[![](images/H8gmQ1.gif "H8gmQ[1]")](https://mclear.co.uk/2012/04/29/cloudflare-my-experience/h8gmq1/)**Cloudflare is a service that **speeds up your website or blog** loading speed times by handling your website DNS and acting as a CDN for your sites content. I tried it out on [MySchoolHolidays.com](http://MySchoolHolidays.com)** CF = Cloudflare.
+
+Some things that rock:
+
+- CF sped my page loading up by minifying my JS/CSS etc and reducing the hops to the static content.  Also DNS lookups were marginally faster (<5%).
+- Some of the plugins available may be of use to others but weren't for me and some of them even introduced JS bugs.
+- CF introduced me to some new techniques for doing stuff such as catching client side JS bugs.
+- CF would help me scale quick
+- CF protects against exploits and scrapers.
+- FREE and if you want pro you can pay a small amount.
+
+Some things that suck:
+
+- No round robin ergo no high availability for sites that use this which means greater downtime.
+- Poor customer support.
+- Horrible console and back end.
+- Bugs, lots of bugs.  Everywhere...
+- Paid option doesn't really give you much in the way of improvements if anything.
+- CF "always online" feature doesn't work.
+- No wildcard domains.
+
+Cloudflare have a great opportunity and a huge audience but they have some massive problems to deal with if they want to make it a worthwhile service for me to adopt across the board.
+
+Note: I'm too lazy to include stats.
+
+Summary: **Use the free version**, get used to using a CDN for offloading some page content.  Make sure you setup analytics before so you can review your page speed load times.   Amazon and Google have similar offerings that will probably have a higher QOS ergo provide a better ROI.

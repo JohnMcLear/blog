@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+
+title: "Everyone wants to be like facebook." date: 2010-09-24 categories:
+
+* "social-network"
+
+--------------------------------------------------------------------------------
+
+I keep forgetting the name of the damn project and I always type it into Google wrong.  Anyway.  Diaspora has momentum.  And it looks like a Ruby project too?
+
+=> images/diaspora.png [IMG]
+[1]
+=> images/github2.png [IMG]
+[2]Looks like Ning/Edmodo etc. have their work cut out competing with this open source monster.  Although we have been here before with open source/free social networks.  I feel a touch of de ja vou.  Wasn't there a project called open social or something?  Anyways..  If you care, good for you.  Social networks aren't productivity tools.
+
+###### Related articles by Zemanta
+
+* Diaspora vs. BuddyPress: Open Source Social Networking Matchup[3] (pressography.com)
+* Facebook Competitor Diaspora Revealed[4] (developers.slashdot.org)
+* Open source, open Facebook "killer" Diaspora code is out (currentbuzz.org)
+* Open Source Facebook Contender Releases Code to Public[5] (wired.com)
+* How Diaspora killed itself before it even launched[6] (jarinheit.posterous.com)
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[7]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/09/diaspora.png 1: https://mclear.co.uk/wp-content/uploads/2010/09/diaspora.png
+=> https://mclear.co.uk/wp-content/uploads/2010/09/github2.png 2: https://mclear.co.uk/wp-content/uploads/2010/09/github2.png
+=> http://pressography.com/wordpress/diaspora-vs-buddypress-open-source-social-networking-matchup/ 3: http://pressography.com/wordpress/diaspora-vs-buddypress-open-source-social-networking-matchup/
+=> http://developers.slashdot.org/story/10/09/16/1245236/Facebook-Competitor-Diaspora-Revealed 4: http://developers.slashdot.org/story/10/09/16/1245236/Facebook-Competitor-Diaspora-Revealed
+=> http://www.wired.com/epicenter/2010/09/open-source-facebook-contender-releases-code-to-public/ 5: http://www.wired.com/epicenter/2010/09/open-source-facebook-contender-releases-code-to-public/
+=> http://jarinheit.posterous.com/diaspora-or-how-to-kill-your-facebook-killer 6: http://jarinheit.posterous.com/diaspora-or-how-to-kill-your-facebook-killer
+=> http://www.zemanta.com/ 7: http://www.zemanta.com/

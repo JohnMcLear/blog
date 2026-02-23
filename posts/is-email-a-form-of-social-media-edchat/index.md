@@ -1,0 +1,41 @@
+---
+title: "Is Email a form of Social Media #edchat"
+date: 2009-09-01
+categories: 
+  - "edchat"
+  - "email"
+  - "school"
+  - "social-network"
+---
+
+>   
+> 
+> ## Yes it is.
+
+> **Social media** are media designed to be disseminated through social interaction, created using highly accessible and scalable publishing techniques. Social media supports the human need for social interaction, using Internet- and web-based technologies to transform broadcast media monologues (one to many) into social media dialogues (many to many). It supports the democratization of knowledge and information, transforming people from content consumers into content producers. Businesses also refer to social media as [user-generated content](http://en.wikipedia.org/wiki/User-generated_content "User-generated content") (UGC) or [consumer-generated media](http://en.wikipedia.org/wiki/Consumer_generated_media "Consumer generated media") (CGM).
+
+Quote from [http://en.wikipedia.org/wiki/Social\_media](http://en.wikipedia.org/wiki/Social_media)
+
+  
+
+Email does allow multiple recipients. Email is user generated.
+
+  
+
+Email is a form of Social Media. Email as a standard (SMTP) has been used for years and will continue to be used. It is one of the oldest protocols used on the Internet today. So why do some people forget that Email is a social media tool?
+
+  
+
+**Who broke email's social appeal?** Blame your boss.
+
+  
+
+The phycological impact of using the same tools at work as at home is measurably negative. We like the ability to separate our work and play and we consider "socializing" a play event. Play is something you do with friends & people with similar interests. **Can you say that is true about all of the people you work with?**
+
+  
+
+**Do we need to fix email's social appeal?** Not really.. We seem to know it's place in society, we like where it is. We will keep using it for what it is. Having alternative media platforms such as micro blogging, blogging and other platforms where you control who can send and receive posts is what I would call "Controlled Social Environment".
+
+  
+
+PS I hate the term Social Media. Educationalists come up with these ridiculous terms to try to summarize a new tech in as few words possible - get over it.

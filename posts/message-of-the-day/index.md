@@ -1,0 +1,10 @@
+---
+title: "Message of the day"
+date: 2010-07-08
+---
+
+[![](images/wink1.png "wink[1]")](https://mclear.co.uk/wp-content/uploads/2010/07/wink1.png) Message from the form on http://primarygamesarena.com/contact.php
+
+Name: Lucy
+
+The following message was included: Your web is great i love the games please keep all the games on there i play it at home and at school

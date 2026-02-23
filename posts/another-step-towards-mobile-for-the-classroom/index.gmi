@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+
+title: "Another step towards mobile for the classroom" date: 2010-01-17 categories:
+
+* "ces"
+* "classroom"
+* "ict"
+* "mobile"
+* "primary-school-ict"
+* "technology"
+
+--------------------------------------------------------------------------------
+
+=> images/rca_airnergy.png [IMG]
+[1]One of the frequent arguments used to cast out the use of Mobile phones in classrooms is the lack of charger or short battery life. No longer is that an issue...
+
+The Airnergy WiFi Harvesting Charger "absorbs" power from your schools wireless network into a battery which can be used to charge devices such as mobile phones or PDA's using a mini USB connection.
+
+One of the best things about this is that any device that won't use USB2 connectivity will be excluded. Hopefully this will encourage manufacturers to adopt more standards.
+
+Of course that's a dig at apple...
+
+=> http://2.bp.blogspot.com/_NislCXjnul0/S1JZVwteKxI/AAAAAAAACiw/FiZkybp_IdQ/s1600-h/rca_airnergy.png 1: http://2.bp.blogspot.com/_NislCXjnul0/S1JZVwteKxI/AAAAAAAACiw/FiZkybp_IdQ/s1600-h/rca_airnergy.png

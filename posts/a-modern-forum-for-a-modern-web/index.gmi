@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+
+title: "A modern forum for a modern web" date: 2014-04-16 categories:
+
+* "nfc-ring"
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+=> images/Screenshot-from-2014-04-16-175611-550x321.png Screenshot from 2014-04-16 17:56:11 [IMG]
+[1]
+
+We recently migrated our NFC Ring forum[2] over from ProPHPBB (Hosted PHPBB) to NodeBB[3]. Let's be clear, in this blog post I'm not comparing like for like. ProPHPBB is a free service, it is open source, built on PHP and it's been the cornerstone of forums on the web for years. NodeBB is the young kid on the block.
+
+Let's get this out of the way, we paid the NodeBB team 300$ for our migration from PHPBB. Hosting and support is costing us ~70$ per month. With the support we're getting we feel it's value for money, we didn't pay anything for the service from ProPHPBB, it was ad supported.
+
+The guys at ProPHPBB were also great, we'd usually get our SQL export within 12 hours of asking. Obviously if we were paying them a monthly fee we'd expect a quicker response or even the ability to dump our own SQL but so is life.
+
+The ads on the ProPHPBB forum hosting were just far too offensive and damaged our brand. It's kinda obvious that PHPBB's days really are numbered, the design and implementation is just too dated now for it to ever really become relevant again, I gotta thank it for it's service though, truly great software has a shelf life like any other product and we should celebrate the circle of life. **Thank you team PHPBB** and the community around that project!
+
+NodeBB presents some other significant advantages than providing value for money:
+
+* We can map our sub-domain
+* We can use our SSL certs
+* We can use our new Oauth2 Identity provider to provide a single unified sign on.
+* It has a great chat feature and notification system.
+* Posts can be up/downvoted and favorited
+* It is Beautiful, the UI is perfect for our Brand.
+* Responsive CSS provides a nice mobile experience
+
+Migration wasn't completely smooth, this wasn't a huge surprise because we have all been crazy busy but what mattered is that pretty much any time I hit a problem I could jump onto IRC and Julian would sort it out within a few hours. I have no regrets about using ProPHPBB initially as it gave us a very quick start with forums. Ultimately though, I'm happy with our new home and it's onwards and upwards for the NFC Ring Forum[4]!
+
+=> https://mclear.co.uk/wp-content/uploads/2014/04/Screenshot-from-2014-04-16-175611.png 1: https://mclear.co.uk/wp-content/uploads/2014/04/Screenshot-from-2014-04-16-175611.png
+=> http://forum.nfcring.com 2: http://forum.nfcring.com
+=> http://nodebb.org/ 3: http://nodebb.org/
+=> https://forum.nfcring.com 4: https://forum.nfcring.com

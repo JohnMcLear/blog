@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+
+title: "Primary School Google Apps Education Edition Preparation" date: 2009-11-24 categories:
+
+* "apps"
+* "google"
+* "ict"
+* "primary"
+* "primary-email"
+* "primary-school-email"
+* "primary-school-ict"
+* "school-email"
+
+--------------------------------------------------------------------------------
+
+**Deciding which Google Apps you will use**
+
+We recommend schools do not use Google Mail for Email but use Primary Email[1] instead. This is for child protection and educational reasons. If you decide to use Shibboleth (UK Federation login) then you can use single sign on to log onto both services seamlessly.
+
+Your App options are Docs, Mail, Calendar, Sites and Chat. For more information each of these apps please visit http://google.com/a/[2]
+
+**Decide if you will do all the work or ask someone to do it for you**
+
+1. Pay someone to do this for you. Contact Primary Technology[3] using the contact details on http://primaryt.co.uk/contact.html[4] requesting assistance setting up Google Apps. You are done reading if you have chosen this option.
+
+OR 2. Handle the process yourself but ask your DNS provider or web hosting provider to make the relevant DNS changes. There is usually not a charge involved with this but it can be a bit tricky.
+
+OR 3. Gain access to your DNS control panel and do all of the procedure yourself. Warning: This is quite technically challenging. There is no charge for this but it takes a few hours if it’s the first time you have done it.
+
+**If you chose option 2 or 3 then continue to deciding on your user accounts and domains.[5]** **à[6]**
+
+=> http://primaryemail.co.uk 1: http://primaryemail.co.uk
+=> http://google.com/a/ 2: http://google.com/a/
+=> http://primaryt.co.uk/contact.html 3: http://primaryt.co.uk/contact.html
+=> http://primaryt.co.uk/contact.html 4: http://primaryt.co.uk/contact.html
+=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/ 5: https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/
+=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/ 6: https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/

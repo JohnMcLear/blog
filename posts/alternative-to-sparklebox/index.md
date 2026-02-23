@@ -1,0 +1,16 @@
+---
+title: "Alternative to Sparklebox"
+date: 2009-12-17
+categories: 
+  - "banned"
+  - "blocked"
+  - "primary-school-teaching"
+  - "reason"
+  - "sparklebox"
+---
+
+As sparklebox is blocked / banned / running into a few issues for a reason unknown and some teachers need teaching resources I wanted to just let you know there is an alternative!
+
+  
+
+[Primary School Teaching](http://primaryschoolteaching.co.uk/) has a great bank of teaching resources and you can upload your own and share resources with other teachers making it the perfect alternative to Sparklebox.

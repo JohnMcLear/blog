@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+
+title: "Temporarily Stop others writing on a pad" date: 2013-04-11 tags:
+
+* "etherpad"
+* "plugin"
+
+--------------------------------------------------------------------------------
+
+=> images/sutNO2K.gif [IMG]
+ Grab the ep_stop_writing plugin and feel your power grow.

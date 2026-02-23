@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+
+title: "Mobile device UI" date: 2011-12-06 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+We have just updated the Etherpad Lite master branch on github[1] to include a much nicer UI for mobile users.
+
+Enjoy!
+
+=> http://etherpad.org/2011/12/06/mobile-device-ui/github.com/Pita/etherpad-lite/ 1: http://etherpad.org/2011/12/06/mobile-device-ui/github.com/Pita/etherpad-lite/

@@ -1,0 +1,10 @@
+---
+title: "Bill Gates on how to improve the educational system and more"
+date: 2010-09-11
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+

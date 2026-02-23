@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+title: "Increasing the font size of the time slider pad view (Etherpad)" date: 2010-02-02 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+Changing the font size of the time slider pad view is very simple.
+
+You have to edit
+
+**/usr/local/etherpad/trunk/etherpad/src/static/css/broadcast.css**
+
+find
+**#padmain {**
+
+in the #padmain style section
+
+replace
+**font-size: 1.2em;**
+
+with
+**font-size: 1.5em;**
+
+or whatever font size you want
+
+Save and exit.

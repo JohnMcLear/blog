@@ -1,0 +1,23 @@
+---
+title: "Unable to reproduce TypeError: 'undefined' is not an object"
+date: 2012-04-13
+categories: 
+  - "ict"
+  - "javascript"
+---
+
+Google Analytics shows that ~12% of our total users are affected by a Javascript bug of:
+
+\[code\]TypeError: 'undefined' is not an object\[/code\]
+
+90% of the browsers are Safari 7534.48.3, 10% are Mozilla compatible agent. 75% of the errors come from iPhones, 23% from iPads. 1% from Macintosh, the other 2% is from iPod etc. None of the devices run Linux or Windows.
+
+I have tried enabling debug mode in safari on both an iPhone and iPad but not able to reproduce the bug.
+
+[Here is a link to a page Google Analytics claims is showing the error](http://myschoolholidays.com/Birmingham). If anyone can consistently reproduce the error here I will be super happy because just a line number would be enough to get me started debugging.
+
+**Update:** TypeError: 'undefined' is not an object (evaluating 'safari.self.tab.canLoad')
+
+Managed to get that out of it once when clicking around, mostly on an iphone whilst clicking "Change country.."
+
+**Update: Solved** this by making sure the element was available in the dom. Turns out the ajax call on success was trying to write to an element that wasn't available.

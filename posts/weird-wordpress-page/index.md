@@ -1,0 +1,27 @@
+---
+title: "Weird wordpress page.."
+date: 2009-10-01
+categories: 
+  - "wordpress"
+  - "wpmu"
+---
+
+I just found this code in a wordpress page...
+
+  
+
+<a href="http://www.mycialistadalafil.com/tadalafil-generic-cialis/">tadalafil</a></div><script language="javascript">function setOpacity(a,b){ a.style.opacity=b/10; a.style.filter='alpha(opacity='+b\*10+')'; } setOpacity(document.getElementById('begin\_3'),'0'); document.getElementById('begin\_3').style.display='none';
+
+</script>
+
+  
+
+If anyone knows how this managed to make it onto the page please let me know!
+
+  
+
+Further reading here: [http://www.seomoz.org/ugc/case-study-acirc-how-to-beat-google-and-rank-2-for-viagra-6776](http://www.seomoz.org/ugc/case-study-acirc-how-to-beat-google-and-rank-2-for-viagra-6776)
+
+  
+
+Even though wordpress had been updated it didn't removed this old bug. Jumped into mysql admin and removed it manually, no big deal..

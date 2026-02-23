@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Future of Education and the role ICT will play" date: 2009-12-24 categories:
+
+* "education"
+* "future"
+* "technology"
+
+--------------------------------------------------------------------------------
+
+Thanks to Education Future[1] for the heads up
+
+```html
+<iframe src="http://www.educationfutures.com/flashtimeline/index-500.html" width="500" height="310" scrolling="no" frameborder="0"></iframe>
+```
+
+Source: Education Futures[2]
+
+=> http://www.educationfutures.com/2009/12/21/share-the-love/ 1: http://www.educationfutures.com/2009/12/21/share-the-love/
+=> http://www.educationfutures.com/resources/timeline 2: http://www.educationfutures.com/resources/timeline

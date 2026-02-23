@@ -1,0 +1,18 @@
+---
+title: "New promethean board"
+date: 2010-11-20
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+What we now think we know about this board:
+
+Multi touch Gesture recognition Short throw projector (obviously) No pen required (yay)
+
+You can multiplayer..  Player 1 would use pen.  Player 2 would use finger(touch), obviously no gesture recognition with the pen.   Player 3 stays at home.
+
+Possible uses for multiplayer other than Powerpoint?  Not many yet.  All On-line services only support one controller as far as I am aware.  Scholastic has something out though which is for multiple controllers, this might work?
+
+[Here is an article by Promethean about this](http://community.prometheanplanet.com/en/blog/b/blog/archive/2010/01/06/multi-touch-here-we-come.aspx)

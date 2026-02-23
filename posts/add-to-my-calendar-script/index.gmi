@@ -1,0 +1,183 @@
+--------------------------------------------------------------------------------
+
+title: "Add to my calendar script" date: 2009-09-21 categories:
+
+* "calendar"
+* "code"
+* "event"
+* "ics"
+* "javascript"
+* "my-school-holidays"
+* "outlook"
+* "php"
+* "script"
+
+--------------------------------------------------------------------------------
+
+I needed a simple one click method to create a calendar event that people could put straight into google calendars and outlook, this function supports outlook, google calendars is done w/ a simple google api function/call that should be treated separately.
+
+I need to create these calendar events dynamically when a page is requested, I was looking for a free downloadable javascript or something that would have this bundled in but I couldn't find anything for free that did what I wanted so here it is..
+
+You have to pass it startdate, enddate & name in the right format, it's not that complex to figure out..
+
+In this example I'm getting the values from mysql and creating the code from that, a loto f this code is borrowed from http://sgowtham.net/blog/2008/05/26/php-mysql-ical-ics/[1] - he is mostly to thank.
+
+You will need to modify the 1203 part too to create a unique file name but that should be easy with a little bit of php knowledge. Writing to the file system then reading it back was the only way I knew to do this, feel free to enlighten me of another way.
+
+Here goes:
+
+```html
+<?php  
+$id=$\_GET\['id'\];  
+// MODIFY THIS LINE -- I get $id as a param  
+
+include 'mysql\_connect.php';  
+// MODIFY THIS LINE -- include any files you need for mysql to query  
+?>
+```
+
+```html
+<?php  
+$ics\_contents = "BEGIN:VCALENDAR\\n";  
+$ics\_contents .= "VERSION:2.0\\n";  
+$ics\_contents .= "PRODID:PHP\\n";  
+$ics\_contents .= "METHOD:PUBLISH\\n";  
+$name = "Awesome";  
+$ics\_contents .= "X-WR-CALNAME:$name Holiday Dates\\n";  
+
+\# Change the timezone as well daylight settings if need be  
+$ics\_contents .= "X-WR-TIMEZONE:America/New\_York\\n";  
+$ics\_contents .= "BEGIN:VTIMEZONE\\n";  
+$ics\_contents .= "TZID:America/New\_York\\n";  
+$ics\_contents .= "BEGIN:DAYLIGHT\\n";  
+$ics\_contents .= "TZOFFSETFROM:-0500\\n";  
+$ics\_contents .= "TZOFFSETTO:-0400\\n";  
+$ics\_contents .= "DTSTART:20070311T020000\\n";  
+$ics\_contents .= "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\\n";  
+$ics\_contents .= "TZNAME:EDT\\n";  
+$ics\_contents .= "END:DAYLIGHT\\n";  
+$ics\_contents .= "BEGIN:STANDARD\\n";  
+$ics\_contents .= "TZOFFSETFROM:-0400\\n";  
+$ics\_contents .= "TZOFFSETTO:-0500\\n";  
+$ics\_contents .= "DTSTART:20071104T020000\\n";  
+$ics\_contents .= "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\\n";  
+$ics\_contents .= "TZNAME:EST\\n";  
+$ics\_contents .= "END:STANDARD\\n";  
+$ics\_contents .= "END:VTIMEZONE\\n";  
+
+
+$sql="select \* from sh\_dates where id = '$id'";  
+// MODIFY THIS LINE -- obvious.  
+
+$result=mysql\_query($sql);  
+while ($row=mysql\_fetch\_array($result))  
+{  
+$id=$row\["id"\];  
+// MODIFY THIS LINE -- 
+
+$term=$row\["term"\];  
+// MODIFY THIS LINE -- 
+
+$start\_date=$row\["startdate"\];  
+// MODIFY THIS LINE -- 
+
+$end\_date=$row\["enddate"\];  
+// MODIFY THIS LINE -- 
+
+$name = "Event at Awesome";  
+// MODIFY THIS LINE -- 
+
+// $id = $schedule\_details\['ID'\];  
+// $start\_date = $schedule\_details\['StartDate'\];  
+// $start\_time = $schedule\_details\['StartTime'\];  
+// $end\_date = $schedule\_details\['EndDate'\];  
+// $end\_time = $schedule\_details\['EndTime'\];  
+// $category = $schedule\_details\['Category'\];  
+
+// $location = $schedule\_details\['Location'\];  
+// $description = $schedule\_details\['Description'\];  
+
+\# Remove '-' in $start\_date and $end\_date  
+$estart\_date = str\_replace("-", "", $start\_date);  
+$eend\_date = str\_replace("-", "", $end\_date);  
+
+\# Remove ':' in $start\_time and $end\_time  
+$estart\_time = str\_replace(":", "", $start\_time);  
+$eend\_time = str\_replace(":", "", $end\_time);  
+
+\# Replace some HTML tags  
+$name = str\_replace("<br>", "\\\\n", $name);  
+$name = str\_replace("&", "&", $name);  
+$name = str\_replace("→", "-->", $name);  
+$name = str\_replace("←", "<--", $name);  
+$name = str\_replace(",", "\\\\,", $name);  
+$name = str\_replace(";", "\\\\;", $name);  
+
+$location = str\_replace("<br>", "\\\\n", $location);  
+$location = str\_replace("&", "&", $location);  
+$location = str\_replace("→", "-->", $location);  
+$location = str\_replace("←", "<--", $location);  
+$location = str\_replace(",", "\\\\,", $location);  
+$location = str\_replace(";", "\\\\;", $location);  
+
+$description = str\_replace("<br>", "\\\\n", $description);  
+$description = str\_replace("&", "&", $description);  
+$description = str\_replace("→", "-->", $description);  
+$description = str\_replace("←", "<--", $description);  
+$description = str\_replace("<em>", "", $description);  
+$description = str\_replace("</em>", "", $description);  
+
+\# Change TZID if need be  
+$ics\_contents .= "BEGIN:VEVENT\\n";  
+$ics\_contents .= "DTSTART;TZID=America/New\_York" . $estart\_date . "T". $estart\_time . "\\n";  
+$ics\_contents .= "DTEND:" . $eend\_date . "T". $eend\_time . "\\n";  
+$ics\_contents .= "DTSTAMP:" . date('Ymd') . "T". date('His') . "Z\\n";  
+$ics\_contents .= "LOCATION:" . $location . "\\n";  
+$ics\_contents .= "DESCRIPTION:" . $description . "\\n";  
+$ics\_contents .= "SUMMARY:" . $name . "\\n";  
+$ics\_contents .= "UID:" . $id . "\\n";  
+$ics\_contents .= "SEQUENCE:0\\n";  
+$ics\_contents .= "END:VEVENT\\n";  
+}  
+
+$ics\_contents .= "END:VCALENDAR\\n";  
+
+\# File to write the contents  
+$ics\_file = '/var/www/ics/1203.ics';  
+// MODIFY THIS LINE -- 
+
+if (is\_writable($ics\_file)) {  
+if (!$handle = fopen($ics\_file, 'w')) {  
+echo "Cannot open file ($ics\_file)\\n\\n";  
+exit;  
+}  
+
+\# Write $ics\_contents to opened file  
+if (fwrite($handle, $ics\_contents) === FALSE) {  
+echo "Cannot write to file ($ics\_file)\\n\\n";  
+exit;  
+}  
+
+\# echo "Success, wrote to <b>1203.ics</b><br>\\n\\n";  
+// MODIFY THIS LINE -- 
+
+fclose($handle);  
+
+} else {  
+echo "The file <b>$ics\_file</b> is not writable\\n\\n";  
+}  
+?>
+```
+
+```html
+<?php  
+//header( 'Location: http://mywebsite.com/ics/1203.ics' ) ;  
+// MODIFY THIS LINE -- 
+
+echo $ics\_contents;  
+?>
+```
+
+By clicking this php page a user will be presented with a downloable/clickable .ics file which can be imoprted into an outlook calendar.
+
+=> http://sgowtham.net/blog/2008/05/26/php-mysql-ical-ics/ 1: http://sgowtham.net/blog/2008/05/26/php-mysql-ical-ics/

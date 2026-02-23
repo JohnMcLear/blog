@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+
+title: "WPMU Wordpress Multi User and Photo Peach / PhotoPeach" date: 2009-06-18 categories:
+
+* "photo-peach"
+* "photopeach"
+* "primary-blogger"
+* "wordpress"
+* "wordpress-multi-user"
+* "wpmu"
+* "wpmu-photopeach"
+
+--------------------------------------------------------------------------------
+
+You need to extend the embed array in kses.php to allow for the additional param's passed by PhotoPeach..
+
+Something like this..
+
+'embed' => array (
+
+'style' => array (),
+
+'type' => array (),
+
+'id' => array (),
+
+'height' => array (),
+
+'width' => array (),
+
+'allowscriptaccess' => array (),
+
+'allowfullscreen' => array (),
+
+'flashvars' => array (),
+
+'movie' => array (),
+
+'photos' => array (),
+
+'src' => array ()),
+
+Look out for 'embed' => array (
+
+this is where you add your params then close your array with
+
+),
+
+dont forget to close with ,
+
+This took me an hour or so to figure out how to do so hopefully you will be able to do it quicker.
+
+"Hey I'm Ben, Community Guy at #Photopeach. Just wanted to say thanks for your WPMU embed fix and we're adding it to our FAQ."

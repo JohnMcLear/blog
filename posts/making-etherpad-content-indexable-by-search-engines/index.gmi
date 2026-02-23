@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+title: "Making Etherpad content indexable by Search Engines" date: 2010-08-22 categories:
+
+* "etherpad"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+=> images/300px-Binokulares_Fernrohr_-_Schemazeichnung_-_Moritz_Hensoldt.jpg Engineering drawing of a binocular spy-glass [IMG]
+
+Etherpad contents very rarely shows up on Search results.  But with forums and wikis moving over to it I wanted to find a way to give etherpad a bit of an SEO edge..
+
+Firstly I looked at the **twitterstyletags plugin** which creates an rss feed or all pads..  This is a perfect solution for a sitemap so that's that box ticked :)
+
+Next I knew that Etherpad served pad contents in an **iframe** so I looked at better ways to get content for search engines to index.  Etherpad includes **Read only versions of each pad**, these read only versions push the content to the user without displaying it in an iframe so it is a perfect fix for the problem.
+
+My final step will be to find someone to modify the twitterstyletags plugin RSS feed to **create a sitemap.xml** and to create a plugin that allows users to easily link back from read only versions to currently active pads.

@@ -1,0 +1,15 @@
+---
+title: "XBMC, Transmission, Flexget, Youtube-DL."
+date: 2014-04-28
+categories: 
+  - "open-source"
+  - "opensource"
+---
+
+With these pieces of software your torrents/TV shows and Youtube subscriptions automatically download to one easy to use interface(XBMC).
+
+You can also use this interface to access streaming video services such as iPlayer and Radio services such as Radio 1 Extra.  Using the XBMC Remote app on your smart phone you can control your video streaming with the usual buttons (pause/play/skip etc.).
+
+There are no Ads on your Youtube subscriptions and Ads can be skipped if they are embedded in the videos by the content uploader.
+
+I'd recommend using a laptop instead of a Pi, the Pi just doesn't have enough grunt for this type of setup.  Basically next time you have an old laptop lying around and you are thinking of a use for it, spend a few hours whacking linux and these tools on it and you wont look back.

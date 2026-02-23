@@ -1,0 +1,26 @@
+---
+title: "Primary School Game API &amp; Portal page are in creation"
+date: 2009-05-29
+categories: 
+  - "primary-school-games"
+  - "primary-school-ict"
+---
+
+[![](images/576-03%5B1%5D.jpg)](http://4.bp.blogspot.com/_NislCXjnul0/Sh8mzJVy4HI/AAAAAAAABRY/xvL11Dftltc/s1600-h/576-03%5B1%5D.jpg)  
+I'm working on a new part of [Primary School ICT.com](http://primaryschoolict.com/) / Safe Search which will give game makers the ability to post scores through an API to a central database directly from their flash/web based games.
+
+  
+
+This should allow schools and content providers to get a rough estimate of the usage and impact of games in primary schools.
+
+  
+
+Although we will not be creating any games we will have a database of thousands of games (non API registered) that will cover the whole curriculum and will be displayed in an easy to use, teacher and pupil friendly interface :)
+
+  
+
+The coolest thing is that kids will be able to compete globally across a wide range of games, I see this as being the best way to encourage usage on top of growing communities.
+
+  
+
+I hope not to charge for this, I'm aiming to have a premium state product model where content providers pay if their API post usage goes above a certain % of visits to their resources start to excessively built their revenue stream but damage ours.

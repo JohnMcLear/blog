@@ -1,0 +1,30 @@
+---
+title: "Summer web surfing for pupils at home"
+date: 2009-07-16
+categories: 
+  - "holiday"
+  - "holidays"
+  - "home"
+  - "primary-school"
+  - "primary-school-safe-search"
+  - "safe-search"
+  - "summer"
+---
+
+Over the summer holidays your kids may want to use the internet and they may ask you about some good sites to visit or you may want to give them a few.
+
+  
+
+My 2 pence is [http://primaryschoolict.com](http://primaryschoolict.com)
+
+  
+
+I recommend this site because it is a great starting place for gaming, collaborating and searching.
+
+  
+
+The easiest way to access the site is to give the child the URL or to ask them to google "School Safe Search"
+
+  
+
+Enjoy the summer everyone :)

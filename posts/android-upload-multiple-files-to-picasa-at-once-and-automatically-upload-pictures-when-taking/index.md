@@ -1,0 +1,11 @@
+---
+title: "Android Upload multiple files to picasa at once and automatically upload pictures when taking"
+date: 2009-08-11
+categories: 
+  - "android"
+  - "htc-hero"
+  - "multiple"
+  - "picasa"
+---
+
+Anyone know if its possible upload multiple photos to picasa on the Android OS? I have the picasa tool added I think, I went to the market and searched for picasa and it didn't come up anyways.. I can share individual photos straight to picasa..

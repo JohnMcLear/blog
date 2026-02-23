@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "soffice X11 error: Can't open display:" date: 2010-10-09 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+Trying to start open office export in Etherpad gives you this error:
+
+soffice X11 error: Can't open display:
+
+This migbt be because openoffice-headless is not be installed
+
+[bash]
+
+apt-get install openoffice-headless
+
+[/bash]

@@ -1,0 +1,25 @@
+---
+title: "Our Employment Tribunal story"
+date: 2012-04-08
+categories: 
+  - "ict"
+  - "primary-school"
+---
+
+Roughly a year ago a former employee resigned from Primary Technology without giving any notice. The next day, two schools confirmed that they would no longer be requiring our services, and had changed to a new provider. It became evident in the hand-over process that our former employee was now working for the new provider at the same two schools.
+
+The employee had decided that he could not work his 30 day notice period and also would not communicate with us. In response, Primary Technology sent the employee a letter reminding him of his contractual obligations and asked him to re-consider opening communications with us.
+
+The employee sadly did not re-consider and instead, one month later, initiated employment tribunal proceedings on the grounds of constructive dismisal. At this point he became the “Ex employee”.
+
+Given that we had been accused of constructive dismisal, we decided to seek legal council. I don’t want to go into too much detail about how we used legal council and the approaches used, but it was safe to say that in my opinion the whole case was not handled very professionally. For example, the Ex Employee’s solicitor neglected to mention that the Ex Employee had actually stopped using their services some time before the tribunal hearing, despite the solicitor being duty bound to do so.
+
+We arrived early and fully prepared for our tribunal case. Our legal team and senior managers were eager to hear the truth, myself especially because I was the main target of the accusations.
+
+10AM came and went. At 10.30, we went into the chamber but our opposite hadn’t turned up; neither had his legal representation (we had the delay because the tribunal secretary had spent 30 minutes calling all the contact details available for the Ex Employee and his solicitor).
+
+The case was dismissed with no orders for costs meaning Primary Technology were considerably out of pocket due to legal fees and time wasted. Unfortunately the truth was never investigated
+
+So here it is, evidence that we went through the process only to be dissapointed that we didn’t have our long-awaited day in the tribunal courts.
+
+We believe in transparency as default in Primary Technology and public records often aid us in fulfilling this so with that in mind [here is a copy of the public documents that was published from the tribunal.](http://blog.primaryt.co.uk/files/2012/04/Pages-from-tribunal_judgement_27-03-12.pdf)

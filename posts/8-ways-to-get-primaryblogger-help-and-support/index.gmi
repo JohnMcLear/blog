@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+
+title: "8 ways to get PrimaryBlogger help and support" date: 2011-10-24 categories:
+
+* "blog"
+* "ict"
+* "primary-school"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+* "primaryblogger"
+* "wordpress"
+
+--------------------------------------------------------------------------------
+
+1. The PrimaryBlogger community forum[1] is by far the best place to ask any question, it’s full of enthusiastic PrimaryBlogger users.
+2. Your favorite search engine.[2]
+3. Looking for a plugin? Try the wordpress plugin codex[3].
+3. Looking for a theme? Try the wordpress theme codex[4].
+5. Looking for plugin support? Try the WordPress community[5].
+6. Want to speak to someone from the PrimaryBlogger or Primary Technology team? Try our live online chat![6]
+7. Email our support desk.[7]
+8. Call our support team, this is the last case because we take a while to answer the phones![8]
+
+=> http://ask.primaryt.co.uk 1: http://ask.primaryt.co.uk
+=> http://primaryschoolict.com 2: http://primaryschoolict.com
+=> http://wordpress.org/extend/plugins/ 3: http://wordpress.org/extend/plugins/
+=> http://wordpress.org/extend/themes/ 4: http://wordpress.org/extend/themes/
+=> http://wordpress.org/support/ 5: http://wordpress.org/support/
+=> http://crm.primaryt.co.uk/support.php 6: http://crm.primaryt.co.uk/support.php
+=> http://primaryt.co.uk/contact.html 7: http://primaryt.co.uk/contact.html
+=> http://primaryt.co.uk 8: http://primaryt.co.uk

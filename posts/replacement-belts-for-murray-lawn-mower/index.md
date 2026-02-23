@@ -1,0 +1,8 @@
+---
+title: "Replacement belts for Murray lawn mower"
+date: 2011-05-25
+---
+
+Very off topic but so is life.. [Brammer](http://www.brammer.co.uk/default.aspx) stock replacement drive belts for Murray lawn mowers, what you have to do is given them a call with the model number from the belt, the model # is visible on the belt but you probably have to town the mower on it's side.
+
+Took me a few hours to find someone who could provide me with a belt for my Murray sit and ride lawn mower so I thought I'd share... .

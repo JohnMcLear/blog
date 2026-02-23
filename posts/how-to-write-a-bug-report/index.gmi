@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+
+title: "How to write a bug report" date: 2015-01-15 categories:
+
+* "developer"
+* "developing"
+* "development"
+
+--------------------------------------------------------------------------------
+
+You found some behavior you think isn't right in a piece of software and you are thinking about reporting a bug.. Wait, stop, read this first as it will save you time in back/forth with the developer.
+
+## Is this actually a bug or desired behaviour?
+
+Ask on the mailing list for the software first. Most developers do things for a reason.
+
+## Does a bug already exist for this?
+
+Look through the bug tracker / issues for this software, it's possible a bug already exists. If so you can throw a +1 at it, +1 is a universal "bump" to show your interest. You can also track issues on tools like Github.
+
+## Are you reporting the bug in the right place?
+
+Etherpad, as an example doesn't take plug-in bug reports on the core bug tracker. Plug-in bugs should be reported on the individual plug-in bug trackers.
+
+## Want it fixing quickly?
+
+Create a bounty. You will be more likely to get a fix in a timely fashion. This is especially true for feature/enhancement requests.
+
+## Provide information
+
+Bug reports like "I can't click on anything" are completely useless. Include information such as:
+
+* Operating system (IE Windows)
+* Your browser (IE Firefox)
+* Your browser version (IE 24.2)
+* The page you are on (IE https://23to2.com/foo?241bar[1])
+* The version of software (IE Libre Office 9)
+
+If you are running a server / client setup you should provide the details for both the server and the client.
+
+## Provide Steps to replicate.
+
+Provide how you got the problem to happen.. IE
+
+* click on page X
+* click on element Y
+* do Z.
+
+## Don't be a leech.
+
+When you file a bug developers will look at your repository and if this is your first ever bug report and you don't contribute anything back to any other projects it's likely you will be ignored.
+
+## Provide Expected behavior
+
+It's useful for the developer to know what you actually expect to happen IE: Expected behavior: Z element gets big. Actual behavior: Z dissapears.
+
+## Be polite
+
+Actually, I don't care about this. I'd rather you were clear.
+
+## Other things to consider..
+
+Is this a security issue? If so use the software packages responsible security disclosure. Can't find it? Post to the mailing list or bump them on IRC.
+
+=> https://23to2.com/foo?241bar 1: https://23to2.com/foo?241bar

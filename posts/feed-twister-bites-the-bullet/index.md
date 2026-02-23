@@ -1,0 +1,14 @@
+---
+title: "feed twister bites the bullet"
+date: 2010-01-28
+categories: 
+  - "feed-twister"
+  - "feedtwister"
+  - "web2"
+---
+
+It looks like Feed twisters days may be numbered. Their site just takes you to a godaddy holding page.  
+  
+Shame :(  
+  
+Another web2 service waves bye bye to the interworld.

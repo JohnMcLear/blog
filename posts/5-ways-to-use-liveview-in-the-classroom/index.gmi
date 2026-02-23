@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+title: "5 ways to use LiveView in the classroom" date: 2010-09-30 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+**Live View** is Sony's "external interface for your android device".   Due late 2010.
+
+*Here are 5 possible ways it could be used in the classroom.*
+
+1. **Physical presence** - Easily see what lesson the pupil is due to go to and which room they should be in.  Once the pupil has arrived in the room and connected to a specified wireless point then register via an app.
+
+2. **Notifications** - Receive instant important notifications from the school such as violence/gun threats such as experienced on Tuesday in the USA[1].
+
+3. **Storage -** Easily record sound bytes from the class, the device could potentially act as an external microphone
+
+4. **Amplification** -  Supported learning for hard of hearing, specific audio content could be amplified instead of the current "everything is amplified" solution.
+
+5. **Bully deterrent** - One button push could send an audio stream up to a central server which would mean any negative experience could be recorded.
+
+More details here[2]
+
+=> http://24.media.tumblr.com/tumblr_l9gmw3s8Qc1qaejz5o1_500.jpg 1: http://24.media.tumblr.com/tumblr_l9gmw3s8Qc1qaejz5o1_500.jpg
+=> http://tech.fortune.cnn.com/2010/09/28/sony-ericsson-watch-android-remote-is-what-ipod-nano-should-have-been/ 2: http://tech.fortune.cnn.com/2010/09/28/sony-ericsson-watch-android-remote-is-what-ipod-nano-should-have-been/

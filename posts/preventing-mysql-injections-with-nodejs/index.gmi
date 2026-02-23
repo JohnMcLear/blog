@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+
+title: "Preventing MySQL Injections with NodeJS" date: 2011-03-22 categories:
+
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+The node-mysql[1] module has an escape function[2]:
+
+> **client.escape(val)** Escapes a single val for use inside of a sql string.
+
+=> https://github.com/felixge/node-mysql 1: https://github.com/felixge/node-mysql
+=> https://github.com/felixge/node-mysql/blob/master/Readme.md 2: https://github.com/felixge/node-mysql/blob/master/Readme.md

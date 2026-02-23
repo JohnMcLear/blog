@@ -1,0 +1,9 @@
+---
+title: "Not a VLE"
+date: 2009-09-16
+categories: 
+  - "vle"
+  - "wilsden"
+---
+
+Not a VLE is a project I'm working on with Wilsden Primary School to use internet 2 technology to increase the overall performance of the school. It is a big project and I intend to document every aspect. More info is [available here](http://notavle.blogspot.com/)

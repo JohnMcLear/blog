@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad build fails fsc Exception in thread "main" java.lang.NoClassDefFoundError: scala/tools/nsc/CompileClient" date: 2010-11-02 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+Etherpad build fails with output: fsc Exception in thread "main" java.lang.NoClassDefFoundError: scala/tools/nsc/CompileClient
+
+**Cause:** Bad path or symbolic link issue
+
+**Solution:** Firstly replicate error by typing
+
+[bash]fsc[/bash]
+
+[bash]which fsc[/bash]
+
+if it isn't the actual literal fsc path then remove any symbolic links to the fsc file in /usr/bin
+
+add the scala/bin path to $path - ie
+
+[bash]export path="$PATH:/usr/local/scala-2.7.7/bin"[/bash]
+
+type fsc again, the error should be gone.

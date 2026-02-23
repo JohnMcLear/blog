@@ -1,0 +1,16 @@
+---
+title: "Bradford summer school - 5 days of fun for kids"
+date: 2010-03-14
+categories: 
+  - "primary-school"
+---
+
+![shapeimage_1[1]](images/shapeimage_11.png "shapeimage_1[1]")Between the 2nd and 6th of August Bradford children have the opportunity to participate in a [fantastic summer school](http://www.pjcsummerschool.co.uk/). The summer school teaches music, drama and dance.
+
+Students spend the week working towards a show which is performed on the Friday afternoon for families and friends to come and watch.
+
+The school is run at Buttershaw Business and Enterprise College. At just £80 for the week it is great value!
+
+Find out more at the [PJC summer school website](http://www.pjcsummerschool.co.uk/)
+
+Does anyone know if there is a Summer school in Bradford to do ICT stuff?  There should be one!

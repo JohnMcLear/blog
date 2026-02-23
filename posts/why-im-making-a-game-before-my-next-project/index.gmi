@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+
+title: "Why I'm making a game before my next project" date: 2011-02-03 categories:
+
+* "developing"
+* "ict"
+* "javascript"
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+Quick link to the game I made[1]
+
+=> images/tumblr_let5asucR91qe0eclo1_r5_5001.gif [IMG]
+[2] Primary Technology is a good place to work, the main reason being is that I have a lot of freedom to be creative. The ability to be creative means I get to work with a lot of different platforms and technologies. The next project I have been asked to do is a "web based really real time light-weight open source collaborative sticky note tool" AKA PrimaryWall[3]. o_O
+
+So let's break that down... Web based, easy.. Really real time, not so easy when using conventions... light-weight, easy-ish.. open source, sort of easy.. collaborative, not so easy...
+
+I could go ahead and make something with AJAX & Apache but it wouldn't be as really real time as a lot of genuine really-real time so I'm going to be better off using NodeJS and Web Sockets. I did an example using Socket and Node a week or so ago that really got me thinking about how I can/could apply what I had learned to the projects I work on at Primary Technolog[4]y.
+
+The biggest problem I face is my lack of experience with Javascript. If I went straight into building PrimaryWall[5] I would probably build it in a linear fashion and that would suck for an open source project because it wouldn't feel appropriately structured.. Sure I "could" structure it all out based on what I know so far but I feel like I should do a test first and that test is to build a game using the same structure and hopefully at the same time build my knowledge of NodeJS, WebSocket + Javascript.
+
+So I have 4 weeks to build a game then 4 weeks to build PrimaryWall[6] (It is due at the end of March). The game will be called either "Tag" or "You're it" and will be a simple multi-mouse game where moving the mouse is all that is required to play.
+
+Any developers that read this think that I'm wasting my time and should just go for it?
+
+I think this post is mostly me justifying spending the next month building a game that has been ultimately funded by the public sector.. I know this may seem a little strange but NodeJS is relatively new and so is Javascript and I really need to learn before I create as to create something that is worthwhile for other people to contribute towards....
+
+Quick link to the game I made[7]
+
+=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 1: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> https://mclear.co.uk/wp-content/uploads/2011/02/tumblr_let5asucR91qe0eclo1_r5_5001.gif 2: https://mclear.co.uk/wp-content/uploads/2011/02/tumblr_let5asucR91qe0eclo1_r5_5001.gif
+=> http://primarywall.com 3: http://primarywall.com
+=> http://primaryt.co.uk 4: http://primaryt.co.uk
+=> http://primarywall.com 5: http://primarywall.com
+=> http://primarywall.com 6: http://primarywall.com
+=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 7: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/

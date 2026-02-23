@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+
+title: "Installing Kolab on CentOS" date: 2011-05-18 categories:
+
+* "developer"
+* "developing"
+* "email"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+[bash] yum install gcc obmtool cd /usr/local mkdir kolab-templates cd kolab-templates wget -r -l1 -nd --no-parent http://ftp.belnet.be/packages/kolab/server/release/kolab-server-2.3.1/sources/[1] # note that the above url will change with newer versions, visit kolab.org and get the latest version number. This command may take some time so go make a cup of tea. cp -afv ../kolab-templates /usr/local/kolab cd /usr/local/kolab sh install-kolab.sh 2>&1 | tee /root/kolab-install.log # note that the above may take some time /kolab/sbin/kolab_bootstrap -b [/bash]
+
+=> http://ftp.belnet.be/packages/kolab/server/release/kolab-server-2.3.1/sources/ 1: http://ftp.belnet.be/packages/kolab/server/release/kolab-server-2.3.1/sources/

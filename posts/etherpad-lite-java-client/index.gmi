@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad Lite Java Client" date: 2012-01-02 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+A Java client for Etherpad Lite’s HTTP JSON API.[1]
+
+Example:
+
+EPLiteClient api = new EPLiteClient(“http://etherpad.mysite.com%E2%80%9D[2], “FJ7jksalksdfj83jsdflkj”);
+HashMap pad = api.getText(“my_pad”);
+String pad = pad.get(“text”).toString();
+
+Report Post As Inappropriate[3]
+
+=> https://github.com/jhollinger/java-etherpad-lite 1: https://github.com/jhollinger/java-etherpad-lite
+=> http://etherpad.mysite.com%E2%80%9D 2: http://etherpad.mysite.com%E2%80%9D
+=> http://etherpad.org?moderation_action=report_form&amp;object_type=post&amp;object_id=548&amp;width=250&amp;height=300 3: http://etherpad.org?moderation_action=report_form&amp;object_type=post&amp;object_id=548&amp;width=250&amp;height=300

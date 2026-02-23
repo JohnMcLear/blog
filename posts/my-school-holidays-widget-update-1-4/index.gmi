@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+title: "My School Holidays Widget Update 1.4" date: 2012-06-13
+
+--------------------------------------------------------------------------------
+
+*Over the past month we have been monitoring the rating and reviews of My School Holidays Widget[1] intently and some of what we are seeing is breaking our heart, there appear to be some users out there experiencing difficulty with our app and have rightly been airing their grievances the only available way possible which is the Google Play review/rating feature. Unfortunately a lot of the times these reviews do not give us a clear idea of what the problem was nor a way to contact the user in an effort to glean insight into the problem in order to get it resolved.*
+
+*No more we say! Down with the 1 star reviews! In the latest update to the My Schools Holiday Widget we have implemented a way to send us feedback that will contain basic debug information and email it directly to us! The beauty of this method of feedback is that as it is emailed directly to us we are able to respond straight back to you the user with the aim of targeting your specific problem and dealing with it as soon as possible.*
+
+*The security conscious among you may be worried about what sort of information will be sent to us, to put you at ease all the information sent to us is visibly on display right there in the email that gets sent to us.*
+
+*Details include:*
+
+*Device Make/Model*
+
+*Version of Android*
+
+*Version of My School Holidays Widget*
+
+*And of course your email address*
+
+*We will never release any of the above information to third parties and aim to respond to all feedback within 48 hours.*
+
+*By no means do we intend for this feedback feature to be used only for negative experiences, if you are enjoying our app but think it is lacking that little extra something that would make it ideal for you then please do get in touch, we are more than happy to listen to our users and where possible improve our app to ensure an enjoyable user experience.*
+
+*To send us feedback simply press the ? icon when you open the app and follow the on screen instructions, alternatively email us directly at android@primaryt.co.uk[2]*
+
+=> https://play.google.com/store/apps/details?id=com.primaryt.mshwidget 1: https://play.google.com/store/apps/details?id=com.primaryt.mshwidget
+=> mailto:android@primaryt.co.uk 2: mailto:android@primaryt.co.uk

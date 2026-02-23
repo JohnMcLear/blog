@@ -1,0 +1,43 @@
+---
+title: "OWL energy monitor to Google Analytics"
+date: 2012-09-02
+categories: 
+  - "analytics"
+  - "google"
+---
+
+[![](images/owl_google_analytics-550x231.png "owl_google_analytics")](https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-google-analytics/owl_google_analytics/)
+
+I have been able to get my CM160 owl energy monitor to provide data to Google Analytics. This allows me to track energy usage in my house.
+
+It's disgraceful how bad Owl's support is for linux users but it's great to see the community being so active in writing drivers/support to make it a reality.
+
+I have a cron job that runs a php script that sends the data.
+
+I have the Google Analytics PHP Class in the same folder.
+
+The script looks like this: \[php\] $file = "/var/log/owl.txt"; $file = escapeshellarg($file); // for the security conscious (should be everyone!) $line = \`tail -n 1 $file\`; $data = explode(" ", $line); $power = $data\[6\]; $power = $power\*10; // times by 10 so its an integer
+
+include 'autoload.php'; // ga class use UnitedPrototype\\GoogleAnalytics; // use the google analytics class
+
+/\* GA Stuff \*/ // Initilize GA Tracker $tracker = new GoogleAnalytics\\Tracker('UA-34066705-1', 'mclear.co.uk'); // CHANGE THESE SETTINGS
+
+// Assemble Visitor information // (could also get unserialized from database) $visitor = new GoogleAnalytics\\Visitor(); $visitor->setIpAddress('127.0.0.1'); $visitor->setUserAgent('Slave2'); $visitor->setScreenResolution('1024x768');
+
+// Assemble Session information // (could also get unserialized from PHP session) $session = new GoogleAnalytics\\Session();
+
+// Assemble Page information $page = new GoogleAnalytics\\Page('/page.html'); $page->setTitle('My Page');
+
+// Track page view $tracker->trackPageview($page, $session, $visitor);
+
+// Assemble Visitor information // (could also get unserialized from database) $visitor = new GoogleAnalytics\\Visitor(); $visitor->setIpAddress("127.0.0.1"); $visitor->setUserAgent("slave2");
+
+// Assemble Session information // (could also get unserialized from PHP session) $session = new GoogleAnalytics\\Session();
+
+// Assemble Page information $page = new GoogleAnalytics\\Page('/statisticsFromTheServer'); $page->setTitle('MySchoolHolidays Server'); /\* End GA stuff \*/
+
+$event = new GoogleAnalytics\\Event(); $event->setCategory("power"); $event->setAction("costPerHour"); $event->SetLabel("pence"); $event->SetValue($power); $event->setNonInteraction("true"); $tracker->trackEVent($event, $session, $visitor); \[/php\]
+
+Your results will take a little while to come through and this can be tested by running the php script. If you don't get an error then wait 24 hours and see if they come through under Content -> Events in GA
+
+Disclaimer: I did try to use Open Web Analytics to accomplish this but it's [PHP class had an error](http://forums.openwebanalytics.com/?topic=php-class-invocation-error-in-example-code) so I gave up.

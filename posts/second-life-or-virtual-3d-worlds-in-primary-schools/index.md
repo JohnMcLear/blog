@@ -1,0 +1,41 @@
+---
+title: "Second Life or Virtual 3d Worlds in Primary Schools"
+date: 2009-06-23
+categories: 
+  - "3d"
+  - "education"
+  - "educational-games"
+  - "learning-platform"
+  - "lpmud"
+  - "naace"
+  - "opensim"
+  - "primary-school"
+  - "pupil-games"
+  - "secondlife"
+  - "virtual"
+  - "world"
+---
+
+[![](images/299px-Opensim_Wright_Plaza.jpg)](http://opensimulator.org/images/thumb/d/de/Opensim_Wright_Plaza.jpg/299px-Opensim_Wright_Plaza.jpg)  
+
+Naace are running a [conference](http://www.naace.co.uk/859) on using 3d virtual worlds in education. I can't help but feeling this is mostly focused on the secondary market but I guess it has some relevance to Primary.
+
+Right now, even though I feel it has relevance I feel skeptical that this is a good idea but I could be wrong, it's happened before :P
+
+Try to remember most primary school kids don't even have email addresses provided by their schools yet and we're going to open them up to a second life (be it walled or not)
+
+I'm not going to rant about security or child safety. I want to focus entirely on the point. Right now, I just don't get it.
+
+I'm not going to download it or try it out, I don't want to know if it feels good or clever. This isn't a particularly new concept. Games have been used in Primary Education for years, mostly cartoony games that are very simple. Why do I need my character to walk to a piece of work to pick it up when its available on my VLE.. (I'm pretending I'm a kid...)
+
+I do however think games is a great way to encourage kids to learn, [Primary Games Arena](http://primarygamesarena.com/) is having huge success worldwide with engaging children in fun learning.
+
+Virtual worlds should be all about engaging with other people, school mates for example.
+
+Maybe the whole Digital Citizenship is what I don't get. Being that I started with BBS, moved to IRC \+ LPMUD, now I have every possible way of being "Hailed" 24/7... Come to think of it I think I probably learned a lot of social skills through LPMuds (Multi user environments)..
+
+I think I will go spend some time thinking about what Digital Citizenship is and how it will feel in 3/5 years time when virtual worlds MAY be at their peak. They certainly haven't peaked yet and all the hype from Second Life is blatant hot air..
+
+I may have just begun a revolution in my head.. Oh dear..
+
+If you read this all the way through then you may wish to consider reading this article of [Terry freedmans interview of Miller](http://terry-freedman.org.uk/artman/publish/article_1528.php) - its focused more at secondary but you get the picture..

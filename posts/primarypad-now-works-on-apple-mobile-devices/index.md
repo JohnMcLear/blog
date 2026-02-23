@@ -1,0 +1,14 @@
+---
+title: "PrimaryPad now works on Apple mobile devices"
+date: 2011-10-14
+categories: 
+  - "ict"
+  - "primary-pad"
+  - "primary-school"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+  - "primarypad"
+---
+
+When we designed [PrimaryPad](http://primarypad.com) we knew that editing content on mobile devices would be an issue for a lot of people especially Apple device owners. Today we are pleased to announce that any Apple device running iOS5 will be able to edit pad contents. Enjoy! ![:)](http://primaryt.primaryblogger.co.uk/wp-includes/images/smilies/icon_smile.gif)

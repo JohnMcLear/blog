@@ -1,0 +1,6 @@
+---
+title: "Follow me on twitter - JohnMcLear"
+date: 2009-06-16
+---
+
+lets face it, I'm not gonna use it much but it might be worth adding me to see what other people are saying.. [http://twitter.com/JohnMcLear](http://twitter.com/JohnMcLear)

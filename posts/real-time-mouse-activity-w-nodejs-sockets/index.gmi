@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------------
+
+title: "Real time mouse activity w/ NodeJS & Sockets" date: 2011-01-30 categories:
+
+* "collaboration"
+* "developer"
+* "developing"
+* "javascript"
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+Quick link to the NodeJS/websocket game I made -- includes source[1]
+
+Thanks to Reddit for helping me test this.
+
+Steps: Get NodeJS Get npm Get SocketIO
+
+Create server.js Paste in: [javascript] // Simple Node & Socket server
+
+var http = require('http') , url = require('url') , fs = require('fs') , io = require('../') , sys = require('sys') , server;
+
+server = http.createServer(function(req, res){ var path = url.parse(req.url).pathname; switch (path){ case '/': res.writeHead(200, {'Content-Type': 'text/html'}); res.write('<h1>Welcome. Try the <a href="/chat.html">chat</a> example.</h1>'); res.end(); break; case '/json.js': case '/test.html': fs.readFile(__dirname + path, function(err, data){ if (err) return send404(res); res.writeHead(200, {'Content-Type': path == 'json.js' ? 'text/javascript' : 'text/html'}) res.write(data, 'utf8'); res.end(); }); break; default: send404(res); } }),
+
+send404 = function(res){ res.writeHead(404); res.write('404'); res.end(); }; server.listen(8080);
+
+// socket.io, I choose you var io = io.listen(server) , buffer = []; io.on('connection', function(client){ client.send({ buffer: buffer }); client.broadcast({ announcement: client.sessionId + ' connected' }); client.on('message', function(message){ var msg = { message: [client.sessionId, message] }; buffer.push(msg); if (buffer.length > 15) buffer.shift(); client.broadcast(msg); // console.log(msg); }); client.on('disconnect', function(){ client.broadcast({ announcement: client.sessionId + ' disconnected' }); }); }); [/javascript]
+
+Create test.html Paste in: [html] <!doctype html> <html> <head> <title>Multi Mouse - How many mice can I mouse eater eat?</title> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> <!-- jquery --> <script src="/json.js"></script> <!-- for ie --> <script src="socket.io/socket.io.js"></script> <!-- sockets --> </head> <body> <h1> You can see my mouse!! ZOMG - <a href="http://www.youtube.com/watch?v=aFLcbBvTGns">Video explaining why I'm doign this</a></h1>
+
+```html
+<script>
+
+// some random color function randc(){ colors = new Array('#FF0000','#00FF00','#0000FF','#00FFFF','#FF00FF','#C0C0C0'); var color = colors\[Math.floor(Math.random()\*colors.length)\] return color; }
+
+// When a new message arrives.. function message(obj){ var data = obj.message\[1\].split(':'); var x = data\[0\]; var y = data\[1\]; var userid = obj.message\[0\];
+
+if($('#mouse\_'+userid).length == 0 && userid != 'you') { var randcolor = randc(); $('body').append('<div class="dot" style="background-color:'+randcolor+'" id="mouse\_'+userid+'"/>' ); }
+
+// stops a dot being drawn for local user if (userid != 'you'){ $('#mouse\_'+userid).css({ 'left' : x + 'px', 'top' : y + 'px' }) } var el = document.createElement('p'); if ('announcement' in obj) el.innerHTML = '<em>' + esc(obj.announcement) + '</em>'; else if ('message' in obj) el.innerHTML = '<b>' + esc(obj.message\[0\]) + ':</b> ' + esc(obj.message\[1\]); document.getElementById('chat').appendChild(el); document.getElementById('chat').scrollTop = 1000000; } // A function to define how we send data function send(){ var val = document.getElementById('text').value; socket.send(val); message({ message: \['you', val\] }); document.getElementById('text').value = ''; } // When a mouse is moved window.onmousemove = function(event){ message({ message: \['you', event.clientX+':'+event.clientY\] }); socket.send(event.clientX+':'+event.clientY); };
+
+// replace <&> w/ &lt&&gt function esc(msg){ return msg.replace(/</g, '&lt;').replace(/>/g, '&gt;'); };
+
+// establish the socket connection var socket = new io.Socket(null, {port: 8080, rememberTransport: false}); socket.connect(); socket.on('message', function(obj){ if ('buffer' in obj){ document.getElementById('form').style.display='none'; document.getElementById('chat').innerHTML = ''; for (var i in obj.buffer) message(obj.buffer\[i\]); } else message(obj); }); </script> <div id="chat"><p>Connecting...</p></div> <form id="form" onsubmit="send(); return false"> <input type="text" autocomplete="off" id="text"><input type="submit" value="Send"> </form> <style> .dot { height: 10px; width: 10px; background-color:#000000;position:absolute;left:0;top:0;} </style> </body> </html> \[/html\]
+```
+
+Run it with
+
+[bash] node server.js [/bash]
+
+Test it by visiting http://whatever:8080[2]
+
+Quick link to the NodeJS/websocket game I made -- includes source[3]
+
+=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 1: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> http://whatever:8080 2: http://whatever:8080
+=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 3: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/

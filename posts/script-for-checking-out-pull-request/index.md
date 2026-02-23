@@ -1,0 +1,17 @@
+---
+title: "Script for checking out pull request"
+date: 2013-03-25
+categories: 
+  - "etherpad"
+  - "git"
+tags: 
+  - "git-etherpad"
+---
+
+I often have to test specific pull requests and tanks to [this post on how to checkout git pull requests](https://gist.github.com/piscisaureus/3342247) I was able to quickly bash together a script
+
+I wrote this to ~/checkoutPR.sh \[code\] echo "Getting Pull request #$1" git fetch origin pull/$1/head:pr-$1 git checkout pr-$1 \[/code\] then \[code\] chmod 775 ~/checkoutPR.sh \[/code\] Then jump into the repo folder Grab the Pull request # from the URL, replacing %pullrqeuestnumber% with the pull request # \[code\] ~/checkoutPR.sh %pullrqeuestnumber% \[/code\]
+
+Simple but useful.
+
+The output is something like this \[code\] jose@debian:~/etherpad-lite$ ~/./checkoutPR.sh 1672 Getting Pull request #1672 remote: Counting objects: 142, done. remote: Compressing objects: 100% (43/43), done. remote: Total 124 (delta 101), reused 104 (delta 81) Receiving objects: 100% (124/124), 13.58 KiB, done. Resolving deltas: 100% (101/101), completed with 15 local objects. From github.com:ether/etherpad-lite \* \[new branch\] refs/pull/1672/head -> pr-1672 Switched to branch 'pr-1672' \[/code\]

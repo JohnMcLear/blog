@@ -1,0 +1,34 @@
+---
+title: "Big brands get educational games horribly wrong"
+date: 2010-11-08
+categories: 
+  - "ict"
+  - "primary"
+  - "primary-games-arena"
+  - "primary-school"
+  - "primary-school-games"
+---
+
+Consider a big organization (lets say a bank) decide to create some web based educational content because y'know [Natwest](http://natwest.com) have done such a great job of sending people into schools to talk about finances and lets face it banks have money to burn.
+
+We know this because it's our money they are burning. We know they are doing it because we get loads of requests every day to promote their content on [Primary Games Arena](http://primarygamesarena.com).
+
+[![](images/pga_logo.png)](http://primarygamesarena.com)
+
+[PGA](http://primarygamesarena.com) is an open non biased platform. If your game is good it will end up on the front page. If not then don't moan at me when it gets a 1 star rating.
+
+So.. Some PR douche bag at a bank employs a development company to make some game.    The development company has a little experience creating flash games so off they go making a load of "out of the box" template games that really offer nothing but an educational wave of fail. ![](images/pile_of_poo.gif)
+
+**Kids can smell this shit a mile off** - don't do it. Get a proper game mechanic first then build around that. Examples: Civilization, Sim City, Diner Dash.
+
+**Don't be precious.** Research how [children in Primary Education use the internet](http://cljdesign.com/blog/2008/12/06/designing-the-user-interface-for-children/). They do NOT use the back button nor will they search for "your bank + game name".
+
+Sites like Primary Games Arena use iFrames to make the pupils educational/learning experience better, we don't care about your click through or brand recognition. If you are making Educational games with a sole purpose to increase your brand awareness then you are guaranteed to fail.
+
+**Don't spam call me** or my company or send me crap loads of urgent emails that aren't urgent. This will get you ignored and your company blacklisted.  Isn't this common courtesy?  Do certain organizations think they are above common courtesy or something?
+
+![](images/12813353571.jpg "1281335357[1]")No I wont do free consultation on how you can gamify or use gamification. If you want a decent a gamification consultant then **hire one**. Here are a few: Jesse Schell, Gabe Zichermann, Dru Wynings & of course I will be happy to help.
+
+What is even worst is when you see "educators" create educational games but then don't want to see their games linked to on other websites. I completely disagree with these people. The Rings of Saturn will not be kind.
+
+Rant over. Trust me, it was needed :)

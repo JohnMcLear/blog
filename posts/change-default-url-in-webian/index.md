@@ -1,0 +1,14 @@
+---
+title: "Change default URL in webian"
+date: 2011-07-30
+categories: 
+  - "webian"
+---
+
+Webian is a custom, leight weight build of chromium. I'm looking at using it to create a custom browser.
+
+I'm playing with webian at the moment and will be documenting part of my learning process.
+
+The first thing I needed to do was change the default start page, to do this:
+
+Browse to the **browser code** folder Open **main.js** Find the line that begins with **newTab** and change it to read the URL you want it to read.

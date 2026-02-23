@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------
+
+title: "My Bits From Bytes (3d Systems) nightmare" date: 2013-03-05 categories:
+
+* "3d"
+
+--------------------------------------------------------------------------------
+
+I had a really bad experience with Bits From Bytes so I'm posting this as a record, I have provided 3D Systems with a copy, both BfB and 3D systems have been invited to comment but declined so y'know, fsk em, here is my story.
+
+**TLDR;** Bits From Bytes will not cover damage to the printer when on their premises Bits From Bytes will charge you more than your initial quote Bits From Bytes will not test your printer before shipping it back to you Bits From Bytes will take a LOT longer than estimated to repair your printer. Bits From Bytes will ship you your printer back in a state that will do damage to the printer. Bits From Bytes will not fully repair the printer, you will be expected to finish their job for them.
+
+*BfB = Bits from Bytes, a 3d printer company owned by 3D systems.
+
+**Chronological order of events:** 2012-11-25 Customer rang up RE printer repair 2012-11-26 Customer had to visit online store to register printer for repair 2012-11-28 Customer shipped package to BfB (Customer took out insurance) 2012-12-01 Printer was damaged in Shipping 2012-12-01 BfB signed for Printer as "good condition" 2012-12-05 BfB told customer of damage to Printer 2012-12-05 Customer contacted shipping company claimed on insurance 2012-12-14 BfB offered to replace some parts for free using second hand parts 2012-12-14 Customer was told several additional parts required replacement 2012-12-18 Shipping company told customer BfB had signed for printer in "good condition" 2012-12-19 Customer was told cost of repairs would be ~£150 2012-12-19 Customer was told printer would be ready in 5 days 2013-01-02 Customer received quote for repairs of ~£270 2013-01-08 Customer still hasn't received printer 2013-01-24 Customer emails support to ask for a status update 2013-01-24 Customer was told printer is ready (why wasn't he informed?) 2013-01-24 Customer makes full payment via paypal 2013-01-24 Customer was told item would ship on the 2012-02-28 an would have the item on the 2012-02-29 2013-01-29 Customer received additional invoices for additional amounts despite all payments being made in full. (These invoices were not of the same value of the actual amount paid) 2013-01-29 Customer informed BfB that the invoices were non-relevant and that full payment had already been made. 2013-01-29 Customer emailed BfB requesting tracking number 2013-01-29 Customer was told printer hadn't shipped but it would ship today and he would have on the 30th. 2013-01-30 Customer received printer 2013-02-01 Customer unboxed printer, no sign of visible damage from transit 2013-02-04 Customer asked BfB if printer had been tested 2013-02-04 BfB informed customer a test print cube was printed 2013-02-04 Customer informed BfB that if he aligns the print head it will damage the printer. 2013-02-05 Customer was asked to change settings on the printer. 2013-02-05 Customer informed BfB setting wasn't available 2013-02-05 Customer informed printing was not performed after repairs completed but was tested before repairs completed (before printer bed was changed) 2013-02-05 BfB request customer update firmware (no instructions or resources provided) 2013-02-05 Customer requests resources from BfB to update firmware 2013-02-05 Customer provided resources from BfB to update firmware 2013-02-05 Customer requested help from BfB customer service manager for the second time (after receiving no response initially) 2013-02-05 Customer received email from BfB customer service manager stating technical would be in touch. 2013-02-05 Customer updated Firmware and ran initial compulsary scan 2013-02-05 Scan stuck the print head firmly into bed again damaging the print bed and possibly the head 2013-02-05 Customer informed BfB of the situation with the head stuck in the bed. 2013-02-05 BfB requested customer used a magnet and other tools to "trick" the printer into thinking it was in the position 2013-02-05 Customer did not have tools or skills available and was worried about further damage so declined and requested printer was delivered back to BfB to be repaired. 2013-02-05 Customer packaged up printer ready for collection 2013-02-06 UPS picked up up printer 2013-02-15 Customer received repaired printer however printer would not extrude material 2013-02-16 Customer informed BfB unable to extrude and printer head is lose on Z axis 2013-02-16 Customer resolved extrusion issue with advice from BfB 2013-02-18 Customer attempted to fix lose printer head issue however did not have required tools 2013-02-20 Customer requested a ball driver as to resolve the issue himself 2013-02-22 BfB dipatched ball driver to customer 2013-02-25 Customer resolved lose printer head issue himself using tool provided by BfB
+
+**Negative feedback:**
+
+1. Communication is a problem, the fact I get an email but then have to log into a clunky web platform to access the information is painful.
+2. The value of the repairs changed and the promised " i will stick a new bed on for you free of charge." changed.
+3. The biggy for me is that the printer took way longer than estimated to be repaired. Technical dept stressed he would get it to me before Christmas.
+4. I was not given any updates when the printer is going to be back with me.
+5. I had to chase to get updates despite the printer being ready.
+6. Giving feedback to and/or filing a complaint has been overly difficult.
+7. My insurance was voided due to a signature from BfB, really this is the shipping company(UKMail) at fault.
+8. Delivery was late.
+9. Additional invoices were sent with no reasoning.
+10. Testing wasn't completed.
+11. I had to finish the printer repairs.
+12. Customer service dept never got back to me.
+13. Customer ended up having to fix issues with the printer himself.
+
+**Positive feedback:**
+
+1. Whenever I got the Technical dept on the phone they were polite, positive and sounded eager to repair the printer.
+2. Covering some of the costs of the damage done to the case by the Shipping company.
+3. Technical dept got me some pictures sent through for the insurance company.
+4. Shipping the printer back FOC.
+
+**In pictures:**
+
+Initial damage to be repaired 
+=> images/we0j8.jpg [IMG]
+
+Damage done between UKMail (iPostParcels) and BfB 
+=> images/BEbO1Qy.jpg [IMG]
+More pics of Damage done between UKMail (iPostParcels) and BfB:[1]
+
+Damage to the print head/bed after bodged first repair 
+=> images/pqYqAQY.jpg [IMG]
+
+Discussion on reddit[2]
+
+=> http://imgur.com/a/DC7HT#0 1: http://imgur.com/a/DC7HT#0
+=> http://www.reddit.com/r/3Dprinting/comments/17hs8a/a_3d_printer_manufacturer_has_my_printer_and/ 2: http://www.reddit.com/r/3Dprinting/comments/17hs8a/a_3d_printer_manufacturer_has_my_printer_and/

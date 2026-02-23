@@ -1,0 +1,25 @@
+---
+title: "How to make an unethical decision"
+date: 2009-04-04
+categories: 
+  - "business"
+  - "ethics"
+  - "loooonnnggggggg"
+  - "mclear"
+  - "unethical"
+---
+
+Most of you that read this article will know what I’m talking about as it’s been eating at me the last few days. For those that don’t, it is probably best kept under wraps as to not upset anyone.  
+In a nutshell, making an unethical decision with long term ethics in mind is the best way of making short term unethical decisions. To do this one must understand the long term impacts of short term decisions and ensure that there is a long term commitment to fulfilling the objectives outlined.
+
+  
+Outlining the objectives should be easy, ultimately (and this is the case now) they should have already been outlined in an organizations or companies mission statement. This highlights the importance of a mission statement.  
+
+  
+Dealing with the short term consequences of making an unethical decision is all about damage reduction. Firstly ones conscience needs to be “shelved” temporarily or “persuaded”. Either approach will work however the latter is the best as then the conscience develops an understanding through the decision making process and does not regret or resent the decision. Of course is a counter argument to this – Could it possibly be that the conscience develops an acceptance of making small unethical decisions and inevitably becomes accepting of unethical circumstances.
+
+  
+Secondly, those who are affected by the short term decisions should be compensated or communicated with fully as to not cause any friction or tension. The afflicting party should be mindful of any short term backlash and prepare as such. The mission statement should be made clear to anyone who may suffer negatively and explained with a professional understanding of the intentions of the decision and the long term goals intended.
+
+  
+None of us have a crystal ball, but we all get reminded from time to time that there are bigger forces working in the world than just the individuals we deal with on a daily basis. Some times the greater good is not always the short term objective.

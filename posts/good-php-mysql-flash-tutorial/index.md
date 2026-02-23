@@ -1,0 +1,6 @@
+---
+title: "Good php, mysql, flash tutorial"
+date: 2009-05-27
+---
+
+[http://library.creativecow.net/articles/brimelow\_lee/php\_mysql/video-tutorial.php](http://library.creativecow.net/articles/brimelow_lee/php_mysql/video-tutorial.php)

@@ -1,0 +1,14 @@
+---
+title: "How to find out the version of an Etherpad instance?"
+date: 2013-01-28
+categories: 
+  - "etherpad"
+tags: 
+  - "etherpad"
+---
+
+The git hash is stored in the HTTP Response headers.
+
+[![red](images/red-550x384.png)](https://mclear.co.uk/wp-content/uploads/2013/01/red.png)
+
+Open your browser (ff/chrome) F12 (developer tools) Network Look in the header responses. It will show the Git Hash of the current revision then look at http://github.com/ether/etherpad-lite to see which hash is relevant to which version.

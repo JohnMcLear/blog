@@ -1,0 +1,19 @@
+---
+title: "Free online autocue"
+date: 2011-09-20
+categories: 
+  - "ict"
+  - "primary"
+  - "primary-school"
+  - "primary-school-ict"
+tags: 
+  - "autocue"
+---
+
+Ever needed a really quick, free and easy piece of autocue software without any barriers? Well Primary Technology paid me to make one for PrimaryPad so I released a jQuery plugin and pushed out a [free online autocue](http://primaryschoolict.com/autoCue/ "Free online autocue") with a really simple editor.
+
+If you want to collaboratively edit on your document before sending it to the autocue why not try use PrimaryPad? Video for how to use it below:
+
+<iframe width="550" height="300" src="http://www.youtube.com/embed/mhdgu0tNmTU" frameborder="0" allowfullscreen></iframe>
+
+Note: Autocues are sometimes called teleprompter so the above is an autocue/teleprompter..

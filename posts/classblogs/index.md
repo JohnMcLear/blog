@@ -1,0 +1,11 @@
+---
+title: "Classblogs"
+date: 2011-09-08
+categories: 
+  - "ict"
+  - "primary-blogger"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+Classblogs has been the hastag and general term we have used for [school blogs](http://primaryblogger.co.uk) for a long time. Recently a service has popped up "violating this name space" so I just wanted to let people know that this is the genuine [ClassBlogs](http://edte.ch/blog/2010/01/24/classblogs/) started by Tom. Enjoy :)

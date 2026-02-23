@@ -1,0 +1,24 @@
+---
+title: "My thoughts on CLCs being closed"
+date: 2011-03-31
+categories: 
+  - "ict"
+---
+
+[![](images/VJsxA1-550x412.jpg "VJsxA[1]")](https://mclear.co.uk/wp-content/uploads/2011/03/VJsxA1.jpg)
+
+This blog post reflects my own thoughts, not the thoughts or opinion of my employer. I should put a quick disclaimer in early on that my dad is/was a [CLC](http://en.wikipedia.org/wiki/City_Learning_Centre "City Learning Centre") manager, I think he is still holding onto a post at a CLC but I don't want to bring that into this article..
+
+Here's what CLC's meant for me.. I may be well off the mark but this is how I saw them.. Mostly from a technology perspective, as that is the area I work in..
+
+CLC's exist(ed?) to promote the creative use of a wide range of technology across the curriculum. CLC's used their finances to provide resources and creative ideas for schools. An example of this would be a CLC member of staff would work with a school teacher to provide a lesson plan based on one device per child IE one digital camera. Certain schools do not have the budget to access this type of resources and I guess the future idea is that the budgets are more devolved to the schools to make these purchases.. Now this in theory is great but without the CLCs providing a carrot it's going to be more difficult to "promote" technology in the classroom as it is going to be difficult to inspire teachers to use new technologies and more importantly to allow them to take risks.. CLC's could take risks where a lot of schools, especially smaller ones can't..
+
+So what's next? Well I can imagine a few companies such as the one I work for will provide "loan facilities" of equipment and schools may begin pooling resources. It may be useful for schools to set up some sort of LAP where it is clear which teacher has experience of a specific technology and/or access to physical devices. I guess a nice [on-line forum](http://en.wikipedia.org/wiki/Internet_forum "Internet forum") could be used to provide this so if you are "that guy/girl" then go ahead and make it. Linking schools resources is a bloody hard graft as anyone at any LA/RBC will tell you but the outcomes can be intensely fruitful.. Obviously a lot of questions need to be answered around this and the logistics are difficult but if the resources are there and so is a glimmer of willingness then it could work...
+
+CLC's did do a lot more than just sharing resources and I guess my last paragraph could be perceived as belittling the impact they have made. The fact CLC's took risks, promoted technology, provided learning spaces, accommodated thinking, meetings and other important tasks is hard to quantify so I won't try to explain the significance, in fact if you have read this far into the blog post you will know that trying to quantify everything in education is about as point full as licking the ear of a black widow..
+
+To summarize. It's sad CLC's are going but technology has a lot of momentum and schools aren't moving away from it. You very rarely hear of schools finding more educational value in going back to basics.. So the tech industry wont be too badly damaged and it's unlikely the education sector will feel it too bad straight away, CLCs provided the glitter, the glamour and essentially the hope to the few that needed it the most.  I know a lot of good, honest, hard working people will have to look for alternative employment.. It's a bit like the demise of [Becta](http://www.becta.org.uk "Becta"), as one government body goes a small organization (such as Naace) picks up the pieces and the cycle continues...
+
+If you are losing your job at a CLC then why not send your CV to my employer [Primary Technology](http://primaryt.co.uk) @primaryt as we are currently employing!
+
+[![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

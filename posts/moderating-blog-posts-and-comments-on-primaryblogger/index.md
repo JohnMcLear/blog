@@ -1,0 +1,24 @@
+---
+title: "Moderating Blog posts and comments on PrimaryBlogger"
+date: 2011-04-24
+categories: 
+  - "ict"
+  - "primary-blogger"
+  - "primary-school"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+---
+
+When it comes to being e-safe online without thwarting creativity PrimaryBlogger has your back.
+
+Moderation of comments:  
+a) Spam filtering software detects unwanted spam.  
+b) Pupils cannot see unmoderated comments.  
+c) Teachers moderate comments.  
+d) Pupils can only see approved comments.
+
+Moderation of posts:  
+a) Teachers can receive emails when a new draft is published by a pupil.  
+b) Teachers can select to moderate posts before a pupil publishes it to the internet.  
+**c) All posts on PrimaryBlogger are checked by a human after being published**

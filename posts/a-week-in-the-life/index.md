@@ -1,0 +1,45 @@
+---
+title: "A week in the life.."
+date: 2010-09-19
+categories: 
+  - "android"
+  - "etherpad"
+  - "ict"
+  - "primary"
+  - "primary-school"
+  - "shibboleth"
+---
+
+![](images/johnymac-tired.png "johnymac-tired")
+
+I haven't been very vocal lately, because I have been busy...
+
+## Satpin
+
+[](https://mclear.co.uk/wp-content/uploads/2010/09/johnymac-tired.png)I have been working on Ian Addisons new project now called Satpin (something to do with phonics according to Miss Pitkethly).  My Javascript skills have improved massively doing this project which I have enjoyed thoroughly.  Javascript is awesome.  I need a decent tutor though, I am cobbling my way through stuff using "John" logic which isn't good enough.  Once the project is complete/stable I will be releasing it open source (it will require a LAMP stack).  I am spending masses of attention to detail on this project, more than I have ever done.  I'm focusing 99% of my efforts on UI.  I decided to make it writeable by anyone which will upset some people but oh well..
+
+## Wind power
+
+I have been finishing the electrics on my wind turbine, which is now up and running (hopefully okay).  It's been a while since I did any component level work and Sparky helped me which was good.
+
+## Apache load balancing
+
+We spent a few hours working on how to improve load balancing on our main apache cluster.  We are considering casandra if we grow any quicker than our current projections.
+
+## Shib constipation
+
+Mid week I struggled and I'm still struggling massively with a Shib SP deployment.  I'm running the same config as another deployment but I am getting errors.  Think this is a job for team john and tom to get sorted properly.  We are doing it so we can work with the Swedish equivalent of JISC for their Etherpad deployment.
+
+## **Classdroid**
+
+We got classdroid working properly, well, sort of.  Turns out Android isn't as cool as I first thought.  Well, android is..  Turns out motorola/lg etc. are idiots and install custom software including custom camera intents that breaks a lot of the phones functionality.  Thankfully google will fix this with any v2+ updates.  The LG Optimus is due V2.1 this month so I am willing to wait a few weeks instead of trying to squash a documented/fixed bug.
+
+## **PHP**
+
+I helped Challenge CLC with a touch of PHP this week, super easy stuff.  It is always good to collaborate with people, especially when I am so comfortable helping out in PHP.
+
+## Etherpad
+
+I did a few more edu installs of Etherpad, nothing exciting here.  Wrote a new way to integrate with the scribblar API.  Stefan has the code if anyone wants it.   Important thing to note, why the Hell are so many Americans and now Africans getting me in to do Etherpad deployments yet there are so few EU deployments going on?  Is their something about Europeans and our lack of encouraging collaboration in the work/edu place?
+
+**Finally.  Happy Pirates day!  Now gimme your loot.**

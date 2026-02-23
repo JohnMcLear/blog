@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------
+
+title: "Toshiba NB200 clean XP Pro install" date: 2009-08-18 categories:
+
+* "downgrade"
+* "ict"
+* "nb200"
+* "pro"
+* "professional"
+* "toshiba"
+* "upgrade"
+* "xp"
+
+--------------------------------------------------------------------------------
+
+How to ... (Yes this is the quickest method...)
+
+Prereqs:
+
+1. External USB CD OR DVD drive.
+2. Nlite[1]
+3. Windows XP Pro ISO image or XP Pro CD
+
+Steps:
+
+1. Get External USB CD Drive & Blank CD/DVD
+2. Get nlite[2]
+3. Get this driver from Toshiba - It's the Intel matrix storage floppy driver..[3]
+4. Extract driver to a folder..
+5. Install nlite[4]
+6. Run nlite and select to include driver and create ISO Image
+7. Create new ISO Image
+8. Select folder where you extracted the driver (Multiple drivers)
+9. Select all drivers.
+10. Burn ISO image to a blank CD/DVD
+11. Install from CD/DVD.
+
+=> http://www.nliteos.com/ 1: http://www.nliteos.com/
+=> http://www.nliteos.com/ 2: http://www.nliteos.com/
+=> http://downloadcenter.intel.com/T8Clearance.aspx?url=/17883/eng/f6flpy3289.zip&amp;agr=Y&amp;ProductID=2101&amp;DwnldID=17883&amp;lang=eng 3: http://downloadcenter.intel.com/T8Clearance.aspx?url=/17883/eng/f6flpy3289.zip&amp;agr=Y&amp;ProductID=2101&amp;DwnldID=17883&amp;lang=eng
+=> http://www.nliteos.com/ 4: http://www.nliteos.com/

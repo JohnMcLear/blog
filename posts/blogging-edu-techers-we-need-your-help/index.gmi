@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Blogging Edu Techers we need your help!" date: 2010-12-06 categories:
+
+* "primary-games"
+* "primary-games-arena"
+
+--------------------------------------------------------------------------------
+
+=> images/SEOattack.png [IMG]
+[1]A naughty website is trying to "SEO steal" traffic from Primary Games Arena, this is risky because if they are successful then if your pupil searches for Primary Games they may be shown a link to a website that includes some extremely questionable content.  I noticed this on twitter earlier today..  Obviously bots/spam but Google struggles to tell them apart.
+
+Note how they have used the same font as Primary Games Arena in their headings.  Also look at the ad on the left hand site..  Oh dear...
+
+The only good fix for this is that Primary Games Arena has more links in than this dodgy website so please help by logging into your website/blog and adding a link to Primary Games Arena.  The URL for Primary Games Arena is http://primarygamesarena.com[2]
+
+=> images/verybad.png [IMG]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/12/SEOattack.png 1: https://mclear.co.uk/wp-content/uploads/2010/12/SEOattack.png
+=> http://primarygamesarena.com 2: http://primarygamesarena.com

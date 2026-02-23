@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Wordpress enable RPC XML site wide." date: 2010-07-03
+
+--------------------------------------------------------------------------------
+
+Create a plugin in wordpress and paste in:
+
+add_filter( 'pre_option_enable_xmlrpc', create_function('$a', 'return true;') );
+
+OR
+
+Download & install this plugin[1]
+
+=> http://primaryschoolict.com/rpcxml.zip 1: http://primaryschoolict.com/rpcxml.zip

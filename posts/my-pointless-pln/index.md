@@ -1,0 +1,18 @@
+---
+title: "My pointless PLN"
+date: 2009-09-27
+categories: 
+  - "personal-learning-platform"
+  - "pln"
+  - "twitter"
+---
+
+I joined twitter several months ago with the aim to meet educators that shared my interest. Turns out most of the people I'm following or are following me don't share my interests. Even though most of my followers are educators it appears that their recommended sites are not what I would recommend. This doesn't mean that I think their input is worthless its just not appropriate for me.
+
+The main for this is that Primary Schools don't need access to further education sites, most twitters are HE/FE and most consultants have split roles but seem to focus less on earlier years. I guess this should of been expected.
+
+My solution is to be a bit more brutal about who I follow so that my twitter feed doesn't get spammed with a load of irrelevant sites and comments.
+
+It's not all pointless though, some people on my PLN are great and have given me some great feedback and comments helping me create some great websites and publish them in real time to the people who requested the service...
+
+So if you're like me, which you probably aren't then make sure you are picky about who you follow else you will feel swamped.

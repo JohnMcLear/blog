@@ -1,0 +1,42 @@
+---
+title: "Why is my shibboleth IDP so slow to accept the first connection?"
+date: 2009-11-03
+categories: 
+  - "idp"
+  - "productionalize"
+  - "shibboleth"
+---
+
+When I create my first connection to my shibboleth IDP it takes 30 / 40 seconds for tomcat to serve the login page.
+
+  
+
+At first I expected that my tomcat memory allocation / heap space value wasn't being applied but my **ps aux | grep java** showed:
+
+  
+
+/usr/lib/jvm/java-6-sun/bin/java -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties -Xmx512m -Djava.endorsed.dirs=/opt/tomcat/common/endorsed -classpath :/opt/tomcat/bin/bootstrap.jar:/opt/tomcat/bin/commons-logging-api.jar -Dcatalina.base=/opt/tomcat -Dcatalina.home=/opt/tomcat -Djava.io.tmpdir=/opt/tomcat/temp org.apache.catalina.startup.Bootstrap start
+
+  
+
+I could see above it wasn't using enough memory so I edited /usr/share/tomcat5.5/bin/catalina.sh and under JAVA\_OPTS I added: -Xms256m -Xmx1024m -server -XX:+AggressiveOpts -XX:MaxPermSize=512m
+
+  
+
+It now reads:
+
+  
+
+JAVA\_OPTS="$JAVA\_OPTS "-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager" "-Djava.util.logging.config.file="$CATALINA\_BASE/conf/logging.properties -Xms256m -Xmx2048m -server -XX:+AggressiveOpts -XX:MaxPermSize=1024m"
+
+  
+
+I used the ./shutdown.sh script provided with tomcat to shutdown tomcat and then the ./startup.sh script to restart. Tested and performance was massively improved after a 5 minute start up wait.
+
+  
+
+Use tailf /var/log/shibboleth/idp-process.log to watch the log file to check for startup completion.
+
+  
+
+[Click here for more information on how to Productionalize your IDP](https://spaces.internet2.edu/display/SHIB2/Productionalization)

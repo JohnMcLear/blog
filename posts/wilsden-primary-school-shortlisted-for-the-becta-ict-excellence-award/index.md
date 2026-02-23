@@ -1,0 +1,24 @@
+---
+title: "Wilsden Primary School shortlisted for the BECTA ICT Excellence award!"
+date: 2009-08-05
+categories: 
+  - "handheld"
+  - "ict"
+  - "primary-school-email"
+  - "primary-school-ict"
+  - "school-email"
+  - "wilsden"
+  - "wireless"
+---
+
+Wilsden Primary School has been shortlisted for an award for the [fantastic work the parents, teachers and pupils have done this year with ICT.](http://www.youtube.com/watch?v=5ve_JmjGgv4)  
+  
+The winners will be announced on the 19th of November.  
+  
+Wilsden is up against 70 other schools in the UK.  
+  
+Information on the ICT Excellence award can be found here  
+  
+The technical support and ICT consultancy has been providing by myself and all of the work has been carried out by the folks at [Primary Technology](http://primaryt.co.uk).  
+  
+Wilsden is only a small village compared to most in Bradford so this level of recognition is another very important notch on the post for the school as the head teacher has just retired.

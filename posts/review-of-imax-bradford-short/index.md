@@ -1,0 +1,13 @@
+---
+title: "Review of Imax Bradford (Short)"
+date: 2009-07-23
+categories: 
+  - "bradford"
+  - "imax"
+---
+
+1. Too hot, crowded & close to screen on front rows (I found out this is the same in IMAX cinemas worldwide)
+2. Not enough parking (But this is Bradford, you can be creative!)
+3. Overpriced (But worth the £2 extra than the other options which is awful!)
+
+Great experience never the less. [Imax, Bradford](http://www.nationalmediamuseum.org.uk/FilmandImax/IMAXhome.asp)

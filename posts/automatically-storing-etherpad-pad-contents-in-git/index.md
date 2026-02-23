@@ -1,0 +1,42 @@
+---
+title: "Automatically Storing Etherpad Pad contents in Git"
+date: 2020-04-25
+---
+
+This is a how to guide / hack approach for storing Etherpad contents as git commits.
+
+## Create git repo
+
+Using your favorite tool / platform. In this instance we use Github to create a new repository called `etherpad-storage`
+
+## Clone git repo
+
+`git clone repoURL ~/etherpad-storage`
+
+## Edit Etherpad settings
+
+Open up `settings.json`
+
+Replace `dirty_db.js` with `dirty_git_db.js`
+
+Replace `var/dirty.db with` `~/etherpad-storage/dirty.db`
+
+## Grab the new logic
+
+Grab `[dirty_git_db.js](https://gist.githubusercontent.com/JohnMcLear/3a57977ea4dad39b021b8ee8aac2a730/raw/8a025ec3d4fbeef6cc5520e89ea3eb52c10a7737/dirty_git_db.js)` and put it in your src/node\_modules/ueberdb2 folder. Ideally this would be how you do it
+
+`curl https://gist.githubusercontent.com/JohnMcLear/3a57977ea4dad39b021b8ee8aac2a730/raw/8a025ec3d4fbeef6cc5520e89ea3eb52c10a7737/dirty_git_db.js -o src/node_modules/ueberdb2/dirty_git_db.js`
+
+## Install simple-git
+
+From within your Etherpad folder..
+
+`cd src/node_modules/ueberdb2 && npm install simple-git`
+
+## Restart and test.
+
+Restart Etherpad, when you type in a pad your changes should be committed to github and your console should be filled with log messages you will probably want to remove..
+
+## Conclusion
+
+This is just a simple hack, it's not designed for production but it might be useful for someone as reference. The goal ultimately is to create a plugin that provides this functionality. It should be easy enough to do!

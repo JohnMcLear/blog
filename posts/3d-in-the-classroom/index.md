@@ -1,0 +1,76 @@
+---
+title: "3D in the classroom"
+date: 2010-07-07
+categories: 
+  - "3d"
+  - "classroom"
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+  - "projector"
+  - "review"
+---
+
+ The claim that 3D can result in higher test scores makes me cringe!!! Arghz
+
+I had an interesting email today from our installs team leader, it read:
+
+> 3D projectors are now priced at pretty much the same level as normal 2D units, and are of course [backwards compatible](http://en.wikipedia.org/wiki/Backward_compatibility "Backward compatibility"). If we started offering them to schools, how much of a pain would it be to upgrade existing PC’s to be capable of projecting in 3D?
+
+Naturally computers should begin supporting 3D natively, most Nvidia graphics cards already do and [intel have it on their roadmap](http://en.wikipedia.org/wiki/Intel_GMA).
+
+**The life span of a projector is 3 to 5 years max, will there be enough 3D content within 3/5 years to warrant purchasing a 3D projector?**
+
+Yes and no.  So much interactive educational content will be provided as [Flash](http://www.adobe.com/products/flash/flashpro/ "Adobe Flash") objects and Flash simply can't do it.  The thing is if a 3D projector is going to be the industry standard then that will increase the demand on 3D content creators and more 3D content will be created.  I would rather see a lower price point for projectors instead of trying to cram technology in that the consumer hasn't requested.
+
+**Does a 3D projector have the same lifespan of the equally matched 2D projector?**
+
+In theory yes, although 3D bulbs will be way more expensive to replace.
+
+**Will the quality actually be as good from a [DLP](http://en.wikipedia.org/wiki/Digital_Light_Processing "Digital Light Processing") unit?**
+
+No, you are way better off with an [LCD](http://en.wikipedia.org/wiki/LCD_projector "LCD projector") unit.
+
+**Does 3D matter in a classroom?**
+
+You decide.
+
+**What applications will be useful in 3D?**
+
+Interactive gaming, 3D story time.  Nasa released an [immersive 3D game](http://www.nasa.gov/offices/education/programs/national/ltp/games/moonbasealpha/mbalpha-landing-collection1-overview.html) so content is coming, but it is all full of it's own barriers IE registration, installation, bla bla.
+
+**Do these projector require glasses?**
+
+Yep.
+
+**How many bulbs are there?**
+
+2 bulbs would mean twice the cost.  3D projectors on the market at the moment have one bulb and it is likely to stay that way.
+
+**What about kids that only have one eye that works(monocular)?   Will we be excluding them?**
+
+Yes from any/all 3D content.  It will simply look awful.
+
+**What about kids that aren't sat directly in front of the [IWB](http://en.wikipedia.org/wiki/Interactive_whiteboard "Interactive whiteboard")?**
+
+3D viewing angles aren't great.  That is why when you go to watch a [3D film](http://en.wikipedia.org/wiki/3-D_film "3-D film") at the cinema nearly everyone wants the top-centre seats.  On one of the videos below the teacher is literally stood 1ft to the side of the board and pretending to still be able to make out 3D content, this simply isn't realistic as the below image illustrates:
+
+[![](images/3D_Viewing1.jpg "3D_Viewing[1]")](https://mclear.co.uk/wp-content/uploads/2010/07/3D_Viewing1.jpg)
+
+**How will the signal look if its passed over VGA not HDMI?**
+
+I would recommend using a HDMI cable to transfer the signal, that will probably mean running new cables and installing a new break out box.
+
+I stumbled upon [this blog post](http://interactivemultimediatechnology.blogspot.com/2010/02/3d-projectors-in-classroom-kids-are.html) which included the below video, kudos to the author.  Sorry if I covered some items you already covered!
+
+3D projectors have been at BETT for years and not caught on.
+
+**Should you buy a 3D DLP projector and hope to get a better experience or value than a 2D LED projector?**
+
+No.  Don't do it.  Wait another year or two.  We need manufacturers to reduce the price of projectors, not try to sell us a technology we don't really need/want.
+
+###### Related articles by Zemanta
+
+- [Do I need HDMI on a 3D DLP projector?](http://ask.metafilter.com/156334/Do-I-need-HDMI-on-a-3D-DLP-projector) (ask.metafilter.com)
+
+[![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

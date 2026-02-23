@@ -1,0 +1,12 @@
+---
+title: "When debugging IE stop it using cache"
+date: 2012-03-26
+categories: 
+  - "developer"
+  - "developing"
+  - "development"
+---
+
+I often have problems debugging Etherpad Lite in IE mostly due to IE having a hideous way of relentlessly holding onto files in cache.. well today I figured out to stop that problem and it's super easy.. In _Developer tools_, **Click Cache --> Always refresh from server**
+
+[![](images/how_to_debug_javascript_in_IE-550x372.png "how_to_debug_javascript_in_IE")](https://mclear.co.uk/2012/03/26/when-debugging-ie-stop-it-using-cache/how_to_debug_javascript_in_ie/)

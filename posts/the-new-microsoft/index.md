@@ -1,0 +1,41 @@
+---
+title: "The new Microsoft"
+date: 2010-06-28
+categories: 
+  - "ict"
+  - "live-at-edu"
+  - "microsoft"
+  - "primary-school"
+  - "primary-school-ict"
+tags: 
+  - "business"
+  - "microsoft"
+  - "microsoft-exchange"
+  - "microsoft-exchange-server"
+  - "microsoft-office"
+---
+
+![](images/Live2%20@%20edu.jpg "Microsoft Live At Edu")The world has changed and [Microsoft](http://www.microsoft.com "Microsoft") is changing with it.
+
+Contrary to popular belief Microsoft is longer is Microsoft the money grabbing beast it used to be.
+
+It's easy for companies  to try to exploit new revenue streams and to gain investor support but this isn't about new markets, this is about reducing existing [market share](http://en.wikipedia.org/wiki/Market_share "Market share") or presenting better value in markets that provide a healthy revenue stream for Microsoft.
+
+Microsoft are pro-actively cutting existing revenue streams to aid education, I am involved in this and although it damages our profitability it does increase our ability and potential to provide a better service at a lower price.
+
+[Live @ Edu](http://liveatedu.com) is a perfect example of this.  We purchase thousands of pounds/dollars worth of Microsoft Exchange licenses each month and then resell those on to schools through a service called Primary Email.  The introduction of Live at Edu means we can still sell [Primary Email](http://primaryemail.co.uk) but instead of using our own hosting and having to pay Microsoft for Licenses,  Microsoft cover it all, how nice is that?!
+
+Live at Edu is a free service but because we have worked in Primary schools providing email for so long we are able to offer the 5% extra that makes a big difference to how a school efficiently uses email.  Eventually Microsoft will figure this out and push us entirely out of the market and that is fine, but until that point it give us a great opportunity to offer a great service at a ridiculously low price!
+
+Question is..  How does the Microsoft Exchange team feel about this?  Knowing Microsoft I think they will feel somewhat vulnerable and the thought of merging the Exchange team with the Office team could make for some uncomfortable conversations..
+
+In reality..  Imagine you were payed £20k to do your job then your boss said we can't pay you any more AND you have to work for free..  But in 10 years time your £20k will be £50k.  I hope this is sustainable for Microsoft, I'm pretty sure it will be and their business model/plan will be widely adopted in other emerging and stale markets.
+
+Finally it is worth saying that past experiences means that we do treat Microsoft with the same treatment we treat  other companies growing at the rate of a steroid infused tuma.  With a very, very, very large pole, muzzle and a poached salmon and rocket sandwich.
+
+###### Related articles by Zemanta
+
+- [Microsoft by the numbers - You probably saw the news this week ... ( Frank X. Shaw /The Official Microsoft ...)](http://www.techmeme.com/100626/p11) (techmeme.com)
+- [Amazing Exchange storage design... by Microsoft IT](http://blog.richi.co.uk/2010/06/amazing-exchange-storage-design-by.html) (richi.co.uk)
+
+[![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

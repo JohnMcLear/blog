@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+title: "Why NFC Keyboard emulators / readers are a bad idea" date: 2014-01-14 categories:
+
+* "nfc"
+* "nfc-ring"
+
+--------------------------------------------------------------------------------
+
+For a while I was using an NFC Keyboard reader to automatically type my password into linux until one event really changed my perspective on this..
+
+Obviously from a security perspective storing your password in plain text on an NFC tag is suicide, but let's assume for a second only your computer has the key to read the NDEF record on your NFC Ring so even if someone else was able to read the NFC Ring they wouldn't be able to figure out your password..
+
+It doesn't seem like such a bad idea now to emulate a keyboard and type in your password? Wrong.. You see what happens is that your computer can read that data at any point, so let's say you are on IRC chatting away to your buddies and by accident you scan your NFC Ring. Boom, your password is pasted into the chat window, this is what happened to me and it sucked. To be fair to recover I only had to type passwd and provide my old and new password but still, it could have been way more painful..
+
+Obviously a work around is to only enable keyboard emulation on the login screen but it's still an interior and inadequete solution for logging into your desktop.
+
+Basically Keyboard emulation for Auth sucks, don't do it, or if you be fully aware of the pitfalls!

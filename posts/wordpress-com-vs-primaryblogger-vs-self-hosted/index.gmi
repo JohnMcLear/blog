@@ -1,0 +1,47 @@
+--------------------------------------------------------------------------------
+
+title: "Wordpress.com Vs PrimaryBlogger Vs Self Hosted Vs Edublogs" date: 2011-09-03 categories:
+
+* "blog"
+* "blogger"
+* "blogging"
+* "blogs"
+* "ict"
+* "primary"
+* "primary-blogger"
+* "primary-school"
+* "primary-school-ict"
+* "primary-technology"
+
+--------------------------------------------------------------------------------
+
+=> images/tumblr_lop3bpEKPX1qe0eclo1_r4_500.gif [IMG]
+
+Wordpress is the only CMS you should be considering if you are serious about a long term investment. I know Google fan boys will say how Google Sites is free and okay but when the key thing about Google products is that when you decide to leave you can't take your content elsewhere, it's closed source, it's closed off. Google is Microsoft episode 2, we can debate this further but the fact is that if you use posterous, typepad or Google Sites you will be burned in the future.
+
+Schools often ask me how they should be hosting their blogs, should they use wordpress.com, primaryblogger.co.uk or self hosted? I'm biased as I work on primaryblogger but I still feel like it's worth answering the question.
+
+**Bad things about wordpress.com:** No Embed so no embedding primarywall, primarypad, wordle, voki etc. [Excludes youtube and vimeo] No XMLRPC so no ability to use mobile apps such as classdroid. You can't use your own domain IE myschoolblog.com You can't heavily modify themes so changing the layout of your blog can be difficult. No plugin uploads so you can't access the millions of plugins available in the wordpress Codex.
+
+**Good things about wordpress.com:** No need to worry about growth, wordpress.com can handle millions of requests per second. No need to worry about upgrades or updates. Preview new versions of Wordpress. All of your data is backed up and protected for you. Comes pre-loaded with a spam filter.
+
+--------------------------------------------------------------------------------
+
+**Bad things about PrimaryBlogger:** No ability to upload your own plugins, you have to put a request in via the community[1]
+
+**Good things about PrimaryBlogger:** No need to worry about growth, PrimaryBlogger can handle millions of requests per second. Can use your own domain name. Comes pre-loaded with Edu-Focused plugins and themes Has a community of edu-users[2] Each blog post gets manually read by a human No need to worry about upgrades or updates. All of your data is backed up and protected for you. Comes pre-loaded with a spam filter. PrimaryBlogger publishes all of it's plugins and development open-source so the Wordpress community can enjoy using them.
+
+--------------------------------------------------------------------------------
+
+**Bad things about self hosted:** You have to worry about scaling which can be a huge technical hurdle You have to worry about upgrades and updates. You have to worry about spam.
+
+**Good things about self hosted:** You have completely control about how to configure your blog. Can use your own domain name. You can integrate your blog with your own authentication mechanism.
+
+--------------------------------------------------------------------------------
+
+**Bad things about Edublogs free:** No ability to embed youtube video, animoto, vokis etc. Your blog has a big edublogs advert on Limited number of blogs per account Limited access to themes Very limited storage space Dashboards can be unreliable No stats No Forum support All of the plugins are kept closed source and sold through WPMUdev
+
+**Good things about Edublogs free:** Edublogs is a big community You can pay more to get more features, storage etc.
+
+=> http://ask.primaryt.co.uk 1: http://ask.primaryt.co.uk
+=> http://ask.primaryt.co.uk 2: http://ask.primaryt.co.uk

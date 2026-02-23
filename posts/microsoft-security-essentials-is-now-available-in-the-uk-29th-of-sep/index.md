@@ -1,0 +1,74 @@
+---
+title: "Microsoft Security Essentials is now available in the UK (29th of Sep)"
+date: 2009-09-29
+categories: 
+  - "anti-virus"
+  - "microsoft"
+  - "security-essentials"
+---
+
+[![](images/Microsoft-Security-Essentials.jpg)](http://topnews.us/images/Microsoft-Security-Essentials.jpg)**Quick link to download** - [http://www.microsoft.com/security\_essentials/](http://www.microsoft.com/security_essentials/) OR [http://www.microsoft.com/security\_essentials/?mkt=en-us](http://www.microsoft.com/security_essentials/?mkt=en-us)  
+
+  
+
+**Overview**
+
+  
+
+Security Essentials will replace your paid anti virus software. This is GREAT news for the computer industry. Why? Because by having antivirus companies charge to solve a problem put the relationship of cash and virus' in bed with each other.
+
+  
+
+This meant that people were paying for virus' to be written and then people were getting paid to reverse engineer these virus'. Now the virus writers are up against a whole OS and a company that has more profit than many companies have GDP.
+
+  
+
+**Quick review**
+
+  
+
+[Download](http://www.microsoft.com/security_essentials/) is painless and easy, once verification is completed the software downloads its own updates and begins scanning your computer. Very few clicks are required. The whole process takes about 1 minute of your time then your scan will take as much time as it needs to complete the job.
+
+  
+
+The proof will be in the pudding, by Microsoft releasing this they have really taken on a big challenge. It shows that microsoft are as willing as ever to provide what the huddled masses need.
+
+  
+
+**And for education?**
+
+  
+
+The impact on education is questionable. This AV client is not an enterprise product and not centrally monitored or managed so it is unlikely it will replace other AV client/server solutions.
+
+  
+
+How cool would it be if you could assign a workstation to an organization using SAML or a federated log on and get update/virus status and/or push out software?
+
+  
+
+If centralized management or some sort of auditing/reporting became available then it would replace the enterprise products at a saving of £500 on average per school (deployment costs taken into account), that's about £8,000,000 (£8 million) across the whole of England! Nice!
+
+  
+
+**And to Microsoft..**
+
+  
+
+Microsoft, if you are listening... Think about some sort of central monitoring,reporting, updating system that works with a federated login such as shibboleth or something, please!
+
+  
+
+**UPDATE** \- I just came to give a link to this and it appears that microsoft has removed the product.. No idea what's going on there.. I get a 404 - We are sorry, the page you......
+
+  
+
+Here is the link for when they put it back online! [http://www.microsoft.com/security\_essentials/](http://www.microsoft.com/security_essentials/)
+
+  
+
+It appears that the UK site may be down.. You can always use the US link..
+
+  
+
+[http://www.microsoft.com/security\_essentials/?mkt=en-us](http://www.microsoft.com/security_essentials/?mkt=en-us)

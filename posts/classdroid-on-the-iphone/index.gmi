@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+
+title: "Classdroid on the iPhone" date: 2010-09-16 categories:
+
+* "android"
+* "apple"
+* "classdroid"
+* "google"
+* "ict"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+=> images/OPWgg1-1024x767.jpg [IMG]
+[1] I keep getting asked if Classdroid is coming to the iPhone...
+
+It is complex so I wanted to write a specific blog post.
+
+Firstly, I don't like the iPhone. I don't like how its marketed, how it's sold, how it's app store works, how the community support is supposed to work, how the licensing model works and what impact it has on the tech industry as a whole. "We need substance, not glitter" is probably the best way to put it.
+
+Now you know how much I dislike the iPhone it will be of no surprise that I love Android, but this isn't about love/like/dislike. It's about economics. I would need to charge $5 per device or so and sell 400 copies of Classdroid on the Appstore and still wouldn't break even.
+
+Classdroid must remain free and open source to encourage others to use it, if you don't know about crowd sourcing and how that develops applications then here is a quick example of why open source is good...
+
+Before Classdroid got to market someone had made language support for traditional/simplified Chinese. That would of taken me hours to do, but it's now done just by some guy I don't even know. Classdroid includes parts of the Wordpress open source App so we were able to make it, test it and publish it quickly without writing too much code.
+
+**Stop ranting and tell us when it's coming to the iphone!**
+
+It's coming to the iphone as soon as:
+
+a) Apple allow iphone apps to be developed on something other than Apple devices. b) Apple reduce/drop the ridiculous 100$ annual SDK fee[2].
+
+OR
+
+c) Someone who does done apple/ios development reads our source code and makes an apple version then publishes it under their name (that is fine with me). The code must remain open source, that is the only prerequisite.
+
+So that's it, Basically I would need about $1100 just to start coding.. It's not worth it for a handset that is losing market share month after month.
+
+If you really still want Classdroid for your iPhone then ask about, see if someone you know, knows an iPhone developer who will be happy to help out. If so then get in touch or point them at the source code[3].
+
+=> https://mclear.co.uk/wp-content/uploads/2010/09/OPWgg1.jpg 1: https://mclear.co.uk/wp-content/uploads/2010/09/OPWgg1.jpg
+=> http://en.wikipedia.org/wiki/App_Store 2: http://en.wikipedia.org/wiki/App_Store
+=> http://github.com/johnyma22/classdroid 3: http://github.com/johnyma22/classdroid

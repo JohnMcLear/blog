@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------
+
+title: "Remote / Off-site self hosted backup comparison" date: 2011-06-22 categories:
+
+* "ict"
+* "remote-backup"
+* "review"
+
+--------------------------------------------------------------------------------
+
+Every 2 years Primary Technology[1] re-engineers all of it's services and this year I have been tasked with re-engineering our School offsite / remote backup service[2]. Our current service works well but there are a few things we would change and we feel our current provider isn't really giving us the support we need to make these changes.
+
+The first part of any successful re-engineering job is to gather a comparison of all the available products on the market.
+
+I reviewed these products/pieces of software:
+
+* Ahsay
+* Attix
+* Bacula
+* Crashplan
+* Dropbox
+* iDrive Backup
+* Intronis
+* One Safe Place
+* Remote-Backup.com
+* Rysnc.net
+* SOS Online Backup
+* Vembu
+* XZBackup
+* Amanda/Zmanda
+
+And I reviewed them based on this following requirements of functionality:
+
+* Can the client transfer data and config over HTTPS[3]?
+* Does a Windows client Exist?
+* Is the software brandable?
+* Can I perform a system state backup on the clients?
+* Can it export database bricks / incremental / differential backups
+* Does the client have a scheduler?
+* Can the client stop itself at a specified time
+* Can the server push changes to the client backup set?
+* Can the client easily select which files to upload?
+* Does the server save old versions of files?
+* Is the software open source?
+* Does the server have overview reporting?
+
+=> images/remote_backup_comparison-550x229.png [IMG]
+[4]
+
+And my notes which probably contain the most important informative information:
+
+=> images/rb_notes-550x209.png [IMG]
+[5]
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[6]
+
+=> http://primaryt.co.uk 1: http://primaryt.co.uk
+=> http://schoolbackups.co.uk 2: http://schoolbackups.co.uk
+=> http://en.wikipedia.org/wiki/HTTP_Secure 3: http://en.wikipedia.org/wiki/HTTP_Secure
+=> https://mclear.co.uk/wp-content/uploads/2011/06/remote_backup_comparison.png 4: https://mclear.co.uk/wp-content/uploads/2011/06/remote_backup_comparison.png
+=> https://mclear.co.uk/wp-content/uploads/2011/06/rb_notes.png 5: https://mclear.co.uk/wp-content/uploads/2011/06/rb_notes.png
+=> http://www.zemanta.com/ 6: http://www.zemanta.com/

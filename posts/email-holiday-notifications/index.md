@@ -1,0 +1,14 @@
+---
+title: "Email holiday notifications"
+date: 2012-06-11
+categories: 
+  - "features"
+---
+
+![](images/email.png "email")We’re happy to announce a new feature: Email notifications and updates.
+
+Simply visit your school on [MySchoolHolidays](http://myschoolholidays.com) and click “Email Updates”. Type in your email address and click submit.
+
+We will email you 1 week before a holiday is due to begin and 1 week before it is due to end. We will also email you when new holiday dates are added for your school or district.
+
+![](images/xJvlpcsgyNk)

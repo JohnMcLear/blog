@@ -1,0 +1,28 @@
+---
+title: "Etherpad Vs Etherpad Lite — Which is right for you?"
+date: 2012-01-15
+categories: 
+  - "features"
+---
+
+## TLDR; Use Etherpad Lite.
+
+We adopted Etherpad in December 2009 and instantly we knew we had a problem. The stack of software required to deploy Etherpad was huge and this meant deploying Etherpad was limited to Linux only. Our goal is to make collaborative editing the standard on the web and we knew that with the existing pre-requesitives we would be scaring too many people off. The pre-requisites also placed additional load on the server and increased complexity which meant that future development came at a really high cost. With this in mind we always knew we wanted to rewrite Etherpad to run on multiple OS’ and be kinder on system resources.
+
+Etherpad Lite was the solution. Etherpad Lite does not suffer from the same flaws/gifts as Etherpad. The assumption people make (_this is our mistake_) is that some functionality does not exist in Etherpad Lite. Some of the pro functionality was replaced with an API so that sysadmins can write their own back-end and easily integrate Etherpad Lite into their current system. Writing a management back-end is a grind and not really core to what we wanted to achieve but we will soon be releasing something that will “tick this box”.
+
+**In general we would recommend you use Etherpad Lite** however there is a certain scenario you may choose to use Etherpad.
+
+Etherpad (NON LITE) should be used if you want a **really quick, short term fix for a problem** that requires managing multiple users with permissions. We would recommend a maximum of 15 concurrent users and be mindful that support may be limited because most of the community is now working on Etherpad Lite. We would still recommending using Etherpad Lite and doing a days worth of development integrating your existing CMS using one of our many libraries.
+
+Etherpad Lite should be used the rest of the time. If some functionality is missing please [contact us](http://etherpad.org/contact) and/or look on the web. We have a service and consultancy team waiting to help and we want to help you get Etherpad integrated into your organization/platform/service.
+
+## What’s the future of Etherpad Lite?
+
+We have set milestones up to V1.3 which will take us into 2013 and we’re constantly organizing meet-ups and hackathons. We are not excluding any features or ideas and given time and resources we will achieve our goal. We want to build a community that is passionate about building Etherpad and continuing the development so to do this we have [issued a number of gun.IOs](http://gun.io/contracts/8/add-table-support-to-etherpad-lite) and other financial incentives that have complimented our employment program.
+
+## What’s the future for Etherpad (Legacy)
+
+We’re obviously not completely stopping our support for Etherpad Legacy but we are doing everything we can to encourage developers and users to adopt Etherpad Lite. Given time we hope to either rename Etherpad Lite to Etherpad or Etherpad v2 or something, we have quite a few decisions to make here and we hope to make them over the next few months.
+
+[Report Post As Inappropriate](http://etherpad.org?moderation_action=report_form&object_type=post&object_id=557&width=250&height=300 "Report Post As Inappropriate")

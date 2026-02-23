@@ -1,0 +1,8 @@
+---
+title: "First Video of NFC Ring in action"
+date: 2013-07-16
+---
+
+I feature in the first NFC Ring video.. It's just a bit of fun :) Enjoy!
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/tjQdK7hPHY8" frameborder="0" allowfullscreen></iframe>

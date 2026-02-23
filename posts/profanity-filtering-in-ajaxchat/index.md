@@ -1,0 +1,18 @@
+---
+title: "Profanity filtering in AjaxChat"
+date: 2011-01-29
+categories: 
+  - "developer"
+  - "developing"
+  - "php"
+---
+
+AjaxChat provide a Client side profanity filter but this is not cool because:
+
+a) Big arrays of profanities on your client is going to kill javascript b) You are going to be passing your users an array of profanities.
+
+Fix? Do it server side. giggidy. Jump into /ajaxchat/lib/class/AJAXChat.php
+
+Just above the insertCustomMessage function add \[php\] function filterMessageText($text){ $prof = array("badword1","badword2"); // extend this with your bad words.. $replace = array(); foreach ($prof as $word){ $replace\[\] = str\_repeat('\*', strlen($word)); } return str\_ireplace($prof, $replace, $text); } \[/php\]
+
+Go to line 1498 and add: \[php\] // Copies the original text to a value we can store in a separate table if we want to. $original\_text = $text; // Pass the text through the filter. $text = $this->filterMessageText($text); \[/php\]

@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------
+
+title: "My Extremely dissapointing TTS shop experience" date: 2009-07-04 categories:
+
+* "fail"
+* "ftl"
+* "ict"
+* "online"
+* "shop"
+* "tts"
+* "tts-shop"
+
+--------------------------------------------------------------------------------
+
+I needed some prizes for a competition and TTS were the only people that had the items listed on their website. The price was great, unbeatable infact.
+
+I began the ordering process with a positive bounce about me, thinking in a matter of moments I could perform the magical single click that turns an outlook flagged task into a beaming tick of joy. Turns out, I was wrong.
+
+TTS don't seem to support any browsers but IE in their ordering process. I began to grumble, I'm not usually super fussy about browser support but an online shop should surely support all browsers.
+
+I email them and tell them about this flaw in their ability to generate revenue, no obvious email address on their website so I email sales@.. I get no response, no thanks, no "okay we will fix that".. Just nothing..
+
+So I started the whole process again, this time in IE. I get all the way through and I think to myself, what if this item is not in stock. So when I get to the end of the ordering process under notes I put in "PLEASE CONTACT ME IF ANY ITEMS ARE NOT IN STOCK".
+
+I complete my order and receive a verification email that states TTS will email me with the delivery date. This never came..
+
+So I asked a colleague to chase TTS up and find out where the order is, the competition is on the 6th and by the 4th we're starting to panic..
+
+I think to myself, surely they read the order notes and will be in touch if the items are going to be late.. So he rings, gets through to a phone operator and we ask, when are the items due? With a complete level of content she replies "on the 9th"..
+
+A moment of disbelieve spreads the office and most small insects and animals flee the room in what can only be described as the energy portrayed at the end of Heros season 1 final scene..
+
+I ask her, "did you not read the order notes?" - she blissfully responds, "Yes sir!"..
+
+I asked her to read them to me - she reads "PLEASE CONTACT ME IF ANY ITEMS ARE" and stops there.. I think my phone has cut off, I respond "hello? hello?" She questions, "Yes sir?". "Is that it?" I ask.. "Yes sir..." I grumble and hang up - using the power of my mind I destroy all positive thinking in the area.
+
+See if you are going to run an online shop/store at least set the right amount of varchar in your table.. Also if something doesn't make sense on an order then contact a customer. I feel totally let down by TTS.
+
+**Update on 14th of July 2009 - Still not recieved all of the items. Looks like no one at TTS reads my blog or tweets ;)**
+
+**Update on 16th of July 2009 - Rang customer services today after they ignored several of my emails. Took 4 minutes to get through to anyone. The last parts of my order will not be in stock until the first week of September..... Way to wrap up a terrible experience TTSftl!**

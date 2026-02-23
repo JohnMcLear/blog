@@ -1,0 +1,15 @@
+---
+title: "And the winner is.. Teachers!"
+date: 2010-01-09
+categories: 
+  - "ict"
+  - "primary-school-ict"
+---
+
+I found a new level of respect for teachers this week.  
+  
+Teachers nationwide used [our technology](http://primaryt.co.uk) to run live, on-line lessons for their pupils, this meant that learning was able to continue even with school closures.  
+  
+These teachers are an inspiration. Keep up the good work, you know who you are! If you are one of these teachers then please leave a comment and maybe a link to a blog post about how you delivered your lessons!  
+  
+[One school even made the local press!](http://www.theboltonnews.co.uk/news/4842275.Teacher_is_determined_that_schoolwork_should_not_suffer_despite_bad_weather/)

@@ -1,0 +1,90 @@
+--------------------------------------------------------------------------------
+
+title: "Setting Safe Search as the default home page across your whole school" date: 2011-06-23 categories:
+
+* "ict"
+* "primary-school-ict"
+* "primary-school-ict-safe-search"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+* "safe-search"
+
+--------------------------------------------------------------------------------
+
+**Creating a Group Policy Object (GPO) to set Safe Search as your Homepage**
+
+1. Open **Group Policy Management Console** – It is found under **Administrative Tools** on the server Start Menu
+
+=> images/clip_image002_thumb.jpg clip_image002 [IMG]
+[1]
+
+1. Right click on **Group Policy Objects** and select **New**
+
+=> images/clip_image004_thumb1.jpg clip_image004 [IMG]
+[2]
+
+1. Name the policy “**Users – Set Homepage**” – This will be a user policy rather than a computer policy, using a meaningful description will help administration later on.
+
+=> images/clip_image006_thumb.jpg clip_image006 [IMG]
+[3]
+
+1. **Right click** on the policy and select **Edit**. The Group Policy Editor will now open.
+
+=> images/clip_image008_thumb.jpg clip_image008 [IMG]
+[4]
+
+1. Browse through the tree structure to display I**mportant URLs** in the right hand side of the browser
+
+**User Configuration > Windows Settings > Internet Explorer Maintenance > URLs**
+
+=> images/clip_image010_thumb.jpg clip_image010 [IMG]
+[5]
+
+1. **Right click** on **Important URLs** and select **Properties**
+
+Enter the following address for the homepage URL into the dialogue box
+
+Http://www.primaryschoolict.com[6]
+
+=> images/clip_image012_thumb.jpg clip_image012 [IMG]
+[7]
+
+1.
+
+ Click on **Ok** and close the **Group Policy Editor**
+2.
+
+ Within the **Group Policy Management** Window browse to the Organisational Unit containing your school users
+3.
+
+ **Right click** on the Organisation Unit and select **Link an existing GPO.**
+
+=> images/clip_image014_thumb.jpg clip_image014 [IMG]
+[8]
+
+1. Select your new GPO from the list and click **Ok**
+
+=> images/clip_image016_thumb.jpg clip_image016 [IMG]
+[9]
+
+1. Your new GPO is now linked and will be applied to the users contained within the Organisational Unit you selected
+
+=> images/clip_image018_thumb1.jpg clip_image018 [IMG]
+[10]
+
+http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg[11]
+**Please be aware if you have another GPO applied at a higher level, for example in the Default Domain Policy settings may not be applied as anticipated. This can happen if you have two conflicting GPO’s. For example if you have two policies to set the homepage, one using www.bbc.co.uk and another using www.google.co.uk[12], one of the setting will take precedence.**
+
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image002.jpg 1: http://blog.primaryt.co.uk/files/2011/06/clip_image002.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image0041.jpg 2: http://blog.primaryt.co.uk/files/2011/06/clip_image0041.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image006.jpg 3: http://blog.primaryt.co.uk/files/2011/06/clip_image006.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image008.jpg 4: http://blog.primaryt.co.uk/files/2011/06/clip_image008.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image010.jpg 5: http://blog.primaryt.co.uk/files/2011/06/clip_image010.jpg
+=> http://www.primaryschoolict.com 6: http://www.primaryschoolict.com
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image012.jpg 7: http://blog.primaryt.co.uk/files/2011/06/clip_image012.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image014.jpg 8: http://blog.primaryt.co.uk/files/2011/06/clip_image014.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image016.jpg 9: http://blog.primaryt.co.uk/files/2011/06/clip_image016.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg 10: http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg
+=> http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg 11: http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg
+=> http://www.google.co.uk/ 12: http://www.google.co.uk/

@@ -1,0 +1,129 @@
+---
+title: "Installing Etherpad on Debian"
+date: 2010-03-10
+categories: 
+  - "debian"
+  - "etherpad"
+  - "google"
+  - "guide"
+  - "install"
+  - "installations"
+---
+
+**[IMPORTANT NOTE: ETHERPAD HAS BEEN REPLACED BY ETHERPAD LITE. YOU SHOULD FOLLOW THIS GUIDE.](https://mclear.co.uk/2011/08/01/install-etherpad-lite-on-ubuntu/)**
+
+IMPORTANT NOTE: THIS DOCUMENTATION IS NOW DATED.  You can now install [Etherpad](http://etherpad.org) from apt.
+
+**Installing [Etherpad](http://etherpad.org) 1.0.1 with APT**
+
+Add the following line as a source in your graphical package manager (In Ubuntu: System->Administration->Synaptic package manager; then Settings->Repositories and then finally Third party software), or edit the file /etc/apt/sources.list and add it there.
+
+\[code\] deb http://apt.etherpad.org all . \[/code\]
+
+\[bash\] apt-get update apt-get install etherpad \[/bash\]
+
+Answer the questions (if any, depends on your system settings)
+
+\[bash\] /etc/init.d/etherpad start \[/bash\]
+
+Other Linux distributions Download the .tgz and unpack it Follow instructions in README :)
+
+**BELOW IS THE OLD GUIDE for Etherpad V1 released by Google**
+
+**Install prereqs**
+
+\[bash\]
+
+echo "deb http://ftp.de.debian.org/debian sid main non-free" >> /etc/apt/sources.list apt-get update apt-get install sun-java6-jdk \[/bash\]
+
+If the above fails then do not continue.  The output of
+
+\[bash\]java -version\[/bash\]
+
+Should read..
+
+```
+java version "1.6.0_17"
+Java(TM) SE Runtime Environment (build 1.6.0_17-b04)
+Java HotSpot(TM) Client VM (build 14.3-b01, mixed mode, sharing)
+```
+
+\[bash\] apt-get install scala mysql-server libmysql-java mercurial \[/bash\]
+
+Paste the below to /etc/profile
+
+```
+export PATH
+export JAVA_HOME="/usr/lib/jvm/java-6-sun"
+export SCALA_HOME="/usr/share/java"
+export JAVA="/usr/bin/java"
+export SCALA="/usr/bin/scala"
+export PATH="/usr/bin:/usr/bin:/usr/local/mysql/bin:$PATH"
+export MYSQL_CONNECTOR_JAR="/usr/share/java/mysql-connector-java-5.1.10.jar"
+export JAVA_HOME SCALA_HOME JAVA SCALA MYSQL_CONNECTOR_JAR PATH
+umask 022
+```
+
+Download the etherpad source to /usr/local/etherpad
+
+\[bash\] hg clone https://etherpad.googlecode.com/hg/ /usr/local/etherpad \[/bash\]
+
+**Set the environment variables**
+
+\[bash\] export JAVA\_HOME="/usr/lib/jvm/java-6-sun" export SCALA\_HOME="/usr/share/java" export JAVA="/usr/bin/java" export SCALA="/usr/bin/scala" export PATH="/usr/bin:/usr/bin:/usr/local/mysql/bin:$PATH" export MYSQL\_CONNECTOR\_JAR="/usr/share/java/mysql-connector-java-5.1.10.jar" \[/bash\]
+
+**Add your domain to the superdomain section**
+
+\[bash\]
+
+nano /usr/local/etherpad/trunk/etherpad/src/etherpad/globals.js
+
+\[/bash\]
+
+Search for etherpad.com and replace it with your domain (confused? You will figure it out)
+
+**Create the etherpad mysql db and privelidges**
+
+\[bash\] mysql -u root -p \[/bash\]
+
+Enter your password when prompted
+
+\[sql\] create database etherpad; grant all privileges on etherpad.\* to 'etherpad'@'localhost' identified by 'password'; quit \[/sql\]
+
+\[bash\] cd /usr/local/etherpad/trunk/etherpad/ ln -s /usr/share/java /usr/share/java/lib bin/rebuildjar.sh bin/run-local.sh \[/bash\]
+
+**Wait quite a while while it builds.**
+
+Test by browsing to your server at http://hostnameofserver:9000
+
+Making pro work...
+
+Make sure it doesn't redirect to etherpad.com for pro
+
+Edit /usr/local/etherpad/trunk/etherpad/src/main.js
+
+Replace all instances of Etherpad.com with yourdomain.com
+
+Edit /usr/local/etherpad/trunk/etherpad/src/static/crossdomain.xml
+
+Add to the obvious section
+
+\[html\]
+
+<allow-access-from domain="yourdomain.com" to-ports="\*"/>
+
+<allow-access-from domain="\*.yourdomain.com" to-ports="\*"/>
+
+\[/html\]
+
+Edit /usr/local/etherpad/trunk/etherpad/src/etherpad/pro/pro\_utils.js
+
+Replace
+
+\[code\]var fromDomain = 'etherpad.com';\[/code\]
+
+with
+
+\[code\]var fromDomain = 'yourdomain.com';\[/code\]
+
+Note: Originally published on the 19th of Dec 2009, Revised on the 10th of March 2010

@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+
+title: "PrimaryBlogger - why it was down.." date: 2011-02-21 categories:
+
+* "blog"
+* "ict"
+* "primary-blogger"
+* "primary-school"
+* "primary-school-ict"
+* "wordpress"
+
+--------------------------------------------------------------------------------
+
+So I'm writing this post on PrimaryPad because PrimaryBlogger is currently down.. It's been a nightmare, it really has.. Thankfully it's currently 1/2 term in schools so activity is down 20% or so across the site.
+
+We have 3 layers of backup for school blogs, our database is large and the file system is very large. None of this is surprising for a site like PrimaryBlogger but what is surprising is that 2 levels of our backups failed..
+
+The problem stemmed from me playing with a plugin that is built to replicate one site to another, I noticed that it was playing up so I disabled it and didn't proceed any further. The next day I was informed some people were getting a white screen when trying to access their blog..
+
+I looked through the plugins source code (some bits I had written) and realized there was potential it could of been dropping the wrong tables from the database, no biggy.. I will just restore the database.. I had done a full backup of the file system and database just before I started playing with the plugin.. Now bare in mind I'm backing up 660GB here which takes a little while so I set it going and went off to play some Bad company 2..
+
+I came back an hour later and it had finished backing up so proceeding playing with the plugin.. Things broke so I figured I will just restore from backup only to realize that the backup I had taken was completely useless.. It was 10MB! "What the deuce" I pondered.. mysqldump didn't output any errors during backup so what is going on?! I checked the replication and I couldn't use that as a backup source as the replication servers had replicated the error.. So I was left with only one option..
+
+We take daily brick level backups off site, these brick level backups take a .sql backup of our current mysql state but because it was off site it took a long time to transfer, during that time I quickly brought up a local VM to the .sql file and went ahead at trying to restore primaryblogger's database locally just to make sure the servers were up to the job.
+
+The first thing I noticed is that Wordpress really doesn't like the base domain being changed after install, so I had to backtrack and begin installation w/ the correct base set.
+
+The next thing I noticed is that my mysql reads were giving an error: ERROR 1153 (08S01) at line 218227: Got a packet bigger than 'max_allowed_packet' bytes. I fixed this by increasing the max_allowed_packet in my.cnf
+
+I also have a problem when I do "use blog;" (blog is the name of my database) I get a delay and "Reading table information...." notification which takes a few minutes to get past..
+
+When restoring to a fresh database I noticed that mysqldump is not dumping table data and is just dumping the table structure. I'm not sure why but I need to investigate this further too at some point.. Note: I was using "-d database" name like a tool.. In the future I know not to make this mistake.. It is easy to make though...
+
+Another problem I had was that my admin password keeps resetting itself. There is no logic to this, I used a mysql update statement to update the password then check it using a select statement yet after I try to login it changes back to an unknown md5 hash. I think it's due to the SALT values in wp-config but I may be wrong.
+
+While I was watching the database file dump back into the database I noticed just how much crap wordpress puts into each blog.. I mean most of each blogs contents is wordpress guffing the space.. I recon that 40% of my entire blog database contents is wordpress putting links back to itself and documentation into each blog site. Not cool...
+
+Usually I test plugins off site and this was no exception but this specific plugin needed to iterate over an array of 1000's of blogs and I didn't have that many records locally. The specific bug with the plugin was quickly isolated but the fall out was 12 hours of unavailility of Primary School blogs across the whole of the UK.
+
+The only way I could of really avoided this is if it I had local snap shots in the form of a VM but even then recording from a snap shot would of given me all sorts of database and file system inconsistancies and headache.
+
+Anyway a few things caused the problem, it was literally down to one row (out of millions) in our database and that's why it took so long to diagnose and resolve.. I also had to completely restore the entire themes folder as for some reason this was empty..
+
+So my apologies, I had extremely bad luck but worked my butt off over the weekend and early today to restore stability. This error could of happened to anyone and it's very lucky we have a load of backups in place to restore all of the sites. At no point were any sites data or content at risk, credit is due to our remote backup service[1] that saved the day.
+
+=> http://schoolbackups.co.uk/ 1: http://schoolbackups.co.uk/

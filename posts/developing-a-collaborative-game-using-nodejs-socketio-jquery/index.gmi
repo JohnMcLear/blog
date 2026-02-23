@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+
+title: "Developing a collaborative game using NodeJS, SocketIO & jQuery" date: 2011-03-03 categories:
+
+* "developer"
+* "developing"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+Quick link to the game I made[1]
+
+You may remember a few months ago I did an article on Real time mouse activity using NodeJS and Socket[2], well I wanted to extend that functionality into some sort of game. It was obvious from the demo I made that people enjoyed interacting with each others cursors and I quite enjoyed working on it.
+
+Today was our second day working on the game and our UI design[3] is pretty much done and so are 2 of the 3 minigames designs. The mechanics are coming along with a few cretins as we have to wrestle with Internet Explorer[4]'s(8+9b) interesting interpretation of how Socket should perform. Firefox and Chrome[5] have been a dream to work with the jQuery[6] implementation of the animations and the scoreboard have gone pretty smoothly..
+
+We're doing about 10 hours a day on it at the moment however the days only feel 6 hours or so long as it is a labour of love and is a nice change from the mundane PHP[7] bugs I usually deal with.  The work we are doing is one of the small steps needed to move away from Abobe Flash based[8] games.
+
+We're hoping to demo one of the mini games to the LeedsJS folks on the 9th of March so if you want to see then come along! By the 9th of March I will expect about 100 hours or so in total has been spent on the game and you wont be able to tell as nearly all of the work is done on the server/back end as we are writing mechanisms that mean the game can operate as leanly as possible on both desktop browser and mobile browsers.
+
+Here are our goals for the project:
+
+1. Scalability
+2. Completion in time for some competition thingy in April
+3. Any browser on any device that supports socket
+4. Hopefully flash fall back on non-socket supporting devices.
+5. Push all code as Open Source  under Apache license[9] in Summer.
+
+Quick thanks to John at Brightbox[10] for providing the hosting for the project :) We're using their very BETA[11] vm hosting service which I don't know much about but it is *super fast* and is speeding up our development somewhat.
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[12]
+
+=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 1: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> https://mclear.co.uk/2011/01/30/real-time-mouse-activity-w-nodejs-sockets/ 2: https://mclear.co.uk/2011/01/30/real-time-mouse-activity-w-nodejs-sockets/
+=> http://en.wikipedia.org/wiki/User_interface_design 3: http://en.wikipedia.org/wiki/User_interface_design
+=> http://www.microsoft.com/windows/internet-explorer/default.aspx 4: http://www.microsoft.com/windows/internet-explorer/default.aspx
+=> http://www.google.com/chrome 5: http://www.google.com/chrome
+=> http://jquery.com/ 6: http://jquery.com/
+=> http://www.php.net/ 7: http://www.php.net/
+=> http://www.adobe.com/products/flash/flashpro/ 8: http://www.adobe.com/products/flash/flashpro/
+=> http://en.wikipedia.org/wiki/Apache_License 9: http://en.wikipedia.org/wiki/Apache_License
+=> http://brightbox.co.uk 10: http://brightbox.co.uk
+=> http://en.wikipedia.org/wiki/Software_release_life_cycle 11: http://en.wikipedia.org/wiki/Software_release_life_cycle
+=> http://www.zemanta.com/ 12: http://www.zemanta.com/

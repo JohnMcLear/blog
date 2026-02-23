@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+
+title: "Primary Email/School Email Scheduled Maintenance" date: 2012-01-30 categories:
+
+* "primary-email"
+* "school-email"
+
+--------------------------------------------------------------------------------
+
+**Primary Email and School Email will be down on the 2nd February 2012 for scheduled maintenance between the hours of 17.30pm and 20.00pm.**
+
+We are moving some of our servers physical locations. This requires the services to be shut down during the move, the service will be back online at the latest of 8PM.
+
+Here are some questions you may have:
+
+Q. What will happen to my emails during the downtime?
+
+A. During the downtime the School Email connectivity will be disrupted. Any emails sent to users during the downtime will be held by the SPAM filters until the service returns then all emails will be delivered to your mailbox.
+
+Q. Will this lose any data?
+
+A. No. The service will return with everything work as before.
+
+If you have any concerns about the maintenance then please contact support@schoolemail.co.uk[1]
+
+=> mailto:support@schoolemail.co.uk 1: mailto:support@schoolemail.co.uk

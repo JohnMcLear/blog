@@ -1,0 +1,21 @@
+---
+title: "Example Google Apps Education Edition Acceptable Usage Policy (UK)"
+date: 2009-11-23
+categories: 
+  - "apps"
+  - "education"
+  - "google"
+  - "ict"
+  - "primary"
+  - "primary-school"
+---
+
+I wanted to make sure schools had an Acceptable Usage Poilcy if they chose to use Google Apps so I put one online.
+
+  
+
+I have modified this [AUP](http://sites.google.com/site/colettecassinelli/apps/sample_aup) written for the USA for use in the UK.
+
+  
+
+Here is the link to the UK version - Example Google Apps Education Edition Acceptable Usage Policy (UK)

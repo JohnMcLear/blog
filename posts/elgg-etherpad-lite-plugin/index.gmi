@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+
+title: "Elgg Etherpad Lite plugin" date: 2011-10-19 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+Great news everybody! efault has written an elgg etherpad lite plugin[1] ! 
+=> https://mclear.co.uk/wp-content/blogs.dir/418/files/2012/06/icon_smile.gif :) [IMG]
+
+=> http://community.elgg.org/pg/forum/topic/804954/plugin-etherpad-lite-integration/ 1: http://community.elgg.org/pg/forum/topic/804954/plugin-etherpad-lite-integration/

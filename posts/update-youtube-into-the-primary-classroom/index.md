@@ -1,0 +1,14 @@
+---
+title: "Update: Youtube into the Primary Classroom"
+date: 2010-11-04
+categories: 
+  - "e-safety"
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+  - "safe"
+  - "safe-search"
+  - "safety"
+---
+
+Just a quick youtube video explaining where we are at with getting youtube into the primary classroom

@@ -1,0 +1,10 @@
+---
+title: "Chrome and Etherpad amazingness"
+date: 2010-03-20
+---
+
+Google Chrome can translate German to English on Etherpad and look at all the pretty colours, piratenpad.de have been able to double the number of available colours on Etherpad :) Always happy to be inspired by awesomeness!
+
+[![Untitled](images/Untitled2.png "Untitled")](https://mclear.co.uk/wp-content/uploads/2010/03/Untitled2.png)
+
+**Annoyingly** this translates the document to English for everyone which messes up a lot of the text...

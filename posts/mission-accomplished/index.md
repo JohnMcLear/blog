@@ -1,0 +1,16 @@
+---
+title: "Mission Accomplished :)"
+date: 2009-06-08
+categories: 
+  - "primary-school-ict"
+  - "primary-school-safe-search"
+  - "safe"
+  - "safe-search"
+  - "search"
+---
+
+Woohoo, after several months of development work the new [Primary School Safe Search site is live at http://primaryschoolict.com/](http://primaryschoolict.com/)  
+  
+If you have your browsers home page set to http://primaryt.co.uk/google then it will automatically redirect you to the new site. You might want to change your browsers home page, this is available on the bottom right hand side of the page :)  
+  
+Glad it's finished, next project is PGA :)

@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+title: "Send Javascript client errors to Google Analytics" date: 2012-04-09
+
+--------------------------------------------------------------------------------
+
+Not sure how well this will catch errors before onready but as a quick fix seems to work okay.
+
+[javascript] var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-19303815-1']); _gaq.push(['_setDomainName', '.etherpad.org']); _gaq.push(['_trackPageview']);
+
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl[1]' : 'http://www[2]') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+
+/* Google Analytics error catching */ window.onerror = function(message, file, lineNumber) { _gaq.push([ '_trackEvent', 'error', file + ':' + lineNumber, message + '' ]); }; [/javascript]
+
+Don't forget to replace the UA-part with your own code...
+
+=> https://ssl 1: https://ssl
+=> http://www 2: http://www

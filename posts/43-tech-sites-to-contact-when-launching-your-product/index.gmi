@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+
+title: "44 Tech sites to contact when launching your product" date: 2012-12-18 categories:
+
+* "android"
+* "contact"
+* "mobile"
+* "nfc"
+* "startup"
+
+--------------------------------------------------------------------------------
+
+This is my contact list for an NFC piece of tech I'm working on.  I thought it might be useful for other tech startups launching new products especially for those in the mobile / android / NFC space.
+
+When you submit a news tip to these websites you might not receive a response and/or you may be waiting up to 4 weeks before they get around to writing publishing.  Don't worry if this is the case, they are very busy and sometimes your products just doesn't fit in with what their audience might be interested in.
+
+You should use the Chicago manual of style[1] when drafting any newsworthy articles.  The likelihood of your tip being picked up on depends on the quality of your press pack and it's relevance according to the editors audience.  I would suggest spending at least a week working on your press pack and if possible get it proof read by an expert.  Creating a press pack is a skill[2], this contact list is only 1% of the problem solved.
+
+When contacting for a review you wont need to be so formal however you may want to provide them with a press release style statement so they can quote you.
+
+Each website will have a different audience so you should tweak how you contact them to emphasize how your new product will affect their audience.
+
+1. xda-developers  - http://www.xda-developers.com/suggest-content/[3]
+2. YCombinator - http://news.ycombinator.com/submit[4]
+3. Reddit - http://reddit.com[5]
+4. slashdot - http://slashdot.org/[6]
+5. Wired - http://www.wired.com/about/feedback/[7]
+6. engadget - http://www.engadget.com/about/tips/[8]
+7. Gizmodo - tipbox@gizmodo.com
+8. theregister.co.uk - news@theregister.co.uk
+9. gadgetsin - https://twitter.com/gadgetsin[9]
+10. The huffington post - scoop@huffingtonpost.com
+11. Mashable - http://mashable.com/submit/[10]
+12. Techcrunch - tips@techcrunch.com
+13. Before it's news - http://beforeitsnews.com/editorial/[11]
+14. gizmag - editor@gizmag.com
+15. guyism - http://live.guyism.com/submit[12]
+16. sellcell.com - http://www.sellcell.com/help-and-support/[13]
+17. sellmymobile.com - http://www.sellmymobile.com/help-and-support/[14]
+18. the next web - http://thenextweb.com/contact/[15]
+19. geek.com - http://www.geek.com/about/[16]
+20. the gadgeteer - http://the-gadgeteer.com/well-review-it/[17]
+21. ewallstreeter - http://ewallstreeter.com/page/contact.php[18]
+22. gear diary - http://www.geardiary.com/how-to-submit-your-product-for-review/[19]
+23. android spin - http://androidspin.com/contact-us[20]/
+24. gizbot - https://twitter.com/gizbotcom[21]
+25. rfid journal - mroberti@rfidjournal.com
+26. gentlemint - http://gentlemint.com/[22]
+27. pymnts.com - http://pymnts.com/regulations/submit-content/[23]
+28. dailyme - http://dailyme.com/mynews/addcontent[24]
+29. lazy tech guys - http://lazytechguys.com/contact-us/[25]
+30. techchee.com - tips@techchee.com
+31. nfc world - http://www.nfcworld.com/tip-off/[26]
+32. tech wench - http://www.techwench.com/contact/[27]
+33. damn geeky - damngeeky@gmail.com
+34. runaroundtech - http://www.runaroundtech.com/product-submission/[28]
+35. golem.de - news@golem.de
+36. betakit - tips@betakit.com
+37. android rundown - http://www.androidrundown.com/about/submit-app-hardware-review/[29]
+38. Android Banks - http://www.androidbands.com/[30]
+39. mobile developer tips - http://mobiledevelopertips.com/submit-tip[31]
+40. nfcnews - http://www.nfcworld.com/contacts/[32]
+41. TG Daily - http://www.tgdaily.com/contact[33]
+42. Electronista - http://www.electronista.com/contact/newstips/1[34]
+43. GigaOM - http://gigaom.com/tips/[35]
+44. Forbes - readers@forbes.com
+
+Do you think your website should be included?  Leave me a comment and I will check it out.
+
+Also this[36]
+
+=> http://www.chicagomanualofstyle.org/tools_citationguide.html 1: http://www.chicagomanualofstyle.org/tools_citationguide.html
+=> http://duckduckgo.com/?q=how+to+create+a+press+pack 2: http://duckduckgo.com/?q=how+to+create+a+press+pack
+=> http://www.xda-developers.com/suggest-content/ 3: http://www.xda-developers.com/suggest-content/
+=> http://news.ycombinator.com/submit 4: http://news.ycombinator.com/submit
+=> http://reddit.com/ 5: http://reddit.com/
+=> http://slashdot.org/ 6: http://slashdot.org/
+=> http://www.wired.com/about/feedback/ 7: http://www.wired.com/about/feedback/
+=> http://www.engadget.com/about/tips/ 8: http://www.engadget.com/about/tips/
+=> https://twitter.com/gadgetsin 9: https://twitter.com/gadgetsin
+=> http://mashable.com/submit/ 10: http://mashable.com/submit/
+=> http://beforeitsnews.com/editorial/ 11: http://beforeitsnews.com/editorial/
+=> http://live.guyism.com/submit 12: http://live.guyism.com/submit
+=> http://www.sellcell.com/help-and-support/ 13: http://www.sellcell.com/help-and-support/
+=> http://www.sellmymobile.com/help-and-support/ 14: http://www.sellmymobile.com/help-and-support/
+=> http://thenextweb.com/contact/ 15: http://thenextweb.com/contact/
+=> http://www.geek.com/about/ 16: http://www.geek.com/about/
+=> http://the-gadgeteer.com/well-review-it/ 17: http://the-gadgeteer.com/well-review-it/
+=> http://ewallstreeter.com/page/contact.php 18: http://ewallstreeter.com/page/contact.php
+=> http://www.geardiary.com/how-to-submit-your-product-for-review/ 19: http://www.geardiary.com/how-to-submit-your-product-for-review/
+=> http://androidspin.com/contact-us/ 20: http://androidspin.com/contact-us/
+=> https://twitter.com/gizbotcom 21: https://twitter.com/gizbotcom
+=> http://gentlemint.com/ 22: http://gentlemint.com/
+=> http://pymnts.com/regulations/submit-content/ 23: http://pymnts.com/regulations/submit-content/
+=> http://dailyme.com/mynews/addcontent 24: http://dailyme.com/mynews/addcontent
+=> http://lazytechguys.com/contact-us/ 25: http://lazytechguys.com/contact-us/
+=> http://www.nfcworld.com/tip-off/ 26: http://www.nfcworld.com/tip-off/
+=> http://www.techwench.com/contact/ 27: http://www.techwench.com/contact/
+=> http://www.runaroundtech.com/product-submission/ 28: http://www.runaroundtech.com/product-submission/
+=> http://www.androidrundown.com/about/submit-app-hardware-review/ 29: http://www.androidrundown.com/about/submit-app-hardware-review/
+=> http://www.androidbands.com/ 30: http://www.androidbands.com/
+=> http://mobiledevelopertips.com/submit-tip 31: http://mobiledevelopertips.com/submit-tip
+=> http://www.nfcworld.com/contacts/ 32: http://www.nfcworld.com/contacts/
+=> http://www.tgdaily.com/contact 33: http://www.tgdaily.com/contact
+=> http://www.electronista.com/contact/newstips/1 34: http://www.electronista.com/contact/newstips/1
+=> http://gigaom.com/tips/ 35: http://gigaom.com/tips/
+=> http://choose.webkite.com/tech-journalists 36: http://choose.webkite.com/tech-journalists

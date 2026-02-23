@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Always show chat in Etherpad Lite" date: 2012-01-29 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+There is a new feature in Etherpad Lite that allows the chat to always be set to the school.
+
+A user can change it by passing a parameter or you can set it at hte server level.
+
+To set it at the server level edit /static/custom/pad.js
+
+Add [code] chat.stickToScreen(true); [/code]
+
+To the costumStart function.
+
+Job done :) Hit f5 and admire your awesomeness.

@@ -1,0 +1,22 @@
+---
+title: "Electric car conversions IVA and CEC requirements for non-classics."
+date: 2021-07-30
+---
+
+Do you want to convert your Petrol or Diesel car to Electric? You might need to be a little naughty to get it fully registered and insured and it might be that a number of people skip these steps and we end up with electric conversions on that road that aren't legal.
+
+Post conversion, electric conversions should be registered with the DVLA. This means that your car will be MOT tested as electric & you will get a reduction tax costs, this of course only impacts cars less than 40 years old. Cars older than 40 years old are considered classics and as such don't require an MOT or Tax. So let's say your car is 30 years old, you convert it to electric then you contact the DVLA to notify them you converted it to electric. The DVSA(intentional change from DVLA) will require an IVA which has some ~£500 costs and requires your car to be taken to a test center, the DVSA is the least of your problems though.. The DVSA will require a CEC 100.01 test of the electrical work. These tests cost ~£2000 and again require the car to be taken to a test center. Re-testing (you probably wont pass first time) will incur the initial test fee and of course transportation costs to and from the center. These costs (let's assume you are £5000 in) are just not feasible for the majority of conversions and when you assume the electric drive train came from an already CEC 100.01 tested car it does seem wasteful.
+
+People familiar with petrol conversions will be aware that you have a few options, you either do or don't tell the DVLA that you changed the engine. It's really seen as no big deal because at the end of the day the MOT emissions test will either pass or fail, this same approach can't be used for Electric conversions due to there being zero emissions causing an MOT fail. Obviously I'm ignoring insurance/legalities intentionally, it's rare engine conversions are caught out during insurance claims.
+
+So let's quickly outline the options you have for your 30 year old conversion:
+
+1. Go fully legal: Spend the extra month and £10k or so in additional testing and bug-fixes. But be warned, even if you pass the CEC test the IVA inspector might not accept the "pass" and may require additional testing.
+2. Illegal VIN Swap: Swap your Reg/VIN for a car that is 40+ years. Doing this is illegal but it will mean you don't need to pay Tax or get an MOT so the car will "legally" be on the road, ignoring the illegal VIN/Registration swap.
+3. Trust the UK Gov: Wait ~5 years for the DVLA/DVSA/UK Gov to come up with a new process for EV Conversions
+
+The DVSA/DVLA recognize they have a problem and that electrification of old vehicles is important. Currently there are only two people and centers in the UK who do CEC testing and it's a relatively new requirement for the IVA. I liken the requirement for CEC testing to requiring a test just for changing a fuel line on the car. I think all testing is important and having as much of a safe vehicle as possible but there should be a balance. The point I suppose is that the IVA should be testing some of the electrification aspect in the same way they do the combustion engine. **I like to think that the IVA team are hoping to take this on in the future but it doesn't sound like that's the case.**
+
+So with option 1 being cost prohibitive, option 2 being technically illegal and option 3 being unlikely to ever come to fruition you are stuck between a rock and a hard place.
+
+So if you learn anything from this, only convert cars that are 40+ years old.

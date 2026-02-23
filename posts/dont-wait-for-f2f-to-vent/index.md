@@ -1,0 +1,14 @@
+---
+title: "Don't wait for f2f to vent"
+date: 2010-04-08
+---
+
+[![Feedback Gopher](images/richard_feedback1-225x300.jpg "Feedback Gopher")](https://mclear.co.uk/wp-content/uploads/2010/04/richard_feedback1.jpg)Let's play a little game:  We serve 100k+ web pages each day across [our services](https://mclear.co.uk/sites/), how much feedback do you recon we get each day?  50?  40?  30?  If only..  We get about 1 piece of feedback a day from all of the services combined.
+
+**Why is that?** Teachers love to tell you what they think face to face but never fill in web based forms even if they get stuck with something.  **My plea to you** is that you give any website you visit feedback, wether positive or negative.  Infact without any [positive feedback](http://en.wikipedia.org/wiki/Positive_feedback "Positive feedback") at all from my contacts on twitter I don't think I would even be involved in 1/2 the projects I am which means great free sites like Primary Games Arena would disappear into a void.
+
+**Who benefits from you clicking the feedback/twitter button?** Nearly all feedback from teachers is letting us know that they are having problems using a tool in the classroom, be it confusing, foreign, buggy or just weird.  The thing that teachers should know is that usually a developer gets given a brief of a problem and codes the most elegant, simple solution.  [User interface](http://en.wikipedia.org/wiki/User_interface "User interface") is often the [software developers](http://en.wikipedia.org/wiki/Software_developer "Software developer") 2nd priority.
+
+**You own the web.** Don't forget that it's the users that truly own the web, so if there is a site that you think has a bad interface, don't wait till you meet the owner of the site face to face, click that feedback button and unleash Hell!  We genuinely want to hear from you, both positive and negative!
+
+**I fear for the future.** The future of tablets.  Ugh.  More output, less input (from visitors).  I mean, you have an extra hurdle to get to the keyboard, I expect you will feedback less.  That makes me a sad bunny :(

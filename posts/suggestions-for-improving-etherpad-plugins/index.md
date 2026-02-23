@@ -1,0 +1,57 @@
+---
+title: "Suggestions for improving Etherpad plugins"
+date: 2020-07-17
+---
+
+UPDATE: Me Gusta! All these things now exist. To improve your Etherpad plugin run
+
+```
+node bin/plugins/checkPlugins.js ep_whatever
+
+```
+
+In this blog post I will propose some methods to improve Etherpad plugins. This is a musing for myself a brain dump / wish list of things we might want to have in the future.
+
+## Test coverage
+
+Does a plugin have test coverage? No test coverage discovered?
+
+How to: Open Github issue including example source code.
+
+Does the plugin have CI? If not create it..
+
+How to: Create .travis file - Possible to automatically register repo as active in travis? [Example travis test file](https://github.com/ether/ep_comments/blob/master/.travis.yml)
+
+Automatically test plugins when a new version of Etherpad is released.
+
+How to: Github actions?
+
+## License
+
+No License?
+
+How to: Suggest Apache 2 license to plugin as pull request
+
+## Translations
+
+If plugin has i18n, automatically register plugins to Translate Wiki. If not, suggest supporting i18n.
+
+## Readme
+
+Does the README file include a license?
+
+Does the README contain an animated gif of user experience?
+
+Does the plugin contain references to Etherpad as Etherpad lite?
+
+## Common faults
+
+Is [.ep\_initialized](https://github.com/JohnMcLear/ep_align/blob/master/.ep_initialized) included in the repo root? Send PR suggesting to remove it
+
+Does .gitignore exist in root? If not? Send PR suggesting content
+
+Does packages.json include link to repository?
+
+Does package include npm-debug.log? Send PR removing it
+
+JShint/lint?

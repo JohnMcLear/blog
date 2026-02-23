@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Akasa Nero - CPU cooling results" date: 2009-11-03
+
+--------------------------------------------------------------------------------
+
+=> images/akasa_nero_lga1366%5B1%5D.jpg [IMG]
+[1]
+I just took off my original heatsink/cpu fan which had a few snapped legs and replaced it with a quieter Akasa Nero and some new compound (which came with it which was nice).
+
+My CPU was 75c, now its 33c. Took my Windows CPU rating from 4.4 to 5.8
+
+Win.
+
+=> http://2.bp.blogspot.com/_NislCXjnul0/SvCflfEq-qI/AAAAAAAACYs/w1qwQ_NQcvQ/s1600-h/akasa_nero_lga1366%5B1%5D.jpg 1: http://2.bp.blogspot.com/_NislCXjnul0/SvCflfEq-qI/AAAAAAAACYs/w1qwQ_NQcvQ/s1600-h/akasa_nero_lga1366%5B1%5D.jpg

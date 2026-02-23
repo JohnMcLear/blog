@@ -1,0 +1,12 @@
+---
+title: "Wolverine n stuff"
+date: 2009-04-29
+---
+
+Went to see wolverine 2nite at cineworld Bradford, liked it. It's a good night at the cinema. It's not a ground breaking film, its just good substance for someone who kinda likes comic book based films with a bit of creativity (but not too much)..  
+  
+P's last night with us lot before he bounces to London, its cool though cause spend just as much time online hanging out as we do offline so I'm sure we will keep in touch.  
+  
+Something today made me think I should prolly go see my brothers Wife or at least add her on facebook..  
+  
+Anyways I hope shes okay cause shes preggers n all!

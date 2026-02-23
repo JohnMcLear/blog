@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+
+title: "My School Holidays Mobile Widget Update 1.5" date: 2012-06-27
+
+--------------------------------------------------------------------------------
+
+Following on from feedback we have received through our newly implemented feedback feature within our app we have made numerous improvements to the My School Holidays search API which should ensure that you our loyal users are able to find your school with minimal trouble, if you want to see the changes you can see the documentation for them on the Primary T Knowledgebase[1].
+
+A quick reminder, if you are experiencing trouble with our app please get in touch by using the feedback feature in app or by emailing us at android@primaryt.co.uk[2]. We are also interested in hearing suggestions on how we could improve the My School Holidays Mobile Widget in any way so get in touch if you have a suggestion!
+
+=> images/M3TG7NG9PeE [IMG]
+
+=> http://support.primaryt.co.uk/knowledgebase/api-search-for-a-schools-district_id/ 1: http://support.primaryt.co.uk/knowledgebase/api-search-for-a-schools-district_id/
+=> mailto:android@primaryt.co.uk 2: mailto:android@primaryt.co.uk

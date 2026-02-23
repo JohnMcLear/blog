@@ -1,0 +1,51 @@
+---
+title: "Deploying Etherpad at Scale in one minute"
+date: 2021-09-08
+---
+
+https://youtu.be/0ZRr4iqNC1s
+
+Follow along! Do each window in order
+
+# Window 1
+
+```
+mkdir etherpadProxy
+git clone git@github.com:ether/etherpad-proxy.git
+cd etherpad-proxy && npm i && node app.js
+
+```
+
+## Window 2
+
+```
+cd etherpadProxy
+git clone git@github.com:ether/etherpad-lite.git 1
+cd 1 && bin/run.sh
+# wait for this to show "Etherpad is running"
+
+```
+
+## Window 3
+
+```
+cd etherpadProxy
+cp -R 1 2
+cd 2
+sed -i 's/9001/9002/g' settings.json
+bin/fastRun.sh
+
+```
+
+## Window 4
+
+```
+cd etherpadProxy
+cp -R 1 3
+cd 3
+sed -i 's/9001/9003/g' settings.json
+bin/fastRun.sh
+
+```
+
+Now visit [http://127.0.0.1:9000](http://127.0.0.1:9000)

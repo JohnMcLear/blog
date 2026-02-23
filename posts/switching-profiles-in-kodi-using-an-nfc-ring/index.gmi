@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+
+title: "Switching Profiles in Kodi using an NFC Ring" date: 2015-09-14 categories:
+
+* "nfc"
+* "nfc-ring"
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j9o0dz8aPS8" frameborder="0" allowfullscreen></iframe>
+```
+
+Replace profiles, IP and ring ID with your own values.
+
+Run in a Screen
+
+[code]node whatever.js[/code]
+
+[code] var fs = require('fs'); var request = require("request"); var inp = fs.createReadStream("/dev/ttyACM0"); inp.setEncoding('utf8'); var inptext = ""; var XBMCEventClient = require('xbmc-event-client').XBMCEventClient; var xbmc = new XBMCEventClient('node.js app'); var blob = { "id": 1, "jsonrpc": "2.0", "method": "Profiles.LoadProfile", "params": {"profile":"lydia"}};
+
+var options = { method: 'POST', uri: 'http://user:pass@127.0.0.1:8080/jsonrpc[1]', json: blob }
+
+xbmc.connect(function(errors, bytes) { inp.on('data', function (data) { if (errors.length){ throw errors[0]; }
+
+if(data === "."){ return; // do nothing }
+
+if(data.indexOf("InsertRingUIDHere") !== -1){ console.log(options.json.params); options.json.params.profile = "john"; }else{ options.json.params.profile = "lydia"; }
+
+request(options, function (error, response, body) { console.log("changed to", options.json.params.profile); if (!error && response.statusCode == 200) { console.log(body.id) // Print the shortened url. } });
+
+}); }); [/code]
+
+Note that I just threw this together as a proof of concept, it needs a bunch of polish! :)
+
+=> http://user:pass@127.0.0.1:8080/jsonrpc 1: http://user:pass@127.0.0.1:8080/jsonrpc

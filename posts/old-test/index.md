@@ -1,0 +1,6 @@
+---
+title: "Old test"
+date: 2010-01-02
+---
+
+<iframe name="embed_readwrite" src="http://beta.etherpad.org/p/kvn4v46P7d?showControls=true&amp;showChat=true&amp;showLineNumbers=true&amp;useMonospaceFont=false" width="600" height="400"></iframe>

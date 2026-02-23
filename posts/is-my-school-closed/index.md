@@ -1,0 +1,16 @@
+---
+title: "Is my school closed?"
+date: 2009-10-26
+categories: 
+  - "closed"
+  - "closures"
+  - "my-school-closures"
+  - "open"
+  - "swine-flu"
+---
+
+Schools worldwide have a free service where they can register any closure information. Authorities also use this service if their is regional closures due to poor weather or illness.
+
+  
+
+The site is [My School Closures](http://myschoolclosures.com) and is available at [http://myschoolclosures.com](http://myschoolclosures.com)

@@ -1,0 +1,24 @@
+---
+title: "Wind Turbine parts arrive (Ebay purchase)"
+date: 2009-09-19
+categories: 
+  - "wind-turbine"
+---
+
+Many people think I'm a bit nuts for trying to harness the power of the wind, they may be right as instead of spending £20k on a big turbine I bought the bulk of the parts from Ebay. Initially I will be doing this purely as a science experiment. I don't have any planning permission but my neighbours think its a great idea.
+
+  
+
+The idea is if I can generate enough power from this turbine to do a proof of concept then I am going to apply for a community grant for all 6 properties in this cluster with the aim of reducing electricty bills by 50-80% dependant on size of household.
+
+  
+
+Here are some pics:
+
+  
+
+http://picasaweb.google.com/johnyma22/Wind1
+
+  
+
+Please help me out identifying the bits I don't know :P

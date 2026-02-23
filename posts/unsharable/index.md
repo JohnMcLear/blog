@@ -1,0 +1,23 @@
+---
+title: "Unsharable"
+date: 2016-06-10
+categories: 
+  - "etherpad"
+  - "nfc-ring"
+---
+
+\[caption id="attachment\_7369" align="aligncenter" width="550"\]![Image shamefully stolen from Digital Trends..](images/dsc_3089-720x480-c-550x367.jpg) Image shamefully stolen from Digital Trends..\[/caption\]
+
+Over the past 6 months I had been working mostly on projects I couldn't share updates on. This has left my blog somewhat neglected, I apologize. [I guess I can talk about the Visa Payment Ring a little now that the press has heard about it!](https://www.engadget.com/2016/06/02/visa-olympic-wearable/)
+
+I haven't been completely dormant though my Github activity has still been relatively fruitful with more people using my software than ever. I'm still active developing for the Open Gov Foundation and I hope to be more active over the coming months as their software goes live in more districts. The goal with this software is to use Etherpad to provide a better collaborative editing tool for governments to draft laws/bylaws etc. While Mozilla, the UN and Nato do this already the OGF is extending Etherpad to provide a more structured approach to legislation making the data more machine consumable and ergo representable in multiple fashions.
+
+When it comes to open source I guess now I'm more of a package maintainer than active developer... My plugins mostly have active contributors who are contributing bugfixes and new features which means my main task can be done on the toilet (code review and merges). I see this as being a fair to decent use of my time.. I spend maybe an hour a day on this and often find myself triaging bugs in boring meetings.
+
+Most of my hands on project work has been around R&D and due to the NFC Ring having an IP leak and a competitor abusing our IP to launch their product a lot more things have been happening behind closed doors. I feel like I shared as much as I could anyway and helped others be able to build their own NFC Rings.
+
+One thing I didn't share on my blog was the awesome work we did creating the [worlds first payment ring for Henry Holland and Visa Europe Collab](http://www.telegraph.co.uk/technology/news/11879315/Henry-Holland-brings-contactless-payment-tech-to-the-catwalk.html), that was a lot of fun. I got to hang out with people from the fashion and payment world which was a new experience for me, something I'm grateful for.. If VEC or Visa ever reach out to you on a project I strongly suggest getting involved because the teams are great but watch out the legal side as Visa's legal dept seems to be somewhat disconnected from their innovation teams and this can lead to lengthy negotiations!
+
+I'm still building new rings, that's pretty much my full time job now and with McLear Ltd going through changes and my life going through changes writing new content here has been a low priority.. I'm not sure this will change any time soon.. The very nature of the work I'm doing means I can't even share much if I wanted to and with me venturing into grounds where others already write way more frequently than me I'd feel it would not be a fruitful use of my time...
+
+I wrote this before the Visa press release on the payment ring.. Obviously with that now live you guys have more of an insight to why I have been busy! [Vive la finger!](http://nfcring.com)

@@ -1,0 +1,36 @@
+---
+title: "Memoirs of an ex-pirate turned CEO"
+date: 2012-01-19
+categories: 
+  - "ict"
+---
+
+Over the years I have filled many roles online, some have some questionable legal issues tied to them.  Nowadays I run an organization and write open source software and some propriety software and I'm paid to do this and I'm 99.9% sure everything I do is completely legal.  Throughout my years online I have watched the piracy battle. I remember in the early years when site admins would disappear and be locked up for years and I have watched how an international war against piracy has been won by the pirates with the popularization of the torrents & file sharing websites. Warez is what Warez was, it's organized, way more organized than the FBI/CIA or any government funded organization..
+
+So today has been a huge day in the Pirates Vs Legislation..  Correction.. People Vs Government..  It's pretty clear that Government is representing the minority of the population.  It's clear that Joe Blogs (in his current form) is being threatened..  It's also pretty clear that Joe Blogs enjoys the fruits of Piracy and with the media companies still turning huge profits it's pretty clear that greed is the underlying factor here.
+
+# So what just happened?
+
+[It turns out a major record producer is a CEO of a megaupload](http://www.factmag.com/2012/01/19/swizz-beats-is-the-ceo-of-megaupload/) (file sharing website).  Now I have only ever downloaded legal content from megaupload or maybe the odd download that has questionable legality.  It's clear the FBI don't get the hint about the whole stop SOPA thing and just do what they want..  Consider the FBI like the bully who hits a kid, gets told off by their teacher then completely ignores what the teacher says and goes and hits the kid again.  Ignorant American government organizations?  Really?  Say it aint so!
+
+# What is questionable legality?
+
+Say I own a copy of Civilization 2(Game) and I want to mod it, well I can only mod it if I replace the civ2.exe binary with a modified binary..  This is potentially illegal and in the eyes of the law is illegal..
+
+[Today megaupload was hit hard](http://online.wsj.com/article_email/SB10001424052970204616504577171060611948408-lMyQjAxMTAyMDEwOTExNDkyWj.html), shut down in fact..  **Millions of legal files have been removed from the internet**..  The reason it was shut down is because megaupload was storing illegal files..  Ironic though that a record producer who has made millions from selling beats may now find himself sued by the same mechanism put in place to protect him.
+
+# Why does this matter to you?
+
+Well Google, Dropbox, Spideroak, Microsoft etc. all store illegal files..  In fact so does the organizations that are fighting online piracy.. The FBI hit megaupload this time, a site that is legitimate. Absolutely nothing is stopping them from hitting Dropbox or Spideroak, in fact a lot of people think Dropbox is the next target..
+
+# Why the government will never win this fight
+
+Just like the war on Terror or Drugs their is a reason the opposition is so successful. It's simple. Passion. Passionate people work all hours of the day to solve a problem. The more the government push the more they are creating hatrid, just like Iraq..  Many software developers will free up a few hours to help debug a problem on a website that opposes this fight.  They won't contribute to piracy directly but may provide a free module or piece of code to the site administrator.  [In Iran a man was recently sentenced to death for the same type of thing](http://www.guardian.co.uk/world/2012/jan/18/iran-death-sentence-porn-programmer).  The people of the Internet are fighting oppression.
+
+# What is the light at the end of the tunnel?
+
+Pirates are now CEO's. Yep, and the CEO's are out to destroy UMG, sony etc. Young CEOs are being passionate about providing a DRM free experience and removing customer lock in because they believe in the future of the Internet as a medium for open conversation. If you are a CEO that doesn't get why an open Internet is important then please, I beg you, step down or your company will be lose and your employees will find themselves out of a job.
+
+# What can you do to speed things up
+
+It's pretty evident that the FBI are working the likes of UMG and other old, complacent media organizations. If you work at one of these organizations or you have a contract with them please organize a meeting to specifically discuss the organizations stance on the war against piracy. You may un-earth some uncomfortable truths. **Do remember if you license music or you buy an internet connection that comes with a free audio clip service (Many schools have this bundled with their net connectivity) you are fueling this fire. You are fueling a fire that is ripping the Internet apart. Act now.**

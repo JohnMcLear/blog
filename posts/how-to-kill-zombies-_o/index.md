@@ -1,0 +1,12 @@
+---
+title: "How to kill zombies -_o"
+date: 2011-03-04
+---
+
+![](images/tumblr_lgcjzho13s1qe0eclo1_r18_500.gif)
+
+So you have a zombie process, in my case varnish and I couldn't kill it with kill -9 PID or killall -9 varnishd..
+
+Use: **ps fauxwww** - It will show you a branch of processes and you want to kill it's parent process, in my case it was bash. Don't do killall bash, that would just be stupid. Do kill -9 PID\_of\_bash\_parent..
+
+That is all, now you too can kill zombies.

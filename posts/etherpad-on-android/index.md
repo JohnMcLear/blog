@@ -1,0 +1,9 @@
+---
+title: "Etherpad on Android"
+date: 2009-12-10
+categories: 
+  - "android"
+  - "etherpad"
+---
+
+I am able to create a new etherpad (pad) and log in but I can't edit the pad. Anyone any ideas?

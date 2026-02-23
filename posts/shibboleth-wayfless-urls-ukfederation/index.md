@@ -1,0 +1,50 @@
+---
+title: "Shibboleth WAYFless URLs UKFederation"
+date: 2009-10-27
+categories: 
+  - "shibboleth"
+  - "single-sign-on"
+  - "sso"
+  - "ukfederation"
+  - "wayfless"
+---
+
+**
+
+Shibboleth is a single sign on method used by UK schools.
+
+Shibboleth allows you to log into multiple services without the need to enter your username and password.
+
+  
+
+Shibboleth WAYFLess URLS is a
+
+knowledge requirement for Shibboleth Service Providers and users. A shibboleth user may use a service frequently and want to skip the Identity provider selection page, a wayfless URL does exactly this.
+
+  
+
+Example**
+
+**_Copy and paste the above and replace %20 with ?_**
+
+Another example
+
+  
+
+**What bit do I need to change to configure my service to Primary Logon?**
+
+  
+
+https://wayf.ukfederation.org.uk/shibboleth-wayf/ukfull.wayf?target=cookie
+
+&providerId=urn:mace:ac.uk:sdss.ac.uk:provider:service:**target.iay.org.uk**
+
+&cache=perm&action=selection
+
+**&origin=https://idp.primarylogon.co.uk/idp/shibboleth**
+
+**&shire=https://**target.iay.org.uk**/Shibboleth.sso/SAML/POST**
+
+  
+
+The bits in bold need changing.

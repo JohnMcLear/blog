@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad email fails with javax.mail.MessagingException: 501 Syntax: HELO hostname" date: 2010-10-03 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+Output from bin/run.sh &
+
+Try to register for a pro account and you get
+
+> javax.mail.MessagingException: 501 Syntax: HELO hostname
+> 
+> at com.sun.mail.smtp.SMTPTransport.issueCommand(SMTPTransport.java:1363) at com.sun.mail.smtp.SMTPTransport.helo(SMTPTransport.java:838) at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:375) at javax.mail.Service.connect(Service.java:275) at javax.mail.Service.connect(Service.java:156)
+
+Cause: Hostname isn't in /etc/hosts
+
+Solution:
+
+[bash] hostname [/bash] Copy hostname value and paste to /etc/hosts

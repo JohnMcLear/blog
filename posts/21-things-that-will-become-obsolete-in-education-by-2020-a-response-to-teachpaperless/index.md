@@ -1,0 +1,138 @@
+---
+title: "21 Things That Will Become Obsolete in Education by 2020 (a response to @teachpaperless)"
+date: 2009-12-16
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+Some of @teachpaperless points were not relevant to Primary School or I did not feel comfortable responding to them so I have missed them out, here is my update (my update in italic)
+
+**1\. Desks**
+
+The 21st century does not fit neatly into rows. Neither should your students. Allow the network-based concepts of flow, collaboration, and dynamism help you rearrange your room for authentic 21st century learning.
+
+_I doubt desks will become obselete, however the amount of desks will decline by 30/40%_
+
+  
+
+**2\. Language Labs**
+
+Foreign language acquisition is only a smartphone away. Get rid of those clunky desktops and monitors and do something fun with that room.
+
+_Agree'd_
+
+  
+
+**3\. Computers**
+
+Ok, so this is a trick answer. More precisely this one should read: 'Our concept of what a computer is'. Because computing is going mobile and over the next decade we're going to see the full fury of individualized computing via handhelds come to the fore. Can't wait.
+
+_Agree'd_
+
+  
+
+**4\. Homework**
+
+The 21st century is a 24/7 environment. And the next decade is going to see the traditional temporal boundaries between home and school disappear. And despite whatever Secretary Duncan might say, we don't need kids to 'go to school' more; we need them to 'learn' more. And this will be done 24/7 and on the move (see #3).
+
+_Agree'd_
+
+  
+
+**7\. Fear of Wikipedia**
+
+Wikipedia is the greatest democratizing force in the world right now. If you are afraid of letting your students peruse it, it's time you get over yourself.
+
+_Agree'd, but without the getting over yourself part ;P_
+
+  
+
+**8\. Paperbacks**
+
+Books were nice. In ten years' time, all reading will be via digital means. And yes, I know, you like the 'feel' of paper. Well, in ten years' time you'll hardly tell the difference as 'paper' itself becomes digitized.
+
+_No doubt here... Agree'd_
+
+  
+
+**9\. Attendance Offices**
+
+Bio scans. 'Nuff said.
+
+_Agree'd_
+
+  
+
+**10\. Lockers.**
+
+A coat-check, maybe.
+
+_I don't agree, where can you store your mobile device whilst doing Physical Education or Sport? I think personal space is still important, have you ever met any middle school girls?_
+
+  
+
+**11\. IT Departments**
+
+Ok, so this is another trick answer. More subtly put: IT Departments as we currently know them. Cloud computing and a decade's worth of increased wifi and satellite access will make some of the traditional roles of IT -- software, security, and connectivity -- a thing of the past. What will IT professionals do with all their free time? Innovate. Look to tech departments to instigate real change in the function of schools over the next twenty years.
+
+_Agree'd_
+
+  
+
+**12\. Centralized Institutions**
+
+School buildings are going to become 'homebases' of learning, not the institutions where all learning happens. Buildings will get smaller and greener, student and teacher schedules will change to allow less people on campus at any one time, and more teachers and students will be going out into their communities to engage in experiential learning.
+
+_I'm not so sure about this in Primary School Education. Maybe by 2030/40 but not 2020_
+
+  
+
+**13\. Organization of Educational Services by Grade**
+
+Education over the next ten years will become more individualized, leaving the bulk of grade-based learning in the past. Students will form peer groups by interest and these interest groups will petition for specialized learning. The structure of K-12 will be fundamentally altered.
+
+_Possibly in secondary/FE but not in Primary_
+
+  
+
+**15\. Paid/Outsourced Professional Development**
+
+No one knows your school as well as you. With the power of a PLN in their backpockets, teachers will rise up to replace peripatetic professional development gurus as the source of schoolwide prof dev programs. This is already happening.
+
+_Agree'd_
+
+  
+
+**17\. Parent-Teacher Conference Night**
+
+Ongoing parent-teacher relations in virtual reality will make parent-teacher conference nights seem quaint. Over the next ten years, parents and teachers will become closer than ever as a result of virtual communication opportunities. And parents will drive schools to become ever more tech integrated.
+
+_Agree'd_
+
+  
+
+**18\. Typical Cafeteria Food**
+
+Nutrition information + handhelds + cost comparison = the end of $3.00 bowls of microwaved mac and cheese. At least, I so hope so.
+
+_Agree'd but tech isn't needed to help kids make nutritious meal descisions_
+
+  
+
+**19\. Outsourced Graphic Design and Webmastering**
+
+You need a website/brochure/promo/etc.? Well, for goodness sake just let your kids do it. By the end of the decade -- in the best of schools -- they will be.
+
+_Agree'd_
+
+  
+
+**21\. Paper**
+
+In ten years' time, schools will decrease their paper consumption by no less than 90%. And the printing industry and the copier industry and the paper industry itself will either adjust or perish.
+
+_Agree'd_
+
+_[Original post by @teachpaperless found here](http://teachpaperless.blogspot.com/2009/12/21-things-that-will-become-obsolete-in.html)_

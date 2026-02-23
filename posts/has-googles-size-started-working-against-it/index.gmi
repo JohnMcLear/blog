@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Has Google's size started working against it?" date: 2010-05-26 categories:
+
+* "google"
+
+--------------------------------------------------------------------------------
+
+=> images/12896v2-max-250x250.jpg Image representing Google Talk as depicted in ... [IMG]
+[1]
+
+Google Talk Chat Back badge has been broken since May the 22nd and no one at Google has even aknowledged the problem. Does no one at Google know who is responsible to fix this? The problem is all over the forum[2]. It is obvious that someone has done a "fix" that has broken this function but 4 days to roll back some code seems a bit excessive.. Maybe it was a security issue? Google have to play the transparent, open roll here or I, amongst others will begin looking elsewhere.
+
+**Update: Fixed on the 28th of May.** - no mention from Google about what happened.
+
+=> images/reblog_e.png Reblog this post [with Zemanta] [IMG]
+
+=> http://www.crunchbase.com/product/google-talk 1: http://www.crunchbase.com/product/google-talk
+=> http://www.google.com/support/forum/p/Talk/thread?tid=2a20f60fed404f76&amp;hl=en&amp;fid=2a20f60fed404f760004877f7700f635 2: http://www.google.com/support/forum/p/Talk/thread?tid=2a20f60fed404f76&amp;hl=en&amp;fid=2a20f60fed404f760004877f7700f635

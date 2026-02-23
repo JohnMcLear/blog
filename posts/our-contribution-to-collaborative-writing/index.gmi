@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Our contribution to collaborative writing" date: 2011-08-22 categories:
+
+* "ict"
+* "primary-pad"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+
+--------------------------------------------------------------------------------
+
+Since December 2009 we have been contributing towards an open-source project called Etherpad.  Open source projects can be described as free software that is free to modify, use and redistribute.  Etherpad[1] has been the technology we have used for PrimaryPad[2].  Today Etherpad Lite finally reached Version 1 which means it’s ready for download and widely adopted usage.  We’re really proud of this achievement and we hope to support the project into the future.
+
+Read more about Etherpad including the option to host your own[3]
+
+=> http://etherpad.org 1: http://etherpad.org
+=> http://primarypad.com 2: http://primarypad.com
+=> http://etherpad.org 3: http://etherpad.org

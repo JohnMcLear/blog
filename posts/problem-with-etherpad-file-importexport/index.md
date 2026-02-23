@@ -1,0 +1,81 @@
+---
+title: "Problem with Etherpad file import/export"
+date: 2010-01-10
+categories: 
+  - "doc"
+  - "docs"
+  - "etherpad"
+  - "export"
+  - "import"
+  - "word"
+---
+
+In Etherpad when you click to export a Word .doc or .pdf file you get the error:
+
+**Error message:** "Unsupported file type:.. Etherpad can only import txt, html, rtf, doc, and docx files."
+
+Cause: Openoffice is not running or Etherpad not properly configured.
+
+Solution: Add the below to your Etherpad start up script before you start the Etherpad VM.
+
+/usr/bin/soffice.bin -headless -nofirststartwizard -accept="socket,host=localhost,port=8100;urp;StarOffice.Service &"
+
+Check the following files exist in the instrastructure/lib folder:
+
+activation.jar
+
+cos.jar
+
+dnsjava-2.0.6.jar
+
+jetty-sslengine-6.1.20.jar
+
+juh.jar
+
+ridl.jar
+
+tagsoup-1.2.jar
+
+c3p0-0.9.1.2.jar
+
+derby-10.5.1.1.jar java\_uno.jar
+
+jetty-util-6.1.20.jar
+
+jurt.jar
+
+mysql-connector-java-5.1.10.jar
+
+sanselan-0.94aj.jar
+
+unoil.jar
+
+commons-lang-2.4.jar
+
+derbytools.jar
+
+jetty-6.1.20.jar
+
+json.jar
+
+mail.jar
+
+rhino-js-1.7r1.jar
+
+servlet-api-2.5-20081211.jar
+
+yuicompressor-2.4-appjet.jar
+
+You need to modify execution.scala and importexport.scala - See this document
+
+Notes:
+
+Check your etherpad.localdev-default.properties, you should have:
+
+etherpad.soffice = /usr/bin/soffice
+
+Also check during bin/rebuildjar.sh clearcache you don't get any errors.
+
+I recommend following [this guide](http://www.google.com/url?sa=D&q=http://karteek.selfdabba.com/post/301488675/etherpad-opensourced&usg=AFQjCNEgy1trdViiDO_-DqV7ym26QF2ftw) here if you haven't yet..
+
+[This was resolved in a discussion found here](http://groups.google.com/group/etherpad-open-source-discuss/browse_thread/thread/1f28d3fec872b905/bdadd85d6e1af59b) (sorry it's a lengthy discussion)

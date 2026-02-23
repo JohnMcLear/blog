@@ -1,0 +1,20 @@
+---
+title: "Introducing Unity"
+date: 2011-02-14
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+[![](images/unity-550x439.jpg "unity")](https://mclear.co.uk/wp-content/uploads/2011/02/unity.jpg)
+
+I figured with the mention of EdYoucator I should probably let you all know about something we have been developing internally for quite some time. It's called unity and it basically ties together a [bunch of our APIs](http://wiki.primaryt.co.uk/) into one nice interface..
+
+I made a site like EdYouCator about a year ago ("called primary school teaching") and it fell on it's face. Teachers just weren't given enough carrot to create/submit lesson plans. Hopefully EdYouCator can get it right and we can use them as a Lesson plan API. What would suck is if EdYouCator didn't have an API so information was one way.. I will be keeping an eye on that and calling them out if this is the case!
+
+First of all let's just get one thing clear. This is not disruptive tech, nor does it replace [safe search](http://primaryschoolict.com) or Google Search. It is a centralized resource search engine that will be one of many you can use, unity will focus purely on Primary School relevant material.
+
+Yep, it's "another" search box with data aggregation and I'm so tired of writing sites like this so this is the last one and will hopefully be my last project in php / mysql before I move onto nodejs and more websocket/really real time stuff.
+
+Unity is currently in closed private beta and is due late 2011. Get in touch if you want exclusive beta access.

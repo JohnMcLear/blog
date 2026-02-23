@@ -1,0 +1,37 @@
+---
+title: "What the last 4 days have tought me."
+date: 2011-02-23
+categories: 
+  - "ict"
+  - "primary"
+  - "primary-blogger"
+  - "primary-school"
+  - "primary-school-ict"
+  - "wordpress"
+  - "wordpress-multi-user"
+  - "wpmu"
+---
+
+Disclaimer: These are my own words and do not reflect the view of my employer.
+
+Some teachers are really supportive.  Huge thanks to @pimmsSmith, @LouMeethongsai, @janwebb21, @idletim, @deputymitchell, @enomilie, @purplelady1979, @anne\_neal, @whorwe, @sraff79, @missbrownsword and @primaryt for your support and help.  The fact that you all got in touch asking for help and tested logins is great, we need testers just as much as we need developers or system admins so my hat goes off to you..
+
+Some teachers are **real** **not quite as nice** (actually just one)**.** Even though PrimaryBlogger is a free service I got an email saying "how disappointed they were with the support."  To this teacher I remind you that PrimaryBlogger is unblocked in every UK LA, allows embed, open source, doesn't enforce HTTPS only, spam free, ad free, not publicly funded and **each blog post is reviewed by a CRB checked human from [Primary Technology](http://primaryt.co.uk)**.  To combat this I think a community approach is needed, a wikipedia model of moderators should help.
+
+PrimaryBlogger is as a service is spread across multiple servers and sites and isn't run by monkeys or unskilled professionals, it takes a lot of expertise to deliver a scaled Wordpress deployment.  Now you probably don't care about how big it is but the fact is if we were selling PrimaryBlogger at £200 a school per year we would be making £400,000 a year, pretty good money right but that would mean the community wouldn't grow and that would suck.  PrimaryBlogger will remain as a free blog service, last year we made £100 in total in sales of domains and additional storage purchases.   We thrive from the success of school blogs and we are rewarded by "inbound links" which in turn allows us to promote other Primary Technology products.  I have to justify the cost of PrimaryBlogger to our sales director and I do it based on the amount of respect it gets us inside of the teaching community, something not easily bought and something we don't take for granted.
+
+Wordpress is open source and free and there are a number of hosts you can move your blog to.  I suggest everyone periodically backs their blog up anyway.  It's really easy to do.  Tools -> Export..
+
+If you really want to help PrimaryBlogger, buy a domain for your blogs through us, it's only £50 per year and it will be an improvement to your blog.  I would like to employ someone full time to work on it and to build a community so if we can sell 400(one fifth of the # of blogs on PrimaryBlogger) domains that is one persons full time wage covered.  It would be way better though if we can encourage a community to become vocal and over the next few months that will be my goal.
+
+I also want to comment quickly about how [all of our findings/problems were put into the public domain](http://blog.primaryt.co.uk/).  How many other companies do you know that show you their inner workings and explain why a problem came about, how it was resolved and who resolved it?
+
+**So to reflect on what I have learned:**
+
+1. Always trim old/stale blogs from the database
+2. Tell teachers that they are out of order if they are out of order
+3. Don't do any development work on a live server the day before we're due to have all of our staff on holiday
+4. Give PrimaryBlogger's (and our other services) a community site they can go to to share experiences and knowledge
+5. We as a community need to discuss the benefits of having a blog site that has blogs with "search engines disabled"
+
+PrimaryBlogger is all about giving school pupils and teachers a voice, **we want you to be heard**.

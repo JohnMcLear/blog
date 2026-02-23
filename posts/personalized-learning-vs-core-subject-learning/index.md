@@ -1,0 +1,13 @@
+---
+title: "Personalized learning VS core subject learning"
+date: 2011-02-13
+categories: 
+  - "ict"
+  - "primary"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+I can't claim to be an expert in this area but when I saw [Malcolm's blog post](http://malbell.wordpress.com/2011/02/11/video-for-mr-gradgrove/) on this I thought he was bang on.
+
+I learn to achieve a goal, not because a government tells me to learn, I have very little else to add to the argument!

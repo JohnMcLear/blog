@@ -1,0 +1,10 @@
+---
+title: "Teach control?  Like Lego?  You will love this."
+date: 2010-10-02
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+

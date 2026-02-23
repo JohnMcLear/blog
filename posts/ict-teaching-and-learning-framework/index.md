@@ -1,0 +1,16 @@
+---
+title: "ICT teaching and learning framework"
+date: 2011-09-25
+categories: 
+  - "ict"
+  - "primary"
+  - "primary-school"
+  - "primary-school-ict"
+  - "primary-schools"
+---
+
+[Matt Lovegrove](http://twitter.com/#!/mattlovegrove) and others have done a fantastic job of writing up an ICT teaching and learning framework. I added some minor bits and suggestions and here is an updated version:
+
+[Download link](http://www.slideshare.net/johnyma22/ict-teaching-and-learning-framework-updates-by-john-mc-lear/download)
+
+I want to commend Matt Lovegrove, Steve Greenfield, David Sheppard and Claire Waite for their efforts in creating this very clear and useful document. I also want to commend them for releasing the document under a creative commons license. What a great example of teachers willing to share and work in collaboration with other teachers and educators!

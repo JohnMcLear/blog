@@ -1,0 +1,24 @@
+---
+title: "5 reasons you may regret using posterous"
+date: 2011-02-23
+categories: 
+  - "primary-school"
+  - "primary-school-ict"
+  - "wordpress"
+---
+
+Actually this is more of a Wordpress vs posterous..
+
+1. **Posterous is a closed source platform**, if you don't get closed vs open source yet then I recommend you do some reading because [open source](http://opensourceschools.org.uk/) is the corner stone of 99% of the successful publishing platforms used long term on the internet.
+
+2\. **You can't export your posterous blog to an xml file**, [you can get your blog posts](http://mikecampbell.posterous.com/how-to-backup-your-posterous-blog) but you cant export comments etc. so if you move you will lose data.
+
+3\. Did you even know you can [**post to a wordpress blog via email**](http://codex.wordpress.org/Post_to_your_blog_using_email)? Just saying... Cos y'know most people don't...
+
+4\. Applications have a natural growth pattern, posterous will eventually want to compete with the big boys and in turn **will become a complex beast** which is probably the reason you avoided other blog platforms..
+
+5\. You can't assign **plugins or widgets** ie the fantastic CBBC news feed, Primary Games Arena or BrainPOP UK widgets.
+
+Basically posterous is a short term solution that might get you started blogging but I warn you not to invest too much time into it because when you decide to move away you are going to lose data.
+
+I believe in a) open source and b) teachers using long term solutions to problems as to reduce head ache in the future. So yep, I'm biased as I run a wordpress blog site but I also feel like no one has proper addressed this issue.  It is really easy to move from posterous to a wordpress blog provider such as [PrimaryBlogger](http://primaryblogger.co.uk), just use the import tool.

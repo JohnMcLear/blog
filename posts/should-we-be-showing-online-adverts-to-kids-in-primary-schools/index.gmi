@@ -1,0 +1,119 @@
+--------------------------------------------------------------------------------
+
+title: "Should we be showing online adverts to kids in primary schools?" date: 2011-03-09 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+```html
+<iframe width="560" height="400" src="http://www.youtube.com/embed/UNJvvYOtm6Q" frameborder="0" allowfullscreen></iframe>
+```
+
+I'm slightly concerned about the amount of ads(Usually Google adsense) being displayed on websites used inside of schools with a specific focus on primary education.  In fact a lot of websites are purely ad funded and the majority of the target audience of the ads are kids.  The bigger culprit is Google Search.  I am interested in this because Safe Search[1] has no ads and pretty much no teachers see that as being a valuable part of the service.  I wonder why that is?  Are we setting a good example?
+
+My thoughts in this post don't cover kids being able to see ads at home, that's not covered within the scope of this blog post.
+
+I am going to define an Ad as something that has been promoted to be on a web page to attempt to sell or promote a service or product.  This **excludes** web pages create by companies such as Nationwide who use educational games to promote their brand to younger children.
+
+## But I just ignore Ads!
+
+Do you just ignore ads?  Do they make a difference to your purchasing decisions?  How many Ads do you see that make you want to buy a product?  Probably very few but presented with a choice we know from research you will go for the brand you are most familiar with.  Ads do work, some have positive, some negative, just seeing an Ad doesn't mean you will like a product.  The problem is that kids younger than 8 years of age struggle to see the difference between an Ad and content.
+
+Quoted from http://pediatrics.aappublications.org/cgi/content/full/118/6/2563[2]
+
+Research has shown that young children—younger than 8 years—are cognitively and psychologically defenseless against advertising.6–9 They do not understand the notion of intent to sell and frequently accept advertising claims at face value...
+
+## Inappropriate Ads.
+
+So we know that Ads work and they are having an impact on decision making but are they having an impact on learning?  We have codes in place to stop inappropriate disruptive ads from penetrating the classroom through traditional mediums.
+
+Quoted from http://www.kidsandadvertising.co.uk/how-advertising-kids-regulated.html[3]
+
+The ASA is there to uphold the regulatory codes agreed on by the industry. In brief, these codes make sure that advertising in print, radio and television is not harmful, misleading or offensive to the public. As well as reacting to complaints, the ASA is also there to monitor current advertising campaigns for breaches to the code.
+
+Within the code are dedicated directives which govern the content of marketing messages for children. These directives include rules that:
+
+1. Adverts cannot encourage children to have an unhealthy lifestyle.
+2. Adverts cannot use emotions like fear or pity to sell to children. Advertisers are also not allowed to suggest a product will make children more popular, clever or confident.
+3. Marketers must avoid high pressure techniques that may make children feel under pressure to buy an advertised product.
+
+Among advertisers this code is considered one of the toughest in Europe. So far, though, the regulation is not as tough as in Sweden and Norway, where it's illegal to advertise to kids below the age of twelve.
+
+However ASA has no jurisdiction as far as "unpaid" on-line Adverts.   Recently a new was passed giving ASA the powers to uphold complaints about misleading ads as covered by the UK advertising code[4].  So we are seeing more movement in this area and potentially more social responsibility and change.
+
+Google and other advertisers do have an option to only display Ads that are completely appropriate and pick categories so web sites can opt out of serving Ads for items such as firearms or gambling websites.  The problem is the website doesn't have to tell you and no websites do have a page that exposes the type of ads they will be publishing, this is a problem a bit like copyright/privacy where we need a simple way to identify the level of the content risk.  Search results for strings such as  "Shells" through a normal Google search often return shells for guns.
+
+In America this has been an issue for quite some time but has been mostly ignored..
+
+Quoted from http://iml.jou.ufl.edu/projects/Students/Lovstrom/frame.htm[5]
+
+CARU has been working on protecting children under 12 from on-line advertising since 1995 and just released a set of guidelines in April of 1997. CARU is part of the Better Business Bureau and hopes that through self regulation the industry's growth will not be hindered (Macavinta,1997,p.1). A few of the guidelines that CARU proposes are: The use of cartoon characters, "kid's club" sites, and interactive games, to sell products over the Net without first disclosing that the site is advertising is prohibited. Interactive sites should remind children to get parental permission before collecting personal information. On-line sites that have ordering instructions should also remind children to get their parent's permission before making a transaction(Macavinta,1997,p.1).
+
+## If you use a service to serve Education ads are you getting a bum deal?
+
+If your ads are displayed on websites that kids visit and are frequently clicked on the likelihood is you are getting a <1% conversion rate(actually making a sale) on those clicks so really you are getting a bum deal compared to if the advert was displayed to an adult.  When reviewing the websites that one of my customers Ads was on he found that 80% of his educational adverts were being displayed on websites that children were the highest consumer of the content.  The only way he could fix this was by excluding specific websites from publishing his ads.  You can see from above that we know children under the age of 8 which is ~3 years into Primary Education do click on Ads and it is likely that older pupils and teachers are not aware they are clicking on Promoted links.  I don't have any numbers to support these claims but I can say with a large degree of certainty this is happening with a greater than 0% of all website clicks inside of Primary Schools.
+
+## Is it the same as Ads on TV
+
+Adverts are taking over your TV, I don't need to tell you that.  There are of course a few exceptions to this rule, publicly funded services such as the BBC only advertise their own content which is a "bit" like a website having a link to their own content.  Let's take an IWB game with an ad on as our main example here.  The game may be on the board for 5/10 mins to support a lesson plan and during that time it is highly likely that the Ad will be visible by the pupils.  Even though it is highly unlikely that the teacher will click on this ad it is highly likely that the pupils will of seen this ad and it is also likely that it has taken their attention away from the task at hand.  Again there is very little evidence to support the claim that this is damaging learning and it may be possible it is having the opposite effect with some pupils but it is something we should be mindful of irrespective.  The point here is that the TV experience is relatively rare when compared to time spent on-line.
+
+## Tracking children through Ads
+
+Ads track you as you move around the Internet, there is no avoiding this.  Kids are being tracked as they move around, we can't exclusively say that this system cannot be exploited so a predator couldn't reverse engineer this tracking to profile his victims.
+
+Quote: http://mashable.com/2011/02/24/online-tracking-kids/[6]
+
+After years of complaints from consumers, industry leaders have finally begun to acknowledge the enormity of the privacy issue. Now it is time to step up and make it easier for parents and kids to protect themselves. Through a combination of legislative action and advocacy, we can make the web safer for kids.
+
+## Teaching kids about advertisements
+
+Admongo[7] is a game available on Primary Games Arena that teaches kids to be mindful about Adverts.
+
+Media Awareness have a lesson plan available here[8]
+
+## **Scale of problem compared to other threats**
+
+When we look at advertising it is easy to lose track on the scale of the problem when compared to threats such as virus', trojans and it's completely normal for adverts to be used to provide these threats:
+
+Quoted: http://www.bbc.co.uk/news/technology-12608651[9]
+
+http://www.bbc.co.uk/news/technology-12608651[10]Tens of thousands of people could have been caught out by cyber criminals who put booby-trapped adverts on popular webpages.
+
+So we can summarize that adverts are also a cause of other online threats so by considering them as an e-safety threat or risk (even if extremely low level when compared to "posting personal data online") we can put adverts on educational websites into a "box" of risk and therefore do a risk assessment on them.
+
+## What can you do?
+
+1. Use Safe Search[11] instead of Google Search
+2. Teach kids about Ads using this interactive game[12]
+3. Investigate websites and do risk assessment for Adverts prior to using them
+
+## What's next?  A brave new world.
+
+Quoted: http://www.news-journalonline.com/opinion/editorials/n-j-editorials/2011/03/02/ad-revenue-is-tempting-for-state-lawmakers.html[13]
+
+Locally, Volusia County School Board members have approved selling ads on the district's website, but have ruled the interiors of school buses off limits.
+
+## More reading
+
+Advertising to children on TV: content, impact, and regulation By Barrie Gunter, Caroline Oates, Mark Blades[14]
+
+Advertising on the TV Vs Internet[15]
+
+=> http://primaryschoolict.com 1: http://primaryschoolict.com
+=> http://pediatrics.aappublications.org/cgi/content/full/118/6/2563 2: http://pediatrics.aappublications.org/cgi/content/full/118/6/2563
+=> http://www.kidsandadvertising.co.uk/how-advertising-kids-regulated.html 3: http://www.kidsandadvertising.co.uk/how-advertising-kids-regulated.html
+=> http://www.asa.org.uk/Advertising-Codes.aspx 4: http://www.asa.org.uk/Advertising-Codes.aspx
+=> http://iml.jou.ufl.edu/projects/Students/Lovstrom/frame.htm 5: http://iml.jou.ufl.edu/projects/Students/Lovstrom/frame.htm
+=> http://mashable.com/2011/02/24/online-tracking-kids/ 6: http://mashable.com/2011/02/24/online-tracking-kids/
+=> http://primarygamesarena.com/redirect.php?id=10216 7: http://primarygamesarena.com/redirect.php?id=10216
+=> http://www.media-awareness.ca/english/resources/educational/lessons/secondary/internet/online_kids_strategies.cfm 8: http://www.media-awareness.ca/english/resources/educational/lessons/secondary/internet/online_kids_strategies.cfm
+=> http://www.bbc.co.uk/news/technology-12608651 9: http://www.bbc.co.uk/news/technology-12608651
+=> http://www.bbc.co.uk/news/technology-12608651 10: http://www.bbc.co.uk/news/technology-12608651
+=> http://primaryschoolict.com 11: http://primaryschoolict.com
+=> http://primarygamesarena.com/redirect.php?id=10216 12: http://primarygamesarena.com/redirect.php?id=10216
+=> http://www.news-journalonline.com/opinion/editorials/n-j-editorials/2011/03/02/ad-revenue-is-tempting-for-state-lawmakers.html 13: http://www.news-journalonline.com/opinion/editorials/n-j-editorials/2011/03/02/ad-revenue-is-tempting-for-state-lawmakers.html
+=> http://books.google.com/books?id=y3ZLN1jcpngC&amp;pg=PA55&amp;lpg=PA55&amp;dq=cynicism+advertising+young+children&amp;source=bl&amp;ots=km_DbjGizA&amp;sig=1r3YOPty_LflbogH278eJtFX1fE&amp;hl=en&amp;ei=189wTffzFYe3hQfv-Zk5&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=4&amp;ved=0CDwQ6AEwAw#v=onepage&amp;q=cynicism%20advertising%20young%20children&amp;f=false 14: http://books.google.com/books?id=y3ZLN1jcpngC&amp;pg=PA55&amp;lpg=PA55&amp;dq=cynicism+advertising+young+children&amp;source=bl&amp;ots=km_DbjGizA&amp;sig=1r3YOPty_LflbogH278eJtFX1fE&amp;hl=en&amp;ei=189wTffzFYe3hQfv-Zk5&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=4&amp;ved=0CDwQ6AEwAw#v=onepage&amp;q=cynicism%20advertising%20young%20children&amp;f=false
+=> http://www.media-awareness.ca/english/resources/educational/handouts/internet/tv_versus_internet.cfm 15: http://www.media-awareness.ca/english/resources/educational/handouts/internet/tv_versus_internet.cfm

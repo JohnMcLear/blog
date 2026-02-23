@@ -1,0 +1,6 @@
+---
+title: "Adios Amigos!"
+date: 2012-09-28
+---
+
+This will be my last blog post for a while, thanks for visiting and reading :) I will be back with awesome new things and stuff and joyful goodness in the future!

@@ -1,0 +1,58 @@
+---
+title: "XPArena - Slowly, slowly."
+date: 2010-09-24
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+  - "xp"
+  - "xpa"
+  - "xparena"
+---
+
+WARNING: This is a horrible idea for a use of technology. It completely dehumanizes pupils. It was an abstract idea and is left here for historical purposes. Since I wrote this some companies have begun developing this tool, these companies should be ashamed of themselves and [read this to begin walking their path of enlightenment](http://www.alfiekohn.org/books/pbr.htm)
+
+[![](images/09c_escalator_up_inv11-300x300.png "09c_escalator_up_inv1[1]")](https://mclear.co.uk/wp-content/uploads/2010/09/09c_escalator_up_inv11.png)Me and Chad have been chatting about the [scoring / reward / xp mechanism](https://mclear.co.uk/sites/xparena-a-decentralized-learning-reward-platform/) and how we can use it to try to encourage learners to "learn more".
+
+Without going off on one  I wanted to quickly update everyone with where we are at.   By we I mean the 3 developers, 1 designers and 2 teachers working on the project.
+
+## More than one user interface for primary age kids.
+
+Whoa, now this is big. But it is right. The problem is that primary kids web based skills are developing so quickly at home that at 9-12 year old 3 years ago is the equivalent of a 6-8 year old now in the way they negotiate web sites. This report recently published suggests 2 interfaces, 6-8 then 9-12. My brain explodes.  So many providers just provide one interface, us included.  I often pondered this but to [read it in this report](http://www.useit.com/alertbox/children.html) confirmed it for me.
+
+## XPArena should therefore be theme-able
+
+So these are the themes we hope to make available:
+
+- A very basic theme for 6-8
+- A slightly more advanced theme or 9-12
+- A theme for teenagers.
+- A theme for adults.  <-- Will adult learners actually be engaged by a mechanism such as XPArena?
+
+## How do we compete with facebook?
+
+We don't try to.  We must leverage social networks by writing plugins/addons.  Our current list reads:
+
+- Wordpress
+- Facebook
+- Twitter
+- Ning
+- Moodle
+
+Note: We wont promote any of these services directly to the user.
+
+## When will XPArena be live?
+
+I don't even have a due date or anything for this, it's not because I don't want to do it.  Over the last month I have bashed our [SearchyPants](http://searchypants.com) and [Satpin](http://satpin.com), the reason for making those sites specifically is because they don't have any layers of complexity, they are simplified versions of already existing relatively well understood concepts.  So I guess maybe early 2011.  I'm currently waiting on Ning developer access so I can see if it is possible to easily send points from a ning post to XPArena.
+
+**I really need teacher help with this project** so if you can see a use for it **please get in touch** because without it being tested in it's beta stage it could end up growing into something that completely misses the point.  I'm considering writing it for Ruby on Rails.  There, I said it.
+
+## Will XPArena be the point scoring mechanism?
+
+Usually what happens is some well marketed system comes along and forks off our existing source code, closes it off then calls it their own.  I'm fine with that.  The only way we can compete against big business is with transparency and by proving to educators we are being security concious.   The main thing XPArena will need to do is facilitate new learning tools as they are launched.  Services like Edmodo will fall by the way side as they have no API/developer tools, schools will hopefully become aware of this ability to link tools together and begin choosing the open system..  Of course this in theory..
+
+## So I have some (rough) designs, what do you think?
+
+Obviously these designs are aimed at 6-8, maybe 9-12 too..
+
+\[gallery\]

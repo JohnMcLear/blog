@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+
+title: "3 reasons I can't use the Jolla handset" date: 2014-01-14 tags:
+
+* "email"
+* "functionality"
+* "jolla"
+* "nfc"
+* "ui"
+* "ux"
+
+--------------------------------------------------------------------------------
+
+=> images/guvcview_image-1-550x309.jpg guvcview_image-1 [IMG]
+[1]
+
+## Email slowness
+
+Exchange Emails are horribly slow to come through, emails don't update in general (after delete event etc.). I recieve/send thousands of emails each day so when this feature is lacking I'm really scuppered. Why no button to SEND emails when composing? This seems like a no brainer.. A task I do many times a day now takes at least 5 times longer, there is no sense in this.. This should be fixed in a software update and maybe it's being worked on right now, I really hope so...
+
+## No NFC Support
+
+Despite the Jolla rocking an NFC chip for some reason you can't get any NFC functionality, this seems somewhat insane and I hope it's fixed in a future update. If it is, please comment :)
+
+## UX overly focused on swipe gestures
+
+The trend away from buttons and towards UI is really bad. The UX is confusing and feels fragmented, it's not as if the UI is cluttered neither, it just feels like you do it their way or no way at all.. They should check out Tinder as a good UX reference. The simple and right solution here is to introduce buttons aswell as swipe gestures like y'know, every other frigging phone.
+
+## Summary
+
+Overall the handset feels okay, I'm pleased it's built by a European company and that it should serve as a competitor to the US giants but until the 3 key issues above are resolved I can't use it as a daily driver so I'm switching back to my Huawei (Android). I tried to use it for ~24 hours, probably not long enough to really get used to the UX, I didn't find anything "nice", it all felt a bit dissapointing for the price point but I'm not writing Jolla off. The brand and image is strong, the hardware is sturdy, would I recommend it to consumers right now? No. Would I recommend it to developers? No. So who is this phone for? It's for advocates of open source and believers that we need a numbers of suppliers in the phone market so we don't fall into the Microsoft style monopoly that we had on the desktops..
+
+### Watch out for Google people, they are gonna fsk your shit up.
+
+=> https://mclear.co.uk/wp-content/uploads/2014/01/guvcview_image-1.jpg 1: https://mclear.co.uk/wp-content/uploads/2014/01/guvcview_image-1.jpg

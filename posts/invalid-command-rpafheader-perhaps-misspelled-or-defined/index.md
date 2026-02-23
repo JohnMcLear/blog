@@ -1,0 +1,14 @@
+---
+title: "Invalid command 'RPAFheader', perhaps misspelled or defined"
+date: 2011-07-25
+categories: 
+  - "website"
+---
+
+When you attempt to restart Apache you may see: \[Mon Jul 25 12:40:23 2011\] \[warn\] module rpaf\_module is already loaded, skipping \[Mon Jul 25 12:40:23 2011\] \[warn\] module rpaf\_module is already loaded, skipping
+
+This means it has loaded the old rpaf module.. For me I had to jump into: mods-enabled/rpaf.load
+
+and comment out the old mod\_rpaf module.
+
+Simples!

@@ -1,0 +1,61 @@
+---
+title: "Installing Sugar (Soas) onto Windows Virtual PC 2007"
+date: 2009-10-18
+categories: 
+  - "microsoft"
+  - "pc"
+  - "sugar"
+  - "virtual"
+---
+
+Sugar won't install by default. I have tried hitting tab and adding **noreplace-paravirt to no avail :(**
+
+  
+
+This is a screen dump of what I have..
+
+  
+
+[![](images/sugar.png)](http://4.bp.blogspot.com/_NislCXjnul0/StsvXbvx3OI/AAAAAAAACR0/cA4HTVcxVsY/s1600-h/sugar.png)
+
+  
+
+Adding **add vga=0x32D will boot me into the GUI but I have no mouse!**
+
+  
+
+Adding i8042.noloop gives me a mouse!
+
+  
+
+How to do it:
+
+  
+
+Grab the ISO Image from [http://wiki.sugarlabs.org/go/Downloads](http://wiki.sugarlabs.org/go/Downloads)
+
+1. Create a Virtual PC
+2. Set RAM to 256MB
+3. Mount Sugar ISO image
+4. Start up your Virtual PC
+5. A message will pop up saying "Automatic boot up in 1 second" - Hit TAB!
+6. You will see a line saying "vmlinuz0 initrd=initrd0.img root=CDLABEL=Soas2-200906221314 rootfstype=auto ro liveimg quiet rhbg". Remove the last 2 words (quiet and rhbg)
+7. Add "vga=0x32D i8042.noloop" to the end of the line
+
+The line should read...
+
+  
+
+**vmlinuz0 initrd=initrd0.img root=CDLABEL=Soas2-200906221314 rootfstype=auto ro liveimg vga=0x32D i8042.noloop**
+
+  
+
+\*Note the CDLABEL value may change dependant on the release you use!
+
+  
+
+\*\*Note Files will not be saved in this version, there will be no persistence so updates will not be saved either. This is not the case if you boot from a USB Key
+
+  
+
+Congrats - Working Sugar on a virtual PC :)

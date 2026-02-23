@@ -1,0 +1,6 @@
+---
+title: "Duck Bacon"
+date: 2009-07-22
+---
+
+[![](images/duckbacon.jpg)](http://2.bp.blogspot.com/_NislCXjnul0/SmeClJDkTyI/AAAAAAAABuM/zwdUaNwLC7Q/s1600-h/duckbacon.jpg)

@@ -1,0 +1,35 @@
+---
+title: "Less Than Thirty Seven &lt;3 7"
+date: 2009-09-07
+categories: 
+  - "operating-system"
+  - "primary-school-ict"
+  - "ssd"
+  - "windows-7"
+---
+
+Today I was inspired, not by a book or a speech but by an operating system.
+
+  
+
+Windows 7 is now running on an OCZ SSD hard disk, I still only have 2 GB of ram but this thing is working blistering fast and so smoothly that my productivity has risen dramatically.
+
+  
+
+Every option seems to make sense in windows 7, nothing is overly annoying. The restrictive stuff put in for non techy users is easily disabled allowing me to get on with everything I need to.
+
+  
+
+I'm running a few things in XP compatibility mode so I get the icons in the system tray. All of my applications are working a treat and settings have been easy to migrate.
+
+  
+
+I am in the process of planning a windows 7 deployment at a primary school and I hope to post the results of our tests in the future.
+
+  
+
+My hope: SSD disks come down in £ per Mb.
+
+  
+
+Show some love people, show some love.

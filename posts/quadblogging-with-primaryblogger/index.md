@@ -1,0 +1,53 @@
+---
+title: "Quadblogging with PrimaryBlogger"
+date: 2011-11-21
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primaryblogger"
+---
+
+This is a guest post by David Mitchell.
+
+So, if you’re reading this, the chances are you are a blogger, if you’re not a blogger, your class might be bloggers and if your class are not blogging, the very fact you are here reading this suggests that you probably should be.
+
+I started blogging with my class less than two years ago. In that time, blogging has transformed my teaching, my attitude and my learning too. Blogging has become a very powerful tool in my teacher’s toolbox. Through hard work and some good luck, I have managed to develop a large audience for my pupils to showcase their talents to. Through the use of Twitter, I have tweeted links each day – sometimes as many as 20 per day out to the world. If people don’t like what I am tweeting about it’s simple, they can ‘unfollow’ me. Believe me, many have – and told me too!
+
+During my time researching blogging, supporting other blogging teachers an just observing new blogs, one thing has become very clear. Building an audience takes time. It took me about 2 months to get regular stream of visitors to my first class blog: (www.y62010.heathfieldcps.net) back in December 2009. I have seen so many teacher start blogging with their class and either because they lost interest or their pupils lost interest the once exciting new platform that promised so much – delivered very little!
+
+Here’s where a little idea I had could help you out…
+
+Imagine 4 schools or classes of similar aged pupils from different parts of the world. All sharing one common objective – to publish their learning to a global audience. Instead of waiting 2-3 months to get your audience, why not use the community around you to support you in these first months. This is where QuadBlogging comes in. It’s free, takes 1 minute to sign up to and promises to deliver a truly global audience of like minded people to your class blog.
+
+Here’s how it works:
+
+<iframe width="560" height="465" src="http://www.youtube.com/embed/DgZ3X0e67Tc" frameborder="0" allowfullscreen></iframe>
+
+Here’s what Miss B’s Class think about QuadBlogging and the impact it has had on the children:
+
+<iframe width="560" height="365" src="http://www.youtube.com/embed/ivDeXYB2IsA" frameborder="0" allowfullscreen></iframe>
+
+QuadBlogging has been going from strength to strength. The September to December cycle has have over 500 classes from 18 countries. We’re talking somewhere in the region of 15,000 – 20,000 pupils from around the world. Sign up allows you to specify where you’d like some of your Quaddies to be from as a result, allowing you to fit QuadBlogging into your curriculum. The next round of QuadBlogging sees registration open right now. The cycle will run from January 2012 – April 2012:
+
+[Sign up here: www.QuadBlogging.net](http://www.quadblogging.net)
+
+Here’s what some teachers already QuadBlogging have to say about it:
+
+“Hightlights of Quadblogging? All of it! The children in my class are absolutely absorbed and loving our purposeful learning journey around the world. Each day brings something new to our classroom. You can’t “plan” that!  
+We are Skyping to meet our Australian buddies today.  
+Thank you for introducing Quadblogging to us!”
+
+“Quadblogging offers so many fantastic opportunities to connect with others all over the world! My students are 5-6 year olds and they are learning so much from our quaddies. There is great excitement and engagement in the classroom everyday as we explore the different blogs and ask questions and write comments to our new friends. Our blog says it all –http://prepblackburnsouth.blogspot.com/  
+What an amazing initiative – linking students and teachers from all over the world. Thank you!”
+
+“WOW! Quadblogging has been awesome – an intentional response to our writing which is fantastic for the children to read. It’s authentic feedback from other students and we can’t put a price on that! The class have absolutely hung on every word written by their buddies and have avidly searched through each other blog for interesting ideas to compare and contrast to their own. We have truly gone global through this and their sense of their place in the world has really become a reality. Quadblogging rocks!”
+
+Registration is free and easy, the impact could be huge and powerful!
+
+[www.quadblogging.net](http://www.quadblogging.net)
+
+David Mitchell  
+aka @DeputyMitchell  
+Founder of QuadBlogging
+
+[Report Post As Inappropriate](http://blog.primaryt.co.uk?moderation_action=report_form&object_type=post&object_id=1021&width=250&height=300 "Report Post As Inappropriate")

@@ -1,0 +1,6 @@
+---
+title: "Locked in space"
+date: 2011-10-17
+---
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Ws6AAhTw7RA" frameborder="0" allowfullscreen></iframe>

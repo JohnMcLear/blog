@@ -1,0 +1,40 @@
+---
+title: "fsc Could not connect to compilation daemon in CentOS"
+date: 2010-08-20
+categories: 
+  - "etherpad"
+---
+
+Trying to install etherpad on CentOS and I ran into the fsc issue. Scalac throws a load of errors during compile so that's a non starter. Interestingly enough even if you change fsc to scalac in comp.sh you still get fsc errors. Even overwriting the fsc binary w/ the scalac binary throws errors..
+
+scala version: 2.8.0 (installed from tar) also tested 2.7.7
+
+**Error output:**
+
+\[bash\] # fsc -verbose \[Server arguments: -d /usr/share/etherpad/. -verbose\] \[VM arguments: \] \[Temp directory: /tmp/scala-devel/root\] \[Executed command: List(/usr/local/scala/scala-2.8.0.final/bin/scala, scala.tools.nsc.CompileServer)\] \[Port number: -1\] Could not connect to compilation daemon. \[/bash\]
+
+**selinux is disabled:**
+
+\[bash\] # /usr/sbin/sestatus SELinux status: disabled \[/bash\]
+
+**Paths set as:**
+
+\[bash\] # export | grep SCALA declare -x SCALA="/usr/local/scala/scala-2.8.0.final/bin/scala" declare -x SCALA\_HOME="/usr/local/scala/scala-2.8.0.final" declare -x SCALA\_LIBRARY\_JAR="/usr/local/scala/default/lib/scala-library.jar" \[/bash\]
+
+**/etc/hosts is correct, we can ping localhost:**
+
+\[bash\] # ping localhost PING localhost (127.0.0.1) 56(84) bytes of data. 64 bytes from localhost (127.0.0.1): icmp\_seq=1 ttl=64 time=0.047 ms 64 bytes from localhost (127.0.0.1): icmp\_seq=2 ttl=64 time=0.047 ms \[/bash\]
+
+**Tried fsc -reset to no avail:**
+
+\[bash\] # fsc -reset Could not connect to compilation daemon. \[/bash\]
+
+**Anyone any other suggestions?**
+
+Note: I was able to get it to compile the .jar file after a hell of a lot of tweeking and playing around w/ scala\_home etc.  However fsc still fails/failed.  Spent quite a lot of hours on this, would be nice to get a resolution to the fsc issue.
+
+**Note:** Last time I helped someone with this it was due to the VPS (don't try to install Etherpad on a VPS) didn't provide swap space so erm, yeah..  Of course scala and fsc didn't work properly..  I isolated this by doing
+
+\[bash\] scala -verbose >> logfile.log 2>&1 \[/bash\]
+
+The error I got was [this one](http://www.google.co.uk/search?rlz=1C1GGLS_en-GBGB344GB344&sourceid=chrome&ie=UTF-8&q=java.io.IOException:+Cannot+run+program+%22sh%22:+java.io.IOException:+error%3D12,+Cannot+allocate+memory) which is commonly related to VPS'...

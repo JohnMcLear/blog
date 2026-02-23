@@ -1,0 +1,35 @@
+---
+title: "HTC hero camcorder audio 3gp"
+date: 2009-09-21
+categories: 
+  - "3gp"
+  - "audio"
+  - "camcorder"
+  - "hero"
+  - "htc"
+  - "htc-hero"
+  - "samr"
+  - "youtube"
+---
+
+The HTC Hero ships with a camcorder that records audio and video in 3gp mode using an audio encoder called "samr" (according to VLC)  
+  
+VLC Errors: "VLC does not support the audio or video format "samr". Unfortunately there is no way for you to fix this." When you try to play the file and windows media player also plays no audio although doesn't throw up any errors.  
+
+  
+
+If the file is bigger than 3MB you cannot upload it to You tube so you are left with a video file you can only play the video from and not audio. Not great.
+
+  
+
+**To watch these files download** [**quicktime**](http://www.apple.com/quicktime/download/) **(The audio will work)**
+
+  
+
+OR
+
+  
+
+**Upload the file to Youtube** from your PC and let them handle the conversion for you :)
+
+(To do this mount the device using a USB cable and browse to the video folder)

@@ -1,0 +1,24 @@
+---
+title: "NEW RELEASE: Etherpad Lite v1.1"
+date: 2012-05-29
+categories: 
+  - "features"
+---
+
+**Major Features:**
+
+1. [Rich Text editing IE Headings](http://etherpad.org/2012/05/29/plugin-spotlight-font-headings-ie-different-font-sizes/)
+2. A Plugin Framework for developing, enabling and disabling plugins
+3. [Video conferencing](http://etherpad.org/2012/05/29/plugin-spotlight-video-conferencing-with-tokbox/)
+4. Read only real time updates
+5. Syntax highlighting
+
+It’s been a real busy road getting to this point but we’re finally happy with the current status. Big thanks goes to Chad, Egil, Matthias, Robin and a **huge thanks** to our contributors, sponsors and supporters.
+
+If you aren’t familiar with Etherpad Lite then check it out below! For those who still don’t get it, it’s a pure web based collaborative editor that’s open source and our goal is make collaborative editing the standard on the web (but only if you want it).
+
+<iframe src="http://beta.etherpad.org/p/v11releaseYAY" width="650px" height="600px&quot;"></iframe>
+
+[How to upgrade from Etherpad Lite V1](http://etherpad.org/2012/05/29/etherpad-lite-v1-to-etherpad-v1-1-upgrade-path/)
+
+New to Etherpad but want to get started? [Visit our github repo](http://github.com/Pita/etherpad-lite/)

@@ -1,0 +1,71 @@
+---
+title: "Publishing to Npm on Git commit using Github Hooks and Travis"
+date: 2013-10-06
+categories: 
+  - "javascript"
+  - "nodejs"
+tags: 
+  - "etherpad"
+  - "nodejs"
+  - "npm"
+  - "npmjs"
+  - "travis"
+---
+
+Travis-CI can auto "npm publish" your git repo to npmjs, this means that whenever you commit to your github repository your software is always updated and available to users via npm update. This should also work with pull requests so no need to jump onto CLI After a merge, just hit merge and after a few minutes / hours you should see your application updated on npmjs.
+
+## Step 1.
+
+[Create Travis-CI account](https://travis-ci.org), ideally signing in with your github account.
+
+## Step 2.
+
+Find the repository you want to auto publish on the Travis Web interface (under your profile) and click Enable.
+
+## Step 3.
+
+Install Ruby Gems
+
+\[code\]sudo apt-get install rubygems\[/code\]
+
+## Step 4.
+
+Install travis CLI gem and json gem
+
+\[code\]sudo gem install json\[/code\]
+
+\[code\]gem install travis\[/code\]
+
+## Step 5.
+
+Create a .travis.yml file in the root of your repository that looks like this (replacing your email)
+
+\[code\] language: node\_js deploy: api\_key: email: your@emailhere.com provider: npm \[/code\]
+
+## Step 6.
+
+Get your npmjs api key and copy it into the clip board (Copy the bit after the \_auth =)
+
+\[code\] cat ~/.npmrc | grep \_auth \[/code\]
+
+## Step 7.
+
+Run the Travis CI secret key generator
+
+\[code\] travis encrypt --add deploy.api\_key \[/code\]
+
+When prompted paste your APIKey then hit Control D, don't add an additional line break or enter.
+
+## Step 8.
+
+Add, Commit and Push the new .travis.yml file, this will trigger a build on Travis
+
+\[code\] git add .travis.yml && git commit -m "Travis auto publish config" && git push \[/code\]
+
+## Step 9.
+
+[Head over to your Travis page](https://travis-ci.org) and wait for your build to begin, if it doesn't it's likely you didn't push correctly up to github.
+
+## Doing lots of packages?
+
+You will only need to complete steps 5 to 9 on future packages (assuming you enabled them on travis)

@@ -1,0 +1,22 @@
+---
+title: "How to enforce safe search with google search cse"
+date: 2010-09-10
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+  - "safe"
+  - "safe-search"
+---
+
+Enforce Safe Search by passing name=safe value=vss
+
+I assume VSS stands for Very Safe Search
+
+This will **disable** the ability for a user to change their safe search settings from strict to off.
+
+Here is an example for you
+
+\[html\] <form action="http://www.google.com/cse" id="cse-search-box"> <div> <input type="hidden" name="cx" value="000753778363423014722:xie0vouxf9m" /> <input type="hidden" name="ie" value="UTF-8" /> <input type="hidden" name="filter" value="1" /> <input type="text" name="q" size="35" style="font: normal 25px Arial; line-height:25px;" id="q"/> <input type="hidden" name="safe" value=vss /> <input type="submit" name="sa" value="Safe Search" style="font: normal 25px Arial; line-height:25px;" onClick="checksearch()"/> </div> </form>
+
+\[/html\]

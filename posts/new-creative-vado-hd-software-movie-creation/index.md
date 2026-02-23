@@ -1,0 +1,18 @@
+---
+title: "New Creative Vado HD software Movie creation has been removed"
+date: 2010-05-10
+---
+
+So, I'm waiting on confirmation for this but it looks like the team at Creative have **removed the ability to make edited movies**/videos from within the Vado Central software on the latest Creative Vado HD cameras.  
+
+What does this mean in real terms for a teacher?  No ability to put on text before or after your video footage & no ability to add nice themes to your video.  The software on the Vado was probably one of the most impressive things about it, now they have destroyed that I'm not so sure how I feel about the plucky plastic video snapper.
+
+This is a **very bad decision**. What are Creative thinking? They also made the buttons less obvious they have been pressed too making the device slightly less accessible for early years children.
+
+This is the old camera that does support making a movie.   The new version looks like a chav'd up renault 5.
+
+Old version:
+
+[![](images/vadohd_back1.jpg "vadohd_back[1]")](https://mclear.co.uk/wp-content/uploads/2010/05/vadohd_back1.jpg)New version:
+
+[![](images/creative_vado-hd_3rdgen1.jpg "creative_vado-hd_3rdgen[1]")](https://mclear.co.uk/wp-content/uploads/2010/05/creative_vado-hd_3rdgen1.jpg)

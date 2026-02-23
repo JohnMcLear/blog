@@ -1,0 +1,17 @@
+---
+title: "NEC projector URL to turn on and off."
+date: 2019-03-13
+categories: 
+  - "home"
+  - "projector"
+---
+
+While setting up some home automation I found the best way to remotely control my projector was to just hit up some conveniently exposed URIs. Thanks NEC!
+
+You will need to network your projector and you might need to turn some sort of web control, afaik I didn't but your mileage may vary.
+
+**Turn Off** `http://projectorHostname/cgi-bin/pjctrl.cgi.elf?D=%05%02%01%00%00%00`
+
+**Turn On** `http://projectorHostname/cgi-bin/pjctrl.cgi.elf?D=%05%02%00%00%00%00`
+
+Note that the web UI should stay up even though the projector is "off" although this may only apply to the duration while the projector is "turning off" and once it is fully "off" (IE the fans have cooled the bulb sufficiently) you may lose access to the web UI.

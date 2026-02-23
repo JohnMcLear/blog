@@ -1,0 +1,12 @@
+---
+title: "Nintendo 3DS review"
+date: 2011-04-28
+categories: 
+  - "3d"
+  - "games-based-learning"
+  - "gaming"
+  - "gbl"
+  - "review"
+---
+
+So I was going to write a Nintendo 3DS review but [the escapist](http://www.escapistmagazine.com) did it for me. He even mentioned Primary Schools and e-safety... The escapist is awesome but I should warn you that **this video may offend you as it contains strong language and some really bad graphics**.

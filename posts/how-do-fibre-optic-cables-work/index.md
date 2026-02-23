@@ -1,0 +1,10 @@
+---
+title: "How do fibre optic cables work?"
+date: 2011-06-21
+categories: 
+  - "ict"
+---
+
+Great video from the engineering guy!
+
+<iframe width="560" height="349" src="http://www.youtube.com/embed/0MwMkBET_5I" frameborder="0" allowfullscreen></iframe>

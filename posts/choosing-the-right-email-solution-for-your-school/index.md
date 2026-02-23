@@ -1,0 +1,22 @@
+---
+title: "Choosing the right email solution for your school."
+date: 2010-01-13
+categories: 
+  - "ict"
+  - "primary-school-email"
+  - "school-email"
+---
+
+You may think that choosing an email solution for your school is straight forward, but over the recent years more and more companies have moved into the Email for schools market. This means you now have a selection of different vendors that can provide very different email solutions.
+
+  
+
+Let’s take a look at the different options and what they can offer your school.
+
+  
+
+[![](images/email_comparison.png)](http://4.bp.blogspot.com/_NislCXjnul0/S01CE-JpiuI/AAAAAAAACh4/Qe2WYMttNTM/s1600-h/email_comparison.png)
+
+Excluded from this comparison are "internal only" email systems as I fail to see how they offer anything more than the systems that offer both internal and external access with an option to turn off external access.. Also excluded are VLE "solutions" that "have" email because let's face it, if I was comparing dishwashers I wouldn't include fitted kitchens....
+
+Part 2 coming next week.

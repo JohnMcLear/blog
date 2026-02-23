@@ -1,0 +1,42 @@
+---
+title: "Xbox Live Games on Windows Mobile 7"
+date: 2010-08-17
+categories: 
+  - "educational-games"
+  - "games-based-learning"
+  - "gbl"
+  - "hand-held-learning"
+  - "handheld"
+  - "microsoft"
+  - "mobile"
+tags: 
+  - "game"
+  - "microsoft"
+  - "xbox"
+---
+
+So I don't feel emotional about this, that pretty much sums it up..
+
+I think its cool that Microsoft are trying but I don't believe it's enough.  Shame though because I think a load of educational games tied into an Xbox live type reward structure would be highly motivating and more motivating than a [reward structure that is purely focused on Edu](https://mclear.co.uk/sites/xparena-a-decentralized-learning-reward-platform/).
+
+5 main barriers for Microsoft:
+
+1. WM7 has too much catchup to do on android
+2. WM7 doesn't have a following of developers
+3. WM7 devices wont be as open as android
+4. The Xbox live market is pretty small (compared to Google owned farmville etc.)
+5. Lots of xbox live games just wont translate well to mobile (control/interface issues etc).
+
+Will I be looking to develop some educational games for xbox live?  Nah.  I'd rather stick with Flash/HTML5 games and a [free/open scoring/reward mechanism](https://mclear.co.uk/sites/xparena-a-decentralized-learning-reward-platform/).
+
+[Further reading on xbox live on WM7 is available here](http://www.engadget.com/2010/08/16/xbox-live-launch-titles-for-windows-phone-7-finally-revealed-we/).
+
+###### Related articles by Zemanta
+
+- [Microsoft Looks to Xbox to Help Drive Windows Phone 7 Success](http://www.webpronews.com/topnews/2010/08/17/microsoft-looks-to-xbox-to-help-drive-windows-phone-7-success) (webpronews.com)
+- Microsoft links new smart phones to Xbox Live (independent.co.uk)
+- [Microsoft unveils Xbox LIVE games lineup for Windows Phone 7](http://www.gizmag.com/xbox-live-launch-games-for-windows-phone-7/16052/) (gizmag.com)
+- [Microsoft Links Windows Phone 7 To Xbox Live (VIDEO)](http://www.huffingtonpost.com/2010/08/17/windows-phone-7-links-to-_n_684495.html) (huffingtonpost.com)
+- [Microsoft links new smart phones to Xbox Live](http://seattletimes.nwsource.com/html/businesstechnology/2012638790_apustecmicrosoftmobilexboxlive.html?syndication=rss) (seattletimes.nwsource.com)
+
+[![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

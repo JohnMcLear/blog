@@ -1,0 +1,29 @@
+---
+title: "Safe Search Ad free plugin for wordpress &amp; wpmu"
+date: 2009-12-27
+categories: 
+  - "esafety"
+  - "google"
+  - "primary-school-safe-search"
+  - "safe-search"
+  - "wordpress"
+---
+
+**Description:**
+
+  
+
+Put an ad free Google Safe Search for Schools onto your wordpress blog. This widget is powered by Google CSE and is very simple, the CSE is provided by [http://primaryschoolict.com](http://primaryschoolict.com/) which is run by a team of educators and emphasizes educational results.
+
+  
+
+**Installation:**
+
+1. Download from here
+2. Unzip to wp-contents/plugins
+3. Activate site wide (In plugins)
+4. Log into wp-admin
+5. Click Appearance > Widgets
+6. Drag the widget onto your sidebar
+
+**Example:**

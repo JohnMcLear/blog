@@ -1,0 +1,6 @@
+---
+title: "Persuasive writing"
+date: 2011-05-19
+---
+
+![](images/2r5qf4p.jpg)

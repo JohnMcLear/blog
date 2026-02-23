@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+
+title: "Owl Nagios check plugin - Basic example inc. Source" date: 2010-05-17 categories:
+
+* "ict"
+* "nagios"
+
+--------------------------------------------------------------------------------
+
+[caption id="" align="alignright" width="240" caption="Image by shannonpatrick17 via Flickr"]
+=> images/2398908753_c2f008d3fa_m.jpg 1hr41min 1.563e+010 q19.179 dark green on whit... [IMG]
+[1][/caption]
+
+I wanted to make a nagios[2] check for the OWL energy meter.
+
+First thing to note, don't run any of the owl stuff while trying to run the check.
+
+Secondly, I included the source so feel free to use Visual C# to hack it.
+
+Third thing is, well, the OWL sensor software is very slow to respond, infact if you don't get any response from it after a few minutes I recommend turning the kettle on.  The check may take up to 10 minutes (how lame is that?) so I recommend you increase your time outs.
+
+Finally I'm not familiar with Visual Studio, that's why I did so little in Windows.  I just wanted an output I could work with in a nice dark environment.
+
+The check in **bin\release\sensorapp.exe** waits for a signal from the transmitter then echos it to command line[3].  Do with it what you will.  I'm pulling it into a simple .bat file.
+
+Grab the files[4]
+
+=> images/reblog_e.png Reblog this post [with Zemanta] [IMG]
+
+=> http://www.flickr.com/photos/10799351@N00/2398908753 1: http://www.flickr.com/photos/10799351@N00/2398908753
+=> http://nagios.org 2: http://nagios.org
+=> http://en.wikipedia.org/wiki/Command-line_interface 3: http://en.wikipedia.org/wiki/Command-line_interface
+=> http://primaryschoolict.com/sensorapp.zip 4: http://primaryschoolict.com/sensorapp.zip

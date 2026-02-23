@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+
+title: "Running Etherpad on PHP on Apache" date: 2012-02-20 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+**Etherpad does not use PHP or Apache.**
+
+Etherpad uses Javascript in NodeJS. You should ask your web host if they support NodeJS and if they have a guide for you to get started deploying NodeJS apps to their hosting.
+
+Here are some services that can provide web/Node hosting for you to test/play with:
+
+## Node as an Instance
+
+http://nodester.com/[1] https://no.de/[2] http://prgmr.com[3] http://Slicehost.com[4] http://Linode.com[5] http://www.nodesocket.com/[6]
+
+## Full hosting
+
+http://CloudFoundry.com[7] http://DreamHost.com[8] http://aws.amazon.com/ec2/[9]
+
+=> http://nodester.com/ 1: http://nodester.com/
+=> https://no.de/ 2: https://no.de/
+=> http://prgmr.com 3: http://prgmr.com
+=> http://Slicehost.com 4: http://Slicehost.com
+=> http://Linode.com 5: http://Linode.com
+=> http://www.nodesocket.com/ 6: http://www.nodesocket.com/
+=> http://CloudFoundry.com 7: http://CloudFoundry.com
+=> http://DreamHost.com 8: http://DreamHost.com
+=> http://aws.amazon.com/ec2/ 9: http://aws.amazon.com/ec2/

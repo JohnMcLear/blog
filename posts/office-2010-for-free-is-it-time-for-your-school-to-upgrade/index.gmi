@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------------
+
+title: "Free Office 2010 Web Apps in your school" date: 2010-05-13 categories:
+
+* "microsoft"
+* "office"
+* "office-2007"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+To compete with Google Docs[1], Microsoft Office[2] 2010 web apps is free. If you want to use Microsoft Office[3] without an internet connection you will need to purchase the offline version of the software[4] for the usual educational price tag of around £30.
+
+**Microsoft Office Web Apps is an on-line version of Microsoft office.**
+
+So what do you/don't you get with Office web apps?
+
+1. No Microsoft[5] publisher
+2. You get limited web based versions of Word[6], Excel[7], Powerpoint[8] and OneNote[9]
+3. Access anywhere, any time (requires internet)
+4. You can upload your current existing Office 2003/2007 documents
+
+When it comes to it, you have a few options for working with documents.
+
+1. Purchase the office suite.
+2. Use the free online tools by Microsoft - Microsoft Live @ Edu
+3. Use the free online tools by Google - Google Apps Education Edition[10]
+4. Use open office[11] (Free).
+5. Use educationally focused alternatives such as Glogster[12], Scribblar[13], Empressr[14], PrimaryPad[15] - Each of these alternatives is specific to one job, and that job is done well. (Mostly free)
+
+###### Related articles by Zemanta
+
+* Google and Zoho attack Office 2010 launch day[16] (v3.co.uk)
+* Office 2010 no; Word 2010 maybe[17] (billbennett.co.nz)
+* Microsoft focuses on collaboration and the cloud with Office 2010[18] (venturebeat.com)
+
+=> images/reblog_e.png Reblog this post [with Zemanta] [IMG]
+
+=> http://docs.google.com 1: http://docs.google.com
+=> http://office.microsoft.com/en-us/default.aspx 2: http://office.microsoft.com/en-us/default.aspx
+=> http://office.microsoft.com/en-us/default.aspx 3: http://office.microsoft.com/en-us/default.aspx
+=> http://en.wikipedia.org/wiki/Computer_software 4: http://en.wikipedia.org/wiki/Computer_software
+=> http://www.microsoft.com 5: http://www.microsoft.com
+=> http://office.microsoft.com/word 6: http://office.microsoft.com/word
+=> http://www.microsoft.com/mac/products/excel2008/default.mspx 7: http://www.microsoft.com/mac/products/excel2008/default.mspx
+=> http://office.microsoft.com/powerpoint 8: http://office.microsoft.com/powerpoint
+=> http://office.microsoft.com/en-us/onenote/FX100487701033.aspx 9: http://office.microsoft.com/en-us/onenote/FX100487701033.aspx
+=> https://mclear.co.uk/2009/11/24/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/ 10: https://mclear.co.uk/2009/11/24/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/
+=> http://www.openoffice.org/ 11: http://www.openoffice.org/
+=> http://edu.glogster.com 12: http://edu.glogster.com
+=> http://www.scribblar.com/ 13: http://www.scribblar.com/
+=> http://www.empressr.com 14: http://www.empressr.com
+=> http://primarypad.com 15: http://primarypad.com
+=> http://www.v3.co.uk/v3/news/2262905/google-zoho-attack-office-2010 16: http://www.v3.co.uk/v3/news/2262905/google-zoho-attack-office-2010
+=> http://billbennett.co.nz/office-2010-word-2010/ 17: http://billbennett.co.nz/office-2010-word-2010/
+=> http://venturebeat.com/2010/05/12/microsoft-focuses-on-collaboration-and-the-cloud-with-office-2010/ 18: http://venturebeat.com/2010/05/12/microsoft-focuses-on-collaboration-and-the-cloud-with-office-2010/

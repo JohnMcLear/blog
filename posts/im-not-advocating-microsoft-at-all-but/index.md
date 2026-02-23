@@ -1,0 +1,12 @@
+---
+title: "I'm not advocating Microsoft at all but..."
+date: 2012-02-22
+categories: 
+  - "google"
+---
+
+This is worth a watch, it's only short so don't be scared now.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/k4EbCkotKPU" frameborder="0" allowfullscreen></iframe>
+
+Of course the Google fan boi/girls will hate this but hopefully teachers can take note about the concerns raised..

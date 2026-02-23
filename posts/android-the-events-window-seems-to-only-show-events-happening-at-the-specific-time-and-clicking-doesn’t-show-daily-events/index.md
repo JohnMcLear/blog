@@ -1,0 +1,12 @@
+---
+title: "Android - The events window seems to only show events happening at the specific time and clicking doesn’t show daily events"
+date: 2009-08-11
+categories: 
+  - "android"
+  - "calendar"
+  - "daily"
+  - "events"
+  - "htc-hero"
+---
+
+On my windows device I used my calendar to oversee what I was doing on the day, it was on my "Today" screen. On my android it is now 2 clicks to get to my daily events. One click would of been acceptable but 2 isn't. Anyone know the fix?

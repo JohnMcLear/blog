@@ -1,0 +1,10 @@
+---
+title: "How to make a primary school blog in 90 seconds"
+date: 2009-11-03
+categories: 
+  - "blog"
+  - "blogging"
+  - "primary-blogger"
+---
+
+

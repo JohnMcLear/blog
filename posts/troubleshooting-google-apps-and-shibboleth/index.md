@@ -1,0 +1,15 @@
+---
+title: "Troubleshooting Google Apps and Shibboleth"
+date: 2009-11-24
+categories: 
+  - "apps"
+  - "google"
+  - "ict"
+  - "primary"
+  - "primary-email"
+  - "primary-school-email"
+  - "primary-school-ict"
+  - "school-email"
+---
+
+If you receive an “invalid email” error or invalid user then this is probably due to the fact that the username provided by your identity provider doesn’t match the username created in Google Apps. To remedy this check to see if the user account exists in Google Apps, if so then contact your identity provider and ask them to tell you what username they are sending so you can create the relevant account.

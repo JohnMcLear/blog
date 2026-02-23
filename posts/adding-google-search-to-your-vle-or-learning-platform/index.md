@@ -1,0 +1,27 @@
+---
+title: "Adding google search to your VLE or Learning platform"
+date: 2009-04-29
+categories: 
+  - "free"
+  - "google"
+  - "learning-platform"
+  - "primary-school"
+  - "primary-technology"
+  - "safe"
+  - "search"
+  - "vle"
+---
+
+This is a question I keep getting asked so I wanted to answer it.
+
+"How do I put a google search onto my VLE or website or Blog"
+
+Firstly, it is wrong that the google search on your VLE or Learning platform should show adds.
+
+Secondly, if it does then whoever put it on is probably making money off it (we see this a lot and its a disgusting trend to make $ out of childrens searches in the bid they click on adds)
+
+So yeah of course its doable for free and easily. What you want (assuming your a school) is a safe search without adds and focused on education.
+
+Right, anyways.. The best solution is Primary School [Safe Search](http://primaryschoolict.com)
+
+[Read this guide and which will give you what you need to add some code to make this happen, but don't worry its just copy and paste..](http://wiki.primaryt.co.uk/w/Put_Safe_Search_on_your_web_site)

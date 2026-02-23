@@ -1,0 +1,18 @@
+---
+title: "One aggregated RSS feed of all the primary school blogs"
+date: 2009-10-17
+categories: 
+  - "blogging"
+  - "blogs"
+  - "primary-blogger"
+  - "primary-school"
+  - "rss"
+---
+
+If you want to just keep an eye over what Primary Schools are blogging about you can add:
+
+\[code\] http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FSchool%20RSS%20feeds \[/code\] To your RSS reader, blog or website.
+
+This mash up of primary school blogs is frequently updated (at least a few posts per hour during the UK day), please do get in touch if you find your school is not included.  Schools using [Primary Blogger](http://primaryblogger.co.uk) automatically get entered into the feed.
+
+Here is a preview of an embed of a link to all of the blogs:

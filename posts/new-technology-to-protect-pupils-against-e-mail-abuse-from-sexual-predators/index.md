@@ -1,0 +1,79 @@
+---
+title: "New Technology to protect pupils against e-mail abuse from sexual predators"
+date: 2009-03-29
+categories: 
+  - "email"
+  - "mclear"
+  - "primary"
+  - "pupils"
+  - "school"
+  - "schools"
+  - "teachers"
+  - "technology"
+---
+
+The problem:
+
+Pupils not gaining access to email at primary school due to safety concerns.
+
+The current solution employed by many safety-conscious schools is to deny pupils’ the ability to send or receive emails to the outside world.  However, a survey of national schools revealed that “only 3% of UK schools have individual email accounts for all teaching staff and pupils in year 3 upwards.”   (CITATION) This is a surprisingly small percentage, considering e-mail is first introduced to the curriculum in year 3.
+
+There are many cross-curricular benefits of allowing children to communicate effectively with other children, whether locally or globally.  The Global Gateway (_www.globalgateway.org.uk )_  is building a community of links between schools around the world and e-mail provides a cost-effective means of carrying the messages between pupils.
+
+But it’s hard to build communities over the internet when the children have no way to contribute.  What if we let our children speak and listen freely?  There is a risk that children may be groomed by sexual predators or threatened by other children. 
+
+Can we not filter e-mail in the same way we filter websites?
+
+The solution:
+
+A pioneering new hosted email service called Primary Email.  This service scans all emails to  determine if the recipient is a pupil or teacher and applies the following filters accordingly:
+
+·         Detect phrases and key words for bullying or sexual predators
+
+·         Detects curse words
+
+·         Check email origin (location/ISP) for known high risk areas
+
+·         Anti-spam and anti-virus
+
+·         All emails are tagged with a reminder to pupils never to give out any private or personal information over email.
+
+Email is scanned through the filters and if a potential threat is detected the system instantly sends a copy of the email to the school office notifying a member of staff of the risk.
+
+To confirm a specific threat requires access to the pupil’s inbox.  This can be completed by a school admin/SLT member without the requirement of knowing any additional passwords or any training.
+
+Now you have identified and confirmed a threat, what do you do now?  At this point you can work with various child protection agencies or use your current school child protection/e-safety policy to deal with the matter. 
+
+Do we have a safe, accessible, stable email system that teachers and pupils actually want to use inside and outside of schools?  It certainly looks that way!  Testing since 2007 in the majority of Bradford schools and various nationwide schools shows an increased level of communication between all users, with email being used as a cross curricular tool accessible on a number of devices including iPhones, PDAs and UMPCs.  Next generation learning is also achieved through anytime/anywhere learning over the internet.
+
+_“Primary Email has allowed our school to confidently give all pupils 24/7 email access for the first time.  Our pupils use their PDAs at home to email back and forth between their friends and teacher.  It is an eye opener to see what the pupils sometimes email each other.  Previously when we taught email we never gave the pupils access to the internet however this did not increase learning, we now have an email system that is used frequently by all staff and pupils to communicate and learn.”_
+
+Sharon Dominic – Wilsden Primary School  
+2008 Hand Held Learning- Innovation in Primary winners
+
+Primary Email is not just about safety; children are given interactive games to learn how to use email and staff are given access to a shared school diary which publishes via RSS to the Internet. This allows schools to easily populate a Learning Environment or Website.  Teachers are provided with distribution lists to email all the pupils in their class/school and distribution groups for governors/parents are available.  The email system automatically updates from the school MIS making management extremely easy. 
+
+How and when can your school start using this new technology?  Now!  You can find out more information at [http://primaryemail.co.uk](http://primaryemail.co.uk/), by emailing [hello@primaryemail.co.uk](mailto:hello@primaryemail.co.uk) or calling on 084566 80 90 95.
+
+The system is currently limited to the English/British language however worldwide packs are currently in beta testing in various countries.  The French and Spanish packs are due in the last quarter of 2009.
+
+The technical bits
+
+The exciting part of this new technology is the sexual predator filtering.  There have been recent successes using similar techniques – See the below URL. [http://www.wired.com/science/discoveries/news/2006/10/71948](http://www.wired.com/science/discoveries/news/2006/10/71948)
+
+Primary email uses two key systems to detect a threat.
+
+The first is a database of key words/phrases used by predators/bullies, each of these words contains a certain weight of risk.  
+
+The second is similar to using sender profiling.  Primary Email checks for patterns that predators or bullies would use and likely sending domains that a predator would use to try to cover his/her tracks e.g. free email services.
+
+To build the database of key words and phrases, several key strategic partners provided logs/conversations of sexual predators and their victims.  By identifying key phrases and words and assigning them a _score_ _per hit,_ Primary Email was able to build an algorithm to accomplish the detection process.  An example of this system working properly is that if the word “Pussy” is detected then it looks for “Cat”, in this scenario the risk level is reduced.  If the prior word is “Shaved” then the risk level is increased.  Initial testing showed that phrases could be disguised with foreign characters and abbreviation marks.  Tweaks were made to the system and this has led to approximately 98% accuracy in detecting potential risks.
+
+The pupil protection system keeps a record of past conversations and senders.  This allows more stringent checks when one external account contacts more than one pupil, when one pupil is contacted by multiple external accounts or when a series of short emails are sent back and forth between pupils and external accounts.
+
+  
+
+**Links**
+
+Primary Email - [http://primaryemail.co.uk](http://primaryemail.co.uk/)  
+Wilsden Primary School – [http://www.wilsden.ngfl.ac.uk](http://www.wilsden.ngfl.ac.uk/)

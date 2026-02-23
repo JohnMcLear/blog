@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Phplist Vs OpenEmm" date: 2009-04-27 categories:
+
+* "openemm"
+* "phplist"
+
+--------------------------------------------------------------------------------
+
+Phplist and OpenEmm are both free mass mailers. They send your mailing lists/spam to your customers/contacts/harvested lists.
+
+OpenEmm = more features + complexity in options + prettier OU
+Phplist = more simple + technical
+
+OpenEmm is not Phplists big brother or anything, its just ummmm.. Different..
+
+Both are heavily customizable with a little code knowledge..
+
+Anyway this is just a quick brain dump..

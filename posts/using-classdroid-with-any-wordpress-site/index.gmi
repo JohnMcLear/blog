@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+
+title: "Using Classdroid with any Wordpress site" date: 2010-08-09 categories:
+
+* "classdroid"
+* "ict"
+* "primary-blogger"
+* "primary-school"
+* "primary-school-ict"
+* "wordpress"
+* "wordpress-multi-user"
+* "wpmu"
+
+--------------------------------------------------------------------------------
+
+=> images/camera_icon_mr_mclear-300x300.png [IMG]
+[1] Classdroid[2] allows you to upload to any wordpress[3] site. PrimaryBlogger[4] **supports this by default**.
+
+Either a) Download & install this plugin[5]
+
+**or** b) Goto Settings, Writing then click Enable XML-RPC (Bottom option of the Writing settings page)
+
+=> https://mclear.co.uk/wp-content/uploads/2010/07/camera_icon_mr_mclear.png 1: https://mclear.co.uk/wp-content/uploads/2010/07/camera_icon_mr_mclear.png
+=> https://mclear.co.uk/sites/classdroid 2: https://mclear.co.uk/sites/classdroid
+=> http://wordpress.org 3: http://wordpress.org
+=> http://primaryblogger.co.uk 4: http://primaryblogger.co.uk
+=> //mclear.co.uk/2010/07/03/wordpress-enable-rpc-xml-site-wide/ 5: //mclear.co.uk/2010/07/03/wordpress-enable-rpc-xml-site-wide/

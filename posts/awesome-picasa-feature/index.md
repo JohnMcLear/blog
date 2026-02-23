@@ -1,0 +1,20 @@
+---
+title: "Awesome Picasa feature"
+date: 2009-11-12
+categories: 
+  - "google"
+  - "picasa"
+  - "toolbar"
+---
+
+In windows 7 when you open a picture it previews like this..  
+  
+  
+![](images/windows7_image_preview.png)  
+Click the image you will get the picasa tool bar pop up at the bottom of the screen.  
+it looks like this..  
+  
+  
+![](images/picasa_toolbar.png)  
+Click upload and with one click your image is uploaded to your Picasa Web Albums  
+Your picture can now be easily shared with your friends :)

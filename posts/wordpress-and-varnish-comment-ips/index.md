@@ -1,0 +1,33 @@
+---
+title: "Wordpress and Varnish comment IPs"
+date: 2010-12-03
+categories: 
+  - "primary-blogger"
+  - "varnish"
+  - "wordpress"
+  - "wpmu"
+---
+
+If your Wordpress install is behind Varnish you may have issues with Comments showing your Server IP. This will also cause problems with Spam as Akismet will not be able to check the source IP.
+
+In the vcl\_recv part of your varnish config add this
+
+\[code\] set req.http.X-Forwarded-For = client.ip; \[/code\]
+
+Then edit your Wordpress wp-includes/comment.php and replace REMOTE\_ADDR with HTTP\_X\_FORWARDED\_FOR Then edit your wp-content/plugins/akismet/akismet.php and replace REMOTE\_ADDR with HTTP\_X\_FORWARDED\_FOR
+
+Restart varnish
+
+\[code\]/etc/init.d/varnish restart\[/code\]
+
+Finished, test by commenting.
+
+Note: Users experiencing spam on PrimaryBlogger should now experience less spam and more accurate comment filtering.
+
+If you are running Varnish 2.1.2 RPCXML will not work, you need to upgrade to 2.1.3..  You can find out your version by typing
+
+\[code\]
+
+varnishd -V
+
+\[/code\]

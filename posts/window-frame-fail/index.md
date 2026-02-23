@@ -1,0 +1,13 @@
+---
+title: "Window frame fail"
+date: 2009-10-17
+categories: 
+  - "fail"
+---
+
+[![](images/IMAG0149.jpg)](http://3.bp.blogspot.com/_NislCXjnul0/StoRU1LrP1I/AAAAAAAACRE/f5VK4RX9hUo/s1600-h/IMAG0149.jpg)  
+[![](images/IMAG0148.jpg)](http://1.bp.blogspot.com/_NislCXjnul0/StoRUu5OeMI/AAAAAAAACQ8/MNrZvERV044/s1600-h/IMAG0148.jpg)
+
+  
+
+2 rooms like this now, both complete window frame fail and sash windows too :(

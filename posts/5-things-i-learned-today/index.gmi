@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+
+title: "5 things I learned today." date: 2010-07-09 categories:
+
+* "ict"
+
+--------------------------------------------------------------------------------
+
+1. I enjoy doing geeky sessions with Tom Hudson[1] discussing the latest programming and fun net stuff and I'm quite looking forward to getting to work on Classdroid with him if he decides to get involved.
+
+2. Moodle[2] doesn't have the API[3] functionality I hoped it would have.
+
+3. Ushahidi[4] has nice API functionality and I should remember to use curl to test POSTing my data.
+
+4. I shouldn't hastily bash out blog posts when I find out a new software threat to privacy or security, I should probably put a 24 hour buffer in or something.
+
+5. The kids **still** make the job worthwhile[5].
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[6]
+
+=> http://tomnomnom.com 1: http://tomnomnom.com
+=> http://www.moodle.org 2: http://www.moodle.org
+=> http://en.wikipedia.org/wiki/Application_programming_interface 3: http://en.wikipedia.org/wiki/Application_programming_interface
+=> http://www.ushahidi.com/ 4: http://www.ushahidi.com/
+=> https://mclear.co.uk/2010/07/08/message-of-the-day/ 5: https://mclear.co.uk/2010/07/08/message-of-the-day/
+=> http://www.zemanta.com/ 6: http://www.zemanta.com/

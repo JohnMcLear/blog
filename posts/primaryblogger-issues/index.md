@@ -1,0 +1,12 @@
+---
+title: "PrimaryBlogger issues"
+date: 2011-09-05
+categories: 
+  - "ict"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+  - "primaryblogger"
+---
+
+Our newest server (The one we moved the admin section of PrimaryBlogger onto temporarily over the next few days) is running really badly and this is causing other problems.  We hope to have stability fully restored tonight.  It’s been a rough few days and we wish we did this work earlier in the holidays…

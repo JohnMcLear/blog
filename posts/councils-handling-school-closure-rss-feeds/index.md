@@ -1,0 +1,58 @@
+---
+title: "Handling school closure RSS feeds"
+date: 2010-08-13
+categories: 
+  - "closed"
+  - "closing"
+  - "closures"
+  - "ict"
+  - "my-school-closures"
+  - "school"
+  - "school-closures"
+  - "school-is-closed"
+  - "schools"
+---
+
+## **Some background information**
+
+Some councils (currently 4 in the UK) manage a school closure RSS [feed](http://en.wikipedia.org/wiki/Web_feed "Web feed"). This [RSS feed](http://en.wikipedia.org/wiki/RSS "RSS") is updated when a school is closed, this is great news for sites like my school closures as it enables them to dynamically update parents based on verified information supplied by the council. I have been in contact with a lot of schools state side who also want to begin providing closure information via RSS to third parties.  If you don't know what an RSS feed is then this article probably isn't for you.
+
+## Why is this important?
+
+Globally recording school closures isn't everyone's cup of tea.  But if you think about how powerful it would be to compare school closures against weather/disasters etc. and the ability to then predict closures and other local closures based upon a school closure you begin to have a much bigger understanding of the economic and social impact such a system/standard can have.
+
+**The problem at the moment** is that there is no framework for this information so working with it is a bit of a nightmare.  Therefore the target audience for this article is whoever is making the feeds for the council.
+
+[![](images/school-closure-gpx.preview1.jpg "school-closure-gpx.preview[1]")](https://mclear.co.uk/wp-content/uploads/2010/07/school-closure-gpx.preview1.jpg)
+
+**Remember:** Computers are only as accurate as the information that goes into them.  RSS school closures feeds from councils may be a new area to explore but it is an area that will inevitably expand so we should get it right early on.
+
+## My work in this area
+
+I write the mechanics for [my school closures](http://myschoolclosures.com), providing school closure feeds and notifications for well over 5000 schools worldwide. I also work on the [Ushahidi](http://www.ushahidi.com "Ushahidi") project, working on the social aggregation object which is in place to take information from [social networks](http://en.wikipedia.org/wiki/Social_network "Social network") and assign them to schools based on locations. I am also working on a method of predicting school closures based on weather/notifications and/or and global disasters inc. fire, floods etc.
+
+[![](images/sc-logo1.png "sc-logo[1]")](http://myschoolclosures.com)
+
+## Suggested framework
+
+I think it's great councils are providing closure information but we need to address a few things.
+
+1.) **Provide documentation** - We need either a standard for council closure RSS feeds OR councils needs to provide documentation along side their RSS feed. 2.) **Do not create ghost items** - Councils that create an RSS feed where the item is "No new items exist" is not cool. If your feed has no items **then simply keep your feed empty.** 3.) **Don't be vague** \- Councils need to fill their feed with as much information possible, I don't expect lat/long but at least the street name.  Just putting the school name in the feed is not enough information, there is often two "St Matthews(replace Matthews with whatever you want) primary school's" in the same district/council area.  Include in the feed if the school is open or closed and the reason for the closure (if this is the case). 4.) **Don't break your feed** - Councils have to keep their RSS feeds working and up to date, this is a no brainer but is ignored on the previously mentioned closure feeds. 5.) **Understand copyright law** - Don't put a copyright on public information RSS feeds (sighs). 6.) **Use Geo tags on your feed** - Consider putting some geo tags into your actual feed header, there are quite a few councils with the same name so a feed named "York Council RSS feed (new)" would get confused with New York, if you include a location tag such as "York, UK" then it will be a lot easier to aggregate this information. 7.) **Use Geo tags on your items** - Consider putting some geo tags into your items. I appreciate this is a bit of a pain to do but it will help us avoid matching the wrong notification to the wrong school. 8). **Use the appropriate ttl on your feed**.  Is 5 minutes really how frequently readers need to update this information? 9.) **Create unique guids for each information update.** Obvious really yet this is being ignored. 10.) **Use open/closed in the title**. If you use the word open or closed in the title it will save us creating a tag, however we should do that anyway.
+
+## An example of a bad feed
+
+\[xml\] <rss version="2.0" xmlns:schools="http://purl.org/dc/elements/1.1/"> <channel> <title>Barmon Schools - School Closures</title> <link>https://rss.Barmon.com</link> <description>This feed provides a list of schools that are closed in the Barmon District https://rss.Barmon.com</description> <copyright>(c) Barmon Schools</copyright> <pubDate>Thu, 08 Jul 2010 09:56:11 GMT</pubDate> <ttl>5</ttl> <item> <title>- No Schools Closed Today -</title> <description>- No Schools Closed Today -</description> <link>https://rss.Barmon.com/Schools/SchoolClosure\_Index.aspx</link> <pubDate>Thu, 15 Jul 2010 17:20:16 GMT</pubDate> <guid>https://rss.Barmon.com/Schools/SchoolClosure\_Index.aspx</guid> </item> </channel> </rss> \[/xml\]
+
+## An example of a good feed
+
+\[xml\] <rss version="2.0"> <channel> <title>Barmon Schools - School Closures</title> <link>https://rss.Barmon.com</link> <description>This feed provides a list of schools that are closed in the Barmon District https://rss.Barmon.com</description> <pubDate>Thu, 08 Jul 2010 09:56:11 GMT</pubDate> <ttl>600</ttl> <item> <title>Moleswood Primary School is closed due to a fire</title> <description>A fire swept through Moleswood Primary School, BA1 2AM. The school is closed for an unspecified period</description> <link>https://rss.Barmon.com/Schools/SchoolClosure\_Index.aspx?school=1&view=rss</link> <pubDate>Thu, 15 Jul 2010 17:20:16 GMT</pubDate> <guid>82291559asdh22184</guid> <geo:lat>53.795740</geo:lat> <geo:lon>-1.758306</geo:lon> <schoolinfo:name>Moleswood Primary School</schoolinfo:name> <schoolinfo:type>closed</schoolinfo:type> <schoolinfo:reason>Fire</schoolinfo:reason> </item> </channel> </rss> \[/xml\]
+
+## Why this standard is better than the current mechanism
+
+We basically chose to extend the RSS schema to include some school specific info. Surprisingly to some people is why we didn't include something such as the UPN or "code" of the school. This is because the scope of this standard is global and most countries have their own coding structure.
+
+We chose name for obvious reasons.  The schoolinfo:type allows different values such as closed, open, halfday, holiday etc. so can be extended reasonably well and the reason is simply complimentary for these values.
+
+Why is Latitude and Longitude SO important?  Quite a few reasons, firstly is mapping, it is much easier to map based on lat and lon.  Second is conflicting school names and thirdly is very close by schools.  Lat and Lon of a location allows accurate location based results and also allows us to update records in case a school moves.
+
+I can guarantee that councils will eventually adopt either this standard or a standard similar to this, be it through a smart management decision or through consumer demands.  A standard like this allows for much smarter closure announcements and future proofing of the quality of service delivered by educational institutions.

@@ -1,0 +1,34 @@
+---
+title: "Cordova Windows Phone 8 Exit Application"
+date: 2014-01-23
+categories: 
+  - "cordova"
+tags: 
+  - "cordova"
+  - "dev"
+  - "development"
+  - "javascript"
+  - "microsoft"
+  - "phonegap"
+  - "wp8"
+---
+
+If you have a Phonegap/cordova app that goes from page1.html to page2.html then follows a link back to page1.html the standard backbutton behavior wont exit the app.
+
+Page1 >> Page 2 >> Page 1 -- Windows Phone will take you to page 2 instead of exiting the app. It's expected behavior but it's kinda poorly documented..
+
+Anyway I searched around for ages but didn't find a fix that worked for me..
+
+[Diff friendly folks see the commit that includes this fix](https://github.com/mclear/NFC_Ring_Control/commit/192f1b6224190fdd6364322981c33ec7df2049bd)
+
+TLDR of how I fixed this is to use a JS value to track which page I'm on..
+
+IE in page1.html you could have..
+
+\[code\] var currentPage = "index"; \[/code\]
+
+Then in your app.deviceready function include.. \[code\] if(currentPage == "index"){ history.go(-(history.length-9999)); document.addEventListener("backbutton", handleBack, true); }else{ document.addEventListener("backbutton", handleBack, false); } function handleBack(){ // handle other logic here such as handling the back events from page2 to page1.. } \[/code\]
+
+The real magic here is history.go(-(history.length-9999)) which basically tells the history stack to reset. Also the true statement on addEventListener allows the original registered event to fire (Native back button)..
+
+Anyway give it a try and let me know if it works for you.

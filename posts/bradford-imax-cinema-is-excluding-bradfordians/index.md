@@ -1,0 +1,21 @@
+---
+title: "Bradford imax cinema is excluding Bradfordians"
+date: 2010-07-01
+categories: 
+  - "bradford"
+  - "cinema"
+  - "imax"
+  - "review"
+---
+
+[![Leeds urban subdivision in West Yorkshire urba...](images/300px-Leeds_urban_subdivision_in_West_Yorkshire_urban_area.png "Leeds urban subdivision in West Yorkshire urba...")](http://commons.wikipedia.org/wiki/File:Leeds_urban_subdivision_in_West_Yorkshire_urban_area.png)
+
+I want to go to the Bradford Imax Cinema but I can't bring myself to pay £1 for a processing charge and £1 for a service charge and £9 for a ticket.
+
+The **best part of £11 for a ticket** that 12 months ago cost £6 is just ridiculous, especially considering the imax is party publicly financed (although they publicly deny this which is ridiculous).  I guess a load of wealthy people from Leeds and the surrounding areas will come in and buy tickets so I doubt the Imax will get the message that is excluding itself from the thrifty mentality of Bradfordians.
+
+I did complain when the price was increased and mentioned the potential problems of excluding their local customers.  Imax didn't seem concerned and continued reinvesting in things we don't want such as a new entrance area.  My message to the management board at Imax is stop spending, start saving because when people from further areas can't afford tickets the people of Bradford will remember how you treated them and it will take a lot of work to get the numbers back up.
+
+/rant
+
+[![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

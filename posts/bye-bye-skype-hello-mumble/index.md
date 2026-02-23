@@ -1,0 +1,28 @@
+---
+title: "Bye bye Skype.  Hello mumble!"
+date: 2011-07-10
+categories: 
+  - "ict"
+  - "microsoft"
+  - "primary-school"
+  - "primary-technology"
+  - "review"
+---
+
+[![](images/11-skype1-550x191.jpg "11-skype[1]")](https://mclear.co.uk/wp-content/uploads/2011/07/11-skype1.jpg)
+
+After [Microsoft's acquisition of Skype](https://mclear.co.uk/2011/05/10/what-microsofts-purchase-of-skype-means-for-primary-schools/) things have gone from bad to "omg are you kidding me?".   [Skype now installs bloatware on your computer](http://blog.mozilla.com/addons/2011/01/20/blocking-the-skype-toolbar-in-firefox/) and the frequency of adverts being displayed on your screen increasing dramatically I felt it was time to leave the sinking ship.
+
+Don't get me wrong, I used Skype daily and it's still got some great projects running but Microsoft have a history of really messing up services like Skype but forcing us to all use them.  Sure we loved Skype before it got bloated, I remember when I used to install Skype and only use it for calls, now I'm constantly finding myself in a state of frustration when I have 20 ads to close, 50 payment reminders or the service fails to perform.
+
+[Primary Technology](http://primaryt.co.uk) out-grew Skype.  I didn't want video conferencing, I wanted more people in an audio call and PrimaryT now has 20+ members of staff so I needed something distraction free, light weight, reliable, free and barrier free.
+
+Skype's recent partnering with Facebook and MySpace sends even more shudders down my spine.  I don't trust Microsoft much and I don't trust Facebook at all, I'm not alone on this and there are plenty of reasons why such as [Microsoft's patent on eavesdropping calls](http://www.tomsguide.com/us/microsoft-voip-skype-eavesdropping-patent,news-11650.html) and the idea of integrating Facebook with my audio calls leaves me in a dark, worried place.  We should also remember that voice / language detection technology is so advanced that if you think a transcript can't be made of your phone conversations you are horrible naive (a bit like the Facebook facial recognition stuff everyone said wasn't computationally possible).
+
+I also worry about the idea of bringing "credits" into social networks, **at what point will I have to pay to ask someone to be my friend**?
+
+## Say hello to Mumble
+
+I was first introduced to Mumble by a member of the Piraten Partiet, they use it with hundereds of people to hold their voice conferences.  Imagine 400 people on one phone call?  It should be chaos right?  Wrong.  If you are a gamer: [Mumble](http://mumble.sourceforge.net/ "Mumble") is like Vent/Teamspeak but completely open source and much better audio quality.  If you're not a gamer..  What you need to know about Mumble is that it's a client/server service.  You can't make calls to land lines.  A few major downers for teachers are that you [need someone to host a mumble server for your school](http://primaryt.co.uk/contact.html "Contact us for details on hosted Mumble services") and there is no video calls.  Who even finds video calls productive anyway?  I never did...
+
+Mumble's client is great, it's so unbelievably easy to use and lightweight, the whole project has a really good feel to it and I expect to see some really great things coming soon!

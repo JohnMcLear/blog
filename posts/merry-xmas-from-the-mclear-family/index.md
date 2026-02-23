@@ -1,0 +1,10 @@
+---
+title: "Merry Xmas from the McLear family!"
+date: 2009-12-24
+categories: 
+  - "xmas"
+---
+
+[![](images/DSCF0007+(Large).JPG)](http://4.bp.blogspot.com/_NislCXjnul0/Sy-um0EXx6I/AAAAAAAACfQ/IrGCW2L09zI/s1600-h/DSCF0007+\(Large\).JPG)  
+
+The newest member of the family keeping up the tradition of finding some alcohol and rocking back and forth in a corner until it's all consumed! Merry Xmas!

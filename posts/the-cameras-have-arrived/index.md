@@ -1,0 +1,42 @@
+---
+title: "The cameras have arrived!"
+date: 2010-02-15
+categories: 
+  - "camcorder"
+  - "camera"
+  - "ict"
+  - "review"
+---
+
+[![](images/IMAG0042.jpg)](http://1.bp.blogspot.com/_NislCXjnul0/S3l8oXTAlxI/AAAAAAAACoI/YNjZpz8HXo4/s1600-h/IMAG0042.jpg)
+
+  
+
+But which will be best for your classroom?
+
+  
+Over the next few weeks we will be releasing short (less than 10 minutes) reviews of each camera. [Details can be found here](http://primarypad.com)  
+
+  
+
+  
+
+![](images/IMAG0046.jpg)
+
+Here is the list of what we have ready to review:
+
+  
+
+1. Kodak Zi6 (£90)
+2. Kodak Zi8 (£120)
+3. Toshiba Camelio P30 (£115)
+4. Apple iPod Nano 8GB 5Th generation (£105)
+5. Kodak Zx1 (£70)
+6. Sanyo VPC CG10EBK / Xacti (£145)
+7. Samsung U10 (£83)
+8. Creative Vado (£54)
+9. Creative Vado HD (£90)
+10. Flip Video Ultra High Definition Camcorder 8GB (£120)
+11. Flip Video Ultra Camcorder 2nd Generation 4GB (£90)
+
+The **Veho VCC 002, **Veho VCC-001, **Sony MHS-PM1 & Mustek DV316L never actually arrived, we will try get them ordered ASAP so we can review them.******

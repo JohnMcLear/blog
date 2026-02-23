@@ -1,0 +1,24 @@
+---
+title: "School Freebies is delayed!! Oh noes..."
+date: 2009-09-14
+categories: 
+  - "free"
+---
+
+Sorry everyone , I'm working at full speed today but I'm a little behind because I took some time out to go meet a neighbour to talk about wind power.
+
+  
+
+They have quite a large tower provided by Evoco - it looks great, I love how wind towers look on the horizon. People who hate on them deserve to be ignored.
+
+  
+
+So expect the freebies very late tonight as I am going out for a meal with a friend to akhbars Bradford.
+
+  
+
+I made a start on my school holidays last night which will be live in a few weeks probably, nothing too exciting, just a site where schools can put holidays and interface with them using gmail calendars, outlook, api, email and rss.... Consider it open source term date storage or something. I don't know I just know I need it for a site I'm working on so I made a new service....
+
+  
+
+UPDATE - I'm working on it! Jeez you folks are hungry! Freebies coming tomorrow instead of today due to "having" to drink wine before it goes off!

@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+
+title: "Scholarpack (Open Source) review" date: 2011-02-08 categories:
+
+* "ict"
+* "mis"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+* "review"
+
+--------------------------------------------------------------------------------
+
+Blue = Scholarpack's response
+
+Orange = my response to Scholarpack.
+
+Scholarpack is an open source alternative to Serco CMIS and Capita SIMS.  The main advantage to an open source project is cost of licensing & that any developer can easily jump in and add modules/make changes. The cost saving to an average school moving from CMIS to SIMS is £1000 per year (Excluding training and transfer costs).  I wrote this review and passed it over to Scholarpack to respond to inline.  I felt like it was an unfair review and wanted to give them a chance to respond so you have a balance arguement!  Enjoy!
+
+**Do Scholarpack really know what open source is?**
+
+I get the feeling Scholarpack doesn't understand how to work with open source communities.  There is no sense of community around the project..
+
+Scholarpack: I would be interested to see the clause in the GNU Affero license that dictates that we build and maintain a community around the software. We provide the open source release pro bono and are very busy with our main business activities - providing a free MIS to UK schools.
+
+I responded: True Open source is dependent on a community supporting and maintaining it. This is the fundamental core of successful open source project.
+
+and the documentation is confusing and incorrect (as you can see in this video -- note this video is one hour long and extremely boring):
+
+Scholarpack: There were a few errors in the docs., I admit that. Those errors would not have prevented you logging into ScholarPack had you maintained a positive attitude from the outset. Bland statements like 'having so many dependencies is ridiculous' are misleading to your audience. The reason for the dependencies is simple, don't install them all, and some or all parts of ScholarPack won't work - simple. An MIS is a complex beast.
+
+My Response: My point was that each dependency had to installed individually and that made the installation task a poor experience..
+
+Scholarpack: If all else fails, ask us for installation support, which we offered you publicly via Twitter but you appear to have ignored the offer.
+
+My response: The docs should cover how to do an install without any additional support.
+
+So I spent 3 hours making this video and shared it with Scholarpack.  Scholarpack promptly responded with updated docs[1] so I went ahead and tried the install again and low and behold, still wont install as you can see in the video below:
+
+Scholarpack: Look John, if I had no intention of ever getting software installed I could make it look un-installable too. The fact that you didn't get it installed is, well, frankly meaningless to me and I suspect to many in your audience.
+
+My Response: I can be the judge of what is meaningful or not for my audience thanks.
+
+Scholarpack: You also failed to ask for installation help as I offered you over Twitter, which we provide FREE even to the point of doing it for you via SSH, as we did in the example you quote below in Colombia. If you had asked us, you would now be reviewing the functionality of Scholarpack and not posting this irrelevance. The very fact that you did not ask for help on installation only strengthens our belief that you never had any intention of getting ScholarPack installed successfully.
+
+My response: I will quote myself: “The docs should cover how to do an install without any additional support.”
+
+The docs only work for one OS and are painfully complicated..  How about a nice apt-get/yum install scholarpack installation?
+
+Scholarpack: How about you do it and release it, that's the ethos of OS you know, take it and run with it. We don't HAVE to do it all for you. That would be nice of course, but so would having extra time to spend with my wife - there's always a trade off.
+
+My Response: I’m afraid until I can actually use Scholarpack there is no incentive for developers to on the project. Also because you have decided to focus the hosting internally there is no incentive for third parties to fund any development as there are fewer opportunities for revenue stream. It’s a carrot/stick thing.
+
+Scholarpack: Since all our servers are on Centos and we can guarantee that ScholarPack works perfectly on that platform it makes sense to only release for that platform - and support for that. I don't believe we are the first developers to try to guarantee QOS. Perhaps a contributor could adapt for an apt-get install. Or is it our job to provide software that will run on every distribution known to man?
+
+My Response: Again.. Carrot. None. Plus c'mon. rpm, apt, msi. 90% Done.
+
+## But why would scholarpack make it difficult to install scholarpack?
+
+Because it appears that Scholarpack don't want you to install and host your own version, Scholarpack want to host it for you.  Oh and charge you for the convenience..
+
+Scholarpack Bearing in mind our target market is UK schools:
+
+1/We offer FREE installation support for the open source version, we have no commercial interest in schools not being able to use ScholarPack. - Free installation support is great!
+
+2/We do NOT sell software – Really? What are the modules then?
+
+3/We do NOT charge schools for hosting - You don’t charge schools for hosting? So a school can ring up tomorrow and can get Scholarpack hosted absolutely free? This is the case as confirmed by Scholarpack, free hosting and free support!  This is excellent.  Just remember Scholarpack open source doesn't have the modules with it so you will need to pay for those separate....
+
+4/We do NOT take any money AT ALL from schools - /me scratches his head.. I could swear I have seen a price list from you guys…  Yep, here it is.  This isn't the case for enterprise however this is a tie in so approach with caution.
+
+I hope that's clear now. Yes we want schools to host with us. We can guarantee quality of service as well as first class support. But they won't be invoiced by ScholarPack for such services. – I think I see where this is going....
+
+What is the point in open source if you can't actually access the source on a dev server to make the changes?  There is none and it is because of this that Scholarpack fails to deliver at being an open source project.
+
+## John, you are an awful guy.
+
+So I guess you have read this thinking "Wow, John really hates Scholarpack".  Far from it. **We need it**, seriously, **we need an open source MIS**.  ICT budgets are in crippled by Serco and Capita's relentless historical greed for profits and the closed source[2] model has seriously stifled creativity and new business models (See the SMS gateways as a perfect example of small business' being pushed out of the market).
+
+Scholarpack: That's why we have developed a totally new business model for this type of software.
+
+I really want Scholarpack(or any open source MIS) to be successful.  Seriously, I think the Scholarpack team have some work to do..  Their sales pitch based on it being an open source MIS is a bit of a joke..
+
+Scholarpack: We do NOT have a sales pitch based on it being an Open Source MIS. We advertise it as a FREE MIS for schools and also happen to have a pro bono open source release.
+
+..and historically this has been the case, some of you may know about the spat I had with Scholarpack because they didn't actually release any source code for a long period of time.
+
+Scholarpack: We were rewriting some large parts of the application. Why would we release a half-baked solution? When we were happy with the changes, we put up a download ASAP.
+
+Change in this field is needed and change should be transparent and challenged by people like me so that schools don't run into these conflicts at a later date.
+
+Scholarpack: There are no conflicts here. All ScholarPack have done is give away years of development for free. We fail to understand why we are being attacked for doing so. Please stop distracting us from our main business - providing a FREE MIS to schools.
+
+I shouldn't really of published this review because it's pretty obvious I upset Scholarpack...  I feel bad that they feel distracted and not benefited by my feedback or requests..   I do quite a few frank reviews and have never sugar coated important issues or given a positive review to something based on an idea or principle but this time I think I might just do that..  The way I see it is that Scholarpack are missing things but all the things Scholarpack are missing could be provided by a good open source community.  Yes I say that hosting is now biased to Scholarpack but only biased, not impossible.  That is a huge step forwards in any stretch of the imagination and Scholarpack should be praised for that.
+
+So my advice to you if you are an educator is to keep an eye on scholarpack and my advice to you if you are a developer or open source contributor is to have a go, try to build a community.  I personally don't see Scholarpack being the correct home for me but I think it could be a fantastic project..
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[3]
+
+=> http://www.scholarpack.com/ 1: http://www.scholarpack.com/
+=> http://en.wikipedia.org/wiki/Proprietary_software 2: http://en.wikipedia.org/wiki/Proprietary_software
+=> http://www.zemanta.com/ 3: http://www.zemanta.com/

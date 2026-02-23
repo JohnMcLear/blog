@@ -1,0 +1,11 @@
+---
+title: "Curatr - A buzz word based VLE/LP?- not an LMS? Confused?"
+date: 2010-06-02
+categories: 
+  - "ict"
+  - "review"
+---
+
+I love the work Ben is doing, the focus on game based learning and experience points ties in lovely with some of my latest projects. I hope to get time to check out curatr this week. First impressions is that it isn't very primary focused from an interface point of view. Also it is closed source, BAD BAD Ben! When I asked him about this he said that he had to keep his investors happy which makes me slightly sceptical about his understanding of open source and also Curatr's commitment to providing integration with other platforms and learning objects.
+
+Two videos that explain Curatr for you to enjoy..

@@ -1,0 +1,64 @@
+---
+title: "Etherpad's Video Conferencing security:  What do we do differently to Zoom?"
+date: 2020-04-04
+---
+
+I was asked in a [tweet](https://twitter.com/johnjohnston/status/1246346490257321984) to touch on the topics of Etherpad and Security.
+
+I initially wrote this post explaining how Etherpad handles Security etc. but then I figured I should a side by side comparison with Zoom because that's the currently criticized product. 
+
+Etherpad is not perfect, it's not a commercial product, it is commercially used by some large organizations but this is not a sales pitch.  Etherpad is a community movement, it's goal is not to provide shareholder value or increase profitability.  It's goal is to provide a collaboration tool used by anyone, anywhere without exception. 
+
+Let's also be clear, other stella video conferencing tools exist, we love [Jitsi](http://Jitsi.org) for example, Etherpad's functionality is no where near Jitsi for Video conferencing.  Etherpad provides document editing and video conferencing in one package.  If you just want video conferencing, Jitsi ( and other open source software exists ) are your ally.
+
+Would I use Zoom for anything where privacy or safe guarding is a consideration? No.
+
+Would I use it for chatting with my family? Yes.
+
+## Facebook privacy concerns
+
+Does Etherpad have problems with Social platform integration? **No**, but there is a social plugin if people want to bring social elements in. That's up to the site admin.
+
+## Malicious code silently being deployed
+
+Does Etherpad install any non documented code on your machine? No. Everything is open source. Admins can install plugins which aren't provided as a core part of Etherpad, a plugin could do something nefarious as we don't run them sandboxed. 
+
+Side musing:
+
+> It's worth noting noting Etherpad relies on thousands of dependencies, so it's entirely plausible that one of those could inject malicious code into the software.  To mitigate this we run security audits on release. 
+> 
+> Github also provides ongoing dependency vulnerability monitoring so we're constantly updating the software to resolve vulnerability related issues, usually 1 or so moderate a week and 1 critical a month. 
+> 
+> That's the honest truth about modern software, it's _vulnerable_.  It's ALL vulnerable so you have a choice to use something that is honest about it's vulnerabilities or hides behind the door of closed source providing an ignorance is bliss situation.
+> 
+> Does Etherpad's video conferencing plugin (ep\_webrtc) access your camera or any hardware without users permission? No. [We use "getUserMedia"](https://github.com/ether/ep_webrtc/blob/master/static/js/webrtc.js#L145) which is provided through the web browser so users permission is required.
+
+## Video call traffic and encryption
+
+Can Etherpad be installed locally to avoid traffic leaving your site/school/premises? Yes. If you do host your own we recommend hosting your own TURN/STUN server too to ensure ALL data stays local.
+
+Does Etherpad provide end to end encrypted video calls. 'Sort of', in 85% of circumstances, yes Etherpad's video calls are sent direct from user to user. Etherpad(and the ep\_webrtc plugin) does 0 processing of calls, [by default we use Google's STUN servers to negotiate the connectivity between two clients but you can change this to your own (and in the docs it says you should)](https://github.com/ether/ep_webrtc#settings). For the other 15%, the video stream has to be passed through a central point which in our case is through a TURN hosting provider out in Canada.  Again, to emphasize **you can just run your own TURN server.**
+
+There is something specifically worth mentioning for Educators. School firewalls and routing is complex. The 85% connectivity without TURN (so the amount that can go direct user to user\[this is the best case scenario we have reached so far\]) is with a lot of debugging and tweaking with US districts. The UK is yet to embrace this level of debugging, routing and because of this the 85% will likely start at 50% until schools / local authorities start deploying their own TURN servers to stop the traffic having to go external.
+
+### Is Peer to peer video connectivity the best way?
+
+From a bandwidth perspective, mheh, ish, you hit issues with bandwidth with less users(but moving forward bandwidth will be increasing to meet this demand so p2p will win).
+
+From a privacy perspective, yes.
+
+From a functionality perspective, mheh, maybe, peer to peer connections are more difficult to establish than through a central service (hence the TURN/STUN) and if you have a central server you can negotiate and manage stream bandwidth depending on # of users.  Zoom does what it does well, better than Etherpad. But where Etherpad shines is it's transparency and flexibility.  Let's say you don't want video and only want Audio?  **You can make that change**.  You have control as a user, developer, devops, manager etc.
+
+## What does the future look like?
+
+Will Etherpad provide a commercial solution at some point? Probably not, we cherish our container partners dearly and we want them to be able to benefit from deploying Etherpad to clients and also let them care about scaling/deployment etc so we can focus on building the software.  Lots of services exist that let you deploy Etherpad, docker is a thing, npm is a thing, git is a thing.  You can even install Etherpad on Windows Server for the ultimate roller-coaster experience.
+
+## What can I do to help Etherpad or get involved?
+
+[Download it](https://etherpad.org), [use it](https://video.etherpad.com), promote it, [contribute to the code](https://github.com/ether).
+
+## Further reading:
+
+[https://webrtc-security.github.io/](https://webrtc-security.github.io/)
+
+https://temasys.io/three-webrtc-myths-debunked/

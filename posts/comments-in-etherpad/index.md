@@ -1,0 +1,12 @@
+---
+title: "Comments in Etherpad"
+date: 2013-04-07
+categories: 
+  - "etherpad"
+---
+
+I have been playing with a proof of concept for Comments in Etherpad.
+
+This wont be available as a free plugin but if you are interested in sponsoring development or using it please [get in touch](https://mclear.co.uk/contact-me/)!
+
+![](images/RAp4XHR.gif)

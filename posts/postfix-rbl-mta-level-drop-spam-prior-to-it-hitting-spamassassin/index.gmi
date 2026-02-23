@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------
+
+title: "Postfix RBL / MTA level drop spam prior to it hitting spamassassin" date: 2010-03-22
+
+--------------------------------------------------------------------------------
+
+This is the config I use to drop spam - paste this to the bottom of your main.cf:
+
+[bash] disable_vrfy_command = yes smtpd_delay_reject = yes smtpd_helo_required = yes smtpd_helo_restrictions = permit_mynetworks, reject_non_fqdn_hostname, reject_invalid_hostname, permit smtpd_recipient_restrictions = permit_mynetworks,reject_unauth_destination reject_rbl_client list.dsbl.org, reject_rbl_client sbl.spamhaus.org, reject_rbl_client cbl.abuseat.org, reject_rbl_client dul.dnsbl.sorbs.net, smtpd_error_sleep_time = 1s smtpd_soft_error_limit = 10 smtpd_hard_error_limit = 20 [/bash]

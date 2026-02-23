@@ -1,0 +1,27 @@
+---
+title: "Open source software is completely insecure and unsafe to use"
+date: 2012-02-21
+categories: 
+  - "ict"
+  - "open-source"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+Over the last few weeks I've heard a few people assert that open source is less secure than proprietary software. I try to arm my readers with as much intellectual firepower as possible and I wouldn't be advocating open-source in Education unless it was fit for purpose.. So here you have it.. 3 Common misconceptions educators have about open-source debunked...
+
+## DEBUNKED - Everyone can see the code therefor it's easier to exploit it.
+
+All software has security holes. Open-source is more secure because people spot security holes early on and patch them. You can actually see what authentications are used and how badly/poorly they are written. Passwords in open source software have even more security because the methods used to access them are completely open so they are often encrypted/hashed which is more than can be said for Sony and some big Edu tech companies who's name I won't mention..
+
+## DEBUNKED - Anyone can add to the project therefor it's easier to add exploits.
+
+Projects have maintainers and many contributors, pull requests (requests to put code into the software) are publicly view-able and have to be merged by a maintainer IE a person of considerable experience/authority. Most pull requests on large projects are often checked by multiple people and tested using unit, integration and full stack tests PRIOR to merge into a final release. Open source projects also publish their patched exploits as security advisories, this gives sysadmins the ability to quickly respond to potential threats. Propriety software has no incentive to accept they had a security hole so tend to quietly patch security fixes in major updates.
+
+## DEBUNKED - Surely by default a house with an open door is less secure than a house with a door?
+
+Open source projects have doors and windows just like any propriety software but the doors and locks are specifically designed to be secure by default. Open source projects tend to encourage active security testing and try to engage with the security community to co-operate on security vulnerabilities instead of shutting them out. This means the open source community is not as frequently targeted with malicious hacks, most of the successful hacks are reported to the site admin by the hacker themselves.
+
+## If you believed any of these misconceptions ask yourself why and who has lied to you?
+
+C'mon people, [OAuth is open source and we all use that every single day (Google, Twitter, Facebook etc.)](http://en.wikipedia.org/wiki/OAuth#Uses). The common miss-conception that open-source is less secure than proprietry software is just bonkers, we know better and it's our job to spread the message!

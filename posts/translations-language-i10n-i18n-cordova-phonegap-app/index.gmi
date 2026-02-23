@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+
+title: "Adding i18n to a Cordova App" date: 2014-02-14 categories:
+
+* "cordova"
+* "developer"
+* "developing"
+* "development"
+
+--------------------------------------------------------------------------------
+
+i18n (Internationalization) in applications roughly means adding support for translations and other languages.  In this blog post I will talk you through a general approach to implementing i18n in Cordova Apps.  If your app isn't open-source, move along, the 90s is on another website.
+
+As Cordova apps are written in HTML/CSS/JS we can easily leverage existing web platforms and services to provide i18n at break-neck speeds.
+
+TLDR Services/frameworks used: * Translatewiki to provide translations[1] * Marcel's html10n i18n implementation[2] * Handlebars for templating * Etherpad implementation of detecting locale/language also written by Marcel
+
+## Implementation steps
+
+* Ensure your app fulfills Translatewiki's requirements (Open source etc)[3] * Talk to Translate / Internationalization team at Wikimedia foundation before creating Gerrit commit * Gerrit commit to TranslateWiki adding support for your App.[4] * Include handlebars and html10n[5] libraries in your app * Modify your HTML putting markup in handlebar script tags[6] * Move your text strings into locales files.[7] * Include a handlebars html10n render helper[8] * Use the Etherpad implementation of detecting locale/language[9]* Give someone at WMF access to commit to your Repo
+
+## Sit back and enjoy..
+
+Once you have completed your implementation and it's approved by the WMF the WMF translation team will translate all of your strings and commit them back to your repo. You might want to provide the WMF team with the ability to see each of your strings in situ in a browser, this means providing a mechanism to fake Cordova events..[10]
+
+## Summary
+
+This implementation is basically a straight copy of how we handle i18n in Etherpad, it's pretty robust and clean to implement. All in all a complete refactor of the NFC Ring Control App while implementing i18n took about a week of full time commitment, well worth doing as now the larger community can provide translations which if I was to do hans solo would take months :)
+
+=> http://translatewiki.net 1: http://translatewiki.net
+=> https://github.com/marcelklehr/html10n.js 2: https://github.com/marcelklehr/html10n.js
+=> https://translatewiki.net/wiki/Translating:New_project 3: https://translatewiki.net/wiki/Translating:New_project
+=> http://www.gossamer-threads.com/lists/wiki/mediawiki-cvs/431805 4: http://www.gossamer-threads.com/lists/wiki/mediawiki-cvs/431805
+=> https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/js/html10n.js 5: https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/js/html10n.js
+=> https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/index.html 6: https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/index.html
+=> https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/locales/en.json 7: https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/locales/en.json
+=> https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/js/nfcRing/ui.js#L71 8: https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/js/nfcRing/ui.js#L71
+=> https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/js/nfcRing/ui.js#L75 9: https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/js/nfcRing/ui.js#L75
+=> https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/index.html#L160 10: https://github.com/mclear/NFC_Ring_Control/blob/refactor/www/index.html#L160

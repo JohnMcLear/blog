@@ -1,0 +1,12 @@
+---
+title: "Welcome to the hackathon"
+date: 2012-02-24
+categories: 
+  - "features"
+---
+
+Today signals the beginning of the Etherpad Hackathon. Our goal is to get version 1.1 finalized and hopefully a plugin framework.
+
+[Here is our progress tracker for remote joiners and includes a list of stuff to get involved with.](http://beta.etherpad.org/p/progress)
+
+Please ping us via email/skype/irc/google group if you have any questions.

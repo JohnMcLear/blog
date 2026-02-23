@@ -1,0 +1,35 @@
+---
+title: "Using git bisect to debug Etherpad issues"
+date: 2013-04-02
+categories: 
+  - "etherpad"
+  - "git"
+tags: 
+  - "etherpad"
+  - "git"
+  - "github"
+---
+
+Sometimes stuff gets broken due to new commits, we need to know which commit broke functionality.
+
+To do this \[code\] git pull git checkout develop \[/code\]
+
+Ensure the bug exists then \[code\] git checkout master \[/code\]
+
+Ensure the bug doesn't exist. If it does checkout older versions IE git checkout release/1.2.8 Next begin the bisect process..
+
+\[code\] git bisect start \[/code\]
+
+Tell bisect that master is fine \[code\] git bisect good \[/code\]
+
+Tell bisect that develop is bad \[code\] git checkout develop git bisect bad \[/code\]
+
+Bisect will then deliver you a commit state, test this new version.. \[code\] bin/run.sh \[/code\]
+
+Test, Control C.. Did it work? If so... \[code\] git bisect good \[/code\]
+
+Did it not work? If so.. \[code\] git bisect bad \[/code\]
+
+Rinse repeat 'git bisect good' and/or 'git bisect bad' until it delivers you with a commit SHA then create an issue including the details from the SHA.
+
+Basically bisect will tell you which commit introduced the bug.

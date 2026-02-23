@@ -1,0 +1,20 @@
+---
+title: "Orange to Orange [ISP] connectivity"
+date: 2011-07-26
+categories: 
+  - "review"
+---
+
+Orange have a problem where you can't connect from one Orange ISP customer to another. It appears to spur from when Orange "upgrade" your line.
+
+This is a problem if: a) Your friend is hosting a game you want to join \[Terraria in this case\] b) You want to remote desktop to your home from your friends house. c) You need to do any form of connectivity between yourself and your friend/family/other orange customer.
+
+**Is it really an upgrade if it causes problems?** Many people have said the Orange upgrade is actually a downgrade, I haven't noticed any difference in speed or latency, check out the orange problems forum if you have this issue.
+
+**What are Orange doing about it?** It looks like nothing. I don't think they have the ability/knowledge to fix this, I think they have to depend on subcontactors/BT so they are probably waiting on a response from the Cisco guys there.
+
+**What can you do about it?** Orange aren't actually providing a service that falls inside their own T's and C's\[needs citation\] so you are within your rights to ask for a refund but you will need to be able to show evidence of inter-connectivity failing.
+
+**Should you leave Orange?** That's up to you. I'm not going to. I'm going to email orange customer support, show them evidence of the failure (in the forms of route failures) and inform them I will be requesting a refund for the months where my internet connectivity has failed.
+
+**How can you test if this is the problem?** [Contact me](https://mclear.co.uk/contact) and I will give you some tests that you can run.

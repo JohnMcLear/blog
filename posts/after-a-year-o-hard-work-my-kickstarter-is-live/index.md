@@ -1,0 +1,46 @@
+---
+title: "After a year of hard work my kickstarter is live!"
+date: 2013-07-20
+tags: 
+  - "clothing"
+  - "design"
+  - "jewelry"
+  - "kickstart"
+  - "kickstarter"
+  - "nfc"
+  - "nfc-ring"
+  - "ring"
+  - "wearable"
+---
+
+[![ring-7mm-render-all-(0-00-00-00)](images/ring-7mm-render-all-0-00-00-00-550x373.jpg)](https://mclear.co.uk/wp-content/uploads/2013/07/ring-7mm-render-all-0-00-00-00.jpg)
+
+And with a £20 offer for early birds you would be insane not to buy an [NFC Ring](http://nfcring.com)!
+
+Many of you will have seen me with various weird looking prototypes on my finger over the last year and a lot of you probably thought I had reached the point of insanity way before my time, there were moments when I questioned this myself.. Probably the scariest moment was when I stepped down as the Managing Director of Primary Technology and invested most of my savings into a product that has never been proven and at that point I had only researched for a few months.
+
+## Why Kickstarter?
+
+Once we started doing advertising (before kickstarter) we had 2 offers to capital fund the project.
+
+One we had approached directly and we knew before the project started he was the guy we wanted on board so a flight over to SF, a calligrapher written letter and several dozen emails later and we had funding, more than we needed actually which gave us some additional marketing funds. Getting this funding was just the bump we needed. Anyway I basically sold 16% of the company for our funds, I'd of given a higher % probably mostly because the person involved is a good person and has the right mentality when it comes to the tech industry.
+
+The other offer was a little less desirable and came after we secured more than enough funding, so that begs the question.. Why sacrifice 10% of the budget to kickstarter when we could have just launched directly? Kickstarter to me is more about building communities than it is raising cash, it's also about validating products. Both of these things are key, without them the Ring is nothing, so the Kickstarter was right, VC funding is also nice and to be honest without the VC funding to help pay for prototype and testing we wouldn't have been able to Kickstart.
+
+## Stepping into the unknown
+
+NFC Rings aren't like a normal product.. There is absolutely no way I can/could tell if people wanted function and form in jewelry, the only thing I could find that was a similar movement was the move from bracelets/bands to wrist watches.. There is a huge risk the NFC Ring is way ahead of it's time and that my product might not be the one that proves to be widely adopted but I do feel that having technology embedded into a ring is the right thing to do.
+
+## Going for broke
+
+My overall investment in this product is enough to make my eyes water so I don't want to go too much into finances but safe to say it's been close and only actually doable thanks to loans from schools (3d printer), investors (audrey) and the people I have worked with (Tanya, Chris B, Gareth, Don C, Filmaj, Chris & Rich, Tom, Chris (Yuan), Mark, Zero, William, Adam S).. A lot of people have put a lot of hard work into this project and most of the time on a relatively tight budget for what we have accomplished, they deserve a lot of gratitude and credit.
+
+## What happens during the campaign?
+
+During the kickstart campaign we will be working hard trying to build up support, funding and also adding final touches such as deciding with the community on the look of the kickstarter exclusive limited edition ring.. we expect a lot of questions
+
+## So what's next for John?
+
+Well assuming we hit our targets we have stretch goals for up to about £300k then after that we're into the unknown and probably into rounds of funding, I hope we don't go that far actually because I'd like to have some breathing time for the community to speak their mind and get involved in the project.. Tanya will be leading the project as she has a real solid understanding of our goals and a good mentality to continue growth..
+
+[Buy an NFC Ring, they are frigging awesome!](http://nfcring.com)

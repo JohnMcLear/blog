@@ -1,0 +1,41 @@
+---
+title: "Endsleigh Home / Contents insurance #fail then #win"
+date: 2009-09-16
+categories: 
+  - "endsleigh-insurance"
+  - "fail"
+---
+
+Probably the best thing about my blog is when I get such bad quality of service that I get to rant about it on here and today was no exception...
+
+  
+
+Endsleigh have been providing my house & contents and contents insurance for 11 years and sent through the renewal in my dads name. As I am purchasing the family home I wanted to transfer the policy into my name but it now turns out that Endsleigh can not create a new policy to cover this home..
+
+  
+
+I find it hillarious that a company can provide a service for 11 years then when a customer comes to renew say, erm, sorry we don't do that any more and we can't provide an alternative..
+
+  
+
+To summarize: Save your time, don't call Endsleigh if you have a property built before 1850!
+
+  
+
+UPDATE: I received this tweet- @johnmclear Hi John, This seems odd - please call Adrian Nelder in Customer Care 08000858698, as we still may be able to cover you.
+
+  
+
+UPDATE: I called Adrian today and spent another 30 mins or so on the phone trying to get it sorted, he was able to give me a price for contents insurance but had to go back to the underwriter for a buildings insurance premium.
+
+  
+
+Good to see a big company is using modern communication methods to contact their customers. I will update this when/if I get my prices.
+
+  
+
+UPDATE: I now have a price, it is £10 a month less than what my dad was paying but £10 a month more than the insurance comparison websites so I'm going to make some more calls tomorrow then make a decision.
+
+  
+
+I am happy with Endsleigh insurance, I'm not going to remove this post as it is import for their customer service records. What I don't understand is why the first girl I spoke to didn't go through the same effort that Adrian did?

@@ -1,0 +1,20 @@
+---
+title: "Trying out remote support in Primary Schools (again)"
+date: 2010-05-03
+categories: 
+  - "ict"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+We have had numerous attempts at trying to find the right solution that suits us and our customers needs for technical support.  We often get it right but remote support has been one of the harder things to implement.  Firstly it was a technical barrier, we hope now it will just be a training barrier.
+
+We are trying to implement remote support using a mash up of technologies that makes it as easy as possible for a teacher to get instant support.  We aim to roll it out fully in the next 6 months.  We are using the [Google Talk](http://www.google.com/talk/ "Google Talk") protocol with the pidgin client on desktop machines and the google talk client on mobile devices.
+
+Here is a screen shot of the interface:
+
+[![](images/qhg1.png "Primary Technology Live help screen shot")](https://mclear.co.uk/wp-content/uploads/2010/05/qhg1.png)
+
+If you recieve support from us for a paid product then get in touch if you want to try it out early on.
+
+![Reblog this post [with Zemanta]](images/reblog_e.png)

@@ -1,0 +1,26 @@
+---
+title: "Grabbing Etherpad Source code using Git"
+date: 2010-06-15
+categories: 
+  - "etherpad"
+---
+
+To grab the latest Etherpad source code prior to installation it is just one command.
+
+_Pre-reqs: git, git-core (possibly?)_
+
+\[bash\]
+
+git clone git://github.com/ether/pad.git
+
+\[/bash\]
+
+Done.
+
+You can grab an older version by doing
+
+\[bash\]git log\[/bash\]
+
+finding where ye wanna go back to then
+
+\[bash\]git checkout COMMITVALUE ie bd2190f0453f6a189b84b3ff2f1af05d5e023801\[/bash\]

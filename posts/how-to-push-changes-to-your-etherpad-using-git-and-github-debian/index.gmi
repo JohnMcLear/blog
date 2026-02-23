@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+
+title: "How to push changes to your Etherpad using Git and Github (Debian)" date: 2010-03-25 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+[bash] apt-get install git-core [/bash] Goto http://github.com/redhog/pad[1] Click Fork Go to http://github.com/YOURUSERNAME/pad[2] Copy the git@github.com:YOURUSERNAME/pad.git IE ( [bash]git clone git@github.com/johnyma22/pad.git [/bash] ) Set the comment. [bash] git commit -a -m "Added Hello World" git remote rm origin git remote add origin git@github.com:YOURUSERNAME/pad.git [/bash] IE ( [bash] git remote add origin git@github.com:johnyma22/pad.gif [/bash] )
+
+If you don't already have an ssh key ( [bash] ssh-keygen -t rsa [/bash] use defaults cat the path to the .pub (Copy the contents)_ Open up Github.com and login Click Account settings Click Add public Key Give it a title (ie etherpad) Paste the contents of the .pub file ) [bash] git push [/bash] Done =)
+
+=> http://github.com/redhog/pad 1: http://github.com/redhog/pad
+=> http://github.com/YOURUSERNAME/pad 2: http://github.com/YOURUSERNAME/pad

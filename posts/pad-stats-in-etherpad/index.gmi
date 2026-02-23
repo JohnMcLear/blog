@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+title: "Pad Stats in Etherpad" date: 2013-04-14 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+```html
+<iframe src="http://www.youtube.com/embed/FKHdkXLYFIc" height="315" width="560" allowfullscreen frameborder="0"></iframe>
+```
+
+Get the following Stats in Etherpad:
+
+Characters (no whitespace) Characters (with whitespace) Word Count Revision Count Saved Revision Count # of Authors Author Stats Number of Words Contributed to Number of Lines Contributed to Lines as Only Contributor Number of Characters (Including Whitespace) Number of Characters (Excluding Whitespace)
+
+Pricing is 400$ per commercial license, 40$ for non-commercial/explicit not for profit.

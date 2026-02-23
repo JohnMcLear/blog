@@ -1,0 +1,46 @@
+---
+title: "Karting March 2009"
+date: 2009-03-28
+categories: 
+  - "fun"
+  - "installations"
+  - "karting"
+  - "party"
+  - "primary"
+  - "primary-technology"
+  - "school"
+  - "team"
+---
+
+Today is the end of year Karting day, we're meeting at Bfd karting at 1pm.
+
+  
+
+Anyone who doesn't know where it is just drop me a line.
+
+  
+
+Plan is:
+
+1. 1pm karting  
+    
+2. Pizza  
+    
+3. Pool  
+    
+4. Few drinks(non alcoholic)  
+    
+5. 4pm ish drive home  
+    
+6. Get changed  
+    
+7. 7pm go eat pepperpot near BD5 office.  
+    
+8. Few alcoholic drinks  
+    
+9. Gig at St G Hall  
+    
+10. Clubs  
+     
+
+Phone will be on all day but I won't be able to answer during karting so ring someone else from the team!

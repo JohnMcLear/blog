@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------------
+
+title: "ThreeJS is tricky, but awesome." date: 2014-09-12 categories:
+
+* "blender"
+* "nfc"
+* "nfc-ring"
+* "threejs"
+
+--------------------------------------------------------------------------------
+
+Over the past few months I have been using ThreeJS[1] to create a 3D model of the NFC Ring[2].
+
+ThreeJS from Wikipedia:
+
+> **Three.js** is a lightweight cross-browser[3] JavaScript library[4]/API[5] used to create and display animated 3D computer graphics[6] on a Web browser[7]. Three.js scripts may be used in conjunction with the HTML5[8] canvas element[9], SVG[10] or WebGL[11].
+
+The ThreeJS community is actually really helpful, I'm not saying other communities aren't helpful or useful I just found that the ThreeJS community did a lot more to help get me started.  There are also quite a few demostration videos online that can be used as reference material.
+
+The real power of ThreeJS comes when you mix it with the power of Blender.
+
+Blender from Wikipedia:
+
+> **Blender** is a professional free and open-source[12] 3D computer graphics software product[13] used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Blender's features include 3D modeling[14], UV unwrapping[15], texturing[16], raster graphics editing[17], rigging and skinning[18], fluid and smoke simulation[19], particle[20] simulation, soft body[21] simulation, sculpting[22], animating[23], match moving[24], camera tracking[25], rendering[26], video editing[27] and compositing[28]. Alongside the modeling features it also has an integrated game engine[29].
+
+At first I was completely stuck, the video tutorials were out of date and the documentation far too fuzzy, finally I met someone on IRC who did the type of task I was trying to to accomplish every day as his day job.  Things fell into place quickly, so quickly I thought it would be worthwhile putting together a video showing how easy the process is to model an object and export it as something that can be used in ThreeJS:
+
+```html
+<iframe width="560" height="315" src="//www.youtube.com/embed/8mlh_zSUTus?list=UUdbzIfrpmzGCJ2j1LjqW9Gw" frameborder="0" allowfullscreen></iframe>
+```
+
+Canvas is pretty much a no-go for the work I'm doing, it's nice to have the fallback options there but Canvas just doesn't have the features I need to display a ring in all of it's glory.  With that in mind if a user wants to see the ring and doesn't have WebGL supported they are shown a message how best to upgrade their browser.
+
+Finally we should note both three.js and blender are open source projects, completely free and depend on community donation and support. They are both evolving under great leadership and they deserve the credit and respect they get.
+
+This is what I was able to accomplish, I'm pretty proud of it.
+
+```html
+<iframe src="http://nfcring.com/threejs/ring.html?sku=NTAG203-V1-NORMAL-T-B-T-16" width="600px" height="600px" scrolling="no" frameborder="0" allowfullscreen></iframe>
+```
+
+You can see the source code and access the assets here[30]
+
+=> http://threejs.org/ 1: http://threejs.org/
+=> http://nfcring.com 2: http://nfcring.com
+=> http://en.wikipedia.org/wiki/Cross-browser 3: http://en.wikipedia.org/wiki/Cross-browser
+=> http://en.wikipedia.org/wiki/JavaScript_library 4: http://en.wikipedia.org/wiki/JavaScript_library
+=> http://en.wikipedia.org/wiki/API 5: http://en.wikipedia.org/wiki/API
+=> http://en.wikipedia.org/wiki/3D_graphics 6: http://en.wikipedia.org/wiki/3D_graphics
+=> http://en.wikipedia.org/wiki/Web_browser 7: http://en.wikipedia.org/wiki/Web_browser
+=> http://en.wikipedia.org/wiki/HTML5 8: http://en.wikipedia.org/wiki/HTML5
+=> http://en.wikipedia.org/wiki/Canvas_element 9: http://en.wikipedia.org/wiki/Canvas_element
+=> http://en.wikipedia.org/wiki/SVG 10: http://en.wikipedia.org/wiki/SVG
+=> http://en.wikipedia.org/wiki/WebGL 11: http://en.wikipedia.org/wiki/WebGL
+=> http://en.wikipedia.org/wiki/Free_and_open_source_software 12: http://en.wikipedia.org/wiki/Free_and_open_source_software
+=> http://en.wikipedia.org/wiki/3D_computer_graphics_software 13: http://en.wikipedia.org/wiki/3D_computer_graphics_software
+=> http://en.wikipedia.org/wiki/3D_modeling 14: http://en.wikipedia.org/wiki/3D_modeling
+=> http://en.wikipedia.org/wiki/UV_mapping 15: http://en.wikipedia.org/wiki/UV_mapping
+=> http://en.wikipedia.org/wiki/Texture_mapping 16: http://en.wikipedia.org/wiki/Texture_mapping
+=> http://en.wikipedia.org/wiki/Raster_graphics_editor 17: http://en.wikipedia.org/wiki/Raster_graphics_editor
+=> http://en.wikipedia.org/wiki/Skeletal_animation 18: http://en.wikipedia.org/wiki/Skeletal_animation
+=> http://en.wikipedia.org/wiki/Fluid_simulation 19: http://en.wikipedia.org/wiki/Fluid_simulation
+=> http://en.wikipedia.org/wiki/Particle_system 20: http://en.wikipedia.org/wiki/Particle_system
+=> http://en.wikipedia.org/wiki/Soft_body_dynamics 21: http://en.wikipedia.org/wiki/Soft_body_dynamics
+=> http://en.wikipedia.org/wiki/Digital_sculpting 22: http://en.wikipedia.org/wiki/Digital_sculpting
+=> http://en.wikipedia.org/wiki/Computer_animation 23: http://en.wikipedia.org/wiki/Computer_animation
+=> http://en.wikipedia.org/wiki/Match_moving 24: http://en.wikipedia.org/wiki/Match_moving
+=> http://en.wikipedia.org/wiki/Camera_tracking 25: http://en.wikipedia.org/wiki/Camera_tracking
+=> http://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29 26: http://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29
+=> http://en.wikipedia.org/wiki/Video_editing_software 27: http://en.wikipedia.org/wiki/Video_editing_software
+=> http://en.wikipedia.org/wiki/Compositing 28: http://en.wikipedia.org/wiki/Compositing
+=> http://en.wikipedia.org/wiki/Game_Blender 29: http://en.wikipedia.org/wiki/Game_Blender
+=> https://github.com/mclear/nfcring-web/tree/gh-pages/threejs 30: https://github.com/mclear/nfcring-web/tree/gh-pages/threejs

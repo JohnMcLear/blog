@@ -1,0 +1,63 @@
+---
+title: "FOTE09 Conference review #fote09"
+date: 2009-10-03
+categories: 
+  - "conference"
+  - "fote09"
+  - "review"
+---
+
+  
+The future of technology in Education is obviously a very hot topic at the moment.
+
+  
+
+**I took a few key things away from the conference:**
+
+  
+
+1. The future is on a huge range of devices
+2. The future is very "open" when it comes to sharing resources and content (This I'm 100% behind)
+3. FOTE is more for FE however it was worth while my attending (being that I work mainly with primary schools)
+
+**To the planners**
+
+  
+
+The conference was very well organized and the food/tea breaks were perfectly placed. My thanks goes out to the hosts and the presenters.
+
+  
+
+**Presenting the twits**
+
+  
+
+Some of the presenters were great, some, not so.. I think the real time feedback during Twitter was fantastic and this lead to some very open, honest and sometimes heated debates.
+
+  
+
+**Being offended**
+
+  
+
+Apologies go to people who found some of the content on twitter offensive but this includes a very important reminder that you can chose to ignore comments you might like that. A few times during the conference people "devalued the degree". Be it presenter or a tweeter this was not well received and I think that FE people may need to look at why some people (usually those working in IT) come to this conclusion.
+
+  
+
+**Virtual insanity**
+
+  
+
+I wish the talk on "Virtual Worlds" had some more real life opportunities for people in none FE to explore, I didn't get what I wanted from the talk other than a sense of "it's cheap but not as good as the real thing". Most of the time in Primary the real thing isn't "that" expensive
+
+  
+
+**Will I be attending FOTE09 next year?**
+
+  
+
+If the topics fall in my line of interest then yes but I wouldn't expect anyone else in Primary Education to attend. I could also look at possible sponsoring with [School Email](http://schoolemail.co.uk/) which would be of interest to the secondary/college leaders.
+
+  
+
+Thanks to everyone who was involved, attended & tweeted. I was awake for 36 hours before sleeping... ouch

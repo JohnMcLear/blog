@@ -1,0 +1,15 @@
+---
+title: "School Email / Primary Email home page problems"
+date: 2011-05-16
+categories: 
+  - "ict"
+  - "primary-email"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+  - "school-email"
+---
+
+We received a small volume of complaints today from users experiencing a “white screen” when attempting to access Web Mail.
+
+This problem was due to users trying to access web mail using saves links or short cuts from other websites, to avoid this problem please navigate to http://www.primaryemail.co.uk directly. If you do create short cuts to School Email / Primary Email we advise that you manually add the URL and point it to http://www.primaryemail.co.uk

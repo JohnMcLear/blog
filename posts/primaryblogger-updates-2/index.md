@@ -1,0 +1,17 @@
+---
+title: "PrimaryBlogger updates"
+date: 2011-05-16
+categories: 
+  - "blog"
+  - "ict"
+  - "primary-blogger"
+  - "primary-school"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+  - "wordpress"
+---
+
+We had scheduled some [PrimaryBlogger](http://primaryblogger.co.uk) maintenance time in tonight to update the file system and that meant that some admin pages would not be available. We didn’t expect a) it would take so long, b) it would be so disruptive, c) teachers would still be adding posts to their blogs at 22:30.. We have put it off till midnight when it will start again..
+
+Apologies!

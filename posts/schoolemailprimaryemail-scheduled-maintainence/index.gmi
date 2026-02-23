@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+title: "SchoolEmail/PrimaryEmail Scheduled maintainence" date: 2011-05-15 categories:
+
+* "ict"
+* "primary-email"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+* "school-email"
+
+--------------------------------------------------------------------------------
+
+We are currently performing some scheduled maintenance on the Primary Email[1] and School Email[2] service. Normal service should be resumed within an hour.
+
+=> http://primaryemail.co.uk 1: http://primaryemail.co.uk
+=> http://schoolemail.co.uk 2: http://schoolemail.co.uk

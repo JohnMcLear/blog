@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+
+title: "Multiplication Activity game" date: 2011-04-26 categories:
+
+* "ict"
+* "primary-games"
+* "primary-games-arena"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+
+--------------------------------------------------------------------------------
+
+=> images/webthumb.php [IMG]
+[1]Description: 1-4 digit multiplication with carrying
+
+Play here[2]
+
+Suitable for ages: 10..
+
+=> http://primarygamesarena.com/Multiplication-Activity3028 1: http://primarygamesarena.com/Multiplication-Activity3028
+=> http://primarygamesarena.com/Multiplication-Activity3028 2: http://primarygamesarena.com/Multiplication-Activity3028

@@ -1,0 +1,13 @@
+---
+title: "Playing with embedding a pictograph"
+date: 2011-10-05
+---
+
+<iframe width="588" height="320" src="http://www.youtube.com/embed/yf7FjLz8RU0" frameborder="0" allowfullscreen></iframe>
+
+Results below:
+
+<iframe width="580" height="600" src="http://primaryschoolict.com:8080/pictograph/e/?q=What is the most awesome?&amp;a={&quot;robot&quot;:5,&quot;archers&quot;:4,&quot;cannon&quot;:3,&quot;ninjas&quot;:9}"></iframe>
+
+  
+Make your own pictogram with the Primary Technology [free online pictogram creator](http://primaryschoolict.com/pictograph)

@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------
+
+title: "Ushahidi post tweets to API php example" date: 2010-07-15 categories:
+
+* "ict"
+* "my-school-closures"
+* "school"
+* "school-closures"
+* "ushahidi"
+
+--------------------------------------------------------------------------------
+
+=> images/filter-full1.png [IMG]
+[1]
+
+**The below code takes an rss search result from twitter, detects the authors location then posts the information to Ushahidi[2] via the API[3].**
+
+**Application I used it in**: My School Closures[4] for detecting people who tweet about school closures.  Unfortunately I have to use pipes for the location builder which isn't elegant as Yahoo Pipes[5] sucks and I wish I never started playing with it.  Feel free to play with the pipe I created to get geo location information from a location name, it is the pipe that has the json_decode.
+
+**You will need mysql and a table for the guids** (this stops us from spamming twitter for authors we have already located). Make sure you change the configuration settings and create a table in mysql.
+
+The method is simple, the code isn't pretty and will require polishing but here it is:
+
+[php] <pre> <?php //CONFIGURE THE SETTINGS BELOW //twitter settings $twitterusername = "mytwitteraccount"; $twitterpassword = "apasswordgoeshere";
+
+//database settings $host = "databasehostname"; $user = "databaseusername"; $pass = "databasepassword"; $dbname = 'databasename';
+
+// You should create a table called tweetguids in your database $tablename = "tweetguids";
+
+// Change the below feed to a rss feed similar to below $rssurl = "http://pipes.yahoo.com/pipes/pipe.run?%5C_id=a9663ebc09e69b9195fb2407fba9f2bc&amp;%5C_render=rss[6]";
+
+// END OF CONFIG
+
+$conn = mysql_connect($host, $user, $pass) or die ('Error connecting to mysql'); mysql_select_db($dbname);
+
+ini_set('display_errors', 1); ini_set('log_errors', 1); ini_set('error_log', dirname(__FILE__) . '/error_log.txt'); error_reporting(E_ALL);
+
+$rss = simplexml_load_file($rssurl) or die("failure"); $count = 0; foreach ($rss->channel as $chan) { $time = $chan->pubDate; } foreach ($rss->channel as $chan){$time = $chan->pubDate;} foreach ($rss->channel->item as $item) { // only do first 10 records if ($count < 10) { $foundguid=0; $guidnew=$item->guid; // Check to see if guid exists in db already $sql="SELECT * FROM $tablename where guid = \"$guidnew\""; $result=mysql_query($sql, $conn); while ($row=mysql_fetch_array($result)) { $foundguid=1; echo "Foundguid: $foundguid"; } if($foundguid==1) { echo "We found an alredy existing guid..."; } else { $count = $count + 1; $task="report"; $incident_title=$item->title; $guidnew=$item->guid; $incident_title=str_replace(" ","+",$incident_title); $incident_description=$item->description; $incident_description=str_replace(" ","+",$incident_description); $incident_date=date("m/d/Y",$time); $incident_hour=date("H",$time); $incident_minute=date("i",$time); $incident_ampm=date("a",$time); $incident_category="Possible Closure"; $location_name="Unknown"; $author = $item->author; $author = str_replace(" ","+",$author); $pos = strpos($author,"+"); //$author = substr($author,0,$pos); $author = str_ireplace("http://twitter.com/%22,%22%22,$author[7]); $url = "http://$twitterusername:$twitterpassword@api.twitter.com/1/users/lookup.xml?screen%5C_name=$author[8]"; //echo $url; $output = simplexml_load_file($url) or die("badauth"); foreach ($output->user as $item) { // Get the values out of the XML $location=$item->location; // Clean up the location $location=str_ireplace("-",",",$location); $location=str_ireplace(" ",",",$location); // $location=preg_replace("/[^a-zA-Z0-9\s]/", "", $location); echo "<br/><b>Location content: $location<br/>"; // Pass the location to yahoo pipe $location = str_ireplace(" ","",$location); //echo "<br/>Loc: $location"; $locationurl = "http://pipes.yahoo.com/pipes/pipe.run?%5C_id=03539616e4cdd62eb15ed26b81e3041e&amp;%5C_render=json&amp;q=$location[9]";
+
+$ch = curl_init(); curl_setopt($ch, CURLOPT_URL, $locationurl); curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+//make the request $json = curl_exec($ch); $arr = (json_decode($json,true)); $blah = $arr['value']['items'][0]['name']['loc']; //print_r($blah); $latitude = $blah['lat']; $longitude = $blah['lon']; $location_name = $blah['city']; }
+
+$incident_description="Closure reported from twitter"; $url = "task=report&incident_title=$incident_title&incident_description=$incident_description&incident_date=$incident_date&incident_hour=$incident_hour&incident_minute=$incident_minu$ $posturl = "http://myschoolclosures.com/ushahidi/api[10]"; $Curl_Session = curl_init($posturl); curl_setopt ($Curl_Session, CURLOPT_POST, 1); curl_setopt ($Curl_Session, CURLOPT_POSTFIELDS, $url); curl_setopt ($Curl_Session, CURLOPT_FOLLOWLOCATION, 1); curl_exec ($Curl_Session); curl_close ($Curl_Session); //Write to the database $sqlgo="INSERT INTO $tablename VALUES (\"$guidnew\")"; $result=mysql_query($sqlgo, $conn); } } //Write anything else to DB just in case anything trails behind $sql="INSERT INTO $tablename VALUES (\"$guidnew\")"; $result=mysql_query($sql, $conn); $row=mysql_fetch_array($result); //echo "<br/>$sql<br/>"; } ?> [/php]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/07/filter-full1.png 1: https://mclear.co.uk/wp-content/uploads/2010/07/filter-full1.png
+=> http://www.ushahidi.com 2: http://www.ushahidi.com
+=> http://en.wikipedia.org/wiki/Application_programming_interface 3: http://en.wikipedia.org/wiki/Application_programming_interface
+=> http://myschoolclosures.com 4: http://myschoolclosures.com
+=> http://pipes.yahoo.com 5: http://pipes.yahoo.com
+=> http://pipes.yahoo.com/pipes/pipe.run?%5C_id=a9663ebc09e69b9195fb2407fba9f2bc&amp;%5C_render=rss 6: http://pipes.yahoo.com/pipes/pipe.run?%5C_id=a9663ebc09e69b9195fb2407fba9f2bc&amp;%5C_render=rss
+=> http://twitter.com/%22,%22%22,$author 7: http://twitter.com/%22,%22%22,$author
+=> http://$twitterusername:$twitterpassword@api.twitter.com/1/users/lookup.xml?screen%5C_name=$author 8: http://$twitterusername:$twitterpassword@api.twitter.com/1/users/lookup.xml?screen%5C_name=$author
+=> http://pipes.yahoo.com/pipes/pipe.run?%5C_id=03539616e4cdd62eb15ed26b81e3041e&amp;%5C_render=json&amp;q=$location 9: http://pipes.yahoo.com/pipes/pipe.run?%5C_id=03539616e4cdd62eb15ed26b81e3041e&amp;%5C_render=json&amp;q=$location
+=> http://myschoolclosures.com/ushahidi/api 10: http://myschoolclosures.com/ushahidi/api

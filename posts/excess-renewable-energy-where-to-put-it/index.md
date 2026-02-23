@@ -1,0 +1,32 @@
+---
+title: "Excess Renewable Energy:  Where to put it?"
+date: 2023-07-25
+---
+
+As feed in tariffs are often offensively priced you might find that by using excess to dump into appliances you get better value of return than feeding back into the electricity grid.
+
+Here are some items you can use to improve the Quality of Life when you have excess energy:
+
+- Hot Tub (store hot water for use later)
+
+- Home Energy Storage IE Batteries (store energy to use later)
+
+- Dehumidifier (reduce humidity)
+
+- Washing Machine / Dish Washer (save cycles to run during excess hours)
+
+- Fridge / Freezer (increase cooling during excess)
+
+- Heating cylinder (store hot water for use later)
+
+- Computing (ie mining, updates)
+
+- Car charging (somewhat obvious as you are charging a battery)
+
+- Robot(s) (vacuum cleaner/mowers etc, make sure to finish their cycle at peak time so recharge happens during excess hours)
+
+- Water pump (cycle/store water)
+
+- Immersion heater (different from a cylinder and used to kill off legionaries)
+
+- Air purifier

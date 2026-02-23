@@ -1,0 +1,15 @@
+---
+title: "iPlayer embed returns JS error: ao is undefined"
+date: 2011-01-03
+categories: 
+  - "developer"
+  - "developing"
+---
+
+Firefox is reporting this when I embed a BBC iPlayer iframe.
+
+ao is undefined Source File: http://node1.bbcimg.co.uk/glow/glow/1.7.3/core/core.js Line: 19
+
+Any ideas anyone?
+
+This is my embed source: \[code\] <iframe frameBorder="0" id="iplayer" src="http://www.bbc.co.uk/iplayer/console/tv/b00v77xb"></iframe> \[/code\]

@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+
+title: "OWL energy monitor to nagios" date: 2012-09-02
+
+--------------------------------------------------------------------------------
+
+=> images/nagios_owl-550x196.png [IMG]
+[1]
+
+I have been able to get my CM160 owl energy monitor to provide data to nagios. This allows me to track energy usage in my house.
+
+It's disgraceful how bad Owl's support is for linux users but it's great to see the community being so active in writing drivers/support to make it a reality.
+
+Here is my check_owl.sh - I run this as a nagios command: [code] meh=`tail -n 1 /var/log/owl.txt | cut -d' ' -f7` /usr/bin/printf "power is $meh | $meh" exit 0 [/code]
+
+Replace the path /var/log/owl.txt with your owl output log file.
+
+To test it do: [code] tail -n 1 /var/log/owl.txt | cut -d' ' -f7 [/code]
+
+You should get a value as a response.
+
+My nagios command(commands.cfg) looks like this: [code] define command{ command_name check_owl command_line /usr/lib/nagios/plugins/check_owl.sh } [/code]
+
+and my service like this: [code] define service{ use generic-service ; Name of service template to use host_name localhost service_description Power usage check_command check_owl!20!5 action_url /nagiosgraph/cgi-bin/show.cgi?host=$HOSTNAME$&amp;service=$SERVICEDESC$register } [/code]
+
+=> https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-nagios/nagios_owl/ 1: https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-nagios/nagios_owl/

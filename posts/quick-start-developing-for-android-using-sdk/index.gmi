@@ -1,0 +1,182 @@
+--------------------------------------------------------------------------------
+
+title: "Quick start developing for Android using SDK" date: 2009-07-29 categories:
+
+* "android"
+* "cheat-sheet"
+* "developer"
+* "developing"
+* "example"
+* "hello-world"
+* "mobile"
+* "phone"
+* "sdk"
+* "simple"
+
+--------------------------------------------------------------------------------
+
+1.
+
+ Download Android SDK from http://developer.android.com/[1] (.180MB file)
+2.
+
+ Extract to c:\android
+3.
+
+ Download Eclipse IDE for Java EE dev from http://www.eclipse.org/downloads/[2] (.180MB file)
+4.
+
+ Extract to c:\eclipse
+5.
+
+ Start – Run – type: cmd
+6.
+
+ Type --> Cd \ - CD android – CD tools
+7.
+
+ Type --> android create avd --target 2 --name my_avd
+8.
+
+ Hit enter
+9.
+
+ Right click My computer - properties - advanced - Environment Variables - Under System Variables add ;c:\android\tools
+10.
+
+ OK / OK
+11.
+
+ Run c:\eclipse\eclipse.exe
+12.
+
+ Click OK
+13.
+
+ Click Help
+14.
+
+ Click Install new software
+15.
+
+ Add
+16.
+
+ Name = Android
+17.
+
+ Location = https://dl-ssl.google.com/android/eclipse/[3]
+
+.18. OK
+
+19.
+
+ Wait for it to finish "Pending"
+20.
+
+ Click Developer Tools
+21.
+
+ Click Next
+22.
+
+ Click Next
+23.
+
+ Read the T&C's
+24.
+
+ Click I accept
+25.
+
+ Click Finish
+26.
+
+ Click yes to Restart Eclipse
+27.
+
+ Click OK
+28.
+
+ Click Windows - Preferences
+29.
+
+ Click android
+30.
+
+ Click browse
+31.
+
+ Browse to c:\android
+32.
+
+ Click Apply/OK
+33.
+
+ Click File/New/Project/Android/Android project
+34.
+
+ Package Name: hello
+35.
+
+ Select Android 1.1
+36.
+
+ Applicationame = helloworld
+37.
+
+ PackageName = hello.world
+38.
+
+ Create Activity = hello
+39.
+
+ Min SDK Version: 2
+40.
+
+ Expand out Hello > src > Hello.World > Hello.Java
+41.
+
+ Paste over the current code visible in the centre of the screen:
+
+> package Hello.World;
+> 
+> import android.app.Activity;
+> 
+> import android.os.Bundle;
+> 
+> import android.widget.TextView;
+> 
+> public class hello extends Activity {
+> 
+> /** Called when the activity is first created. */
+> 
+> @Override
+> 
+> public void onCreate(Bundle savedInstanceState) {
+> 
+> super.onCreate(savedInstanceState);
+> 
+> TextView tv = new TextView(this);
+> 
+> tv.setText("Hello, Android");
+> 
+> setContentView(tv);
+> 
+> }
+> 
+> }
+
+42.
+
+ Click Run / Run / Android Application
+43.
+
+ Click Yes to save changes
+44.
+
+ Wait quite a while – Tada…
+
+=> http://developer.android.com/ 1: http://developer.android.com/
+=> http://www.eclipse.org/downloads/ 2: http://www.eclipse.org/downloads/
+=> https://dl-ssl.google.com/android/eclipse/ 3: https://dl-ssl.google.com/android/eclipse/

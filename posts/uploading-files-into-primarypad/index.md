@@ -1,0 +1,12 @@
+---
+title: "Uploading files into PrimaryPad"
+date: 2010-10-26
+categories: 
+  - "etherpad"
+  - "ict"
+  - "primary-pad"
+  - "primary-school"
+  - "primary-school-ict"
+---
+
+

@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+
+title: "Difference between Kidrex and Primary School Safe Search?" date: 2009-12-10 categories:
+
+* "e-safety"
+* "primary-school-ict"
+* "primary-school-safe-search"
+
+--------------------------------------------------------------------------------
+
+I wanted to explain how Primary School Safe Search[1] is different from Kidrex.
+
+1. Primary School Safe Search does **NOT display adverts.**
+
+2. Primary School Safe Search has a large database of websites it **prioritises as search results** meaning you are more likely to find the correct educational content.
+
+3. Primary School Safe Search has a large database of **websites that are excluded from search results**, these include violent and explicit sites. These sites are not usually filtered with a standard safe search.
+
+Both are built on Google CSE.
+
+Links:
+
+Primary School Safe Search[2]
+
+Kidrex[3]
+
+Google CSE[4]
+
+=> http://primaryschoolict.com/ 1: http://primaryschoolict.com/
+=> http://primaryschoolict.com/ 2: http://primaryschoolict.com/
+=> http://kidrex.org/ 3: http://kidrex.org/
+=> http://google.com/cse 4: http://google.com/cse

@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+
+title: "Safe Search Firefox Search plugin and Persona" date: 2011-04-29 categories:
+
+* "ict"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+* "safe-search"
+
+--------------------------------------------------------------------------------
+
+Today we are releasing a Firefox Safe Search plugin[1]. The Safe Search plugin[2] allows you to easily search using safe search from the Firefox toolbar.
+
+Installation:
+
+1. Visit the firefox safe search plugin search results page[3] when using firefox
+2. Click on Safe Search from Primary Technology
+3. Click Add
+
+Also here is our Safe Search firefox persona[4] – this will make your Firefox a bit prettier! 
+=> http://blog.primaryt.co.uk/wp-includes/images/smilies/icon_smile.gif :) [IMG]
+
+=> http://mycroft.mozdev.org/search-engines.html?name=safe+search+Primary+Technology&amp;opensearch=yes 1: http://mycroft.mozdev.org/search-engines.html?name=safe+search+Primary+Technology&amp;opensearch=yes
+=> http://mycroft.mozdev.org/search-engines.html?name=safe+search+Primary+Technology&amp;opensearch=yes 2: http://mycroft.mozdev.org/search-engines.html?name=safe+search+Primary+Technology&amp;opensearch=yes
+=> http://blog.primaryt.co.uk/2011/04/29/safe-search-firefox-search-plugin-and-persona/ 3: http://blog.primaryt.co.uk/2011/04/29/safe-search-firefox-search-plugin-and-persona/
+=> http://www.getpersonas.com/en-US/persona/397533 4: http://www.getpersonas.com/en-US/persona/397533

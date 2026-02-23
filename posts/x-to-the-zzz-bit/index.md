@@ -1,0 +1,14 @@
+---
+title: "X to the ZzZ bit"
+date: 2009-05-04
+---
+
+Went to watch Xzibit tonight, pretty much failed...  
+  
+Went out with a few people who had to be up early so we were going to leave at midnight-ish anyway after seeing a few of his songs..  
+  
+Got in free to one of the best clubs\*(see wikipedice- reference: Bradford+Best.(See FAIL)) in Bradford. Managed to swindle getting into the VIP section which was nice cause that's where all the dancers hang out.. Unfortunately dancing was obviously not their first profession, I'm guessing welding and brick laying was....  
+  
+Anyway, he didn't turn up for 1am so we decided to leave :)  
+  
+I feel well old, got back to my house to basically fall asleep. Strange 'cause there is a certain level of comfort in knowing that I'm going to wake up tomorrow with healthy, enjoyable, simple tasks, such as have gardening/garage door painting, a good friend to visit and code to write..

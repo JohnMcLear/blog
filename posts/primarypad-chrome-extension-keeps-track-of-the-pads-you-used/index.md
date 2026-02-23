@@ -1,0 +1,13 @@
+---
+title: "PrimaryPad Chrome extension keeps track of the pads you used"
+date: 2011-08-12
+categories: 
+  - "ict"
+  - "primary-pad"
+  - "primary-school"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+---
+
+Ever forgotten the URL of a Primary Pad you have been working on? [Well now this very simple Chrome extension will help you remember by providing a really simple click link.](https://chrome.google.com/webstore/detail/cmjnfnfgbeiolmgibimihdlikokpnkma)

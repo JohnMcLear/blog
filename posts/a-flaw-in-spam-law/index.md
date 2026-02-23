@@ -1,0 +1,22 @@
+---
+title: "A flaw in &quot;Spam Law&quot;"
+date: 2009-07-18
+---
+
+Just had to chuckle to myself...
+
+  
+
+There is a law which basically means spammers (or mass email marketers) have to include an unsubscribe option in emails they send out.. I think this law is a great idea..
+
+  
+
+Surely this same law should be applied to "Mailshots" which is far more damaging to the environment?
+
+  
+
+Just seems crazy to me..
+
+  
+
+I'm not big on loads of laws getting passed but it seems we tend to over regulate new technology and forget their are much larger evils in play in the world today...

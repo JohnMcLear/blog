@@ -1,0 +1,11 @@
+---
+title: "Primary Blogger Updates"
+date: 2011-08-15
+categories: 
+  - "ict"
+  - "primary-schools"
+  - "primary-schools-ict"
+  - "primary-technology"
+---
+
+We’ve just finished some updates to the Primary Blogger servers which should increase access speed and fix any issues with image uploads experienced over the last few days.

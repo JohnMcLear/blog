@@ -1,0 +1,16 @@
+---
+title: "How to enable or disable plugins in Etherpad Lite"
+date: 2012-04-05
+categories: 
+  - "etherpad"
+---
+
+<iframe width="600" height="450" src="http://www.youtube.com/embed/l98muZoK-2c" frameborder="0" allowfullscreen></iframe>
+
+Etherpad now offers a plugin framework that is accessible via the web browser at: \[code\] http://youretherpadserver.com/admin/plugins \[/code\]
+
+Edit your settings.json uncommenting the lines containing an admin user / pass (search for admin):
+
+**Change the user and pass to something secure, y'know, not password...**
+
+Restart(or start) Etherpad and visit /admin/plugins in your web browser.

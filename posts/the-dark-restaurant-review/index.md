@@ -1,0 +1,35 @@
+---
+title: "The Dark Restaurant - Review"
+date: 2009-07-29
+categories: 
+  - "dark"
+  - "dark-restaraunt"
+  - "dark-restaurant"
+  - "restaurant"
+---
+
+Eating in the dark is a weird experience, so is drinking. So when we were invited to a dark restaurant in Poland I figured I'd give it a bash..
+
+  
+
+To quickly summarize:
+
+1. Tell the waiter what you don't eat - tell him what you want to drink.
+2. Enter a pitch black room
+3. Get served food you don't know what it is
+4. Eat & try guess what you are eating.. (I recommend eating with fingers..)
+5. Get told what you ate (optional).
+
+The only food I didn't want was squid.. Everything else is fine by me..
+
+  
+
+The experience is great with 2 couples, we had a fantastic time, the food was average to good but because one of our key sense was crippled we talked a lot more and had great fun not knocking things over.
+
+  
+
+The set meal in Poland was 70Z which is about £15 for 3 courses... In the UK its probably about £40.
+
+  
+
+I strongly recommend a dark restaurant as a one off experience, I don't think I will be going back there again though, the novelty is now done..

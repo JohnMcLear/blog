@@ -1,0 +1,22 @@
+---
+title: "A message from the kids about the flip netbook"
+date: 2009-10-21
+categories: 
+  - "flip"
+  - "ict"
+  - "laptop"
+  - "netbook"
+  - "primary-school"
+---
+
+A message from the kids at Wilsden Primary School about the Flip netbook
+
+  
+
+> Hi John,
+> 
+> We love the new laptop it is ace, because it is touch screen.
+> 
+> It is really tiny and we have never seen any thing like it before,
+> 
+> It is so cool we like the stiles and the little handle.

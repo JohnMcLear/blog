@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+
+title: "Primary Pad restrictions (my personal thoughts)" date: 2010-01-25 categories:
+
+* "etherpad"
+* "primary-pad"
+* "primarypad"
+
+--------------------------------------------------------------------------------
+
+Primary Pad is only a few months old and the uptake has been huge, not just in the UK but world wide. What sucks is how heavy etherpad is, if it wasn't for the weight of the application then we could serve unlimited pads all day, free.
+
+**Getting my head around the Maths..**
+
+Basically when 3+ people connect to the same pad then it increases resource usage quicker than if it is lots of users just sharing a pad 2<. The problem makes sense, it has a lot more work to do for that pad. So 15 people on pad a and 15 people on pad b is easier to handle than 30 people on pad c.
+
+**Bringing in the sales**
+
+Is the only real solution to this problem, we have lots of spare RAM/CPU/BW but it's all tied into the School Email[1] budget so sales of either Primary Pad directly or School Email would be enough to keep providing a free service.
+
+**Are we being unreasonable?**
+
+We have spent over 200 hours(well documented) now working on Etherpad(oh and all of our work has been published(open source)) and provided over £2000 of hardware, we have just paid for some more RAM to go out to the server which is due next Saturday.
+
+**My question to you...**
+
+Would you of put £2000 of your money into something and 200 hours work to watch it be abused to the point where it is literally unable to perform under the stress? Consider this a call for help.
+
+Voting for max pad connections is now open, go get em cowboy/girl!
+
+=> http://schoolemail.co.uk/ 1: http://schoolemail.co.uk/

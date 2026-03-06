@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>{{ page.title }}</title>
 </head>
-<body>
+<body class="{% if site.theme == 'dark' or site.github.project_title == 'dark-mode' %}dark-mode{% endif %}">
     <div class="container">
         <h1>{{ page.title }}</h1>
         <div class="markdown-body">
             {{ content }}
         </div>
     </div>
+    {% include theme_toggle.html %}
 </body>
 </html>

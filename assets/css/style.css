@@ -1,31 +1,253 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+:root {
+    --bg-color-light: #f8f8f8;
+    --content-bg-light: #fff;
+    --text-color-light: #333;
+    --heading-color-light: #2c3e50;
+    --link-color-light: #007bff;
+    --hr-color-light: #eee;
+    --table-header-bg-light: #f4f4f4;
+    --table-header-color-light: #555;
+    --shadow-color-light: rgba(0,0,0,0.1);
+
+    --bg-color-dark: #282c34; /* Dark background */
+    --content-bg-dark: #1e2127; /* Darker content background */
+    --text-color-dark: #abb2bf; /* Light gray text */
+    --heading-color-dark: #61afef; /* Blue for headings */
+    --link-color-dark: #98c379; /* Green for links */
+    --hr-color-dark: #3e4451; /* Darker separator */
+    --table-header-bg-dark: #3e4451;
+    --table-header-color-dark: #abb2bf;
+    --shadow-color-dark: rgba(0,0,0,0.3);
+}
+
+body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     line-height: 1.6;
 }
 
-body {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-radius: 8px;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--bg-color-dark);
+        color: var(--text-color-dark);
+    }
+    body .container { /* Specific for content container */
+        background-color: var(--content-bg-dark);
+        box-shadow: 0 2px 5px var(--shadow-color-dark);
+    }
+    body h1, body .markdown-body h1, body .markdown-body h2, body .markdown-body h3, body .markdown-body h4, body .markdown-body h5, body .markdown-body h6 {
+        color: var(--heading-color-dark);
+    }
+    body a, body .markdown-body a {
+        color: var(--link-color-dark);
+    }
+    body hr {
+        border-top: 1px solid var(--hr-color-dark);
+    }
+    body table th {
+        background-color: var(--table-header-bg-dark);
+        color: var(--table-header-color-dark);
+    }
+    body table td {
+        border-bottom: 1px solid var(--hr-color-dark);
+    }
+    body .markdown-body code {
+        background-color: var(--table-header-bg-dark);
+    }
+    body .markdown-body pre {
+        background-color: var(--table-header-bg-dark);
+    }
+    .codehilite { background: var(--content-bg-dark); }
+    .codehilite .c { color: #5c6370; font-style: italic } /* Comment */
+    .codehilite .err { border: 1px solid #e06c75 } /* Error */
+    .codehilite .k { color: #c678dd; font-weight: bold } /* Keyword */
+    .codehilite .o { color: #56b6c2 } /* Operator */
+    .codehilite .ch { color: #5c6370; font-style: italic } /* Comment.Hashbang */
+    .codehilite .cm { color: #5c6370; font-style: italic } /* Comment.Multiline */
+    .codehilite .cp { color: #e06c75 } /* Comment.Preproc */
+    .codehilite .cpf { color: #5c6370; font-style: italic } /* Comment.PreprocFile */
+    .codehilite .c1 { color: #5c6370; font-style: italic } /* Comment.Single */
+    .codehilite .cs { color: #5c6370; font-style: italic } /* Comment.Special */
+    .codehilite .gd { color: #e06c75 } /* Generic.Deleted */
+    .codehilite .ge { font-style: italic } /* Generic.Emph */
+    .codehilite .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+    .codehilite .gr { color: #e06c75 } /* Generic.Error */
+    .codehilite .gh { color: #d19a66; font-weight: bold } /* Generic.Heading */
+    .codehilite .gi { color: #98c379 } /* Generic.Inserted */
+    .codehilite .go { color: #828791 } /* Generic.Output */
+    .codehilite .gp { color: #56b6c2; font-weight: bold } /* Generic.Prompt */
+    .codehilite .gs { font-weight: bold } /* Generic.Strong */
+    .codehilite .gu { color: #d19a66; font-weight: bold } /* Generic.Subheading */
+    .codehilite .gt { color: #e06c75 } /* Generic.Traceback */
+    .codehilite .kc { color: #c678dd; font-weight: bold } /* Keyword.Constant */
+    .codehilite .kd { color: #c678dd; font-weight: bold } /* Keyword.Declaration */
+    .codehilite .kn { color: #c678dd; font-weight: bold } /* Keyword.Namespace */
+    .codehilite .kp { color: #c678dd } /* Keyword.Pseudo */
+    .codehilite .kr { color: #c678dd; font-weight: bold } /* Keyword.Reserved */
+    .codehilite .kt { color: #e5c07b } /* Keyword.Type */
+    .codehilite .m { color: #d19a66 } /* Literal.Number */
+    .codehilite .s { color: #98c379 } /* Literal.String */
+    .codehilite .na { color: #e5c07b } /* Name.Attribute */
+    .codehilite .nb { color: #e5c07b } /* Name.Builtin */
+    .codehilite .nc { color: #e5c07b; font-weight: bold } /* Name.Class */
+    .codehilite .no { color: #d19a66 } /* Name.Constant */
+    .codehilite .nd { color: #61afef } /* Name.Decorator */
+    .codehilite .ni { color: #d19a66; font-weight: bold } /* Name.Entity */
+    .codehilite .ne { color: #e06c75; font-weight: bold } /* Name.Exception */
+    .codehilite .nf { color: #61afef } /* Name.Function */
+    .codehilite .nl { color: #e5c07b } /* Name.Label */
+    .codehilite .nn { color: #e5c07b; font-weight: bold } /* Name.Namespace */
+    .codehilite .nt { color: #e06c75; font-weight: bold } /* Name.Tag */
+    .codehilite .nv { color: #56b6c2 } /* Name.Variable */
+    .codehilite .ow { color: #c678dd; font-weight: bold } /* Operator.Word */
+    .codehilite .w { color: #abb2bf } /* Text.Whitespace */
+    .codehilite .mb { color: #d19a66 } /* Literal.Number.Bin */
+    .codehilite .mf { color: #d19a66 } /* Literal.Number.Float */
+    .codehilite .mh { color: #d19a66 } /* Literal.Number.Hex */
+    .codehilite .mi { color: #d19a66 } /* Literal.Number.Integer */
+    .codehilite .mo { color: #d19a66 } /* Literal.Number.Oct */
+    .codehilite .sa { color: #98c379 } /* Literal.String.Affix */
+    .codehilite .sb { color: #98c379 } /* Literal.String.Backtick */
+    .codehilite .sc { color: #98c379 } /* Literal.String.Char */
+    .codehilite .dl { color: #98c379 } /* Literal.String.Delimiter */
+    .codehilite .sd { color: #98c379; font-style: italic } /* Literal.String.Doc */
+    .codehilite .s2 { color: #98c379 } /* Literal.String.Double */
+    .codehilite .se { color: #d19a66; font-weight: bold } /* Literal.String.Escape */
+    .codehilite .sh { color: #98c379 } /* Literal.String.Heredoc */
+    .codehilite .si { color: #61afef; font-weight: bold } /* Literal.String.Interpol */
+    .codehilite .sx { color: #98c379 } /* Literal.String.Other */
+    .codehilite .sr { color: #98c379 } /* Literal.String.Regex */
+    .codehilite .s1 { color: #98c379 } /* Literal.String.Single */
+    .codehilite .ss { color: #56b6c2 } /* Literal.String.Symbol */
+    .codehilite .bp { color: #e5c07b } /* Name.Builtin.Pseudo */
+    .codehilite .fm { color: #61afef } /* Name.Function.Magic */
+    .codehilite .vc { color: #56b6c2 } /* Name.Variable.Class */
+    .codehilite .vg { color: #56b6c2 } /* Name.Variable.Global */
+    .codehilite .vi { color: #56b6c2 } /* Name.Variable.Instance */
+    .codehilite .vm { color: #56b6c2 } /* Name.Variable.Magic */
+    .codehilite .il { color: #d19a66 } /* Literal.Number.Integer.Long */
 }
 
+/* Base styles for body and container - applied to both light and dark modes */
+body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+}
+
+body .container {
+    max-width: 900px; /* Max width for content */
+    margin: 20px auto; /* Center content with some margin */
+    padding: 20px;
+    background-color: var(--content-bg-light); /* White content background */
+    box-shadow: 0 2px 5px var(--shadow-color-light); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+
+/* Dark mode styles - applied if system prefers dark */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--bg-color-dark);
+        color: var(--text-color-dark);
+    }
+    body .container {
+        background-color: var(--content-bg-dark);
+        box-shadow: 0 2px 5px var(--shadow-color-dark);
+    }
+    body h1, body .markdown-body h1, body .markdown-body h2, body .markdown-body h3, body .markdown-body h4, body .markdown-body h5, body .markdown-body h6 {
+        color: var(--heading-color-dark);
+    }
+    body a, body .markdown-body a {
+        color: var(--link-color-dark);
+    }
+    body hr {
+        border-top-color: var(--hr-color-dark);
+    }
+    body table th {
+        background-color: var(--table-header-bg-dark);
+        color: var(--table-header-color-dark);
+    }
+    body table td {
+        border-bottom-color: var(--hr-color-dark);
+    }
+    body .markdown-body code, body .markdown-body pre {
+        background-color: var(--table-header-bg-dark);
+    }
+    .codehilite { background: var(--content-bg-dark); }
+}
+
+/* Light/Dark mode specific adjustments for table */
+body table th {
+    background-color: var(--table-header-bg-light);
+    color: var(--table-header-color-light);
+}
+
+body table td {
+    border-bottom: 1px solid var(--hr-color-light);
+}
+
+/* Horizontal buttons for root index.html */
+body.home-page ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center buttons horizontally */
+    padding: 0;
+    list-style: none;
+    gap: 15px; /* Space between buttons */
+}
+
+body.home-page ul li {
+    margin: 0;
+}
+
+body.home-page ul li a {
+    display: block; /* Make the whole area clickable */
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 25px; /* Pill-shaped buttons */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: var(--content-bg-light);
+    color: var(--link-color-light);
+    border: 1px solid var(--link-color-light);
+    box-shadow: 0 2px 5px var(--shadow-color-light);
+}
+
+body.home-page ul li a:hover {
+    background-color: var(--link-color-light);
+    color: var(--content-bg-light);
+    border-color: var(--link-color-light);
+    box-shadow: 0 4px 8px var(--shadow-color-light);
+}
+
+@media (prefers-color-scheme: dark) {
+    body.home-page ul li a {
+        background-color: var(--content-bg-dark);
+        color: var(--link-color-dark);
+        border: 1px solid var(--link-color-dark);
+        box-shadow: 0 2px 5px var(--shadow-color-dark);
+    }
+    body.home-page ul li a:hover {
+        background-color: var(--link-color-dark);
+        color: var(--content-bg-dark);
+        border-color: var(--link-color-dark);
+        box-shadow: 0 4px 8px var(--shadow-color-dark);
+    }
+}
+
+/* Existing styles below */
 h1 {
-    color: #2c3e50;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid var(--hr-color-light); /* Light separator */
     padding-bottom: 10px;
     margin-top: 0;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--hr-color-light);
     margin: 20px 0;
 }
 
@@ -38,12 +260,12 @@ table {
 th, td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--hr-color-light);
 }
 
 th {
-    background-color: #f4f4f4;
-    color: #555;
+    background-color: var(--table-header-bg-light);
+    color: var(--table-header-color-light);
     font-weight: bold;
 }
 
@@ -52,7 +274,7 @@ td {
 }
 
 td a {
-    color: #007bff;
+    color: var(--link-color-light);
     text-decoration: none;
 }
 
@@ -73,11 +295,11 @@ img {
 }
 
 .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
-    color: #2c3e50;
+    color: var(--heading-color-light);
     margin-top: 1.5em;
     margin-bottom: 0.8em;
     font-weight: bold;
-    border-bottom: none; /* Let the body h1 handle this if desired */
+    border-bottom: none;
     padding-bottom: 0;
 }
 
@@ -91,7 +313,7 @@ img {
 }
 
 .markdown-body code {
-    background-color: #f0f0f0;
+    background-color: var(--table-header-bg-light);
     padding: 2px 4px;
     border-radius: 3px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
@@ -100,14 +322,10 @@ img {
 
 .markdown-body pre {
     white-space: pre;
-
     word-wrap: normal;
-
     overflow-x: auto;
-
-    background-color: #f6f8fa;
+    background-color: var(--table-header-bg-light);
     padding: 16px;
-    overflow: auto;
     border-radius: 6px;
     margin-bottom: 1em;
 }
@@ -120,7 +338,7 @@ img {
 }
 
 .markdown-body a {
-    color: #007bff;
+    color: var(--link-color-light);
     text-decoration: none;
 }
 
@@ -128,6 +346,7 @@ img {
     text-decoration: underline;
 }
 
+/* Pygments styles below */
 pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }

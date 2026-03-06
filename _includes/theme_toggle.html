@@ -1,0 +1,71 @@
+<button id="theme-toggle" aria-label="Toggle light and dark theme" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--content-bg-light);
+    color: var(--text-color-light);
+    border: 1px solid var(--hr-color-light);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px var(--shadow-color-light);
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    z-index: 1000;
+">
+    ☀️
+</button>
+
+<script>
+    const toggleButton = document.getElementById('theme-toggle');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function setTheme(theme) {
+        document.body.className = theme;
+        localStorage.setItem('theme', theme);
+        toggleButton.textContent = theme === 'dark-mode' ? '☀️' : '🌙';
+        // Update button colors based on theme
+        const isDark = theme === 'dark-mode';
+        toggleButton.style.backgroundColor = isDark ? 'var(--content-bg-dark)' : 'var(--content-bg-light)';
+        toggleButton.style.color = isDark ? 'var(--text-color-dark)' : 'var(--text-color-light)';
+        toggleButton.style.borderColor = isDark ? 'var(--hr-color-dark)' : 'var(--hr-color-light)';
+        toggleButton.style.boxShadow = isDark ? '0 2px 10px var(--shadow-color-dark)' : '0 2px 10px var(--shadow-color-light)';
+    }
+
+    function initializeTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        } else if (prefersDarkScheme.matches) {
+            setTheme('dark-mode');
+        } else {
+            setTheme('light-mode');
+        }
+    }
+
+    // Initialize theme on page load
+    initializeTheme();
+
+    // Listen for changes in system preference
+    prefersDarkScheme.addEventListener('change', (event) => {
+        if (!localStorage.getItem('theme')) { // Only auto-switch if no theme is explicitly saved
+            setTheme(event.matches ? 'dark-mode' : 'light-mode');
+        }
+    });
+
+    toggleButton.addEventListener('click', () => {
+        const currentTheme = localStorage.getItem('theme') || (prefersDarkScheme.matches ? 'dark-mode' : 'light-mode');
+        setTheme(currentTheme === 'light-mode' ? 'dark-mode' : 'light-mode');
+    });
+
+    // Adjust fixed button colors for initial load and subsequent theme changes
+    window.addEventListener('load', () => {
+        const currentTheme = localStorage.getItem('theme') || (prefersDarkScheme.matches ? 'dark-mode' : 'light-mode');
+        setTheme(currentTheme); // Re-apply theme to ensure button colors are correct
+    });
+
+</script>

@@ -5,9 +5,9 @@ date: 2010-03-10
 
 ## Organizations
 
-[Primary Technology](http://primaryt.co.uk) - Schools ICT services.  Majority Shareholder.
+[Primary Technology](http://primaryt.co.uk) - Schools ICT services. Former Majority Shareholder.
 
-[Mclear](http://mclear.com) - The parent company that's making your finger smarter.  Sold majority share to MTG Co. Ltd.   Minority Shareholder
+[McLear](http://mclear.com) - The parent company that's making your finger smarter. No longer a shareholder.
 
 ## Technical
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTCzcF5VF4fAAABQ9JREFUaIHtWe1rU1cY/517b26S28Ro2ibU1Jik8WXWVudEp04tXYe26sY+9Nv+gTH2dWzCoJ9sZDDYdSD7NgRhLwzmUOpaxhgOYR8cg83QYNHZl9jmpelN83Lvsw9Ja0xukpvcBB30Bw85955znuf3O895Tk4IsIUtbGELWzAAvp3O+8cnRFPfkHn1wUyuXTG4djkGiMmydcZMlhmAWLuidC0DvgvWz72errdtFtHFe+444+GpW+2I0xYB/rHQB11O++U3Tx+yOLfbhcVo7LDkHYrHw1P3Wh2r5QICFyZHOmzSVTOnD0tzSynMLSRwMNhjWliKDdn8w/fi4alIK+O1tAYCY6EBXjR9O3xqUFpOZRFPZRBPZfDvShpHDu2RBBP7JjAWGmhlzJYJCI5e7eV4fnr4jUFbRgUWY/Jm31JMRnJdweCBPhvxbDo4erW3VXFbIiAwEnLkOcycPLZ/h2Ays8fRVMWYJ09T4EwieyXodSg8Te+8NCG1IrZxAeM3eDLTj0cGA7uczu3c3OIqiCqHEQFzC0lsc9iF3R5Xr1m1/oDxG4Zr0LCAgBy5Fgx4XvN5e8TIfAKqqsG+CJUIDxeS8Hjclu5O+6mAHLlmNL6hFfBfuPqp2+V8/+irey2z80nk8mrFGDmdee5ZJUIqnYO/1yXEE8k9tt1nKRa+82uzHJoW4D0fes+5w/7ZmRMHLY+ia0hn8prjygUAgKIS1nMKfL3d4nIs8brNP/xXPDz1TzM8mtpCvouTQ7YO85dnTvRbFmJppNKNX3Xk9RxWVrPYv8/XIQjcdd/YlePNcGlYQN+5yaCJF747e2pAiq/lEU9VrrBeJNYykLOEYJ/XyjHuVt+5yWCjNashvilleSEBy90k2i8MvJ4/2OnMohmkg3Gq8CK8l1MEGEz9fboQjc7cBIyNHIfN0Cdl6akPI8P330UJ9LkiQ2v7LWONsqWE6kIdk6hB53p4cs7Hb/+ISod64+AeM3eLNi/b5/rzfodnfxj6IpzbO+WahEWIrLcHZ3io5ttgE5bf1a7xVc1ynkCxz9wrfL9e6BfbstDxdXodQ468uhdQppgQjIZBW4ureb5JTstftnzLHw1Ey9eXUF+EdDH7pdOz46dmSv9Hi6hryigmNs0xhjNbNRS8DGfFbiJ68QXF0OMZFYPbotMPQoHr5zvxa/mmnyjYXesVrN1986e9jKeB6KQiDQJmEigsDzmH2S0JxPRIguJ6v639llg6o+81nwSwAYctksZiNzaTWvXpz76ZOfGxZQOJfZ3VoCAeDi+ZOIzGuTrCegp7MDf77/u14IcKB9kZuXH2g1CdUmPbx5+XfUzdAkGSlmlQiMsQzLwB2Z+lg7jXVg+DKnGlDQipPMsAAjJAylr4gXmgG18vLaMFqQASNb6CXIgNEiNooXu4VeBgHGitho9BrfA1XAUBDNimawiAtz12MRU5ELAVCLn7qgR8AGYa6szYDWFHFWfmoCIOIZebWsXRW1BHBlxjSe0cDFtAIbc5VM0gTAVEK8XMiG6RZQTr6aGcpAYfsRU/PrAgo3Y1ZiWoQr3mkVMdNhJQKa5r8pnlSlNKv17DloZYB02OZKqESwSyJAVOgsXomJCn2SWdh8T0QFKz5vFDHj+NJtU8/qCgC006cp4u5vf1RxoRsiJ1jyABQ0UQN6fnfWOoXK26VpLvdNJZ/lC1He1n0KNfrfVTXC1cjXE6ElSDehVkAP+Q2Ui7jC/xr/AdMhPW/WKyVfAAAAAElFTkDataManager" type="image/png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Etherpad with Active Directory (LDAP/AD)</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Etherpad with Active Directory (LDAP/AD)</h1>
+        <div class="markdown-body">
+            <p>So you want to host your own Etherpad deployment and you want to tie it into your schools AD/LDAP/Active directory? Below are the basic instructions for how to accomplish this. <a href="http://primaryt.co.uk/contact.html">Alternatively you can pay us to do it.</a></p>
+<p><strong>Get the patch</strong></p>
+<p>lynx https://gist.github.com/10061b4b213619816db5</p>
+<p><strong>Get the etherpad source (warning- may take some time- go make a cuppa tea)</strong></p>
+<p>hg clone https://etherpad.googlecode.com/hg/ etherpad</p>
+<p><strong>Go to the etherpad folder</strong></p>
+<p>cd etherpad</p>
+<p><strong>Extract the patch</strong></p>
+<p>tar -xvz --strip-components=1 -f ../gist10061b4b213619816db5-e60df95e16c09700b4cf07cd87b9732dd7b15ace.tar.gz</p>
+<p><strong>Apply the patch</strong></p>
+<p>patch -p1 &lt; ldap_support.patch  </p>
+<p><strong>Set your superdomain</strong></p>
+<p>nano trunk/etherpad/src/etherpad/globals.js</p>
+<p><em>add yourdomain.whatever to the SUPERDOMAINS</em></p>
+<p><strong>Edit pro_accounts.js</strong></p>
+<p>nano trunk/etherpad/src/etherpad/pro/pro_accounts.js</p>
+<p><strong>Change directory</strong></p>
+<p>cd trunk/etherpad</p>
+<p><strong>Add the useLdapconf to the config</strong></p>
+<p>echo "etherpad.useLdapConfiguration = ./etc/json.config" &gt;&gt; etc/etherpad.localdev-default.properties</p>
+<p><strong>Edit json.config</strong></p>
+<p>nano etc/json.config</p>
+<p><em>Paste in (you need the {}'s):</em></p>
+<p><em>{</em></p>
+<p><em>"url" : "ldap://localhost:10389",</em></p>
+<p><em>"principal" : "uid\=admin,ou\=system",</em></p>
+<p><em>"password" : "secret",</em></p>
+<p><em>"rootPath" : "ou\=users,ou\=system",</em></p>
+<p><em>"userClass" : "person",</em></p>
+<p><em>"nameAttribute" : "displayname",</em></p>
+<p><em>"ldapSuffix" : "@ldap"</em></p>
+<p><em>}</em></p>
+<p><em>Replacing the above with your settings.</em></p>
+<p><strong>Build your etherpad</strong></p>
+<p>bin/rebuildjar.sh</p>
+<p><strong>Test your etherpad</strong></p>
+<p>bin/run-local.sh</p>
+<p><strong>Browse to http://yourdomain.com:9000/ep/pro-account/sign-in</strong></p>
+<p><strong>Type in your email address (of the user in ldap) and password</strong></p>
+<p>Fin! Credit to Elliot Kroo and Marcio Starke - discussed further in <a href="http://groups.google.com/group/etherpad-open-source-discuss/browse_thread/thread/b0907ca86976f913">this google group</a>.</p>
+<p>Shibboleth integration coming mid 2010 (if anyone wants to fund this please <a href="http://primaryt.co.uk/contact.html">get in touch</a>!)</p>
+        </div>
+    </div>
+</body>
+</html>

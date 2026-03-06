@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTCzcF5VF4fAAABQ9JREFUaIHtWe1rU1cY/517b26S28Ro2ibU1Jik8WXWVudEp04tXYe26sY+9Nv+gTH2dWzCoJ9sZDDYdSD7NgRhLwzmUOpaxhgOYR8cg83QYNHZl9jmpelN83Lvsw9Ja0xukpvcBB30Bw85955znuf3O895Tk4IsIUtbGELWzAAvp3O+8cnRFPfkHn1wUyuXTG4djkGiMmydcZMlhmAWLuidC0DvgvWz72errdtFtHFe+444+GpW+2I0xYB/rHQB11O++U3Tx+yOLfbhcVo7LDkHYrHw1P3Wh2r5QICFyZHOmzSVTOnD0tzSynMLSRwMNhjWliKDdn8w/fi4alIK+O1tAYCY6EBXjR9O3xqUFpOZRFPZRBPZfDvShpHDu2RBBP7JjAWGmhlzJYJCI5e7eV4fnr4jUFbRgUWY/Jm31JMRnJdweCBPhvxbDo4erW3VXFbIiAwEnLkOcycPLZ/h2Ays8fRVMWYJ09T4EwieyXodSg8Te+8NCG1IrZxAeM3eDLTj0cGA7uczu3c3OIqiCqHEQFzC0lsc9iF3R5Xr1m1/oDxG4Zr0LCAgBy5Fgx4XvN5e8TIfAKqqsG+CJUIDxeS8Hjclu5O+6mAHLlmNL6hFfBfuPqp2+V8/+irey2z80nk8mrFGDmdee5ZJUIqnYO/1yXEE8k9tt1nKRa+82uzHJoW4D0fes+5w/7ZmRMHLY+ia0hn8prjygUAgKIS1nMKfL3d4nIs8brNP/xXPDz1TzM8mtpCvouTQ7YO85dnTvRbFmJppNKNX3Xk9RxWVrPYv8/XIQjcdd/YlePNcGlYQN+5yaCJF747e2pAiq/lEU9VrrBeJNYykLOEYJ/XyjHuVt+5yWCjNashvilleSEBy90k2i8MvJ4/2OnMohmkg3Gq8CK8l1MEGEz9fboQjc7cBIyNHIfN0Cdl6akPI8P330UJ9LkiQ2v7LWONsqWE6kIdk6hB53p4cs7Hb/+ISod64+AeM3eLNi/b5/rzfodnfxj6IpzbO+WahEWIrLcHZ3io5ttgE5bf1a7xVc1ynkCxz9wrfL9e6BfbstDxdXodQ468uhdQppgQjIZBW4ureb5JTstftnzLHw1Ey9eXUF+EdDH7pdOz46dmSv9Hi6hryigmNs0xhjNbNRS8DGfFbiJ68QXF0OMZFYPbotMPQoHr5zvxa/mmnyjYXesVrN1986e9jKeB6KQiDQJmEigsDzmH2S0JxPRIguJ6v639llg6o+81nwSwAYctksZiNzaTWvXpz76ZOfGxZQOJfZ3VoCAeDi+ZOIzGuTrCegp7MDf77/u14IcKB9kZuXH2g1CdUmPbx5+XfUzdAkGSlmlQiMsQzLwB2Z+lg7jXVg+DKnGlDQipPMsAAjJAylr4gXmgG18vLaMFqQASNb6CXIgNEiNooXu4VeBgHGitho9BrfA1XAUBDNimawiAtz12MRU5ELAVCLn7qgR8AGYa6szYDWFHFWfmoCIOIZebWsXRW1BHBlxjSe0cDFtAIbc5VM0gTAVEK8XMiG6RZQTr6aGcpAYfsRU/PrAgo3Y1ZiWoQr3mkVMdNhJQKa5r8pnlSlNKv17DloZYB02OZKqESwSyJAVOgsXomJCn2SWdh8T0QFKz5vFDHj+NJtU8/qCgC006cp4u5vf1RxoRsiJ1jyABQ0UQN6fnfWOoXK26VpLvdNJZ/lC1He1n0KNfrfVTXC1cjXE6ElSDehVkAP+Q2Ui7jC/xr/AdMhPW/WKyVfAAAAAElFTkDataManager" type="image/png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Automatically Storing Etherpad Pad contents in Git</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Automatically Storing Etherpad Pad contents in Git</h1>
+        <div class="markdown-body">
+            <p>This is a how to guide / hack approach for storing Etherpad contents as git commits.</p>
+<h2>Create git repo</h2>
+<p>Using your favorite tool / platform. In this instance we use Github to create a new repository called <code>etherpad-storage</code></p>
+<h2>Clone git repo</h2>
+<p><code>git clone repoURL ~/etherpad-storage</code></p>
+<h2>Edit Etherpad settings</h2>
+<p>Open up <code>settings.json</code></p>
+<p>Replace <code>dirty_db.js</code> with <code>dirty_git_db.js</code></p>
+<p>Replace <code>var/dirty.db with</code> <code>~/etherpad-storage/dirty.db</code></p>
+<h2>Grab the new logic</h2>
+<p>Grab <code>[dirty_git_db.js](https://gist.githubusercontent.com/JohnMcLear/3a57977ea4dad39b021b8ee8aac2a730/raw/8a025ec3d4fbeef6cc5520e89ea3eb52c10a7737/dirty_git_db.js)</code> and put it in your src/node_modules/ueberdb2 folder. Ideally this would be how you do it</p>
+<p><code>curl https://gist.githubusercontent.com/JohnMcLear/3a57977ea4dad39b021b8ee8aac2a730/raw/8a025ec3d4fbeef6cc5520e89ea3eb52c10a7737/dirty_git_db.js -o src/node_modules/ueberdb2/dirty_git_db.js</code></p>
+<h2>Install simple-git</h2>
+<p>From within your Etherpad folder..</p>
+<p><code>cd src/node_modules/ueberdb2 &amp;&amp; npm install simple-git</code></p>
+<h2>Restart and test.</h2>
+<p>Restart Etherpad, when you type in a pad your changes should be committed to github and your console should be filled with log messages you will probably want to remove..</p>
+<h2>Conclusion</h2>
+<p>This is just a simple hack, it's not designed for production but it might be useful for someone as reference. The goal ultimately is to create a plugin that provides this functionality. It should be easy enough to do!</p>
+        </div>
+    </div>
+</body>
+</html>

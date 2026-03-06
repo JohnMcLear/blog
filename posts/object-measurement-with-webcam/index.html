@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTCzcF5VF4fAAABQ9JREFUaIHtWe1rU1cY/517b26S28Ro2ibU1Jik8WXWVudEp04tXYe26sY+9Nv+gTH2dWzCoJ9sZDDYdSD7NgRhLwzmUOpaxhgOYR8cg83QYNHZl9jmpelN83Lvsw9Ja0xukpvcBB30Bw85955znuf3O895Tk4IsIUtbGELWzAAvp3O+8cnRFPfkHn1wUyuXTG4djkGiMmydcZMlhmAWLuidC0DvgvWz72errdtFtHFe+444+GpW+2I0xYB/rHQB11O++U3Tx+yOLfbhcVo7LDkHYrHw1P3Wh2r5QICFyZHOmzSVTOnD0tzSynMLSRwMNhjWliKDdn8w/fi4alIK+O1tAYCY6EBXjR9O3xqUFpOZRFPZRBPZfDvShpHDu2RBBP7JjAWGmhlzJYJCI5e7eV4fnr4jUFbRgUWY/Jm31JMRnJdweCBPhvxbDo4erW3VXFbIiAwEnLkOcycPLZ/h2Ays8fRVMWYJ09T4EwieyXodSg8Te+8NCG1IrZxAeM3eDLTj0cGA7uczu3c3OIqiCqHEQFzC0lsc9iF3R5Xr1m1/oDxG4Zr0LCAgBy5Fgx4XvN5e8TIfAKqqsG+CJUIDxeS8Hjclu5O+6mAHLlmNL6hFfBfuPqp2+V8/+irey2z80nk8mrFGDmdee5ZJUIqnYO/1yXEE8k9tt1nKRa+82uzHJoW4D0fes+5w/7ZmRMHLY+ia0hn8prjygUAgKIS1nMKfL3d4nIs8brNP/xXPDz1TzM8mtpCvouTQ7YO85dnTvRbFmJppNKNX3Xk9RxWVrPYv8/XIQjcdd/YlePNcGlYQN+5yaCJF747e2pAiq/lEU9VrrBeJNYykLOEYJ/XyjHuVt+5yWCjNashvilleSEBy90k2i8MvJ4/2OnMohmkg3Gq8CK8l1MEGEz9fboQjc7cBIyNHIfN0Cdl6akPI8P330UJ9LkiQ2v7LWONsqWE6kIdk6hB53p4cs7Hb/+ISod64+AeM3eLNi/b5/rzfodnfxj6IpzbO+WahEWIrLcHZ3io5ttgE5bf1a7xVc1ynkCxz9wrfL9e6BfbstDxdXodQ468uhdQppgQjIZBW4ureb5JTstftnzLHw1Ey9eXUF+EdDH7pdOz46dmSv9Hi6hryigmNs0xhjNbNRS8DGfFbiJ68QXF0OMZFYPbotMPQoHr5zvxa/mmnyjYXesVrN1986e9jKeB6KQiDQJmEigsDzmH2S0JxPRIguJ6v639llg6o+81nwSwAYctksZiNzaTWvXpz76ZOfGxZQOJfZ3VoCAeDi+ZOIzGuTrCegp7MDf77/u14IcKB9kZuXH2g1CdUmPbx5+XfUzdAkGSlmlQiMsQzLwB2Z+lg7jXVg+DKnGlDQipPMsAAjJAylr4gXmgG18vLaMFqQASNb6CXIgNEiNooXu4VeBgHGitho9BrfA1XAUBDNimawiAtz12MRU5ELAVCLn7qgR8AGYa6szYDWFHFWfmoCIOIZebWsXRW1BHBlxjSe0cDFtAIbc5VM0gTAVEK8XMiG6RZQTr6aGcpAYfsRU/PrAgo3Y1ZiWoQr3mkVMdNhJQKa5r8pnlSlNKv17DloZYB02OZKqESwSyJAVOgsXomJCn2SWdh8T0QFKz5vFDHj+NJtU8/qCgC006cp4u5vf1RxoRsiJ1jyABQ0UQN6fnfWOoXK26VpLvdNJZ/lC1He1n0KNfrfVTXC1cjXE6ElSDehVkAP+Q2Ui7jC/xr/AdMhPW/WKyVfAAAAAElFTkDataManager" type="image/png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Object measurement with webcam</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Object measurement with webcam</h1>
+        <div class="markdown-body">
+            <h2><a href="#demo">Shut up and show me the demo.</a></h2>
+<p>I have been experimenting with using a webcam to measure an objects size, width and height.</p>
+<p>It works by comparing the size of a user defined box to the size of a magnetic strip (which is also user defined). I tested it against a ruler and it seems accurate but obviously the larger the object the more accurate it becomes. Right now it's setup to measure the size of a ring finger.</p>
+<p><a href="https://github.com/mclear/html5-measurer">As this is a weekend project I published the source up on github</a>. I haven't decided on a license yet so for now don't adopt it in any commercial applications but do feel free to contact me to chat about funding further development.</p>
+<p>I use getUserMedia / Canvas to do most of the interaction between the webcam and the browser and I'm using PaperJS for drawing the boxes onto the canvas. The actual math is really simple</p>
+<p>[code] // Takes a scale value and tries to figure out the mm diameter of each ring function scaleToRingSize(widthPx){ return (85.72500 / stripWidth * widthPx).toFixed(2); // 85.72500 being the width of a magnetic strip in mm } [/code]</p>
+<p><a href="https://github.com/mclear/html5-measurer/blob/gh-pages/fingers.js#L149">The fingers.js also contains code for converting ring sizes in mm to the nearest smaller ring size.</a> IE if your ring size is 22mm it will give you a ring size in US/EU that is 22.2mm instead of 20mm.</p>
+<p>I'm researching using Tracking.Js with some custom OpenCV maps to do better object detection, I know this is possible but right now the algos are a bit buggy and I'd need a lot of positive images to create a good training set. If I could do some object tracking in theory I could auto detect the strip / target object size and automate / realtime the whole measurement process and in theory I could do ask a server to do real time object detection, but that's for another day..</p>
+<p>The measurement app might not quite fit on your page, this is because it's 800px x 600px with absolute positioning, I guess I could make it use relative positioning but right now I'm not interested.</p>
+<p>The tool will work in all browsers that support getUserMedia which is IE11, FF 17, Chjrome 21, Safari 7 and Opera 12, iOS Safari, BBB 10, Opera Mobile 12. For more browser support queries see <a href="http://caniuse.com/#search=getusermedia">getUserMedia browser support</a>. Obviously if you are still using IE then you have probably made many other poor life decisions and you are beyond my help. Obviously because I'm using JS / CSS the app will work on a mobile and desktop webcam so you can in theory measure objects whilst on the move.</p>
+<p>I had to worry about the overheads of the large javascript fabric.js library so I decided I didn't want the additional overheads of jQuery. It's entirely written in JS (with obv some CSS/HTML) throw into the mix. I could probably refactor it down to just JS without too much headache and this would give site admins the ability to do something like:</p>
+<p>[code] <script src="measurer.js"></script> var measure = new Measurer(); measure.create("targetDiv"); // can do it like this because getUserMedia is limited to one instance of browser/OS. measure.on('success', function(measurement){ alert("Got a measurement of", measurement); measure.destroy(); }); [/code]</p>
+<h2>You will need a card with a magnetic strip on the back, ideally a credit card as these are guaranteed to be a universal size.</h2>
+<iframe src="http://mclear.github.io/html5-measurer/" width="800" height="600"></iframe>
+
+<p>Final thoughts: None of the images are saved to a server but as you know these images are being passed through the Internet which means your ISP is sending a copy of them to the NSA. <strong>I strongly recommend against using this tool to measure any part of your anatomy.</strong></p>
+        </div>
+    </div>
+</body>
+</html>

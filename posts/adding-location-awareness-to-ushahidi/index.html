@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTCzcF5VF4fAAABQ9JREFUaIHtWe1rU1cY/517b26S28Ro2ibU1Jik8WXWVudEp04tXYe26sY+9Nv+gTH2dWzCoJ9sZDDYdSD7NgRhLwzmUOpaxhgOYR8cg83QYNHZl9jmpelN83Lvsw9Ja0xukpvcBB30Bw85955znuf3O895Tk4IsIUtbGELWzAAvp3O+8cnRFPfkHn1wUyuXTG4djkGiMmydcZMlhmAWLuidC0DvgvWz72errdtFtHFe+444+GpW+2I0xYB/rHQB11O++U3Tx+yOLfbhcVo7LDkHYrHw1P3Wh2r5QICFyZHOmzSVTOnD0tzSynMLSRwMNhjWliKDdn8w/fi4alIK+O1tAYCY6EBXjR9O3xqUFpOZRFPZRBPZfDvShpHDu2RBBP7JjAWGmhlzJYJCI5e7eV4fnr4jUFbRgUWY/Jm31JMRnJdweCBPhvxbDo4erW3VXFbIiAwEnLkOcycPLZ/h2Ays8fRVMWYJ09T4EwieyXodSg8Te+8NCG1IrZxAeM3eDLTj0cGA7uczu3c3OIqiCqHEQFzC0lsc9iF3R5Xr1m1/oDxG4Zr0LCAgBy5Fgx4XvN5e8TIfAKqqsG+CJUIDxeS8Hjclu5O+6mAHLlmNL6hFfBfuPqp2+V8/+irey2z80nk8mrFGDmdee5ZJUIqnYO/1yXEE8k9tt1nKRa+82uzHJoW4D0fes+5w/7ZmRMHLY+ia0hn8prjygUAgKIS1nMKfL3d4nIs8brNP/xXPDz1TzM8mtpCvouTQ7YO85dnTvRbFmJppNKNX3Xk9RxWVrPYv8/XIQjcdd/YlePNcGlYQN+5yaCJF747e2pAiq/lEU9VrrBeJNYykLOEYJ/XyjHuVt+5yWCjNashvilleSEBy90k2i8MvJ4/2OnMohmkg3Gq8CK8l1MEGEz9fboQjc7cBIyNHIfN0Cdl6akPI8P330UJ9LkiQ2v7LWONsqWE6kIdk6hB53p4cs7Hb/+ISod64+AeM3eLNi/b5/rzfodnfxj6IpzbO+WahEWIrLcHZ3io5ttgE5bf1a7xVc1ynkCxz9wrfL9e6BfbstDxdXodQ468uhdQppgQjIZBW4ureb5JTstftnzLHw1Ey9eXUF+EdDH7pdOz46dmSv9Hi6hryigmNs0xhjNbNRS8DGfFbiJ68QXF0OMZFYPbotMPQoHr5zvxa/mmnyjYXesVrN1986e9jKeB6KQiDQJmEigsDzmH2S0JxPRIguJ6v639llg6o+81nwSwAYctksZiNzaTWvXpz76ZOfGxZQOJfZ3VoCAeDi+ZOIzGuTrCegp7MDf77/u14IcKB9kZuXH2g1CdUmPbx5+XfUzdAkGSlmlQiMsQzLwB2Z+lg7jXVg+DKnGlDQipPMsAAjJAylr4gXmgG18vLaMFqQASNb6CXIgNEiNooXu4VeBgHGitho9BrfA1XAUBDNimawiAtz12MRU5ELAVCLn7qgR8AGYa6szYDWFHFWfmoCIOIZebWsXRW1BHBlxjSe0cDFtAIbc5VM0gTAVEK8XMiG6RZQTr6aGcpAYfsRU/PrAgo3Y1ZiWoQr3mkVMdNhJQKa5r8pnlSlNKv17DloZYB02OZKqESwSyJAVOgsXomJCn2SWdh8T0QFKz5vFDHj+NJtU8/qCgC006cp4u5vf1RxoRsiJ1jyABQ0UQN6fnfWOoXK26VpLvdNJZ/lC1He1n0KNfrfVTXC1cjXE6ElSDehVkAP+Q2Ui7jC/xr/AdMhPW/WKyVfAAAAAElFTkDataManager" type="image/png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Adding location awareness to Ushahidi</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Adding location awareness to Ushahidi</h1>
+        <div class="markdown-body">
+            <p>This post is for site admins who want to add location awareness to their ushahidi deployment. Location awareness allows ushahidi to know where the visitor is coming from and display them a map local to them. It requires the user to have an ip v4 address. It is not the best solution for this problem but for now it works...</p>
+<p>First things first, visit your application/controllers/main.php and comment out these lines</p>
+<p>[php] $this-&gt;themes-&gt;js-&gt;latitude = Kohana::config('settings.default_lat'); $this-&gt;themes-&gt;js-&gt;longitude = Kohana::config('settings.default_lon'); [/php]</p>
+<p>Paste this below the lines you have commented out:</p>
+<p>[php] include_once 'DetectLocation.php'; // this isn't the best way but it works.. $this-&gt;themes-&gt;js-&gt;latitude = $lat; $this-&gt;themes-&gt;js-&gt;longitude = $lng; [/php]</p>
+<p>Next visit <a href="http://ipinfodb.com/">ipinfodb.com</a> and grab their mysql database, extract it then import it into your mysql deployment, I used the database name ipinfo.</p>
+<p>Create a new php file called DetectLocation.php in the root of your Ushahidi deployment.</p>
+<p>Paste this into it</p>
+<p>[php] &lt;?php // Using data from http://ipinfodb.com/ -- this should be in the ipinfo database // Code by John McLear, all free licenses attached. Please re-use, modify &amp; redistribute</p>
+<p>$dbuser = 'ipinfo'; // using a psuedo/differnet user because I'm cool like that. $dbpass = ''; $dbhost = 'localhost'; $dbname = 'ipinfo';</p>
+<p>$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');</p>
+<p>mysql_select_db($dbname) or die('Could not select database');</p>
+<p>$ipAddress = mysql_real_escape_string($_SERVER['REMOTE_ADDR']); // Get IP Addr of visitor</p>
+<p>$query = "SELECT * FROM `ip_group_city` " . "WHERE `ip_start` &lt;= INET_ATON( '$ipAddress' ) " . "ORDER BY ip_start DESC " . "LIMIT 1";</p>
+<p>$resultLocation = mysql_query($query);</p>
+<p>while ($row = mysql_fetch_array($resultLocation)) { $lat = $row['latitude']; $lng = $row['longitude']; } ?&gt; [/php]</p>
+<p>Test it by visiting your Ushahidi deployment, your map should be centred on your location.</p>
+<p>So quick recap. We are using a local mysql database to lookup locations by IP. This is fast, fast is good. It isn't perfect. Perfect would be better. Feel free to improve upon, change/correct..</p>
+<p>Note: You probably also want to do the same changes on reports.php and alerts.php</p>
+        </div>
+    </div>
+</body>
+</html>

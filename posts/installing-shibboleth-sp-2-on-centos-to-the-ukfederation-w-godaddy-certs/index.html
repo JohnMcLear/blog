@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2QcTCzcF5VF4fAAABQ9JREFUaIHtWe1rU1cY/517b26S28Ro2ibU1Jik8WXWVudEp04tXYe26sY+9Nv+gTH2dWzCoJ9sZDDYdSD7NgRhLwzmUOpaxhgOYR8cg83QYNHZl9jmpelN83Lvsw9Ja0xukpvcBB30Bw85955znuf3O895Tk4IsIUtbGELWzAAvp3O+8cnRFPfkHn1wUyuXTG4djkGiMmydcZMlhmAWLuidC0DvgvWz72errdtFtHFe+444+GpW+2I0xYB/rHQB11O++U3Tx+yOLfbhcVo7LDkHYrHw1P3Wh2r5QICFyZHOmzSVTOnD0tzSynMLSRwMNhjWliKDdn8w/fi4alIK+O1tAYCY6EBXjR9O3xqUFpOZRFPZRBPZfDvShpHDu2RBBP7JjAWGmhlzJYJCI5e7eV4fnr4jUFbRgUWY/Jm31JMRnJdweCBPhvxbDo4erW3VXFbIiAwEnLkOcycPLZ/h2Ays8fRVMWYJ09T4EwieyXodSg8Te+8NCG1IrZxAeM3eDLTj0cGA7uczu3c3OIqiCqHEQFzC0lsc9iF3R5Xr1m1/oDxG4Zr0LCAgBy5Fgx4XvN5e8TIfAKqqsG+CJUIDxeS8Hjclu5O+6mAHLlmNL6hFfBfuPqp2+V8/+irey2z80nk8mrFGDmdee5ZJUIqnYO/1yXEE8k9tt1nKRa+82uzHJoW4D0fes+5w/7ZmRMHLY+ia0hn8prjygUAgKIS1nMKfL3d4nIs8brNP/xXPDz1TzM8mtpCvouTQ7YO85dnTvRbFmJppNKNX3Xk9RxWVrPYv8/XIQjcdd/YlePNcGlYQN+5yaCJF747e2pAiq/lEU9VrrBeJNYykLOEYJ/XyjHuVt+5yWCjNashvilleSEBy90k2i8MvJ4/2OnMohmkg3Gq8CK8l1MEGEz9fboQjc7cBIyNHIfN0Cdl6akPI8P330UJ9LkiQ2v7LWONsqWE6kIdk6hB53p4cs7Hb/+ISod64+AeM3eLNi/b5/rzfodnfxj6IpzbO+WahEWIrLcHZ3io5ttgE5bf1a7xVc1ynkCxz9wrfL9e6BfbstDxdXodQ468uhdQppgQjIZBW4ureb5JTstftnzLHw1Ey9eXUF+EdDH7pdOz46dmSv9Hi6hryigmNs0xhjNbNRS8DGfFbiJ68QXF0OMZFYPbotMPQoHr5zvxa/mmnyjYXesVrN1986e9jKeB6KQiDQJmEigsDzmH2S0JxPRIguJ6v639llg6o+81nwSwAYctksZiNzaTWvXpz76ZOfGxZQOJfZ3VoCAeDi+ZOIzGuTrCegp7MDf77/u14IcKB9kZuXH2g1CdUmPbx5+XfUzdAkGSlmlQiMsQzLwB2Z+lg7jXVg+DKnGlDQipPMsAAjJAylr4gXmgG18vLaMFqQASNb6CXIgNEiNooXu4VeBgHGitho9BrfA1XAUBDNimawiAtz12MRU5ELAVCLn7qgR8AGYa6szYDWFHFWfmoCIOIZebWsXRW1BHBlxjSe0cDFtAIbc5VM0gTAVEK8XMiG6RZQTr6aGcpAYfsRU/PrAgo3Y1ZiWoQr3mkVMdNhJQKa5r8pnlSlNKv17DloZYB02OZKqESwSyJAVOgsXomJCn2SWdh8T0QFKz5vFDHj+NJtU8/qCgC006cp4u5vf1RxoRsiJ1jyABQ0UQN6fnfWOoXK26VpLvdNJZ/lC1He1n0KNfrfVTXC1cjXE6ElSDehVkAP+Q2Ui7jC/xr/AdMhPW/WKyVfAAAAAElFTkDataManager" type="image/png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Installing Shibboleth SP 2 on CentOS to the ukfederation w/ Godaddy certs</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Installing Shibboleth SP 2 on CentOS to the ukfederation w/ Godaddy certs</h1>
+        <div class="markdown-body">
+            <p>Internet 2 give some "creative" <a href="https://spaces.internet2.edu/display/SHIB2/NativeSPLinuxRPMInstall">documentation</a> for this procedure so I thought I'd write some that are easier to follow:</p>
+<p><strong><em>Part 0. Planning. (2 hours)</em></strong></p>
+<ol>
+<li>Download CentOS Netimage boot CD from <a href="http://centos.org/">http://centos.org</a></li>
+<li>Receive approval from the <a href="http://www.ukfederation.org.uk/content/Documents/UKFederationHelpdesk">UK federation</a> for your service.</li>
+<li>Purchase a cheep <a href="http://godaddy.com/">Godaddy</a> Cert or have one ready for your service. <em>Be aware that you will be getting 1 SSL cert to secure your resource and another SSL cert (a self signed one) to talk to the UK federation. Do not get these certificates confused!</em></li>
+<li>Create the appropriate DNS records to point to the IP of your resource and the IP of your SP. IE shib.yourdomain.com (your resource) should resolve to the IP of the apache server and sp.yourdomain.com (service provider) should resolve to the same IP.</li>
+</ol>
+<p><strong><em>Part 1. Install (2 hours)</em></strong></p>
+<p>First things first. Install Cent OS. You don't need a gui or anything fancy, just a web server. Do all the blow as a root user.</p>
+<p><strong>Set the your hostname in /etc/sysconfig/network &amp; /etc/hosts</strong> to match the FQDN of your SP ie sp.yourdomain.com</p>
+<p>Install ntp date and set the date (you might want to add a cron job for this):</p>
+<p><strong>yum install ntp.i386</strong></p>
+<p><strong>ntpdate pool.ntp.org</strong></p>
+<p><strong>NOTE: BELOW IS NOW DEFUNCT AND YOU SHOULD <a href="https://mclear.co.uk/2009/11/07/installing-shibboleth-sp-2-3-on-centos/">USE THE DOCUMENTATION HERE</a> - although still complete the SELINUX section</strong></p>
+<p><strong>cd /root/</strong></p>
+<p>curl -O http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/2.2.1/RPMS/i386/RHE/5/log4shib-1.0.3-1.1.i386.rpm \</p>
+<p>-O http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/2.2.1/RPMS/i386/RHE/5/xerces-c-3.0.1-5.1.i386.rpm \</p>
+<p>-O http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/2.2.1/RPMS/i386/RHE/5/xml-security-c-1.5.1-3.2.i386.rpm \</p>
+<p>-O http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/2.2.1/RPMS/i386/RHE/5/xmltooling-1.2.2-1.i386.rpm \</p>
+<p>-O http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/2.2.1/RPMS/i386/RHE/5/opensaml-2.2.1-1.i386.rpm \</p>
+<p>-O http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/2.2.1/RPMS/i386/RHE/5/shibboleth-2.2.1-2.i386.rpm</p>
+<p>The above will put the files you need in /root</p>
+<p><strong>Edit /etc/yum.conf</strong> (use vi or nano) copy the gpgcheck command and then comment it out to read #gpgcheck=yes, <strong>set gpgcheck=no</strong> below the commented line.</p>
+<p><strong>yum -y install ntp</strong></p>
+<p><strong>/usr/sbin/ntpdate pool.ntp.org</strong></p>
+<p><strong>yum localinstall xerces-c-3.0.1-5.1.i386.rpm</strong></p>
+<p><strong>yum -y install unixODBC.i386</strong></p>
+<p>rpm -ivh log4shib-1.0.3-1.1.i386.rpm</p>
+<p>rpm -ivh xml-security-c-1.5.1-3.2.i386.rpm</p>
+<p>rpm -ivh xmltooling-1.2.2-1.i386.rpm</p>
+<p>rpm -ivh opensaml-2.2.1-1.i386.rpm</p>
+<p>rpm -ivh shibboleth-2.2.1-2.i386.rpm</p>
+<p>The above will install the packages. Your shibboleth config will live in /etc/shibboleth</p>
+<p><strong>Edit /etc/selinux/config</strong></p>
+<blockquote>
+<p>Comment out SELINUX=enforcing</p>
+<p>Type in SELINUX=disabled</p>
+</blockquote>
+<p><strong>setenforce 0</strong></p>
+<p>Warning: This will disable some security options, it can be left enabled but tweeks will need to be made to the socket restrictions later on. Can someone please document this better?</p>
+<p>Or instead of doing above you can use system-config-securitylevel-tui to disable and restart selinux</p>
+<p><strong>/usr/sbin/shibd -v</strong></p>
+<p>Will return the version of shibboleth installed. If it does then:</p>
+<p><a href="https://mclear.co.uk/2009/10/27/configuring-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/">Continue to Part 2 (Configuring Shibboleth)</a></p>
+        </div>
+    </div>
+</body>
+</html>

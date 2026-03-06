@@ -6,11 +6,11 @@ John is a senior software engineer and open-source advocate born and raised in B
 ### Core Passion
 John is dedicated to creating ICT services that are accessible worldwide, 24/7. He thrives on the challenge of building robust, scalable systems and managing the teams that bring them to life.
 
-### Technical Expertise & Interests
+### Current Technical Expertise & Interests
 - **Open Source:** A key contributor to **Etherpad** and **Etherpad Lite**, and involved in projects like **Primary Games Arena**, **My School Closures**, and **School Email**.
 - **Hardware & Embedded Systems:** Highly specialized in **ESPHome**, **ESP32-C6**, and **ST25R NFC** technology. He maintains strict hardware pinout standards (e.g., SDA=21, SCL=22) and favors the `esp-idf` framework.
-- **Web & Infrastructure:** Extensive experience with high-performance web stacks, including **Varnish Cache**, **WordPress (MU)**, **Shibboleth (SP/IDP)**, **Microsoft Exchange**, and **Linux/CentOS** administration.
-- **Languages:** Proficient in **PHP**, **Perl**, **Javascript**, **HTML/CSS**, **Powershell**, and **C++** (for embedded).
+- **Web & Infrastructure:** Extensive experience with high-performance web stacks, including **Varnish Cache**, **WordPress (MU)**, **Shibboleth (SP/IDP)**, and **Linux/CentOS** administration.
+- **Languages:** Proficient in **Javascript**, **HTML/CSS**, **C++** (for embedded), **PHP**, **Perl**, and **Powershell**.
 - **Security:** Passionate about child protection in ICT, e-safety, and secure authentication (SSO).
 
 ### Writing & Engineering Style

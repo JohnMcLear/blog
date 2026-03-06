@@ -1,0 +1,23 @@
+---
+layout: default
+title: John McLear Musings
+---
+
+# John McLear Musings
+Hacker, Maker, Ex-Ginger
+
+---
+
+- [Contact Me](/contact-me/)
+- [Privacy Policy](/privacy/)
+- [My Sites](/sites/)
+- [Acknowledgements](/thanks/)
+- [All Posts](/posts/)
+
+---
+
+## Latest Posts
+{% assign posts = site.posts | sort: "date" | reverse %}
+{% for post in posts %}
+- [{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}]({{ post.url }})
+{% endfor %}

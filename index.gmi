@@ -3,11 +3,11 @@
 Welcome to my blog on the Gemini protocol.
 
 ## Pages
-=> pages/contact-me/index.gmi Contact Me
-=> pages/more/index.gmi More
-=> pages/privacy/index.gmi Privacy
-=> pages/sites/index.gmi Sites
-=> pages/thanks/index.gmi Thanks
+=> contact-me/index.gmi Contact Me
+=> more/index.gmi More
+=> privacy/index.gmi Privacy
+=> sites/index.gmi Sites
+=> thanks/index.gmi Thanks
 
 ## Posts
 => posts/zemanta-quickest-way-to-add-images-and-links-to-your-blog-posts/index.gmi Zemanta Quickest Way To Add Images And Links To Your Blog Posts

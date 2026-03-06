@@ -11,11 +11,3 @@ Email me: John@mclear.co.uk
 Linked in: [http://www.linkedin.com/in/johnmclear](http://www.linkedin.com/in/johnmclear)
 
 [I have not received any national security letters in the previous 30 days.](https://www.eff.org/deeplinks/2014/04/warrant-canary-faq)
-
-### Other Pages
-
-*   [More Information](/more/)
-*   [Privacy Policy](/privacy/)
-*   [My Sites](/sites/)
-*   [Acknowledgements](/thanks/)
-*   [All Posts](/posts/)

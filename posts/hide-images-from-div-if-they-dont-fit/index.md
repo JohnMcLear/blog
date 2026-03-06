@@ -10,7 +10,13 @@ categories:
 
 [![](images/blah.png "blah")](https://mclear.co.uk/wp-content/uploads/2010/12/blah.png)
 
-The title of this article is horribly lame but it's what (after a few beers) I appear to have Google'd for..  Basically you have a div, 800px wide and you have 16 images, all 100px wide and you want to only leave 8 images in the active dom.  I bet you are thinking..  Yea just use \[code\]overflow:hidden\[/code\]..  Sure..  But you can still tab to the images and that sucks if you are making a TV website where the users may be using a remote control...
+The title of this article is horribly lame but it's what (after a few beers) I appear to have Google'd for..  Basically you have a div, 800px wide and you have 16 images, all 100px wide and you want to only leave 8 images in the active dom.  I bet you are thinking..  Yea just use 
+
+```
+overflow:hidden
+```
+
+..  Sure..  But you can still tab to the images and that sucks if you are making a TV website where the users may be using a remote control...
 
 **So here's how I did it..  Using javascript..**
 
@@ -30,7 +36,13 @@ The title of this article is horribly lame but it's what (after a few beers) I a
     display:inline;
     ```
     
-    else set it to \[code\]display:none;\[/code\]
+    else set it to 
+
+```
+display:none;
+```
+
+
 
 Display none stops the object from existing on the screen what so ever..  It's not hidden so you can't tab to it..  This also works with divs that can be resized..  What you do is listen for resize, when a resize event is triggered get the new div width and run the function to hide/display the images..
 

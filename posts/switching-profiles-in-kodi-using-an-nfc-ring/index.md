@@ -13,9 +13,18 @@ Replace profiles, IP and ring ID with your own values.
 
 Run in a Screen
 
-\[code\]node whatever.js\[/code\]
 
-\[code\] var fs = require('fs'); var request = require("request"); var inp = fs.createReadStream("/dev/ttyACM0"); inp.setEncoding('utf8'); var inptext = ""; var XBMCEventClient = require('xbmc-event-client').XBMCEventClient; var xbmc = new XBMCEventClient('node.js app'); var blob = { "id": 1, "jsonrpc": "2.0", "method": "Profiles.LoadProfile", "params": {"profile":"lydia"}};
+
+```
+node whatever.js
+```
+
+
+
+
+
+```
+var fs = require('fs'); var request = require("request"); var inp = fs.createReadStream("/dev/ttyACM0"); inp.setEncoding('utf8'); var inptext = ""; var XBMCEventClient = require('xbmc-event-client').XBMCEventClient; var xbmc = new XBMCEventClient('node.js app'); var blob = { "id": 1, "jsonrpc": "2.0", "method": "Profiles.LoadProfile", "params": {"profile":"lydia"}};
 
 var options = { method: 'POST', uri: 'http://user:pass@127.0.0.1:8080/jsonrpc', json: blob }
 
@@ -27,6 +36,9 @@ if(data.indexOf("InsertRingUIDHere") !== -1){ console.log(options.json.params); 
 
 request(options, function (error, response, body) { console.log("changed to", options.json.params.profile); if (!error && response.statusCode == 200) { console.log(body.id) // Print the shortened url. } });
 
-}); }); \[/code\]
+}); });
+```
+
+
 
 Note that I just threw this together as a proof of concept, it needs a bunch of polish! :)

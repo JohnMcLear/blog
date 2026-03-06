@@ -12,23 +12,71 @@ tags:
 
 Sometimes stuff gets broken due to new commits, we need to know which commit broke functionality.
 
-To do this \[code\] git pull git checkout develop \[/code\]
+To do this 
 
-Ensure the bug exists then \[code\] git checkout master \[/code\]
+```
+git pull git checkout develop
+```
+
+
+
+Ensure the bug exists then 
+
+```
+git checkout master
+```
+
+
 
 Ensure the bug doesn't exist. If it does checkout older versions IE git checkout release/1.2.8 Next begin the bisect process..
 
-\[code\] git bisect start \[/code\]
 
-Tell bisect that master is fine \[code\] git bisect good \[/code\]
 
-Tell bisect that develop is bad \[code\] git checkout develop git bisect bad \[/code\]
+```
+git bisect start
+```
 
-Bisect will then deliver you a commit state, test this new version.. \[code\] bin/run.sh \[/code\]
 
-Test, Control C.. Did it work? If so... \[code\] git bisect good \[/code\]
 
-Did it not work? If so.. \[code\] git bisect bad \[/code\]
+Tell bisect that master is fine 
+
+```
+git bisect good
+```
+
+
+
+Tell bisect that develop is bad 
+
+```
+git checkout develop git bisect bad
+```
+
+
+
+Bisect will then deliver you a commit state, test this new version.. 
+
+```
+bin/run.sh
+```
+
+
+
+Test, Control C.. Did it work? If so... 
+
+```
+git bisect good
+```
+
+
+
+Did it not work? If so.. 
+
+```
+git bisect bad
+```
+
+
 
 Rinse repeat 'git bisect good' and/or 'git bisect bad' until it delivers you with a commit SHA then create an issue including the details from the SHA.
 

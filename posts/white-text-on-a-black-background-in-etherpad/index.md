@@ -9,8 +9,14 @@ categories:
 
 Open /static/custom/pad.css and add:
 
-\[code\] #outerdocbody{ background-color:#000; }
 
-#innerdocbody{ color:#fff; } \[/code\]
+
+```
+#outerdocbody{ background-color:#000; }
+
+#innerdocbody{ color:#fff; }
+```
+
+
 
 Save, close, hit refresh..

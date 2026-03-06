@@ -8,7 +8,13 @@ categories:
 
 Google Analytics shows that ~12% of our total users are affected by a Javascript bug of:
 
-\[code\]TypeError: 'undefined' is not an object\[/code\]
+
+
+```
+TypeError: 'undefined' is not an object
+```
+
+
 
 90% of the browsers are Safari 7534.48.3, 10% are Mozilla compatible agent. 75% of the errors come from iPhones, 23% from iPads. 1% from Macintosh, the other 2% is from iPod etc. None of the devices run Linux or Windows.
 

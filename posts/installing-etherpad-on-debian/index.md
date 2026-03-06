@@ -18,7 +18,13 @@ IMPORTANT NOTE: THIS DOCUMENTATION IS NOW DATED.  You can now install [Etherpad
 
 Add the following line as a source in your graphical package manager (In Ubuntu: System->Administration->Synaptic package manager; then Settings->Repositories and then finally Third party software), or edit the file /etc/apt/sources.list and add it there.
 
-\[code\] deb http://apt.etherpad.org all . \[/code\]
+
+
+```
+deb http://apt.etherpad.org all .
+```
+
+
 
 \[bash\] apt-get update apt-get install etherpad \[/bash\]
 
@@ -120,10 +126,22 @@ Edit /usr/local/etherpad/trunk/etherpad/src/etherpad/pro/pro\_utils.js
 
 Replace
 
-\[code\]var fromDomain = 'etherpad.com';\[/code\]
+
+
+```
+var fromDomain = 'etherpad.com';
+```
+
+
 
 with
 
-\[code\]var fromDomain = 'yourdomain.com';\[/code\]
+
+
+```
+var fromDomain = 'yourdomain.com';
+```
+
+
 
 Note: Originally published on the 19th of Dec 2009, Revised on the 10th of March 2010

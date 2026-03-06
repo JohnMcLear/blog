@@ -1,0 +1,34 @@
+# Site settings
+title: "John McLear's Blog"
+email: john@mclear.co.uk
+description: "Hacker, Maker, Ex-Ginger"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mclear.co.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  syntax_highlighter: rouge # or pygments (needs pygments gem)
+  syntax_highlighter_opts:
+    block_start: ["```", "~~~"]
+    block_end: ["```", "~~~"]
+
+highlighter: rouge
+
+# Exclude from processing.
+# The following items will not be processed, by Jekyll.
+exclude:
+  - .github/
+  - .venv/
+  - generate_html.py
+  - README.md # Excluding the main README as index.html will be the landing page
+  - transform_md.py
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - LICENSE.md
+  - LICENSE
+  - Rakefile
+  - CNAME # GitHub Pages handles this itself

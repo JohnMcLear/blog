@@ -5,4 +5,10 @@ categories:
   - "varnish"
 ---
 
-\[code\] varnishadm -T 127.0.0.1:2000 purge.url "/static/js/wall.js" \[/code\]
+
+
+```
+varnishadm -T 127.0.0.1:2000 purge.url "/static/js/wall.js"
+```
+
+

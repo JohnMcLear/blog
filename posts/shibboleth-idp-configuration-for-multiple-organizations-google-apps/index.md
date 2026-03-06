@@ -42,13 +42,25 @@ You are done in Google Apps. Congrats.
 
 5\. Edit /opt/shibboleth-idp/metadata/google-metadata.xml to read
 
-\[code\] <EntityDescriptor entityID="google.com/a/schoola.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"> <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat> <AssertionConsumerService index="1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.google.com/a/schoola.com/acs" /> </SPSSODescriptor> </EntityDescriptor> \[/code\]
+
+
+```
+<EntityDescriptor entityID="google.com/a/schoola.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"> <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat> <AssertionConsumerService index="1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.google.com/a/schoola.com/acs" /> </SPSSODescriptor> </EntityDescriptor>
+```
+
+
 
 6\. Copy google-metadata.xml to google-metadata2.xml
 
 7\. Edit /opt/shibboleth-idp/metadata/google-metadata2.xml to read
 
-\[code\] <EntityDescriptor entityID="google.com/a/schoolb.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"> <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat> <AssertionConsumerService index="1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.google.com/a/schoolb.com/acs" /> </SPSSODescriptor> </EntityDescriptor> \[/code\]
+
+
+```
+<EntityDescriptor entityID="google.com/a/schoolb.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"> <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat> <AssertionConsumerService index="1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.google.com/a/schoolb.com/acs" /> </SPSSODescriptor> </EntityDescriptor>
+```
+
+
 
 8\. Edit /etc/shibboleth/relying-party.xml
 
@@ -58,13 +70,25 @@ You are done in Google Apps. Congrats.
 
 11\. Replace the entire Relying Party section for the google connectivity. After you are done it should read something like...
 
-\[code\] <RelyingParty id="google.com/a/schoola.com" provider="https://idp.youridp.com/idp/shibboleth" defaultSigningCredentialRef="IdPCredential"> <ProfileConfiguration xsi:type="saml:SAML2SSOProfile" encryptAssertions="never" encryptNameIds="never" /> </RelyingParty> <RelyingParty id="google.com/a/schoolb.com" provider="https://idp.youridp.com/idp/shibboleth" defaultSigningCredentialRef="IdPCredential"> <ProfileConfiguration xsi:type="saml:SAML2SSOProfile" encryptAssertions="never" encryptNameIds="never" /> </RelyingParty> \[/code\]
+
+
+```
+<RelyingParty id="google.com/a/schoola.com" provider="https://idp.youridp.com/idp/shibboleth" defaultSigningCredentialRef="IdPCredential"> <ProfileConfiguration xsi:type="saml:SAML2SSOProfile" encryptAssertions="never" encryptNameIds="never" /> </RelyingParty> <RelyingParty id="google.com/a/schoolb.com" provider="https://idp.youridp.com/idp/shibboleth" defaultSigningCredentialRef="IdPCredential"> <ProfileConfiguration xsi:type="saml:SAML2SSOProfile" encryptAssertions="never" encryptNameIds="never" /> </RelyingParty>
+```
+
+
 
 12\. Search for Google.com again - look for the MetadataProvider section
 
 13\. Copy and paste the first reference replacing .xml with 2.xml, change the second schools id value to GoogleMD2, it should read something like this:
 
-\[code\] <MetadataProvider id="GoogleMD" xsi:type="FilesystemMetadataProvider" xmlns="urn:mace:shibboleth:2.0:metadata" metadataFile="/opt/shibboleth-idp/metadata/google-metadata.xml" maintainExpiredMetadata="true" /> <MetadataProvider id="GoogleMD2" xsi:type="FilesystemMetadataProvider" xmlns="urn:mace:shibboleth:2.0:metadata" metadataFile="/opt/shibboleth-idp/metadata/google-metadata2.xml" maintainExpiredMetadata="true" /> \[/code\]
+
+
+```
+<MetadataProvider id="GoogleMD" xsi:type="FilesystemMetadataProvider" xmlns="urn:mace:shibboleth:2.0:metadata" metadataFile="/opt/shibboleth-idp/metadata/google-metadata.xml" maintainExpiredMetadata="true" /> <MetadataProvider id="GoogleMD2" xsi:type="FilesystemMetadataProvider" xmlns="urn:mace:shibboleth:2.0:metadata" metadataFile="/opt/shibboleth-idp/metadata/google-metadata2.xml" maintainExpiredMetadata="true" />
+```
+
+
 
 Congrats, you are done in relying-party.xml!
 
@@ -78,4 +102,10 @@ Congrats, you are done in relying-party.xml!
 
 It should read:
 
-\[code\] <AttributeFilterPolicy> <PolicyRequirementRule xsi:type="basic:AttributeRequesterString" value="google.com/a/schoola.com" /> <AttributeRule attributeID="principal"> <PermitValueRule xsi:type="basic:ANY" /> </AttributeRule> </AttributeFilterPolicy> <AttributeFilterPolicy> <PolicyRequirementRule xsi:type="basic:AttributeRequesterString" value="google.com/a/schoolb.com" /> <AttributeRule attributeID="principal"> <PermitValueRule xsi:type="basic:ANY" /> </AttributeRule> </AttributeFilterPolicy> \[/code\] 18. I restarted tomcat using the ./Shutdown ./Startup script to test and it worked fine. Test by browsing to http://apps.schoola.com/(assuming you have this cname set). If you have problems please check that you replaced schoola.com and schoolb.com with your domain and also your IDP references.
+
+
+```
+<AttributeFilterPolicy> <PolicyRequirementRule xsi:type="basic:AttributeRequesterString" value="google.com/a/schoola.com" /> <AttributeRule attributeID="principal"> <PermitValueRule xsi:type="basic:ANY" /> </AttributeRule> </AttributeFilterPolicy> <AttributeFilterPolicy> <PolicyRequirementRule xsi:type="basic:AttributeRequesterString" value="google.com/a/schoolb.com" /> <AttributeRule attributeID="principal"> <PermitValueRule xsi:type="basic:ANY" /> </AttributeRule> </AttributeFilterPolicy>
+```
+
+ 18. I restarted tomcat using the ./Shutdown ./Startup script to test and it worked fine. Test by browsing to http://apps.schoola.com/(assuming you have this cname set). If you have problems please check that you replaced schoola.com and schoolb.com with your domain and also your IDP references.

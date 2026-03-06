@@ -5,7 +5,13 @@ categories:
   - "etherpad"
 ---
 
-\[code\] /etc/init.d/etherpad-lite stop git pull /etc/init.d/etherpad-lite start \[/code\]
+
+
+```
+/etc/init.d/etherpad-lite stop git pull /etc/init.d/etherpad-lite start
+```
+
+
 
 If you installed from the tar ball then grab the latest tar and extract it over your current install.
 

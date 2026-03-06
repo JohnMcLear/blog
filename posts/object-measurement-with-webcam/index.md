@@ -17,7 +17,13 @@ It works by comparing the size of a user defined box to the size of a magnetic s
 
 I use getUserMedia / Canvas to do most of the interaction between the webcam and the browser and I'm using PaperJS for drawing the boxes onto the canvas. The actual math is really simple
 
-\[code\] // Takes a scale value and tries to figure out the mm diameter of each ring function scaleToRingSize(widthPx){ return (85.72500 / stripWidth \* widthPx).toFixed(2); // 85.72500 being the width of a magnetic strip in mm } \[/code\]
+
+
+```
+// Takes a scale value and tries to figure out the mm diameter of each ring function scaleToRingSize(widthPx){ return (85.72500 / stripWidth \* widthPx).toFixed(2); // 85.72500 being the width of a magnetic strip in mm }
+```
+
+
 
 [The fingers.js also contains code for converting ring sizes in mm to the nearest smaller ring size.](https://github.com/mclear/html5-measurer/blob/gh-pages/fingers.js#L149) IE if your ring size is 22mm it will give you a ring size in US/EU that is 22.2mm instead of 20mm.
 
@@ -29,7 +35,13 @@ The tool will work in all browsers that support getUserMedia which is IE11, FF 1
 
 I had to worry about the overheads of the large javascript fabric.js library so I decided I didn't want the additional overheads of jQuery. It's entirely written in JS (with obv some CSS/HTML) throw into the mix. I could probably refactor it down to just JS without too much headache and this would give site admins the ability to do something like:
 
-\[code\] <script src="measurer.js"></script> var measure = new Measurer(); measure.create("targetDiv"); // can do it like this because getUserMedia is limited to one instance of browser/OS. measure.on('success', function(measurement){ alert("Got a measurement of", measurement); measure.destroy(); }); \[/code\]
+
+
+```
+<script src="measurer.js"></script> var measure = new Measurer(); measure.create("targetDiv"); // can do it like this because getUserMedia is limited to one instance of browser/OS. measure.on('success', function(measurement){ alert("Got a measurement of", measurement); measure.destroy(); });
+```
+
+
 
 ## You will need a card with a magnetic strip on the back, ideally a credit card as these are guaranteed to be a universal size.
 

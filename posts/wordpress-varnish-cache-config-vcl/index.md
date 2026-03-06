@@ -50,7 +50,13 @@ I didn't include Custom error messages in this VCL.  It's not because I'm lazy,
 
 ## Let me at it!
 
-[Varnish v3](https://github.com/johnmclear/Wordpress-Varnish-VCL/tree/Varnish3) [Varnish v3.03](https://github.com/johnmclear/Wordpress-Varnish-VCL/blob/Varnish303/default.vcl) **Which version of Varnish am I running?** \[code\]varnishd -V\[/code\]
+[Varnish v3](https://github.com/johnmclear/Wordpress-Varnish-VCL/tree/Varnish3) [Varnish v3.03](https://github.com/johnmclear/Wordpress-Varnish-VCL/blob/Varnish303/default.vcl) **Which version of Varnish am I running?** 
+
+```
+varnishd -V
+```
+
+
 
 ## What do I need to change?
 

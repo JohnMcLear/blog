@@ -12,7 +12,10 @@ In this example we are releasing version 1.1.4.
 
 NOTE TO SELF: Remember to bump the version in src/packages.json
 
-\[code\] # debian/ubuntu only apt-get install git-flow
+
+
+```
+# debian/ubuntu only apt-get install git-flow
 
 \# checkout the development branch git checkout develop
 
@@ -20,23 +23,50 @@ NOTE TO SELF: Remember to bump the version in src/packages.json
 
 \# start the release process # note the releases-1.1.4 bit, this should be 1.1.4 only but I'm following the pattern of Etherpad Lite git flow release start 1.1.4
 
-\# publish the release to a new release branch git flow release publish 1.1.4 \[/code\]
+\# publish the release to a new release branch git flow release publish 1.1.4
+```
+
+
 
 Check everything fully one last time IE packages.json and let travis run it's tests..
 
-\[code\] git flow release finish 1.2.4 git push origin master --tags \[/code\]
+
+
+```
+git flow release finish 1.2.4 git push origin master --tags
+```
+
+
 
 Now in root do
 
-\[code\] make docs \[/code\]
+
+
+```
+make docs
+```
+
+
 
 then copy the out/doc folder to ether.github.com repo doc/vx.x.x folder
 
-\[code\] mv out/doc/ ../ether.github.com/doc/v1.4.1/ \[/code\]
+
+
+```
+mv out/doc/ ../ether.github.com/doc/v1.4.1/
+```
+
+
 
 create the windows binary
 
-\[code\] bin/buildforwindows.sh \[/code\]
+
+
+```
+bin/buildforwindows.sh
+```
+
+
 
 copy the last 10 digits of the sha from git log to the end of the windows package file name before .zip
 

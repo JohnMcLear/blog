@@ -11,6 +11,12 @@ Open up custom/pad.js
 
 Edit customStart to read..
 
-\[code\] customStart(){ document.title= "Your Title Here" } \[/code\]
+
+
+```
+customStart(){ document.title= "Your Title Here" }
+```
+
+
 
 To change the title for the start page just do the same in index.js

@@ -26,33 +26,69 @@ Find the repository you want to auto publish on the Travis Web interface (under 
 
 Install Ruby Gems
 
-\[code\]sudo apt-get install rubygems\[/code\]
+
+
+```
+sudo apt-get install rubygems
+```
+
+
 
 ## Step 4.
 
 Install travis CLI gem and json gem
 
-\[code\]sudo gem install json\[/code\]
 
-\[code\]gem install travis\[/code\]
+
+```
+sudo gem install json
+```
+
+
+
+
+
+```
+gem install travis
+```
+
+
 
 ## Step 5.
 
 Create a .travis.yml file in the root of your repository that looks like this (replacing your email)
 
-\[code\] language: node\_js deploy: api\_key: email: your@emailhere.com provider: npm \[/code\]
+
+
+```
+language: node\_js deploy: api\_key: email: your@emailhere.com provider: npm
+```
+
+
 
 ## Step 6.
 
 Get your npmjs api key and copy it into the clip board (Copy the bit after the \_auth =)
 
-\[code\] cat ~/.npmrc | grep \_auth \[/code\]
+
+
+```
+cat ~/.npmrc | grep \_auth
+```
+
+
 
 ## Step 7.
 
 Run the Travis CI secret key generator
 
-\[code\] travis encrypt --add deploy.api\_key \[/code\]
+
+
+```
+travis encrypt --add deploy.api\_key
+```
+
+
 
 When prompted paste your APIKey then hit Control D, don't add an additional line break or enter.
 
@@ -60,7 +96,13 @@ When prompted paste your APIKey then hit Control D, don't add an additional line
 
 Add, Commit and Push the new .travis.yml file, this will trigger a build on Travis
 
-\[code\] git add .travis.yml && git commit -m "Travis auto publish config" && git push \[/code\]
+
+
+```
+git add .travis.yml && git commit -m "Travis auto publish config" && git push
+```
+
+
 
 ## Step 9.
 

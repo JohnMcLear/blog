@@ -17,12 +17,24 @@ Grab those two projects, grab the below files and put them in a /js folder then 
 
 Put the jQuery-File-Upload folder in your root, we will be uploading files to here.. You may want to add a layer of security in front of the upload function.
 
-\[code\] <head> <script src="/js/csvToTable.js"></script> <script src="/js/jquery.iframe-transport.js"></script> <script src="/js/jquery.fileupload.js"></script> </head> \[/code\]
 
-At the bottom of your body add.. \[code\] <div id="csvToTable"></div> <div id="fileupload"></div> <script> var loggedIn = 1; // you will want to modify this if you require auth $(function () { if(loggedIn == "1"){ $('#fileupload').fileupload({ dataType: 'json', acceptFileTypes: '/(csv)$/i', url: '/jQuery-File-Upload/php/index.php', done: function (e, data, Users) { $.each(data.result, function(index, file){ $('#csvToTable').html(""); $('#csvToTable').CSVToTable(file.url).bind("loadComplete",function() { console.log("Loaded data into table"); /\*
+
+```
+<head> <script src="/js/csvToTable.js"></script> <script src="/js/jquery.iframe-transport.js"></script> <script src="/js/jquery.fileupload.js"></script> </head>
+```
+
+
+
+At the bottom of your body add.. 
+
+```
+<div id="csvToTable"></div> <div id="fileupload"></div> <script> var loggedIn = 1; // you will want to modify this if you require auth $(function () { if(loggedIn == "1"){ $('#fileupload').fileupload({ dataType: 'json', acceptFileTypes: '/(csv)$/i', url: '/jQuery-File-Upload/php/index.php', done: function (e, data, Users) { $.each(data.result, function(index, file){ $('#csvToTable').html(""); $('#csvToTable').CSVToTable(file.url).bind("loadComplete",function() { console.log("Loaded data into table"); /\*
 
 Call functions to manipulate data here
 
-\*/ });; }); } }); } }); </script> \[/code\]
+\*/ });; }); } }); } }); </script>
+```
+
+
 
 [Want to make your table editor like the rest of the cool kids? Check out this jQuery plugin](http://www.webismymind.be/editablegrid/)

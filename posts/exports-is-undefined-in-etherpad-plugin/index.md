@@ -5,4 +5,10 @@ tags:
   - "etherpad"
 ---
 
-Add the below to the top of your file. \[code\] if(typeof exports == 'undefined'){ var exports = this\['mymodule'\] = {}; } \[/code\]
+Add the below to the top of your file. 
+
+```
+if(typeof exports == 'undefined'){ var exports = this\['mymodule'\] = {}; }
+```
+
+

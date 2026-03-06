@@ -18,17 +18,35 @@ Knowing who owns a certain piece of text in a document is an extremely important
 
 Let's start with a basic example.
 
-John writes. \[code\] My dog ate the tree \[/code\]
+John writes. 
+
+```
+My dog ate the tree
+```
+
+
 
 Now Dave swaps the words tree and dog around. We get
 
-\[code\] My tree ate the dog \[/code\]
+
+
+```
+My tree ate the dog
+```
+
+
 
 The actual sentiment of the sentence has changed a lot but that wasn't John's intention yet if we look at the sentence in all collaborative Editors there is no representation that Dave modified the text.
 
 As you can imagine this is a huge problem as far as sentiment analysis, [Etherpad suffers from this](https://github.com/ether/etherpad-lite/issues/1696) too. Sentiment is distorted without the viewer being aware, imagine now we are working on a legal document and we replace the word tree and dog with friend and zombie...
 
-As text is modified in Etherpad new attributes IE underline/bold/strikethrough aren't made clear to the viewer. IE if John writes \[code\] Hello world \[/code\]
+As text is modified in Etherpad new attributes IE underline/bold/strikethrough aren't made clear to the viewer. IE if John writes 
+
+```
+Hello world
+```
+
+
 
 Then Dave applies a strikethrough on this text we have no recollection that Dave made this modification. The viewer is under the impression that John struck this this piece of text, this is misleading.
 

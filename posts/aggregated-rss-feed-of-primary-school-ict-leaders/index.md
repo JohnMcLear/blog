@@ -15,7 +15,13 @@ Want to follow a load of great ICT leaders with the click of a few buttons?
 
 ## Extended instructions:
 
-Copy the following URL to your clipboard (Highlight the text, right click, copy): \[code\] http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators\[/code\] Open outlook, Click RSS Feeds, Click Add a new RSS feed: Right click, paste the above code
+Copy the following URL to your clipboard (Highlight the text, right click, copy): 
+
+```
+http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators
+```
+
+ Open outlook, Click RSS Feeds, Click Add a new RSS feed: Right click, paste the above code
 
 ## Want to be on this RSS feed?
 

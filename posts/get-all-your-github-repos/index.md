@@ -12,11 +12,23 @@ Ever needed to do a lot of work across lots of your github repos or simply back 
 
 ## Step 1.
 
-\[code\] gem install github-backup \[/code\]
+
+
+```
+gem install github-backup
+```
+
+
 
 ## Step 2.
 
-\[code\] github-backup johnmclear \[/code\] Replace johnmclear with your github username.
+
+
+```
+github-backup johnmclear
+```
+
+ Replace johnmclear with your github username.
 
 ## Step 3.
 

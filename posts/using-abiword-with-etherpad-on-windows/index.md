@@ -13,8 +13,20 @@ Step 3. [Download and extract Etherpad](http://etherpad.org/etherpad-lite-win.zi
 
 Step 4. Enter the Etherpad folder, right click settings.json - Edit the file in Notepad++
 
-Step 5. Find the line \[code\] abiword : null \[/code\]
+Step 5. Find the line 
 
-Step 6. Change this line to: \[code\] "abiword" : "C:\\\\Program Files (x86)\\\\AbiWord\\\\bin\\\\AbiWord.exe" \[/code\]
+```
+abiword : null
+```
+
+
+
+Step 6. Change this line to: 
+
+```
+"abiword" : "C:\\\\Program Files (x86)\\\\AbiWord\\\\bin\\\\AbiWord.exe"
+```
+
+
 
 Step 7. Run Etherpad.

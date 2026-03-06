@@ -17,7 +17,13 @@ I hold Wordpress in really high regard yet Wordpress as an example gets this ver
 
 The behaviour for how editors scroll with documents has become a relatively normal experience. When you hit enter you expect to create a new line and for your browser to continue bringing that newline into your viewport.
 
-When we talk about a viewport we mean something like this \[code\] -------------- | document | |----------------| | | | viewport | | | |----------------| | | -------------- \[/code\] As you can see the viewport shows a portion(or if the document is smaller than the viewport the whole) of the document and as a newline is created the viewport is moved down by the pixel height of the new line.  If you are a WYSIWYG or Etherpad user think of it as the large white panel where you can edit text.
+When we talk about a viewport we mean something like this 
+
+```
+-------------- | document | |----------------| | | | viewport | | | |----------------| | | --------------
+```
+
+ As you can see the viewport shows a portion(or if the document is smaller than the viewport the whole) of the document and as a newline is created the viewport is moved down by the pixel height of the new line.  If you are a WYSIWYG or Etherpad user think of it as the large white panel where you can edit text.
 
 So we know that moving the Viewport Offset Top to the right location on a document in a non collaborative environment is really easy, yet there are some behaviours we take for granted.
 
@@ -29,9 +35,21 @@ Using the up/down arrows move our caret up, maintaining X(IE 5) position, when t
 
 Using the page up/down arrows move our caret up to the first visible line in the viewport. Hitting page up again will take the current viewport height and move the first fully visible line in the new viewport position. Page down does similar.
 
-Page up: \[code\] |----------------| | viewport | | | |----------------| | document | -------------- \[/code\]
+Page up: 
 
-Page down: \[code\] -------------- | document | | | |----------------| | | | viewport | | | |----------------| \[/code\] If your editor gets these wrong then you have serious problems.
+```
+|----------------| | viewport | | | |----------------| | document | --------------
+```
+
+
+
+Page down: 
+
+```
+-------------- | document | | | |----------------| | | | viewport | | | |----------------|
+```
+
+ If your editor gets these wrong then you have serious problems.
 
 ## Gotchas
 
@@ -39,7 +57,19 @@ It's at this point that collaborative editing throws some gotchas in.
 
 ## Ever changing line heights above content
 
-As you type this happens.. State a: \[code\] -------------- | document | | | |----------------| | | | viewport | | | |----------------| \[/code\] State b: \[code\] -------------- | document | | | | | |----------------| | | | viewport | | | |----------------| \[/code\] As you can see here another user has edited the content above our viewport which has left our viewport moved further down the document. This isn't the default behaviour with collaborative editors, you will have to deal with this edge case specifically.
+As you type this happens.. State a: 
+
+```
+-------------- | document | | | |----------------| | | | viewport | | | |----------------|
+```
+
+ State b: 
+
+```
+-------------- | document | | | | | |----------------| | | | viewport | | | |----------------|
+```
+
+ As you can see here another user has edited the content above our viewport which has left our viewport moved further down the document. This isn't the default behaviour with collaborative editors, you will have to deal with this edge case specifically.
 
 The same problem exists if content is resized/removed above your content, again knowing the caret position at modification is how we solve this however there is another gotcha..
 
@@ -57,9 +87,13 @@ Part 2: If a new change above would modify the viewport to the point where the c
 
 During highlight we should never allow the viewport to be moved by an edit event, only the user should be able to change it however this poses a new problem.. Imagine we are highlighting lines 5 to 10 and someone deletes lines 0, our editor would now look something like this..
 
-\[code\] |----------------| | |------------| | | | document | | | | | | |-| |-| |-|------------|-|
 
-\[/code\] Note the line above the document, the document is now below the top of our viewport.
+
+```
+|----------------| | |------------| | | | document | | | | | | |-| |-| |-|------------|-|
+```
+
+ Note the line above the document, the document is now below the top of our viewport.
 
 ### How we solve this problem
 

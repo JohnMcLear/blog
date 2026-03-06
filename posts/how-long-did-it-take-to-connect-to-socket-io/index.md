@@ -11,6 +11,12 @@ Send the duration(in ms) a client waited to connect to a Socket IO instance off 
 
 This code sends the ms it took from when the document was ready to when the socket was ready.
 
-\[code\] $(document).ready(function () { var socketConnectDuration = 0; setInterval ( socketConnectDurationIncrease, 100 ); // Start a timer socket.on('connect', function () { \_gaq.push(\['\_trackEvent', 'Connection duration', 'Connection duration', socketConnectDuration\]); // Send the length of time to GA .... } }
 
-function socketConnectDurationIncrease(){ socketConnectDuration = socketConnectDuration + 100; } \[/code\]
+
+```
+$(document).ready(function () { var socketConnectDuration = 0; setInterval ( socketConnectDurationIncrease, 100 ); // Start a timer socket.on('connect', function () { \_gaq.push(\['\_trackEvent', 'Connection duration', 'Connection duration', socketConnectDuration\]); // Send the length of time to GA .... } }
+
+function socketConnectDurationIncrease(){ socketConnectDuration = socketConnectDuration + 100; }
+```
+
+

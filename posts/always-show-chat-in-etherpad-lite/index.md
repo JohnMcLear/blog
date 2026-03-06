@@ -11,7 +11,13 @@ A user can change it by passing a parameter or you can set it at hte server leve
 
 To set it at the server level edit /static/custom/pad.js
 
-Add \[code\] chat.stickToScreen(true); \[/code\]
+Add 
+
+```
+chat.stickToScreen(true);
+```
+
+
 
 To the costumStart function.
 

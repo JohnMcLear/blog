@@ -9,8 +9,26 @@ So you have installed etherpad lite and you want to add support for importing an
 
 Drop to shell and type
 
-\[code\]apt-get install abiword\[/code\]
 
-Next open up your settings.json and change: \[code\]"abiword" : null,\[/code\] to \[code\]"abiword" : "/usr/bin/abiword",\[/code\]
+
+```
+apt-get install abiword
+```
+
+
+
+Next open up your settings.json and change: 
+
+```
+"abiword" : null,
+```
+
+ to 
+
+```
+"abiword" : "/usr/bin/abiword",
+```
+
+
 
 [See this as a main reference document](https://github.com/Pita/etherpad-lite/wiki/How-to-enable-importing-and-exporting-different-file-formats-in-Ubuntu-or-OpenSuse-or-SLES-with-AbiWord)

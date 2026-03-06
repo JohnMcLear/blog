@@ -18,4 +18,10 @@ To enable sharing your calendar: Log in to your [Primary Email or School Email](
 
 If you want to embed your calendar copy the Link for viewing calendar in a Web browser URL and embed it in an iframe, it will look something like this:
 
-\[code\] <iframe src="http://exchange.schoolemail.co.uk/owa/calendar/John@primaryt.co.uk/Calendar/calendar.html" width=600 height=600></iframe> \[/code\]
+
+
+```
+<iframe src="http://exchange.schoolemail.co.uk/owa/calendar/John@primaryt.co.uk/Calendar/calendar.html" width=600 height=600></iframe>
+```
+
+

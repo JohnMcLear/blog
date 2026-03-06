@@ -12,13 +12,25 @@ If your Wordpress install is behind Varnish you may have issues with Comments sh
 
 In the vcl\_recv part of your varnish config add this
 
-\[code\] set req.http.X-Forwarded-For = client.ip; \[/code\]
+
+
+```
+set req.http.X-Forwarded-For = client.ip;
+```
+
+
 
 Then edit your Wordpress wp-includes/comment.php and replace REMOTE\_ADDR with HTTP\_X\_FORWARDED\_FOR Then edit your wp-content/plugins/akismet/akismet.php and replace REMOTE\_ADDR with HTTP\_X\_FORWARDED\_FOR
 
 Restart varnish
 
-\[code\]/etc/init.d/varnish restart\[/code\]
+
+
+```
+/etc/init.d/varnish restart
+```
+
+
 
 Finished, test by commenting.
 
@@ -26,8 +38,10 @@ Note: Users experiencing spam on PrimaryBlogger should now experience less spam 
 
 If you are running Varnish 2.1.2 RPCXML will not work, you need to upgrade to 2.1.3..  You can find out your version by typing
 
-\[code\]
 
+
+```
 varnishd -V
+```
 
-\[/code\]
+

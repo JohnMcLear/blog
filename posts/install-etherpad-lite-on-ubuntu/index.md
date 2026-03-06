@@ -14,19 +14,49 @@ categories:
 
 Installing Etherpad Lite on Debian/Ubuntu clean.
 
-Part 1 - Installing prerequisites \[code\] apt-get install build-essential python libssl-dev git-core git libsqlite3-dev gzip curl # you will be prompted to press Y \[/code\]
+Part 1 - Installing prerequisites 
 
-Part 2 - Installing nodeJS and NPM \[code\] mkdir ~/local cd ~/local wget http://nodejs.org/dist/v0.6.12/node-v0.6.12.tar.gz tar -zxvf node-v0.6.11.tar.gz cd node-v0.6.11 ./configure --prefix=$HOME/local/node make make install echo 'export PATH=$HOME/local/node/bin:$PATH' >> ~/.profile echo 'export NODE\_PATH=$HOME/local/node:$HOME/local/node/lib/node\_modules' >> ~/.profile source ~/.profile \[/code\]
+```
+apt-get install build-essential python libssl-dev git-core git libsqlite3-dev gzip curl # you will be prompted to press Y
+```
 
-Part 3 - Installing Etherpad Lite and running it \[code\] git clone git://github.com/Pita/etherpad-lite.git etherpad-lite/bin/run.sh # You will be prompted to type Etherpad Lite rocks my socks. \[/code\]
+
+
+Part 2 - Installing nodeJS and NPM 
+
+```
+mkdir ~/local cd ~/local wget http://nodejs.org/dist/v0.6.12/node-v0.6.12.tar.gz tar -zxvf node-v0.6.11.tar.gz cd node-v0.6.11 ./configure --prefix=$HOME/local/node make make install echo 'export PATH=$HOME/local/node/bin:$PATH' >> ~/.profile echo 'export NODE\_PATH=$HOME/local/node:$HOME/local/node/lib/node\_modules' >> ~/.profile source ~/.profile
+```
+
+
+
+Part 3 - Installing Etherpad Lite and running it 
+
+```
+git clone git://github.com/Pita/etherpad-lite.git etherpad-lite/bin/run.sh # You will be prompted to type Etherpad Lite rocks my socks.
+```
+
+
 
 **You are now finished installing and Etherpad Lite should be running, you should be able to access it on http://localhost:9001**
 
 Only if you have an old version of Debian (Lenny) or Ubuntu then you will need to install sqllite from backports. To do open /etc/apt/sources.list and add:
 
-\[code\] deb http://backports.debian.org/debian-backports lenny-backports main \[/code\]
 
-Save and close the file then type \[code\] apt-get update apt-get -t lenny-backports install libsqlite3-dev \[/code\]
+
+```
+deb http://backports.debian.org/debian-backports lenny-backports main
+```
+
+
+
+Save and close the file then type 
+
+```
+apt-get update apt-get -t lenny-backports install libsqlite3-dev
+```
+
+
 
 You may need to rebuild your modules if you have an error, to do this do an rm -Rf node\_modules and run the startup script (run.sh) again!
 

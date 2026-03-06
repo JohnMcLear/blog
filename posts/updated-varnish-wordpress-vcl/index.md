@@ -26,7 +26,10 @@ I have been tweaking a varnish vcl config for Wordpress for quite some time and 
 
 First of all.. Let's define some backends..
 
-\[code\] // BACKEND CONFIGS backend server1 { .host = "server1.example.com"; .port = "8080"; .probe = { .url = "/"; .interval = 5s; .timeout = 1 s; .window = 5; .threshold = 3; } // we include time outs so uploads don't time out .connect\_timeout = 600s; .first\_byte\_timeout = 600s; .between\_bytes\_timeout = 600s; }
+
+
+```
+// BACKEND CONFIGS backend server1 { .host = "server1.example.com"; .port = "8080"; .probe = { .url = "/"; .interval = 5s; .timeout = 1 s; .window = 5; .threshold = 3; } // we include time outs so uploads don't time out .connect\_timeout = 600s; .first\_byte\_timeout = 600s; .between\_bytes\_timeout = 600s; }
 
 backend server2 { .host = "server2.example.com; .port = "8080"; .probe = { .url = "/"; .interval = 5s; .timeout = 1 s; .window = 5; .threshold = 3; } // we include time outs so uploads don't time out .connect\_timeout = 600s; .first\_byte\_timeout = 600s; .between\_bytes\_timeout = 600s; }
 
@@ -62,4 +65,7 @@ sub vcl\_recv { // Purge Wordpress requests for purge if (req.request == "PURGE"
 
 "} obj.status " " obj.response {" </pre> <div style="background-color: white;"><center> <img src="http://whatever.com/heavyload.jpg" alt="" width="600px" /></center> <h1>This page is unavailable</h1> If you are seeing this page, either maintenance is being performed or you are trying to access a file that doesn't exist. Please <a href="http://whatever.com/contact.html">contact us</a> if you believe this is an error <h2>Error "} obj.status " " obj.response {"</h2> "} obj.response {" on server "} req.backend {" <address><a href="http://whatever.com/">Us.</a></address></div> <pre> "}; return (deliver); error 404 "Not found"; } else { set obj.http.Content-Type = "text/html; charset=utf-8"; synthetic {" <!--?xml version="1.0" encoding="utf-8"?--> "} obj.status " " obj.response {"
 
-</pre> <div style="background-color: white;"><center> <img src="http://whatever.com/heavyload.jpg" alt="" width="600px" /></center> <h1>This website is unavailable</h1> If you are seeing this page, either maintenance is being performed or something really bad has happened. Try returning in a few minutes. If you still see this error in a few minutes please <a href="http://whatever.com/contact.html">contact us</a> <h2>Error "} obj.status " " obj.response {"</h2> "} obj.response {" on server "} req.backend {" <address><a href="http://whatever.com/">Us.</a></address></div> <pre> "}; return (deliver); } } \[/code\]
+</pre> <div style="background-color: white;"><center> <img src="http://whatever.com/heavyload.jpg" alt="" width="600px" /></center> <h1>This website is unavailable</h1> If you are seeing this page, either maintenance is being performed or something really bad has happened. Try returning in a few minutes. If you still see this error in a few minutes please <a href="http://whatever.com/contact.html">contact us</a> <h2>Error "} obj.status " " obj.response {"</h2> "} obj.response {" on server "} req.backend {" <address><a href="http://whatever.com/">Us.</a></address></div> <pre> "}; return (deliver); } }
+```
+
+

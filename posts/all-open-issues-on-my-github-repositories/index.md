@@ -9,21 +9,39 @@ I wrote a quick little script that turns all my open github issues onto clickabl
 
 Copy paste the below into githubIssues.js:
 
-\[code\] // Edit me var username = "YOURUSERNAME"; var password = "YOURPASSWORD"; // stop Editing!
+
+
+```
+// Edit me var username = "YOURUSERNAME"; var password = "YOURPASSWORD"; // stop Editing!
 
 var gittub = require("node-github"); var github = new gittub({version: "3.0.0"});
 
 github.authenticate({ type: "basic", username: username, password: password });
 
-github.issues.getAll({ user: "JohnMcLear", filter: "subscribed", per\_page: 100, sort: "created", direction: "asc" }, function(err, res) { for(var issueKey in res){ var issue = res\[issueKey\]; var line = "<p class='issue'>"; line += issue.created\_at + " "; if(issue.repository) line += issue.repository.full\_name + " "; line += "<a target='\_blank' href='"+issue.html\_url+"'>"; line += issue.title+"</a>"; line += "</p>"; if(issue.title) console.log(line); } }); \[/code\]
+github.issues.getAll({ user: "JohnMcLear", filter: "subscribed", per\_page: 100, sort: "created", direction: "asc" }, function(err, res) { for(var issueKey in res){ var issue = res\[issueKey\]; var line = "<p class='issue'>"; line += issue.created\_at + " "; if(issue.repository) line += issue.repository.full\_name + " "; line += "<a target='\_blank' href='"+issue.html\_url+"'>"; line += issue.title+"</a>"; line += "</p>"; if(issue.title) console.log(line); } });
+```
+
+
 
 Edit your username and password then type:
 
-\[code\]npm install node-github\[/code\]
+
+
+```
+npm install node-github
+```
+
+
 
 then:
 
-\[code\]node githubIssues.js &gt; issues.html\[/code\]
+
+
+```
+node githubIssues.js &gt; issues.html
+```
+
+
 
 Open issues.html in your web browser..
 

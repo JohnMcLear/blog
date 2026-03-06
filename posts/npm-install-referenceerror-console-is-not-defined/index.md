@@ -11,7 +11,13 @@ categories:
 
 Trying to install [npm](http://npmjs.org/) with: \[bash\]curl http://npmjs.org/install.sh | sh\[/bash\]
 
-Returns: \[code\]ReferenceError: console is not defined:\[/code\]
+Returns: 
+
+```
+ReferenceError: console is not defined:
+```
+
+
 
 Cause: NodeJS not properly installed.
 

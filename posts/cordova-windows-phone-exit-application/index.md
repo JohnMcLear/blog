@@ -25,9 +25,21 @@ TLDR of how I fixed this is to use a JS value to track which page I'm on..
 
 IE in page1.html you could have..
 
-\[code\] var currentPage = "index"; \[/code\]
 
-Then in your app.deviceready function include.. \[code\] if(currentPage == "index"){ history.go(-(history.length-9999)); document.addEventListener("backbutton", handleBack, true); }else{ document.addEventListener("backbutton", handleBack, false); } function handleBack(){ // handle other logic here such as handling the back events from page2 to page1.. } \[/code\]
+
+```
+var currentPage = "index";
+```
+
+
+
+Then in your app.deviceready function include.. 
+
+```
+if(currentPage == "index"){ history.go(-(history.length-9999)); document.addEventListener("backbutton", handleBack, true); }else{ document.addEventListener("backbutton", handleBack, false); } function handleBack(){ // handle other logic here such as handling the back events from page2 to page1.. }
+```
+
+
 
 The real magic here is history.go(-(history.length-9999)) which basically tells the history stack to reset. Also the true statement on addEventListener allows the original registered event to fire (Native back button)..
 

@@ -14,6 +14,12 @@ My Varnish config only included support for POST requests to xmlrpc.php
 
 I updated my config to read:
 
-\[code\] // set backend, pipe, strip cookies from xmlrpc if (req.request == "POST" && req.url ~ "xmlrpc.php") {remove req.http.cookie;set req.backend = mainserver;return(pipe);} if (req.request == "GET" && req.url ~ "xmlrpc.php") {remove req.http.cookie;set req.backend = mainserver;return(pipe);} \[/code\]
+
+
+```
+// set backend, pipe, strip cookies from xmlrpc if (req.request == "POST" && req.url ~ "xmlrpc.php") {remove req.http.cookie;set req.backend = mainserver;return(pipe);} if (req.request == "GET" && req.url ~ "xmlrpc.php") {remove req.http.cookie;set req.backend = mainserver;return(pipe);}
+```
+
+
 
 and it sorted it! Huraa

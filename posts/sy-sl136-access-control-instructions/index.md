@@ -7,8 +7,26 @@ tags:
   - "rfid"
 ---
 
-Access Admin mode, assuming admin password is default of 12345 \[code\] \*12345# \[/code\]
+Access Admin mode, assuming admin password is default of 12345 
 
-Get access \[code\] 8888# \[/code\]
+```
+\*12345#
+```
 
-Add a card/transponder \[code\] Enter admin mode 1 Touch card on access control # # Test card \[/code\]
+
+
+Get access 
+
+```
+8888#
+```
+
+
+
+Add a card/transponder 
+
+```
+Enter admin mode 1 Touch card on access control # # Test card
+```
+
+

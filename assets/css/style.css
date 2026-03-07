@@ -190,7 +190,7 @@ body table td {
 }
 
 /* Horizontal buttons for root index.html */
-body.home-page ul {
+body.home-page ul:first-of-type {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Center buttons horizontally */
@@ -199,11 +199,11 @@ body.home-page ul {
     gap: 15px; /* Space between buttons */
 }
 
-body.home-page ul li {
+body.home-page ul:first-of-type li {
     margin: 0;
 }
 
-body.home-page ul li a {
+body.home-page ul:first-of-type li a {
     display: block; /* Make the whole area clickable */
     padding: 12px 25px;
     font-size: 1.1em;
@@ -216,7 +216,7 @@ body.home-page ul li a {
     box-shadow: 0 2px 5px var(--shadow-color-light);
 }
 
-body.home-page ul li a:hover {
+body.home-page ul:first-of-type li a:hover {
     background-color: var(--link-color-light);
     color: var(--content-bg-light);
     border-color: var(--link-color-light);
@@ -224,13 +224,13 @@ body.home-page ul li a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-    body.home-page ul li a {
+    body.home-page ul:first-of-type li a {
         background-color: var(--content-bg-dark);
         color: var(--link-color-dark);
         border: 1px solid var(--link-color-dark);
         box-shadow: 0 2px 5px var(--shadow-color-dark);
     }
-    body.home-page ul li a:hover {
+    body.home-page ul:first-of-type li a:hover {
         background-color: var(--link-color-dark);
         color: var(--content-bg-dark);
         border-color: var(--link-color-dark);
@@ -444,13 +444,13 @@ body.dark-mode .codehilite .vi { color: #56b6c2 }
 body.dark-mode .codehilite .vm { color: #56b6c2 }
 body.dark-mode .codehilite .il { color: #d19a66 }
 
-body.dark-mode.home-page ul li a {
+body.dark-mode.home-page ul:first-of-type li a {
     background-color: var(--content-bg-dark);
     color: var(--link-color-dark);
     border: 1px solid var(--link-color-dark);
     box-shadow: 0 2px 5px var(--shadow-color-dark);
 }
-body.dark-mode.home-page ul li a:hover {
+body.dark-mode.home-page ul:first-of-type li a:hover {
     background-color: var(--link-color-dark);
     color: var(--content-bg-dark);
     border-color: var(--link-color-dark);
@@ -555,13 +555,13 @@ body.light-mode .codehilite .vi { color: #19177C }
 body.light-mode .codehilite .vm { color: #19177C }
 body.light-mode .codehilite .il { color: #666 }
 
-body.light-mode.home-page ul li a {
+body.light-mode.home-page ul:first-of-type li a {
     background-color: var(--content-bg-light);
     color: var(--link-color-light);
     border: 1px solid var(--link-color-light);
     box-shadow: 0 2px 5px var(--shadow-color-light);
 }
-body.light-mode.home-page ul li a:hover {
+body.light-mode.home-page ul:first-of-type li a:hover {
     background-color: var(--link-color-light);
     color: var(--content-bg-light);
     border-color: var(--link-color-light);

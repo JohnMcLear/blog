@@ -367,10 +367,6 @@ Welcome to my blog on the Gemini protocol.
 => posts/owl-energy-monitor-to-google-analytics/index.gmi Owl Energy Monitor To Google Analytics
 => posts/our-technology-is-not-advanced-enough-to-make-us-human-again/index.gmi Our Technology Is Not Advanced Enough To Make Us Human Again
 => posts/our-team-blog-is-born/index.gmi Our Team Blog Is Born
-=> posts/our-employment-tribunal-story-5/index.gmi Our Employment Tribunal Story
-=> posts/our-employment-tribunal-story-4/index.gmi Our Employment Tribunal Story
-=> posts/our-employment-tribunal-story-3/index.gmi Our Employment Tribunal Story
-=> posts/our-employment-tribunal-story-2/index.gmi Our Employment Tribunal Story
 => posts/our-employment-tribunal-story/index.gmi Our Employment Tribunal Story
 => posts/our-contribution-to-collaborative-writing/index.gmi Our Contribution To Collaborative Writing
 => posts/orange-to-orange-isp-connectivity/index.gmi Orange To Orange Isp Connectivity

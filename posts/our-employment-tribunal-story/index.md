@@ -23,5 +23,3 @@ The case was dismissed with no orders for costs meaning Primary Technology were 
 So here it is, evidence that we went through the process only to be dissapointed that we didn’t have our long-awaited day in the tribunal courts.
 
 We believe in transparency as default in Primary Technology and public records often aid us in fulfilling this so with that in mind [here is a copy of the public documents that was published from the tribunal.](http://blog.primaryt.co.uk/files/2012/04/Pages-from-tribunal_judgement_27-03-12.pdf)
-
-[Report This Post](http://blog.primaryt.co.uk?moderation_action=report_form&object_type=post&object_id=1121&width=250&height=300 "Report This Post")

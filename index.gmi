@@ -96,7 +96,6 @@ Welcome to my blog on the Gemini protocol.
 => posts/updated-school-holidays-dates-widget/index.gmi Updated School Holidays Dates Widget
 => posts/update-youtube-into-the-primary-classroom/index.gmi Update Youtube Into The Primary Classroom
 => posts/unsharable/index.gmi Unsharable
-=> posts/unix-find-large-files-or-to-be-precise-find-large-folders/index.gmi Unix Find Large Files Or To Be Precise Find Large Folders
 => posts/understanding-etwinning/index.gmi Understanding Etwinning
 => posts/unable-to-reproduce-typeerror-undefined-is-not-an-object/index.gmi Unable To Reproduce Typeerror Undefined Is Not An Object
 => posts/unable-to-find-xml-security-header-files-shibboleth/index.gmi Unable To Find Xml Security Header Files Shibboleth
@@ -442,7 +441,6 @@ Welcome to my blog on the Gemini protocol.
 => posts/mobile-phone-detection-with-varnish-quick-getting-started-guide/index.gmi Mobile Phone Detection With Varnish Quick Getting Started Guide
 => posts/mobile-device-ui/index.gmi Mobile Device Ui
 => posts/mission-accomplished/index.gmi Mission Accomplished
-=> posts/miracoil-vs-pocket-sprung-mattress-a-buyers-review/index.gmi Miracoil Vs Pocket Sprung Mattress A Buyers Review
 => posts/minecraft-in-educational-classroom-learning/index.gmi Minecraft In Educational Classroom Learning
 => posts/microsoft-tech-ed-live/index.gmi Microsoft Tech Ed Live
 => posts/microsoft-sesp-licensing-the-reality/index.gmi Microsoft Sesp Licensing The Reality

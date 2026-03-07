@@ -1,9 +1,8 @@
 ---
 layout: default
-title: John McLear Musings
+title: John McLear's Musings
 ---
 
-# John McLear Musings
 Hacker, Maker, Ex-Ginger
 
 ---

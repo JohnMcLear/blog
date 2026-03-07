@@ -21,6 +21,7 @@ highlighter: rouge
 exclude:
   - .github/
   - .venv/
+  - check_links.py
   - generate_html.py
   - README.md # Excluding the main README as index.html will be the landing page
   - transform_md.py

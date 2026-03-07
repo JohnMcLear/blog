@@ -12,6 +12,7 @@ Hacker, Maker, Ex-Ginger
 - [My Sites](/sites/)
 - [Acknowledgements](/thanks/)
 - [All Posts](/posts/)
+- [RSS Feed](/feed.xml)
 
 ---
 

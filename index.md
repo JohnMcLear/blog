@@ -17,7 +17,7 @@ Hacker, Maker, Ex-Ginger
 ---
 
 ## Latest Posts
-{% assign posts = site.posts | sort: "date" | reverse %}
+{% assign posts = site.pages | where_exp: "item", "item.url contains '/posts/'" | sort: "date" | reverse %}
 {% for post in posts %}
 - [{{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}]({{ post.url }})
 {% endfor %}

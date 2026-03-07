@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+
+title: "ESPHome PN532 Enhanced Component" date: 2026-03-07 tags:
+
+* "esphome"
+* "nfc"
+* "esp32"
+* "home-assistant"
+
+--------------------------------------------------------------------------------
+
+The native ESPHome PN532 component works — until it doesn't. After running PN532 readers over I2C and SPI on ESP32 devices in a real deployment, I hit every known upstream bug: tags flickering on and off while sitting still on the reader, I2C buses hanging after a few hours requiring a power cycle, log spam about blocking operations, and WiFi dropping on nearby ESPs whenever the RF field was on. None of these are edge cases. They're reproducible, long-standing, and have open issues going back years.
+
+So I built a drop-in replacement.
+
+=> https://github.com/JohnMcLear/esphome_pn532 JohnMcLear/esphome_pn532 on GitHub
+
+## The Problems It Fixes
+
+Tag flapping (#9875): A card resting on the reader causes alternating on_tag / on_tag_removed events. The fix is simple — if the same UID is detected again within the removal window, keep it present without triggering an RF cycle.
+
+I2C freeze (#3281, #4745): After a few hours of runtime, the PN532 stops responding on I2C and the only recovery is a power cycle. Fixed with a periodic health check that re-issues GetFirmwareVersion. On failure past a configurable threshold, it re-initialises automatically.
+
+Blocking operation warnings: Component pn532 took a long time flooding the logs indicates the component is blocking the ESPHome event loop. Fixed with exponential backoff (5s → 10s → 60s) after bus failures.
+
+Setup retry: A single GetFirmwareVersion failure at boot marks the component failed permanently in the native implementation. The enhanced version retries twice before giving up.
+
+WiFi interference (PR#1046): The PN532 RF field causes WiFi disconnects on co-located ESP devices. rf_field_enabled defaults to false, so the field only activates during the poll window.
+
+## Installation
+
+Add to your ESPHome YAML:
+
+```
+external_components:
+  - source: github://JohnMcLear/esphome_pn532
+    components: [pn532, pn532_spi, pn532_i2c]
+    refresh: 1d
+```
+
+Drop-in compatible — all existing pn532_spi / pn532_i2c / pn532 configuration keys still work.
+
+## I2C Configuration
+
+```
+i2c:
+  sda: GPIO21
+  scl: GPIO22
+
+pn532_i2c:
+  update_interval: 1s
+  health_check_enabled: true
+  health_check_interval: 60s
+  max_failed_checks: 3
+  auto_reset_on_failure: true
+  rf_field_enabled: false
+  on_tag:
+    then:
+      - homeassistant.tag_scanned: !lambda 'return x;'
+
+binary_sensor:
+  - platform: pn532
+    name: "My NFC Tag"
+    uid: "74-10-37-94"
+```
+
+## Finding Your Tag UID
+
+Flash without binary sensors, open the logs, scan your tag. You'll see: Found new tag '74-10-37-94'. Both hyphen (74-10-37-94) and colon (74:10:37:94) formats are accepted.
+
+## Supported Cards
+
+ISO14443A only: Mifare Classic (1k, 4k), Mifare Ultralight / Ultralight C, NTAG series (203, 213, 215, 216). Up to two tags per polling cycle.
+
+## Counterfeit Modules
+
+Many PN532 modules sold online are clones. They pass the initial version check but fail during tag polling with persistent timeout errors. Use genuine Elechouse PN532 modules.
+
+=> https://github.com/JohnMcLear/esphome_pn532 Source on GitHub

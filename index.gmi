@@ -696,6 +696,7 @@ Welcome to my blog on the Gemini protocol.
 => posts/etherpad-at-the-london-ajax-user-group/index.gmi Etherpad At The London Ajax User Group
 => posts/etherpad-a-quick-historical-video/index.gmi Etherpad A Quick Historical Video
 => posts/etherpad-1-1-released/index.gmi Etherpad Released
+=> posts/esphome-pn532-enhanced-component/index.gmi ESPHome PN532 Enhanced Component
 => posts/esafety-software-for-schools-have-we-gone-too-far/index.gmi Esafety Software For Schools Have We Gone Too Far
 => posts/epic-google-logo-makes-my-day/index.gmi Epic Google Logo Makes My Day
 => posts/english-people-dont-search-for-school-as-much-as-americans/index.gmi English People Dont Search For School As Much As Americans

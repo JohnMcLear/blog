@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,13 @@
     <title>{{ page.title }}</title>
 </head>
 <body{% if page.url == "/" %} class="home-page"{% endif %}>
-    <div class="container">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <main id="main-content" class="container">
         <h1>{{ page.title }}</h1>
         <div class="markdown-body">
             {{ content }}
         </div>
-    </div>
+    </main>
     {% include theme_toggle.html %}
 </body>
 </html>

@@ -1,4 +1,4 @@
-<button id="theme-toggle" aria-label="Toggle light and dark theme" style="
+<button id="theme-toggle" aria-label="Toggle light and dark theme" aria-pressed="false" style="
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -17,7 +17,7 @@
     transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
     z-index: 1000;
 ">
-    ☀️
+    <span aria-hidden="true">☀️</span>
 </button>
 
 <script>
@@ -28,9 +28,10 @@
         document.body.classList.remove('dark-mode', 'light-mode');
         document.body.classList.add(theme);
         localStorage.setItem('theme', theme);
-        toggleButton.textContent = theme === 'dark-mode' ? '☀️' : '🌙';
-        // Update button colors based on theme
+        // Update button content and colors based on theme
         const isDark = theme === 'dark-mode';
+        toggleButton.querySelector('span').textContent = isDark ? '☀️' : '🌙';
+        toggleButton.setAttribute('aria-pressed', isDark ? 'true' : 'false');
         toggleButton.style.backgroundColor = isDark ? 'var(--content-bg-dark)' : 'var(--content-bg-light)';
         toggleButton.style.color = isDark ? 'var(--text-color-dark)' : 'var(--text-color-light)';
         toggleButton.style.borderColor = isDark ? 'var(--hr-color-dark)' : 'var(--hr-color-light)';

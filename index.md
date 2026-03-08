@@ -11,7 +11,6 @@ Hacker, Maker, Ex-Ginger
 - [Privacy Policy](/privacy/)
 - [My Sites](/sites/)
 - [Acknowledgements](/thanks/)
-- [All Posts](/posts/)
 - [RSS Feed](/feed.xml)
 
 ---

@@ -8,10 +8,11 @@
     <title>Markdown Viewer</title>
 </head>
 <body>
-    <div class="container">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <main id="main-content" class="container">
         <h1>Markdown Viewer</h1>
-        <div id="content" class="markdown-body">Loading...</div>
-    </div>
+        <div id="content" class="markdown-body" aria-live="polite">Loading...</div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         const urlParams = new URLSearchParams(window.location.search);

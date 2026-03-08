@@ -20,6 +20,63 @@
     --shadow-color-dark: rgba(0,0,0,0.3);
 }
 
+/* Accessibility: Skip navigation link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 8px 16px;
+    background-color: var(--content-bg-light);
+    color: var(--link-color-light);
+    border: 2px solid var(--link-color-light);
+    border-radius: 0 0 4px 0;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1100;
+    transition: top 0.1s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Accessibility: Visible focus styles for keyboard navigation */
+:focus-visible {
+    outline: 3px solid var(--link-color-light);
+    outline-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .skip-link {
+        background-color: var(--content-bg-dark);
+        color: var(--link-color-dark);
+        border-color: var(--link-color-dark);
+    }
+    :focus-visible {
+        outline-color: var(--link-color-dark);
+    }
+}
+
+body.dark-mode .skip-link {
+    background-color: var(--content-bg-dark);
+    color: var(--link-color-dark);
+    border-color: var(--link-color-dark);
+}
+
+body.dark-mode :focus-visible {
+    outline-color: var(--link-color-dark);
+}
+
+body.light-mode .skip-link {
+    background-color: var(--content-bg-light);
+    color: var(--link-color-light);
+    border-color: var(--link-color-light);
+}
+
+body.light-mode :focus-visible {
+    outline-color: var(--link-color-light);
+}
+
 body {
     background-color: var(--bg-color-light);
     color: var(--text-color-light);

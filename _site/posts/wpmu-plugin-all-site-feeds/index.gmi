@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+title: "WPMU plugin - All site feeds" date: 2009-09-21 categories:
+
+* "primary-blogger"
+* "rss"
+* "twitter"
+* "wordpress"
+* "wordpress-multi-user"
+* "wpmu"
+
+--------------------------------------------------------------------------------
+
+I am in the process of feeding primary blogger to twitter. I wanted all new posts posted to primary blogger to the twitter account.
+
+This will allow people to follow @PrimaryBlogger on twitter and get a good idea of what Primary Schools are blogging about.
+
+There is already a Blog roll available on http://primaryblogger.co.uk[1] but this is not available through twitter or any other aggregation service.
+
+I will be using this plugin: http://1uthavi.adadaa.com/ada-wpmu-sitewide-feed-plugin/[2]
+
+This only took 5 mintues or so and is available to see here - http://primaryblogger.co.uk/full-feed/posts[3]
+
+Enjoy :)
+
+=> http://primaryblogger.co.uk 1: http://primaryblogger.co.uk
+=> http://1uthavi.adadaa.com/ada-wpmu-sitewide-feed-plugin/ 2: http://1uthavi.adadaa.com/ada-wpmu-sitewide-feed-plugin/
+=> http://primaryblogger.co.uk/full-feed/posts 3: http://primaryblogger.co.uk/full-feed/posts

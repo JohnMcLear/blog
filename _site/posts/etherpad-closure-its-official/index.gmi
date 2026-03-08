@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad closure, it's official!" date: 2010-04-02
+
+--------------------------------------------------------------------------------
+
+So folks Etherpad.com[1] is definatley closing, and only 2 weeks later than I predicted[2].  Do not fret though, Etherpad.org[3] (Run by the Open source Etherpad Foundation) has promised to have a good transition plan in place within the next 7 days and I will be helping with the process.  Etherpad isn't dead, if anything this is just the beginning :)
+
+Obviously I recommend schools use Primary Pad[4] but I am biased.
+
+Here is an extract from Aaron Iba's statement:
+
+> * EtherPad service will remain the same until April 14th.
+> * On April 14th, we will disable new pad creation, but you will still be able to access your existing pads.
+> * On May 14th, we will shut down the service and replace the etherpad.com home page with links to other services.
+
+As a reminder, here are two helpful ways to get your data off of EtherPad servers:
+
+* For free public pads, you can export the pad data to various formats through the "Import/Export" tab at the top of the pad page.
+* For Professional Edition pads, you can export pads individually or download a single ZIP file of all your pad data by clicking the "Download all pads" link at the bottom of the pad list.
+
+=> http://etherpad.com 1: http://etherpad.com
+=> https://mclear.co.uk/2009/12/21/etherpad-closure-shut-down-date-march-31st-2010/ 2: https://mclear.co.uk/2009/12/21/etherpad-closure-shut-down-date-march-31st-2010/
+=> http://etherpad.org 3: http://etherpad.org
+=> http://primarypad.com 4: http://primarypad.com

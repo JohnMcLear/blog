@@ -1,0 +1,29 @@
+<p>We assuming have already configured nrpe on your nagios box and you are sudo’d/root</p>
+
+<p>Steps:</p>
+
+<p>adduser nagios (set the password)<br />
+cd /home/nagios<br />
+wget http://prdownloads.sourceforge.net/sourceforge/nagios/nrpe-2.12.tar.gz<br />
+<em>* If this step fails visit http://www.nagios.org/download/addons for the latest URL</em></p>
+
+<p>tar -zxvf nrpe-2.8.tar.gz<br />
+cd nrpe-2.12<br />
+apt-get install gcc gawk openssl<br />
+apt-get install make<br />
+apt-get install libssl-dev<br />
+apt-get install nagios-plugins<br />
+./configure<br />
+make all<br />
+make install-plugin<br />
+make install-daemon<br />
+make install-daemon-config<br />
+echo “only_from = 0.0.0.1” » /usr/local/nagios/etc/nrpe.cfg<br />
+<em>* Remember to replace 0.0.0.1 with your the IP address of your nagios server</em></p>
+
+<p>cp init-script.debian /etc/init.d/nrpe<br />
+chmod 700 /etc/init.d/nrpe<br />
+/etc/init.d/nrpe start</p>
+
+<p><em>You may want to make this script run on start up</em><br />
+update-rc.d nrpe defaults</p>

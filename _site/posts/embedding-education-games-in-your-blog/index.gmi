@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+
+title: "Embedding Education games in your blog" date: 2011-11-15 categories:
+
+* "primary-games-arena"
+* "primary-school"
+* "primaryblogger"
+
+--------------------------------------------------------------------------------
+
+Embedding educational games in your blog is now really easy.
+
+Step 1. Find the game you want on Primary Games Arena[1]
+
+Step 2. Click **Share** then Click **Link, click again for embed code**
+
+Step 3. **Copy the embed code** (Right click Select all, Right click Copy), *it will look something like “<iframe width=800 height=600 src=”http://primarygamesarena.com/redirect.php?id=250%E2%80%B3%3E[2]</iframe>”*
+
+Step 4. Create a new post or edit an existing one. Click HTML in the top right corner of your editor.
+
+Step 5. Right click on the editor and click Paste.
+
+Report Post As Inappropriate[3]
+
+=> http://primarygamesarena.com 1: http://primarygamesarena.com
+=> http://primarygamesarena.com/redirect.php?id=250%E2%80%B3%3E 2: http://primarygamesarena.com/redirect.php?id=250%E2%80%B3%3E
+=> http://blog.primaryt.co.uk?moderation_action=report_form&amp;object_type=post&amp;object_id=1016&amp;width=250&amp;height=300 3: http://blog.primaryt.co.uk?moderation_action=report_form&amp;object_type=post&amp;object_id=1016&amp;width=250&amp;height=300

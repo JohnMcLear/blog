@@ -1,0 +1,18 @@
+<p>The application Error</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The conection to the server was unsuccessful (file://android\_asset/www/index.html)
+</code></pre></div></div>
+
+<p>Was caused by a script being inaccessible during the page load..</p>
+
+<p>For me changing:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="http://oldplace:8080/target/target-script-min.js"&gt;&lt;/script&gt;
+</code></pre></div></div>
+
+<p>To</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script src="http://newplace:8080/target/target-script-min.js"&gt;&lt;/script&gt;
+</code></pre></div></div>
+
+<p>Fixed it</p>

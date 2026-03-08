@@ -1,0 +1,93 @@
+--------------------------------------------------------------------------------
+
+title: "Making a Google Teacher Academy Application is easy" date: 2010-06-13 categories:
+
+* "google"
+* "ict"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+Making my Google[1] Teacher Academy Application video only took about 30 minutes.  The thing that took the longest was deciding what I was going to talk about.  My recommendation to you is just to talk about something you are passionate about and not to try to think about what other people would want to hear.  If you are thinking about applying I strongly recommend you put a little time aside to create a presentation because when you do it will make you think ab0ut a) what you are passionate about and b) **it will make it easier for people to understand what you are passionate about.** This was an unexpected outcome from doing my video and it has proved to be massively useful.
+
+**How I picked my topic**
+
+Initially I was going to do a high and mighty review about using ICT in an innovative way in the classroom, this just seemed too vague with a whitewash of buzz words and sales schpeil.  I decided to do a presentation on something I think could affect education in the future and is slightly fringe and creative.   Admittedly I spent hours looking at the brief by Google dissecting it and thinking about how I could make the perfect presentation.  Ultimately I figured presenting something I am passionate about would come across better.  I wrote my script and saved that to PrimaryPad, a few people jumped onto the Pad and modified all the incoherent bits so I was using simple language in my presentation.
+
+**Creating the presentation**
+
+I used Microsoft Powerpoint[2] to create the presentation slides, I wanted to keep things simple and as text free as possible.  All of the images I used were Creative Commons[3] and found through various creative commons image search websites such as flickr[4].
+
+**Recording the video and audio**
+
+I used a flip video camera to record the video and a Samson USB microphone.  I put the flip video camera on a box and stood in front of a white wall.  I recorded the video through the day to make sure there was some natural lighting.
+
+**Making the video**
+
+I exported each of the slides from Powerpoint to a .PNG file and then imported those files into Camtasia Studio[5].   I dragged the video and audio that I recorded on the flip camera and the Samsun microphone into Camtasia Studio.  Once I had the audio, video and slides into the program I synced up the audio, chopped out all my out takes(about 80% of the content was useless) then and added a few transitions.  I normalized the audio and shrunk the video from the camera into a corner.  Finally I added a few transitions then exported the project to WMV which I then uploaded to Youtube[6].
+
+**Tools used:**
+
+* PrimaryPad
+* Powerpoint (no shame here) - There are lots of alternatives I could of used.
+* Camtasia Studio - Alternative free tool instead of Camtasia Studio = Jaycut[7]
+* Youtube
+
+View my application video[8]
+
+Matt Lovegrove's[9] application video[10]
+
+Chicken Saltash's[11] application video[12]
+
+Oliver Quinlan's[13] application video[14]
+
+Ian Addison's[15] application video[16]
+
+Mr Lockyer's application video[17]
+
+Chris Wilde's application video[18]
+
+Martin Waller's application video[19]
+
+**lardyken[20]'s** application video[21]
+
+David Mitchell's[22] application video[23]
+
+Jan Webb's[24] application video[25]
+
+###### Related articles by Zemanta
+
+* TechSmith Donates $2.3 Million in Software to Michigan Schools[26] (eon.businesswire.com)
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[27]
+
+=> http://google.com 1: http://google.com
+=> http://office.microsoft.com/powerpoint 2: http://office.microsoft.com/powerpoint
+=> http://creativecommons.org/ 3: http://creativecommons.org/
+=> http://www.flickr.com 4: http://www.flickr.com
+=> http://www.techsmith.com/camtasia.asp 5: http://www.techsmith.com/camtasia.asp
+=> http://www.youtube.com/ 6: http://www.youtube.com/
+=> https://mclear.co.uk/2010/06/07/jaycut-in-the-primary-classroom-video-editing/ 7: https://mclear.co.uk/2010/06/07/jaycut-in-the-primary-classroom-video-editing/
+=> https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/ 8: https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/
+=> http://twitter.com/mattlovegrove 9: http://twitter.com/mattlovegrove
+=> http://www.youtube.com/watch?v=j2A23J9ybBQ 10: http://www.youtube.com/watch?v=j2A23J9ybBQ
+=> http://twitter.com/chickensaltash 11: http://twitter.com/chickensaltash
+=> http://www.youtube.com/watch?v=OVc5E0W3kY4 12: http://www.youtube.com/watch?v=OVc5E0W3kY4
+=> http://www.oliverquinlan.co.uk/ 13: http://www.oliverquinlan.co.uk/
+=> http://www.youtube.com/watch?v=8kiBheg-43o 14: http://www.youtube.com/watch?v=8kiBheg-43o
+=> http://ianaddison.net/ 15: http://ianaddison.net/
+=> http://www.youtube.com/watch?v=TQMDWl5EV8E 16: http://www.youtube.com/watch?v=TQMDWl5EV8E
+=> http://www.youtube.com/watch?v=uslW6Z8E5jw 17: http://www.youtube.com/watch?v=uslW6Z8E5jw
+=> http://www.youtube.com/watch?v=SiPHj6E7Ek8 18: http://www.youtube.com/watch?v=SiPHj6E7Ek8
+=> http://www.youtube.com/watch?v=L5Ou-p_SHFU 19: http://www.youtube.com/watch?v=L5Ou-p_SHFU
+=> http://www.youtube.com/user/lardyken 20: http://www.youtube.com/user/lardyken
+=> http://www.youtube.com/watch?v=IqNOEHtYss4 21: http://www.youtube.com/watch?v=IqNOEHtYss4
+=> http://www.asksir.co.uk/ 22: http://www.asksir.co.uk/
+=> http://www.youtube.com/watch?v=_MvCKdyfoxc 23: http://www.youtube.com/watch?v=_MvCKdyfoxc
+=> http://janwebb21.primaryblogger.co.uk/ 24: http://janwebb21.primaryblogger.co.uk/
+=> http://www.youtube.com/watch?v=0FcCNliMP3Y 25: http://www.youtube.com/watch?v=0FcCNliMP3Y
+=> http://eon.businesswire.com/news/eon/20100608006303/en 26: http://eon.businesswire.com/news/eon/20100608006303/en
+=> http://www.zemanta.com/ 27: http://www.zemanta.com/

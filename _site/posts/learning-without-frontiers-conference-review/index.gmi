@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+
+title: "Learning Without Frontiers conference review" date: 2011-01-11 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+* "review"
+
+--------------------------------------------------------------------------------
+
+=> images/uoN2d1.jpg [IMG]
+[1]
+
+Learning Without Frontiers is an ICT in Education conference run by Graham Brown-Martin.  This year the conference was hosted at the Brewery, a fine exhibition venue in London.
+
+The first day at LWF is a free day(as long as you don't mind paying £2.50 for a cup of tea) and there are plenty of great presentations and kids do some fantastic things with technology, anyone can come along to this free day and there is no fee.  The conference is really a premium event, delegates do have to reach deep into their pocket and in return the 3 day event needs to return value for money.
+
+Delegates are encouraged to "not be sheeps" and to engage with people who they have never met before.  For me this is the unlocking factor of attending days two and three of this event as it brings a more "Teachmeet" style ambiance.
+
+## Apple overload.
+
+I mean serious Apple overload..  Many delegates got free iPads and this sprung up a whole new level of middle age "fan boi'ness".  I'm not one to mince my words on Apple and the people that buy it and this post is no exception.  If you are between the age of 30-60, earn between £30k-£80k per year and have some sort of middle manager job you are going to start hating me and never re-visit this blog.  That's okay because my blog isn't really aimed at you even though I am aware you control the purse strings and make lots of important decisions.  It sucks for me but at least you know where I stand..  To summarize..  Listening to grown men who work in ICT and Edu talk about a physical device like it is their first born child is just worrying.   You should not love a vendor or product, the simple fact that you use the word love when describing a piece of technology means you are not making descisions based on learning but based on something you can't actually equate.  This is risky and not sustainable.  I'm an open source advocate, so Apple products are a non starter for me..   I told you that you would hate me...
+
+You are about to hate me even more..  People say "But Mac just works"..  This is utter bollocks and was proven time and time again with Mac specific related technical problems during presentations.  Absolutely every presenter I saw overcame these problems, I think Jason from the Gadget show (whom I don't personally rate) did a good job of this as his 2 apple based demonstrations wouldn't work.  He calmly worked around these technical issues in an extremely professional manner.
+
+## Look up.
+
+Your apple product does not have an augmented app for getting down stairs, so why are you trying to navigate unfamiliar stairs while trying to use it?  I'm surprised there haven't been more damaged hips!  I know my last 2 points weren't directly a review of LWF but I feel it needs to be said.  As Ed Tech folk we must know when is the right time to use technology.
+
+## Lead generation for exhibitors
+
+I spoke to a few exhibitors at LWF to get their general thoughts about the conference, obviously exhibiting at a conference like LWF is a pricey experience, although way less pricey than it's competitors.  Graham does a great job of bringing in the big boys like Nintendo and Sony, who often look a bit confused about what they are selling, conversations about the motor skills of playing Mario Kart whilst enjoying beating the sales rep at their own products is extremely satisfying and it's a great place to unwind for 10 minutes or so.
+
+It was great to see Meru, Microsoft, Edugeek.  I sort of didn't expect to see "Land of Me", they have a weird business model and I hope the are able to recover some of the cost from events such as LWF.  I sort of get the impression that Graham has an involvement in this project or is passionate about it, I figured they were worth a special mention because they did a great job decorating their stand and seem like nice people.
+
+I'm not going to lie, if a presentation felt like a sales pitch I left.  It happened on a few occasions, Land of Me was one of these.  Anyway..  To summarize, the exhibitors I spoke to all had very positive things to say about the event, mostly commenting on the quality of the leads they were receiving in comparison to events such as BETT.
+
+## The Brewery
+
+The organization and staff at the Brewery were second to non.  Previous events I have been to here have felt slightly disjointed with large queues however it is clear that the Brewery have resolved these issues.   The food was fantastic, a real unique menu gave the event a personalized feeling which I think sort of summarizes what LWF is about -- sort of somewhere in-between the completely personal feeling of a Teachmeet and the corporate behemoth that is BETT.
+
+## Live Stream
+
+The live stream wasn't coming through a vision mixer and was just a head/shoulder view of the presenter.  Obviously this isn't ideal.  It's something minor but with more and more people joining online it would be a good thing to resolve.  The Live stream must of worked well though because people were commenting on presentations.  The live stream wont be the only video footage available from the conference.  LWF has invested heavily in recording the presentations , this investment is doing to provide a professional looking video series, these videos will then be published on youtube and various other video sharing websites so you can enjoy them at your own leisure.
+
+## Summary
+
+Overall the event was extremely useful, the price point seems fair considering the amount of resources available on a daily basis.  You have to ignore a lot of the sales pitch presentations and the constant brand name dropping.  Once you are thick skinned and you know which presentations to catch you will love this event and get a lot more from it if you are looking to provide ICT services inside the UK.
+
+###### Related articles
+
+* Meetings during LWF & BETT[2] (mclear.co.uk)
+* Why we're not exhibiting at BETT[3] (mclear.co.uk)
+* Lwf11[4] (elearningstuff.net)
+* Evaluation of Learning Without Frontiers Pre-Conference[5] (ictineducation.org)
+* Guidance for the BETT Show (and other conferences)[6] (ictineducation.org)
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[7]
+
+=> https://mclear.co.uk/wp-content/uploads/2011/01/uoN2d1.jpg 1: https://mclear.co.uk/wp-content/uploads/2011/01/uoN2d1.jpg
+=> https://mclear.co.uk/2011/01/04/meetings-during-lwf-bett/ 2: https://mclear.co.uk/2011/01/04/meetings-during-lwf-bett/
+=> https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/ 3: https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/
+=> http://elearningstuff.net/2011/01/09/lwf11/ 4: http://elearningstuff.net/2011/01/09/lwf11/
+=> http://www.ictineducation.org/home-page/2011/1/10/evaluation-of-learning-without-frontiers-pre-conference.html 5: http://www.ictineducation.org/home-page/2011/1/10/evaluation-of-learning-without-frontiers-pre-conference.html
+=> http://www.ictineducation.org/home-page/2011/1/10/guidance-for-the-bett-show-and-other-conferences.html 6: http://www.ictineducation.org/home-page/2011/1/10/guidance-for-the-bett-show-and-other-conferences.html
+=> http://www.zemanta.com/ 7: http://www.zemanta.com/

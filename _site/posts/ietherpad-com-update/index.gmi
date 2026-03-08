@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+
+title: "iEtherpad.com Update" date: 2011-12-05 categories:
+
+* "etherpad"
+* "primarypad"
+
+--------------------------------------------------------------------------------
+
+So you may have noticed that iEtherpad.com has been down for a week+ and that there has been no update from the site owner.
+
+The owner of the site is called "Prasanna Sankaranarayanan" and is ignoring emails from myself, his users and the Etherpad foundation.
+
+Alarm bells rang over 6 months ago at the Etherpad foundation when Prasanna refused to contribute any of his source to the Etherpad project and did not place an SLA or any legal documentation on the website. Due to this iEtherpad.com was not included in the public sites section of Etherpad.org
+
+**So who recommended iEtherpad.com?** A bunch of people, and I told them not to but I was obviously biased but mheh. What can I do if people don't listen? Now I'm recieving emails from people saying they have lost their work.. Three things here:
+
+1. Your work was not covered by an SLA
+2. You should have had your work backed up
+3. If you want to an SLA covered Etherpad service see PrimaryPad[1]
+
+**So what's going on with your data?** You have probably lost it, but go knock on Hawthorne Labs inbox. Hawthorne Labs is a company Prasanna founded and if they run that company the same way they have run iEtherpad.com then they are bound to have some sad customers and probably an inbox full of complaints and/or law suits.
+
+Make a stand people also be aware that you should be saving local copies of your work and remember that if there is no SLA in place the company doesn't have to help you.
+
+=> http://primarypad.com 1: http://primarypad.com

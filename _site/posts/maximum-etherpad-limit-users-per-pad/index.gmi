@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+
+title: "Maximum Etherpad limit users per pad" date: 2009-12-29 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+Quotas.js restricts this and by default reads:
+
+function getMaxSimultaneousPadEditors(globalPadId) {
+
+if (isProDomainRequest()) {
+
+if (pne_utils.isPNE()) {
+
+return licensing.getMaxUsersPerPad();
+
+} else {
+
+return 1e6;
+
+}
+
+} else {
+
+// etherpad.com public pads
+
+if (globalPadId && stringutils.startsWith(globalPadId, "conf-")) {
+
+return 64;
+
+} else {
+
+return 32;
+
+}
+
+}
+
+return 1e6;
+
+}
+
+function getMaxSavedRevisionsPerPad() {
+
+if (isProDomainRequest()) {
+
+return 1e3;
+
+} else {
+
+// free public etherpad.com
+
+return 100;
+
+}
+
+}
+
+**So to summarize:**
+
+Depending on the mode you are in depends on the amount you have
+
+Non-Pro -->
+
+Max per time on 1 pad: 64
+
+Max revisions: 100
+
+Pro -->
+
+Max per time: Unlimited
+
+Max revisions: Unlimited

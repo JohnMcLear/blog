@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Google Analytics Intelligence *new feature" date: 2009-11-14 categories:
+
+* "analytics"
+* "google"
+* "intelligence"
+
+--------------------------------------------------------------------------------
+
+=> images/intell.png [IMG]
+[1]Google Analytics Intelligence allows you set alerts for it something unexpected(or expected) on a site happens. See right for a screenshot.
+
+Intelligence also gives you the ability to do advanced segments. Segments allows you to extend Google analytics to include and/or arguments into your queries. For example you may want to know how many people got to your site by the keyword pizza, but you may also want to know how many of those people were in the city of Bradford. Click below for screenshot.
+
+=> images/segments.png [IMG]
+[2]
+
+=> http://1.bp.blogspot.com/_NislCXjnul0/Sv8itGKbRZI/AAAAAAAACak/z1DP1ENomPY/s1600-h/intell.png 1: http://1.bp.blogspot.com/_NislCXjnul0/Sv8itGKbRZI/AAAAAAAACak/z1DP1ENomPY/s1600-h/intell.png
+=> http://2.bp.blogspot.com/_NislCXjnul0/Sv8klSib-8I/AAAAAAAACas/w-p7V_d-pAw/s1600-h/segments.png 2: http://2.bp.blogspot.com/_NislCXjnul0/Sv8klSib-8I/AAAAAAAACas/w-p7V_d-pAw/s1600-h/segments.png

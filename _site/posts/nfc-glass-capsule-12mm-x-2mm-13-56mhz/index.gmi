@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+
+title: "NFC Glass capsule 12mm x 2mm 13.56Mhz" date: 2012-11-09 categories:
+
+* "nfc"
+
+tags:
+
+* "nfc-rfid"
+
+--------------------------------------------------------------------------------
+
+I managed to source some 13.56Mhz 12mm x 2mm NFC Glass capsules / tags from China and I'm happy to sell them for 10$ a piece. If you want one please contact me, I'm too lazy to list them on any online auction stores etc.
+
+The read range is pretty much limited to contact when using them with a mobile phone reader or other low range reader device.
+
+They are not sterilized so should not be used for human implants and they are based on the NXP semiconductors 15693 chip.
+
+They are read/writable, not Mifare (See above).
+
+The MoQ for is 500 and at that point the price drops to 5$ per unit.
+
+**Special offer during Feb/March 2013 -- Order 20 tags for just 160$**

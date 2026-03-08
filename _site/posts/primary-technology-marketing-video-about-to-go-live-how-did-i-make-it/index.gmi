@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+
+title: "Primary Technology Marketing Video about to go live. How did I make it?" date: 2009-03-22 categories:
+
+* "marketing"
+* "mclear"
+* "primary"
+* "primary-school"
+* "primary-technology"
+* "video"
+
+--------------------------------------------------------------------------------
+
+Just a quick set of answers and a copy of the video in response to those who have emailed me asking how I make the videos.
+
+All video footage capped in HD.
+
+All audio recorded on a condensor Mic.
+
+Video then dropped into vegas
+
+Audio into cubase
+
+Then move the video/screenshots around in vegas
+
+Export to AVI
+
+Upload to youtube
+
+End result is here.. or ..[1]
+
+As youtube doesn't always work try..
+
+Primary School Technical Support and ICT Services[2] from John McLear[3] on Vimeo[4].
+
+=> http://www.youtube.com/watch?v=7ZlZ-frXgws 1: http://www.youtube.com/watch?v=7ZlZ-frXgws
+=> http://vimeo.com/3823535 2: http://vimeo.com/3823535
+=> http://vimeo.com/user1476725 3: http://vimeo.com/user1476725
+=> http://vimeo.com 4: http://vimeo.com

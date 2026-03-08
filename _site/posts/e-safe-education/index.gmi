@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------------
+
+title: "e-safe Education" date: 2010-07-01 categories:
+
+* "esafety"
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+* "review"
+
+--------------------------------------------------------------------------------
+
+=> images/esaferight.png [IMG]
+[1]My Local Authority[2] are rolling out a trial of e-Safe education[3] to all subscribing schools.  I think it's fair to first get out of the way that I think it is a sad world when we need to monitor individuals activities at such a granular level.  But **that's my opinion and it's not relevant in the context of my review**.
+
+# **So what is it?**
+
+e-Safe Education[4] is a managed service that allows schools to monitor for inappropriate use and abuse when using the schools technology.  The idea behind the managed service is that it detects potential misuse by detecting keywords and phrases, abuse imagery, nudity and then informs the pupil/teacher that what they are doing is perhaps putting themselves at risk and/or not included in the schools acceptable usage policy.  The software runs on all school devices, laptops, net-books[5] etc and (this bit is important) can be turned off at 4pm or whenever.
+
+I would recommend parents check with the person responsible for safe guarding pupils inside their schools to find out exactly what is monitored  to ensure they are fully aware of any privacy issues.
+
+e-Safe Education Monitors keystrokes local to the computer, your keystrokes are not sent to a managed service which is nice, all of the detection is done against a local library designed to protect children which is regularly updated.
+
+Keywords are customized at School &/or LA level so you can include local dialects and you can include customizable alerts on keywords.  IE if a pupil types fanny, you can display an alert("Is this appropriate?").  If a pupil types in cock-head you can display a more, erm, serious, alert..
+
+The application works online and offline.  Schools can assign an Acceptable usage policy at the beginning of a session using the Internet, so we need to educate kids & teachers to log out.  Though the software does allow you to log the computer off automatically so as to help the reduce the the chance of somebody doing something on another users Login.  The application doesn't use an excessive amount of resources, in fact it's footprint is relatively low for the amount of work it is doing, with this in mind you shouldn't find the application slowing down your user experience at all.
+
+Images are scanned with a nudity detection tool and blocked from the pupil/teacher if they are deemed as inappropriate e.g. naked or illegal.  Obviously this weighs slightly on CPU although e-Safe claim this is only a few % and barely noticeable to the user.
+
+Flash object first view can be scanned but the contents of flash files can not be scanned in the current version however e-safe education claim this will be addressed towards the end of the years.  Canvas type objects can be scanned and therefore detected.
+
+e-Safe education claim the managed service will be able to detect keywords on PrimaryPad, which is likely because they also claim it can detect keywords in SecondLife[6].  The keystroke detection is a given and I expect this will work fine with very little headache.
+
+# Conclusion
+
+As someone who has written child protection[7] email algorithms before I understand how this service works and we should be clear from the outset this service will not detect 100% of the threats facing a pupil/teacher when they use technology.  e-safe education's managed service does however make for a cosy and somewhat expensive comfort blanket[8] for schools looking to increase their pupil safeguarding.
+
+It's worth considering the burden of responsibility to check such systems otherwise would typically fall upon school ICT staff who might not have the time to review and respond to potentially serious alerts.
+
+Saying all of that..  The cost of the service is worth it if it protects one child however **we cannot avoid the root of the problem or the fact that education is a more effective tool than monitoring when it comes to being safe on-line.**
+
+What are your thoughts on this type of monitoring?
+
+Has your school implemented a solution like this?  How did you find it?
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[9]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/06/esaferight.png 1: https://mclear.co.uk/wp-content/uploads/2010/06/esaferight.png
+=> http://en.wikipedia.org/wiki/Local_government 2: http://en.wikipedia.org/wiki/Local_government
+=> http://www.esafeeducation.co.uk/ 3: http://www.esafeeducation.co.uk/
+=> http://www.esafeeducation.co.uk/ 4: http://www.esafeeducation.co.uk/
+=> http://en.wikipedia.org/wiki/Netbook 5: http://en.wikipedia.org/wiki/Netbook
+=> http://Secondlife.com 6: http://Secondlife.com
+=> http://en.wikipedia.org/wiki/Child_protection 7: http://en.wikipedia.org/wiki/Child_protection
+=> http://en.wikipedia.org/wiki/Security_blanket 8: http://en.wikipedia.org/wiki/Security_blanket
+=> http://www.zemanta.com/ 9: http://www.zemanta.com/

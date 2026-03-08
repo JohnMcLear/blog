@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+
+title: "6.1 awesome things HDMI on a cell phone could bring to the classroom" date: 2010-07-11
+
+--------------------------------------------------------------------------------
+
+=> images/71-Clipboard-11.jpg [IMG]
+[1]With the notice that HDMI is probably being replaced with 5PlayTM just as mobile phones just beginning supporting it what could the potential uses be of HDMI in a classroom?  HDMI is usually the cable that goes from a laptop to the projector.  Essentially HDMI in a mobile phone means you can hook it up to a projector or large screen.
+
+1. Share work from mobile with others via large classroom display
+
+2. Truly turn the cell phone into a teaching tool by embedding it in the fabric of a classroom
+
+3. A great presentation tool
+
+4. An abundance of easy to access interactive apps/games
+
+5. Unfiltered internet connectivity (This has its pros and cons)
+
+*6. Charge phone via cable (HDBaseT can provide power)
+
+Could this mean an RJ45 connector in every desk to charge pupils handheld devices and give them access to both network and media/presentation resources?
+
+Check out the comparison chart below to see what is possible over HDBaseT
+
+=> images/hdmicouldsoo1-300x117.jpg [IMG]
+[2]
+
+I reckon there will be a large market/demand in HDBaseT 1.0 to micro USB adapters mostly because the RJ-45 connector (seen right) is too chunky to fit into a phone.
+
+If you know a company that makes a RJ45 -> Micro USB adapter for Network / Video connectivity then invest now.
+
+###### Related articles by Zemanta
+
+* What is HDBaseT?[3] (jakeludington.com)
+* Bye Bye HDMI and Welcome HDBaseT[4] (mwd.com)
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[5]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/07/71-Clipboard-11.jpg 1: https://mclear.co.uk/wp-content/uploads/2010/07/71-Clipboard-11.jpg
+=> https://mclear.co.uk/wp-content/uploads/2010/07/hdmicouldsoo1.jpg 2: https://mclear.co.uk/wp-content/uploads/2010/07/hdmicouldsoo1.jpg
+=> http://www.jakeludington.com/hdtv/20100702_what_is_hdbaset.html 3: http://www.jakeludington.com/hdtv/20100702_what_is_hdbaset.html
+=> http://www.mwd.com/2010/07/bye-bye-hdmi-and-welcome-hdbaset/ 4: http://www.mwd.com/2010/07/bye-bye-hdmi-and-welcome-hdbaset/
+=> http://www.zemanta.com/ 5: http://www.zemanta.com/

@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+title: "Primary School TV show RSS feed" date: 2010-10-30 categories:
+
+* "ict"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+* "tv"
+* "video"
+
+--------------------------------------------------------------------------------
+
+I was going to tweet about this but it's a bit too complicated to explain in a tweet.
+
+Some of you may know I'm working on a project that brings TV shows and other video content into the classroom. (The project is called Primary School TV[1] and is now live.)
+
+I have been tasked with finding relevant video content, obvious choices such as CBBC make up for a % of the content available and thankfully BBC publish RSS feeds.  Youtube also makes up for another big chunk.  The rest comes from external vendors that publish feeds of their learning content.  All in all about 20 shows per day each about 30 minutes long will be available.
+
+The whole project is no where near ready for public consumption but I thought it would be good to just update everyone to how things are going and hopefully build up some excitement for the 2011 launch.
+
+To summarize:  We will shortly be publishing an RSS feed of TV content relevant for children of a primary school age that includes various sources worldwide and is all free content. UPDATE: This is now live, see below.
+
+Here is a link to the rss feed[2] from Primary School TV[3]
+
+=> http://primaryschool.tv/ 1: http://primaryschool.tv/
+=> http://primaryschool.tv/feed.php 2: http://primaryschool.tv/feed.php
+=> http://primaryschool.tv 3: http://primaryschool.tv

@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad for Schools" date: 2009-12-20 categories:
+
+* "ict"
+* "primary-pad"
+* "primary-schools-ict"
+* "primarypad"
+* "schools"
+
+--------------------------------------------------------------------------------
+
+Primary Technology have released an Etherpad solution for schools[1] called Primary Pad[2], details are still sketchy. I am working on the project and very few decisions have been made as the project is being run by the educator community. If you have any suggestions for this service please mention them on this pad[3].
+
+=> http://primarypad.com 1: http://primarypad.com
+=> http://primarypad.com 2: http://primarypad.com
+=> http://primarypad.com/ 3: http://primarypad.com/

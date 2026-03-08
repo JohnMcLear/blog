@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "Simple Link site creator" date: 2010-09-12 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+You may recall a few days ago I posted some concept pictures of a very simple link interface for use in early years/ks1[1].  Anyway here is an updated look at the admin interface:
+
+=> images/ian-addison-site-admin-mode-on-html.png [IMG]
+[2]
+
+There is a live demo site here[3] (it is currently massively broken but at least you can see it)
+
+My todo list: http://john.primarypad.com/ianlink[4]
+
+This service isn't ready and it may never actually get released but I figured you might like to have a look to see what I'm playing with :)
+
+=> https://mclear.co.uk/2010/09/07/quick-primary-school-link-creator/ 1: https://mclear.co.uk/2010/09/07/quick-primary-school-link-creator/
+=> https://mclear.co.uk/wp-content/uploads/2010/09/ian-addison-site-admin-mode-on-html.png 2: https://mclear.co.uk/wp-content/uploads/2010/09/ian-addison-site-admin-mode-on-html.png
+=> http://satpin.com 3: http://satpin.com
+=> http://john.primarypad.com/ianlink 4: http://john.primarypad.com/ianlink

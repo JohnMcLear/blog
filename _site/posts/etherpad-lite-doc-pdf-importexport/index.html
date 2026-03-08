@@ -1,0 +1,18 @@
+<p>So you have installed etherpad lite and you want to add support for importing and export pdf and .doc files?   It’s easy.</p>
+
+<p>Drop to shell and type</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install abiword
+</code></pre></div></div>
+
+<p>Next open up your settings.json and change:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"abiword" : null,
+</code></pre></div></div>
+
+<p>to</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"abiword" : "/usr/bin/abiword",
+</code></pre></div></div>
+
+<p><a href="https://github.com/Pita/etherpad-lite/wiki/How-to-enable-importing-and-exporting-different-file-formats-in-Ubuntu-or-OpenSuse-or-SLES-with-AbiWord">See this as a main reference document</a></p>

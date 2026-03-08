@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+
+title: "Javascript for Hardware hacking" date: 2013-09-10 categories:
+
+* "javascript"
+
+tags:
+
+* "espruino"
+* "javascript"
+
+--------------------------------------------------------------------------------
+
+Move over Arduino, it's time for us javascript ninjas to start modifying the real world.
+
+```html
+<iframe width="580" height="353" src="//www.youtube.com/embed/j1TsCmDhFtk" frameborder="0" allowfullscreen></iframe>
+```
+
+Back this project on Kickstarter[1]
+
+=> http://www.kickstarter.com/projects/48651611/espruino-javascript-for-things 1: http://www.kickstarter.com/projects/48651611/espruino-javascript-for-things

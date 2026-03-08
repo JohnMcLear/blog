@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+
+title: "Aggregated RSS feed of Primary School ICT leaders" date: 2010-03-28 categories:
+
+* "ict"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+* "rss"
+
+--------------------------------------------------------------------------------
+
+Want to follow a load of great ICT leaders with the click of a few buttons?
+
+Add this Primary School ICT Leaders feed[1] as an to outlook/google RSS reader etc. and enjoy..
+
+## Extended instructions:
+
+Copy the following URL to your clipboard (Highlight the text, right click, copy): [code] http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators%5C%5B/code%5C[2]] Open outlook, Click RSS Feeds, Click Add a new RSS feed: Right click, paste the above code
+
+## Want to be on this RSS feed?
+
+Get in touch via my contact form[3]
+
+=> http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators 1: http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators
+=> http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators%5C%5B/code%5C 2: http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators%5C%5B/code%5C
+=> https://mclear.co.uk/contact-me/ 3: https://mclear.co.uk/contact-me/

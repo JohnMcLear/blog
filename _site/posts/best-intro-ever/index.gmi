@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+title: "Best intro ever" date: 2010-08-17 categories:
+
+* "fun"
+
+--------------------------------------------------------------------------------
+
+Just for fun.. Warning, strong geekery begins at 3:30
+
+Episode++: yayQuery Lunch Spectacular[1] from yayQuery[2] on Vimeo[3].
+
+Intro made with Gource[4]
+
+=> http://vimeo.com/13534175 1: http://vimeo.com/13534175
+=> http://vimeo.com/yayquery 2: http://vimeo.com/yayquery
+=> http://vimeo.com 3: http://vimeo.com
+=> http://www.thealphablenders.com/2009/12/gource-software-version-control-visualization/ 4: http://www.thealphablenders.com/2009/12/gource-software-version-control-visualization/

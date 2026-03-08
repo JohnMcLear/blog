@@ -1,0 +1,37 @@
+<p>This post is for site admins who want to add location awareness to their ushahidi deployment. Location awareness allows ushahidi to know where the visitor is coming from and display them a map local to them. It requires the user to have an ip v4 address. It is not the best solution for this problem but for now it works…</p>
+
+<p>First things first, visit your application/controllers/main.php and comment out these lines</p>
+
+<p>[php] $this-&gt;themes-&gt;js-&gt;latitude = Kohana::config(‘settings.default_lat’); $this-&gt;themes-&gt;js-&gt;longitude = Kohana::config(‘settings.default_lon’); [/php]</p>
+
+<p>Paste this below the lines you have commented out:</p>
+
+<p>[php] include_once ‘DetectLocation.php’; // this isn’t the best way but it works.. $this-&gt;themes-&gt;js-&gt;latitude = $lat; $this-&gt;themes-&gt;js-&gt;longitude = $lng; [/php]</p>
+
+<p>Next visit <a href="http://ipinfodb.com/">ipinfodb.com</a> and grab their mysql database, extract it then import it into your mysql deployment, I used the database name ipinfo.</p>
+
+<p>Create a new php file called DetectLocation.php in the root of your Ushahidi deployment.</p>
+
+<p>Paste this into it</p>
+
+<p>[php] &lt;?php // Using data from http://ipinfodb.com/ – this should be in the ipinfo database // Code by John McLear, all free licenses attached. Please re-use, modify &amp; redistribute</p>
+
+<p>$dbuser = ‘ipinfo’; // using a psuedo/differnet user because I’m cool like that. $dbpass = ‘’; $dbhost = ‘localhost’; $dbname = ‘ipinfo’;</p>
+
+<p>$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die (‘Error connecting to mysql’);</p>
+
+<p>mysql_select_db($dbname) or die(‘Could not select database’);</p>
+
+<p>$ipAddress = mysql_real_escape_string($_SERVER[‘REMOTE_ADDR’]); // Get IP Addr of visitor</p>
+
+<p>$query = “SELECT * FROM `ip_group_city` “ . “WHERE `ip_start` &lt;= INET_ATON( ‘$ipAddress’ ) “ . “ORDER BY ip_start DESC “ . “LIMIT 1”;</p>
+
+<p>$resultLocation = mysql_query($query);</p>
+
+<p>while ($row = mysql_fetch_array($resultLocation)) { $lat = $row[‘latitude’]; $lng = $row[‘longitude’]; } ?&gt; [/php]</p>
+
+<p>Test it by visiting your Ushahidi deployment, your map should be centred on your location.</p>
+
+<p>So quick recap. We are using a local mysql database to lookup locations by IP. This is fast, fast is good. It isn’t perfect. Perfect would be better. Feel free to improve upon, change/correct..</p>
+
+<p>Note: You probably also want to do the same changes on reports.php and alerts.php</p>

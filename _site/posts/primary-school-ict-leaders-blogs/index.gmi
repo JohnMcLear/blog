@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Primary School ICT leaders blogs" date: 2011-07-17 categories:
+
+* "ict"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+Please add your blog to the list below if you are a Primary School ICT Co-Ord/Leader:
+
+```html
+<iframe width="550" height="800" src="http://john.primarypad.com/ict-leaders-blogs?_theme=micro"></iframe>
+```
+
+Here is the master RSS / Atom feed you can add to your reader[1]
+
+=> http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators 1: http://www.google.com/reader/public/atom/user%2F02417534047188907333%2Fbundle%2FPrimary%20School%20ICT%20Leaders%20and%20Co-Ordinators

@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+
+title: "Project Natal Games" date: 2009-06-08 categories:
+
+* "microsoft"
+* "natal"
+* "primary-games-arena"
+* "primary-school-games"
+* "primary-school-ict"
+* "xbox"
+
+--------------------------------------------------------------------------------
+
+I have been following the stuff about Project Natal and it looks like it could be really good for education.
+
+I will try to summarize project Natal:
+
+**Move your whole body instead of your fingers.** It has facial/sound recognition. I love how interactive project natal is and that makes it perfect for educational use.
+
+I have 2 problems with Natal:
+
+1.
+
+ it requies an xbox360. By default schools assume an xbox360 is an arcade gaming console so the main function is gaming.
+2.
+
+ I don't know how to code/develop games for Xbox 360 (I'm hoping that flash games will be playable as most educational games are flash based).
+
+There needs to be a discussion into integrating this new type of full body control into new games. The functions and methods need to be simply integrated into existing resources. For example, if you have an old flash game that is just point + click. How does this new control type interface with that? Can you point at an object or do you have to slap it? what is a click, what isn't? What is a drag/drop & What isn't? How do we storage faces for facial recognition? Does this need to be part of the Windows Live login process? In which case will all pupils need a live account?
+
+In an ideal world it would be open source but thats not going to happen. I will keep my ears to the ground and report back :)
+
+Project Natal Video available here[1]
+
+As a side note, just imagine if the sensor comes out for vista or xp, how amazing would that be? This type of interactivity with your OS with full application support would make my brain drool.
+
+I see this as being the future so I will be asking the guys at Primary Tech[2] to look into it :)
+
+=> http://www.youtube.com/watch?v=g_txF7iETX0 1: http://www.youtube.com/watch?v=g_txF7iETX0
+=> http://PrimaryT.co.uk 2: http://PrimaryT.co.uk

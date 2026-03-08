@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+title: "Plugin spotlight:  Sticky author names" date: 2012-05-29 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+Sticky author names stops pad users from being able to change their names. This plugin is useful for deployments of Etherpad Lite where the API is used to create sessions and users.
+
+How to install this plugin
+Visit http://youretherpaddeployment.com/admin/plugins[1] and login with your username/password then search for the plugin “disable_change”.
+
+Plugin Author: John McLear
+Plugin on npm[2]
+
+=> http://youretherpaddeployment.com/admin/plugins 1: http://youretherpaddeployment.com/admin/plugins
+=> http://search.npmjs.org/#/ep_disable_change_author_name 2: http://search.npmjs.org/#/ep_disable_change_author_name

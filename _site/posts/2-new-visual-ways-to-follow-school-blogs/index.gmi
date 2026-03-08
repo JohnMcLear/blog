@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------
+
+title: "2 new visual ways to follow school blogs" date: 2010-05-18
+
+--------------------------------------------------------------------------------
+
+=> images/w1R1.png [IMG]
+[1]
+
+**Spective** provides a visual way of sifting through school blogs by showing the image and using the image as context.
+
+URL: http://www.spectives.com/primary[2]
+
+=> images/rssvoyage.jpg [IMG]
+[3]
+
+**RSSVoyage** displays only text on your page but allows you to easily move through blogs and time.  RssVoyage requies you paste the RSS feed address in (bottom left).   RSSVoyage has been pretty buggy for me, let me know what your experience is like!
+
+URL: http://rssvoyage.com[4]
+
+Feed URL: http://www.xfruits.com/johnyma22/?id=80412[5]
+
+Both require registration, both are free.
+
+=> https://mclear.co.uk/wp-content/uploads/2010/05/w1R1.png 1: https://mclear.co.uk/wp-content/uploads/2010/05/w1R1.png
+=> http://www.spectives.com/primary 2: http://www.spectives.com/primary
+=> http://blog.thecombustionchamber.com/images/rssvoyage.jpg 3: http://blog.thecombustionchamber.com/images/rssvoyage.jpg
+=> http://rssvoyage.com 4: http://rssvoyage.com
+=> http://www.xfruits.com/johnyma22/?id=80412 5: http://www.xfruits.com/johnyma22/?id=80412

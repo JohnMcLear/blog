@@ -1,0 +1,40 @@
+<p>Using git flow to release a new version of software enables developers to easily switch between releases to locate bugs and/or introduce new features.</p>
+
+<p>In this example we are releasing version 1.1.4.</p>
+
+<p>NOTE TO SELF: Remember to bump the version in src/packages.json</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># debian/ubuntu only apt-get install git-flow
+
+\# checkout the development branch git checkout develop
+
+\# first time only, accept defaults git flow init
+
+\# start the release process # note the releases-1.1.4 bit, this should be 1.1.4 only but I'm following the pattern of Etherpad Lite git flow release start 1.1.4
+
+\# publish the release to a new release branch git flow release publish 1.1.4
+</code></pre></div></div>
+
+<p>Check everything fully one last time IE packages.json and let travis run it’s tests..</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git flow release finish 1.2.4 git push origin master --tags
+</code></pre></div></div>
+
+<p>Now in root do</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make docs
+</code></pre></div></div>
+
+<p>then copy the out/doc folder to ether.github.com repo doc/vx.x.x folder</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mv out/doc/ ../ether.github.com/doc/v1.4.1/
+</code></pre></div></div>
+
+<p>create the windows binary</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bin/buildforwindows.sh
+</code></pre></div></div>
+
+<p>copy the last 10 digits of the sha from git log to the end of the windows package file name before .zip</p>
+
+<p>put this .zip in the ether.github.com/downloads folder and commit / push that.</p>

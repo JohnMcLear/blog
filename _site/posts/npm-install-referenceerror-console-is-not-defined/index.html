@@ -1,0 +1,19 @@
+<table>
+  <tbody>
+    <tr>
+      <td>Trying to install <a href="http://npmjs.org/">npm</a> with: [bash]curl http://npmjs.org/install.sh</td>
+      <td>sh[/bash]</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Returns:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ReferenceError: console is not defined:
+</code></pre></div></div>
+
+<p>Cause: NodeJS not properly installed.</p>
+
+<p>Solution: Goto <a href="http://nodejs.org/#download">NodeJS download</a> and get the latest tar package and install it yourself. Usual install procedure: [bash] tar -zxvf node-whatever.tar.gz cd node-whatever ./configure make make install [/bash]</p>
+
+<p>Now try again and it should work :)</p>

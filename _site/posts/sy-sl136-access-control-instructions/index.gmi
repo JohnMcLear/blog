@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+title: "SY-SL136 Access Control Instructions" date: 2012-11-01 categories:
+
+* "rfid"
+
+tags:
+
+* "rfid"
+
+--------------------------------------------------------------------------------
+
+Access Admin mode, assuming admin password is default of 12345 [code] *12345# [/code]
+
+Get access [code] 8888# [/code]
+
+Add a card/transponder [code] Enter admin mode 1 Touch card on access control # # Test card [/code]

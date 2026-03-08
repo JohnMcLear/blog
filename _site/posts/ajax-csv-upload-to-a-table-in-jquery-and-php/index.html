@@ -1,0 +1,21 @@
+<p>So I had to write a new user importer for <a href="http://schoolemail.co.uk">School Email</a> and I was looking for a simple plugin in solution but didn’t find one so here is a simple way of uploading a csv file that is uploaded to a file and rendered to a table..</p>
+
+<p>Projects used: <a href="http://code.google.com/p/jquerycsvtotable/">CsvToTable</a> &amp; <a href="http://blueimp.github.com/jQuery-File-Upload/">jQuery File Upload</a> &amp; <a href="http://www.webismymind.be/editablegrid/">Editable Grid *optional</a> for live edits.</p>
+
+<p>Grab those two projects, grab the below files and put them in a /js folder then put the .js files into your head..</p>
+
+<p>Put the jQuery-File-Upload folder in your root, we will be uploading files to here.. You may want to add a layer of security in front of the upload function.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;head&gt; &lt;script src="/js/csvToTable.js"&gt;&lt;/script&gt; &lt;script src="/js/jquery.iframe-transport.js"&gt;&lt;/script&gt; &lt;script src="/js/jquery.fileupload.js"&gt;&lt;/script&gt; &lt;/head&gt;
+</code></pre></div></div>
+
+<p>At the bottom of your body add..</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="csvToTable"&gt;&lt;/div&gt; &lt;div id="fileupload"&gt;&lt;/div&gt; &lt;script&gt; var loggedIn = 1; // you will want to modify this if you require auth $(function () { if(loggedIn == "1"){ $('#fileupload').fileupload({ dataType: 'json', acceptFileTypes: '/(csv)$/i', url: '/jQuery-File-Upload/php/index.php', done: function (e, data, Users) { $.each(data.result, function(index, file){ $('#csvToTable').html(""); $('#csvToTable').CSVToTable(file.url).bind("loadComplete",function() { console.log("Loaded data into table"); /\*
+
+Call functions to manipulate data here
+
+\*/ });; }); } }); } }); &lt;/script&gt;
+</code></pre></div></div>
+
+<p><a href="http://www.webismymind.be/editablegrid/">Want to make your table editor like the rest of the cool kids? Check out this jQuery plugin</a></p>

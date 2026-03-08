@@ -1,0 +1,15 @@
+<p>Output from bin/run.sh &amp;</p>
+
+<p>Try to register for a pro account and you get</p>
+
+<blockquote>
+  <p>javax.mail.MessagingException: 501 Syntax: HELO hostname</p>
+
+  <p>at com.sun.mail.smtp.SMTPTransport.issueCommand(SMTPTransport.java:1363) at com.sun.mail.smtp.SMTPTransport.helo(SMTPTransport.java:838) at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:375) at javax.mail.Service.connect(Service.java:275) at javax.mail.Service.connect(Service.java:156)</p>
+</blockquote>
+
+<p>Cause: Hostname isn’t in /etc/hosts</p>
+
+<p>Solution:</p>
+
+<p>[bash] hostname [/bash] Copy hostname value and paste to /etc/hosts</p>

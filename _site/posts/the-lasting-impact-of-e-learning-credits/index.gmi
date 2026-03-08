@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+
+title: "The lasting impact of E Learning Credits" date: 2009-08-05 categories:
+
+* "e-learning-credits"
+* "elc"
+* "harnessing-technology-grants"
+* "htg"
+
+--------------------------------------------------------------------------------
+
+The impact on the mindset of ICT purchasing.
+
+"I used to get it for free and now I have to pay? I don't think its worth that much!!" Schools are being much more frugal when it comes to purchasing new ICT software and services. This has lead to a decline in schools taking risks in new services and maintaining the status quo in a lot of cases. I think in a few years we will be able to see the impact of this.
+
+The impact on small business.
+
+The massive rise of small companies providing teaching resources and ICT services on the back of ELCs(E Learning Credits) was huge. I could pick out a handful that purely relied on them as a source of revenue, growing extremely quickly. I call this type of growth "unnatural" - This type of growth is fine if you are well managed but a lot of these small companies weren't so we now have a lot of failing ICT companies declaring bankruptcy and making people redundant.
+
+We never relied on ELCs, we knew the risk of trying to grow too quick. If ELCs were launched again we would do the same as Primary Technology but probably launch something as a company that would be guaranteed quick growth, quick depletion, no long lasting support. ELCs make IT companies grab money then scarper. Running an ELC program again would be so damaging for schools it would be unmeasurable, especially if you take into account how many services are now cloud/hosted services that can not be simply transferred to another provider in a lot of cases.
+
+The impact on Learning
+
+Lots of new services that popped up around this type provided software for educational problems that needed to be provided. I worked with various software houses during this time and the emphasis was always on quantity and never quality. Software companies knew schools had to spend money so giving them options was good. Schools were not interested in long term commitments as the ELCs were only short term so opted to spend all their ELCs even if they knew the software was less than fit for purpose. This left many schools with systems clogged with hundreds of pieces of software, cluttering their desktops, confusing both teachers and pupils alike. In one school I remember installing 8 different word processors on one laptop image that had a 20 GB hard disk.
+
+Why all the negativity?
+
+A lot of good did come from ELC purchasing but the cost was quickly reflected when new hardware needed to be purchased to accommodate all of these new tools. The new purchasing of hardware fitted in perfectly with the B and G generations of wireless networks and instantly a new learning type with technology was born. Pupils and Teachers could roam around, learning as an individual focused on a piece of software. One big problem though, ELCs didn't encourage cloud/online services. Yes you could put them towards your website but most of the software available on ELCs were installed locally, something we have recognized will be a thing of the past. I think this was the #1 oversight - In my world I would of ensured each school had good internet connectivity then would have explicitly made ELCs available only to online services such as Education City[1] & School Email[2].
+
+Replacing ELCs with the HTG (Harnessing Technology Grant)...
+
+The harnessing technology grant isn't treated by schools the same way that E learning credits were. The money isn't as well ring fenced as ELCs so some of the time it is poorly spent. I have been into a lot of schools where the ICT co-ordinator doesn't even know the school has HTG money.
+
+How can we run an ELC type programme again in the future without damaging learning or business?
+
+Software is becoming cheaper, in fact in a lot of cases educational software and learning resources are free, created by the community. The timing for this couldn't of been more fortunate for the folks who put the original ELCs in place. However, most of the companies who make these freebies have a solid customer base from the days of the ELCs so can afford to provide free services with the key principle that they are building a community in which the next time a government funded opportunity comes around they can pounce and rebuild their damaged revenue streams.
+
+=> http://EducationCity.com 1: http://EducationCity.com
+=> http://SchoolEmail.co.uk 2: http://SchoolEmail.co.uk

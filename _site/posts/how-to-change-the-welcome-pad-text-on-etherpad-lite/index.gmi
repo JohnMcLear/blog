@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+
+title: "How to change the Welcome pad text on Etherpad Lite" date: 2011-08-01 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+To change the welcome text in Etherpad Lite open up /local/node-v0.4.10/etherpad-lite/settings.json
+
+Scroll to the defaultPadText value and edit it there.
+
+You will need restart the Etherpad Lite service to make the new text appear.

@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad Lite, say hello to Django" date: 2012-04-09 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+@Sfyn wrote a great write up about how he used Etherpad Lite with his recent thinkwemust.org project[1] so we wanted to show him some love back by sharing his django etherpad-lite app[2] with the rest of the Etherpad Lite community.
+
+Over the next few weeks we have even more announcement so stay tuned 
+=> https://mclear.co.uk/wp-content/blogs.dir/418/files/2012/06/icon_smile.gif :) [IMG]
+
+=> http://www.riotnrrd.info/tech/etherpad-lite-performances-ongoing-saga 1: http://www.riotnrrd.info/tech/etherpad-lite-performances-ongoing-saga
+=> https://github.com/sfyn/django-etherpad-lite 2: https://github.com/sfyn/django-etherpad-lite

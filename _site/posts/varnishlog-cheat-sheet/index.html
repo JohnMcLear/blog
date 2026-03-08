@@ -1,0 +1,47 @@
+<p>BELOW IS VARNISH V3</p>
+
+<p>Look at an incoming client request of a specific URL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -c -m RxURL:"readysetlearn/readysetlearn.htm"
+</code></pre></div></div>
+
+<p>Look at a a backend request of a specific URL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -b -m TxURL:"readysetlearn/readysetlearn.htm"
+</code></pre></div></div>
+
+<p>See requests for one specific Hostname:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -c -m RxHeader:"Host: etherpad.org"
+</code></pre></div></div>
+
+<p>See the age of the cache objects for a specific hostname:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -c -m RxHeader:"Host: etherpad.org" | grep Age
+</code></pre></div></div>
+
+<p>BELOW IS VARNISH &lt; V3</p>
+
+<p>Look at an incoming client request of a specific URL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -c -o RxURL readysetlearn/readysetlearn.htm
+</code></pre></div></div>
+
+<p>Look at a a backend request of a specific URL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -b -o TxURL readysetlearn/readysetlearn.htm
+</code></pre></div></div>
+
+<p>See requests for one specific Hostname:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -c -o RxHeader "Host: etherpad.org"
+</code></pre></div></div>
+
+<p>See the age of the cache objects for a specific hostname:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishlog -c -o RxHeader "Host: etherpad.org" | grep Age
+</code></pre></div></div>
+
+<p>If an item has a high age it means that varnish is hitting the cache for it.</p>
+
+<p>Thanks to Mithrandir from the #Varnish IRC channel for helping out and thanks to <a href="http://Tomnomnom.com">Tomnomnom</a> for V3 help!.</p>

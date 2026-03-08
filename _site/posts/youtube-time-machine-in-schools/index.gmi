@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Youtube Time Machine in schools" date: 2010-10-13 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+* "youtube"
+
+--------------------------------------------------------------------------------
+
+This little beauty[1] allows you to pick a year and watch a video from it.  Great for history lessons & nostalga
+
+Expect to see a few posts about Youtube[2] over the next month or so.
+
+Link: YouTube Time Machine[3] - Note: This website is not affiliated with Google.
+
+=> http://yttm.com 1: http://yttm.com
+=> http://youtube.com 2: http://youtube.com
+=> http://yttm.tv 3: http://yttm.tv

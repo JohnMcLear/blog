@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+
+title: "Getting and Setting timeline position in JWPlayer" date: 2011-01-04 categories:
+
+* "developer"
+* "developing"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+Getting the position is easy:
+
+[js] <script type="text/javscript">
+
+var player = null; var playlist = null; var time = null;
+
+function playerReady(obj) { player = gid(obj.id); addListeners(); };
+
+function addListeners() { try { playlist = player.getPlaylist(); } catch(e) { setTimeout("addListeners()", 100); }
+
+player.addModelListener('TIME', 'timeMonitor'); };
+
+function timeMonitor(obj) { time = obj.position; };
+
+function gid(name) { return document.getElementById(name); };
+
+</script> [/js] You now have the current timeslider time as the variable named "time".
+
+Test it out by doing an alert(time); attached to a button. This also gives us the time(according to the timeslider) that you clicked the alert and saves it as a variable named "savetime".
+
+[html] <a href="#" onClick="savetime = time;alert(time);">Alert the current timeline position</a> [/html]
+
+Now to push the savetime back to the video object. This will allow us to go back to a saved value, you can manipulate this by adding or removing an integer to fast forward / rewind.
+
+[html] <a href="#" onClick="setTimeout("player.sendEvent('SEEK',savetime)",2000); ">Go to the stored timeline position</a> [/html]
+
+Why the setTimeout? Well if you are hiding your jwplayer so you can work around the rest of the screen and you want to bring it back at the same timeline position this will allow the DOM time to reload the element back in. Ideally I would of used a listener here and pushed the value back on "state ready". Feel free to adjust the code so it does that and leave a copy in the comments :)

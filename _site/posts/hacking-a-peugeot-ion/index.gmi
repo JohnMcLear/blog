@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+title: "Hacking a Peugeot Ion" date: 2020-01-27
+
+--------------------------------------------------------------------------------
+
+This is a follow up post to a previous attempt at hacking the Peugeot Ion immobilizer.[1] This is the success story, I will explain where I went wrong and how we solved the problem.
+
+Before I get started I want to explain that by "Hacking" I mean gaining access to parts of the system that Mitsubishi usually tie down to their own infrastructure. I am not talking about a remote hack, denial of service or anything destructive. The purpose of this post is to inform and educate, any malicious, unkind, unfair or generally negative usage of this information is the choice of the reader. I provide no warranty and accept no liability.
+
+First up, props to Fobfix[2] again for doing pretty much all the work. I'm mostly a grunt here and he is the Wizard.
+
+## Devices required for VIN or Keypair change
+
+The Ion/Miev has the key tables/values stored in 3 locations. The key (obviously), the ETACS and the ECU. The ETACS is what most people would call the Body Control Unit.
+
+The Ion/Miev has the VIN stored in the Motor controller, ETACS, ECU. The Motor controller is the one here that trips most people up. Simply put, if you change the motor controller IE replace a faulty one, you will need to rewrite the VIN in the EEPROM. This is very unusual for manufacturers.
+
+## Dumping and Writing
+
+**To get a successful dump/write use the XGecu Pro with the chip set BR93H86(RF).** **At the time of completing this work we were using version 8.5**
+
+Using a different reader(actually we tried two) before was where we went wrong. The previous reader software and hardware had insufficient support for the BR93H86 chip. Before we were targeting the 93C86 which while similar is clearly different.
+
+## Modifications of contents
+
+For modifications to the ROM contents use digitalkaos or another EEPROM car modification forum. They should be able to write the correct values with the corresponding checksum value.
+
+=> https://mclear.co.uk/2019/10/11/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/ 1: https://mclear.co.uk/2019/10/11/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/
+=> https://fobfix.com 2: https://fobfix.com

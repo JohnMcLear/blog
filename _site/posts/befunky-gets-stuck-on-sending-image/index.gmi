@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Befunky gets stuck on sending image" date: 2009-06-05 categories:
+
+* "be-funky"
+* "befunky"
+* "cartoon"
+* "cartoon-api"
+* "stuck-on-sending-message"
+
+--------------------------------------------------------------------------------
+
+BeFunky.com gets stuck on sending image when using the API.  Read
+
+http://livedocs.adobe.com/flash/8/main/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs%5C_Parts&amp;file=00001621.html[1]
+
+Create a Crossdomain.xml that looks something like one of the examples shown on the page. :)
+
+=> http://livedocs.adobe.com/flash/8/main/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs%5C_Parts&amp;file=00001621.html 1: http://livedocs.adobe.com/flash/8/main/wwhelp/wwhimpl/common/html/wwhelp.htm?context=LiveDocs%5C_Parts&amp;file=00001621.html

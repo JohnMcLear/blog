@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Getting to grips with Channels in Ajax Chat" date: 2011-01-31 categories:
+
+* "ict"
+
+--------------------------------------------------------------------------------
+
+Channels in Ajax chat are really poorly documented so I wanted an easy place for you to get started.
+
+The first thing you should know is that **just adding new channels to lib/data/channels.php WILL NOT make them visible to users**. To make channels visible to users you must edit lib/users.php and add the relative channelID to the user account. You can test this by logging in as admin (default password is admin). The admin by default has 0 and 1 listed as their channel IDs. Try create a new channel in channels.php and add the relevant ID to users.php.
+
+The second thing you need to know is that Ajax Chat also calls private messages "private channels." This is a horrible mistake by the project and I am trying to get this renamed.
+
+That should get you started with channels. Enjoy and have fun :-)

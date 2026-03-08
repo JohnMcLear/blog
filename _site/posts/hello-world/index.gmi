@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------
+
+title: "Hello world!" date: 2012-03-19
+
+--------------------------------------------------------------------------------
+
+Welcome to PrimaryBlogger[1]. This is your first post. Edit or delete it, then start blogging! Don’t forget to check out our guides at http://support.primaryt.co.uk/[2].
+
+Psst, want to change the appearance or settings of your blog? Click Site Admin under the Meta Tag to start or click here[3]. Have fun!
+
+Report Post As Inappropriate[4]
+
+=> http://primaryblogger.co.uk/ 1: http://primaryblogger.co.uk/
+=> http://support.primaryt.co.uk/knowledgebase-category/primaryblogger/ 2: http://support.primaryt.co.uk/knowledgebase-category/primaryblogger/
+=> http://blog.myschoolholidays.com/wp-admin/ 3: http://blog.myschoolholidays.com/wp-admin/
+=> http://blog.myschoolholidays.com?moderation_action=report_form&amp;object_type=post&amp;object_id=1&amp;width=250&amp;height=300 4: http://blog.myschoolholidays.com?moderation_action=report_form&amp;object_type=post&amp;object_id=1&amp;width=250&amp;height=300

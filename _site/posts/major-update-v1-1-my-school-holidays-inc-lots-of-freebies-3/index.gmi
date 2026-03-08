@@ -1,0 +1,89 @@
+--------------------------------------------------------------------------------
+
+title: "MAJOR UPDATE (v1.1):  My School Holidays (inc lots of freebies)" date: 2012-02-07 categories:
+
+* "my-school-holidays"
+* "primary-school"
+* "school"
+* "school-holiday-dates"
+
+--------------------------------------------------------------------------------
+
+```html
+<iframe class="blog-video" src="http://www.youtube.com/embed/0Y-S1WARpOs" frameborder="0" width="100%" height="315"></iframe>
+```
+
+Today we are pleased to announce the launch version 1.1 of our popular School Holiday Dates website, My School Holidays[1].
+
+With over 1 million people every month using My School Holidays it is crucial your school holiday dates are up to date.
+
+## Mobile Phone App
+=> images/mobile_app-300x142.png [IMG]
+[2]
+
+We’ve just released a FREE Android school holiday countdown widget for My School Holidays[3] users which can be found on the Android Market here[4]. Or from your phone scan this QR code (or visit the Android Market on your phone and search for My School Holidays).
+
+## 
+=> images/msh_widget_qr_code-300x300.png msh_widget_qr_code [IMG]
+
+## Printable Calendar Cards
+=> images/calendarcards-300x207.png [IMG]
+[5]
+
+Don’t have an Android? But want a way to remember your school holiday dates on the go? How about printing them onto something that fit right in your pocket? Maybe a business card? You can now select your school on My School Holidays[6] and print business card sized calendars with your school’s holidays on. You could even print a few pages, laminate them and give to parents? It’s super easy to do:
+Simply find your school on My School Holidays[7] and click the Printable Business Cards link. Print it out double sided and off you go.
+
+## Autocomplete on Search
+=> images/autocomplete.png [IMG]
+[8]
+
+We revamped the search box on the website so our autocomplete search will suggest school names to you as you type in the name of your school. Try it out now at My School Holidays[9]
+
+## Going global
+
+We have added more countries dates to My School Holidays[10]. We now currently support: Germany[11], Canada[12],
+The United Kingdom(includes Wales)[13], Australia[14], The United States of America[15] and New Zealand[16] with more countries due over the next few months. Also useful if you’re planning to go on holiday in another country and want to find out when the local schools are on holiday.
+
+## iCal & GMail support
+=> images/ical2021-300x154.jpg [IMG]
+[17]
+
+GMail, Outlook and Thunderbird users can now enjoy a simple iCal import of their school holiday calendar.
+
+To do this visit your school on My School Holidays[18] then click “More options” then select the format you wish your holiday dates.
+
+## Edit your own school holiday dates
+
+We want your school to update your school holiday dates but we know how difficult it can be to encourage administrators to do this so we have given this functionality to the hardest working people in the education system, the teachers.
+
+Teachers can now use a really simple interface to insert their own school holiday dates. They can also add casual/training/inset days. To insert your days simply find your school on My School Holidays[19] and Click “Edit the dates”.
+
+## Behind the scenes[
+
+=> images/predict.png [IMG]
+](http://blog.primaryt.co.uk/files/2011/12/predict.png[20])
+
+We have developed a new way of predicting and validating school holiday dates that you will see come to life in Version 1.2. We are currently using this method to quickly collect school holiday dates and publish them live on the website.
+
+We will be using this technique along side other techniques to gather Holiday Data from trusted sources and provide you with the most up to date information on school holidays from around the world.
+
+=> http://myschoolholidays.com 1: http://myschoolholidays.com
+=> http://blog.primaryt.co.uk/files/2011/12/mobile_app.png 2: http://blog.primaryt.co.uk/files/2011/12/mobile_app.png
+=> http://myschoolholidays.com 3: http://myschoolholidays.com
+=> https://market.android.com/details?id=com.primaryt.mshwidget 4: https://market.android.com/details?id=com.primaryt.mshwidget
+=> http://blog.primaryt.co.uk/files/2011/12/calendarcards.png 5: http://blog.primaryt.co.uk/files/2011/12/calendarcards.png
+=> http://myschoolholidays.com 6: http://myschoolholidays.com
+=> http://myschoolholidays.com 7: http://myschoolholidays.com
+=> http://blog.primaryt.co.uk/files/2011/12/autocomplete.png 8: http://blog.primaryt.co.uk/files/2011/12/autocomplete.png
+=> http://myschoolholidays.com 9: http://myschoolholidays.com
+=> http://myschoolholidays.com 10: http://myschoolholidays.com
+=> http://de.myschoolholidays.com 11: http://de.myschoolholidays.com
+=> http://ca.myschoolholidays.com 12: http://ca.myschoolholidays.com
+=> http://myschoolholidays.com 13: http://myschoolholidays.com
+=> http://au.myschoolholidays.com 14: http://au.myschoolholidays.com
+=> http://us.myschoolholidays.com 15: http://us.myschoolholidays.com
+=> http://nz.myschoolholidays.com 16: http://nz.myschoolholidays.com
+=> http://blog.primaryt.co.uk/files/2011/12/ical2021.jpg 17: http://blog.primaryt.co.uk/files/2011/12/ical2021.jpg
+=> http://myschoolholidays.com 18: http://myschoolholidays.com
+=> http://myschoolholidays.com 19: http://myschoolholidays.com
+=> http://blog.primaryt.co.uk/files/2011/12/predict.png 20: http://blog.primaryt.co.uk/files/2011/12/predict.png

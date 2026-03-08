@@ -1,0 +1,118 @@
+<p><strong><a href="https://mclear.co.uk/2011/08/01/install-etherpad-lite-on-ubuntu/">IMPORTANT NOTE: ETHERPAD HAS BEEN REPLACED BY ETHERPAD LITE. YOU SHOULD FOLLOW THIS GUIDE.</a></strong></p>
+
+<p>IMPORTANT NOTE: THIS DOCUMENTATION IS NOW DATED.  You can now install <a href="http://etherpad.org">Etherpad</a> from apt.</p>
+
+<p><strong>Installing <a href="http://etherpad.org">Etherpad</a> 1.0.1 with APT</strong></p>
+
+<p>Add the following line as a source in your graphical package manager (In Ubuntu: System-&gt;Administration-&gt;Synaptic package manager; then Settings-&gt;Repositories and then finally Third party software), or edit the file /etc/apt/sources.list and add it there.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>deb http://apt.etherpad.org all .
+</code></pre></div></div>
+
+<p>[bash] apt-get update apt-get install etherpad [/bash]</p>
+
+<p>Answer the questions (if any, depends on your system settings)</p>
+
+<p>[bash] /etc/init.d/etherpad start [/bash]</p>
+
+<p>Other Linux distributions Download the .tgz and unpack it Follow instructions in README :)</p>
+
+<p><strong>BELOW IS THE OLD GUIDE for Etherpad V1 released by Google</strong></p>
+
+<p><strong>Install prereqs</strong></p>
+
+<p>[bash]</p>
+
+<p>echo “deb http://ftp.de.debian.org/debian sid main non-free” » /etc/apt/sources.list apt-get update apt-get install sun-java6-jdk [/bash]</p>
+
+<p>If the above fails then do not continue.  The output of</p>
+
+<p>[bash]java -version[/bash]</p>
+
+<p>Should read..</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java version "1.6.0_17"
+Java(TM) SE Runtime Environment (build 1.6.0_17-b04)
+Java HotSpot(TM) Client VM (build 14.3-b01, mixed mode, sharing)
+</code></pre></div></div>
+
+<p>[bash] apt-get install scala mysql-server libmysql-java mercurial [/bash]</p>
+
+<p>Paste the below to /etc/profile</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export PATH
+export JAVA_HOME="/usr/lib/jvm/java-6-sun"
+export SCALA_HOME="/usr/share/java"
+export JAVA="/usr/bin/java"
+export SCALA="/usr/bin/scala"
+export PATH="/usr/bin:/usr/bin:/usr/local/mysql/bin:$PATH"
+export MYSQL_CONNECTOR_JAR="/usr/share/java/mysql-connector-java-5.1.10.jar"
+export JAVA_HOME SCALA_HOME JAVA SCALA MYSQL_CONNECTOR_JAR PATH
+umask 022
+</code></pre></div></div>
+
+<p>Download the etherpad source to /usr/local/etherpad</p>
+
+<p>[bash] hg clone https://etherpad.googlecode.com/hg/ /usr/local/etherpad [/bash]</p>
+
+<p><strong>Set the environment variables</strong></p>
+
+<p>[bash] export JAVA_HOME=”/usr/lib/jvm/java-6-sun” export SCALA_HOME=”/usr/share/java” export JAVA=”/usr/bin/java” export SCALA=”/usr/bin/scala” export PATH=”/usr/bin:/usr/bin:/usr/local/mysql/bin:$PATH” export MYSQL_CONNECTOR_JAR=”/usr/share/java/mysql-connector-java-5.1.10.jar” [/bash]</p>
+
+<p><strong>Add your domain to the superdomain section</strong></p>
+
+<p>[bash]</p>
+
+<p>nano /usr/local/etherpad/trunk/etherpad/src/etherpad/globals.js</p>
+
+<p>[/bash]</p>
+
+<p>Search for etherpad.com and replace it with your domain (confused? You will figure it out)</p>
+
+<p><strong>Create the etherpad mysql db and privelidges</strong></p>
+
+<p>[bash] mysql -u root -p [/bash]</p>
+
+<p>Enter your password when prompted</p>
+
+<p>[sql] create database etherpad; grant all privileges on etherpad.* to ‘etherpad’@’localhost’ identified by ‘password’; quit [/sql]</p>
+
+<p>[bash] cd /usr/local/etherpad/trunk/etherpad/ ln -s /usr/share/java /usr/share/java/lib bin/rebuildjar.sh bin/run-local.sh [/bash]</p>
+
+<p><strong>Wait quite a while while it builds.</strong></p>
+
+<p>Test by browsing to your server at http://hostnameofserver:9000</p>
+
+<p>Making pro work…</p>
+
+<p>Make sure it doesn’t redirect to etherpad.com for pro</p>
+
+<p>Edit /usr/local/etherpad/trunk/etherpad/src/main.js</p>
+
+<p>Replace all instances of Etherpad.com with yourdomain.com</p>
+
+<p>Edit /usr/local/etherpad/trunk/etherpad/src/static/crossdomain.xml</p>
+
+<p>Add to the obvious section</p>
+
+<p>[html]</p>
+
+<allow-access-from domain="yourdomain.com" to-ports="\*" />
+
+<allow-access-from domain="\*.yourdomain.com" to-ports="\*" />
+
+<p>[/html]</p>
+
+<p>Edit /usr/local/etherpad/trunk/etherpad/src/etherpad/pro/pro_utils.js</p>
+
+<p>Replace</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var fromDomain = 'etherpad.com';
+</code></pre></div></div>
+
+<p>with</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var fromDomain = 'yourdomain.com';
+</code></pre></div></div>
+
+<p>Note: Originally published on the 19th of Dec 2009, Revised on the 10th of March 2010</p>

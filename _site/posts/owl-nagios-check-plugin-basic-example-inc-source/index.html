@@ -1,0 +1,17 @@
+<p>[caption id=”” align=”alignright” width=”240” caption=”Image by shannonpatrick17 via Flickr”]<a href="http://www.flickr.com/photos/10799351@N00/2398908753"><img src="images/2398908753_c2f008d3fa_m.jpg" alt="1hr41min 1.563e+010 q19.179 dark green on whit..." title="1hr41min 1.563e+010 q19.179 dark green on whit..." /></a>[/caption]</p>
+
+<p>I wanted to make a <a href="http://nagios.org">nagios</a> check for the OWL energy meter.</p>
+
+<p>First thing to note, don’t run any of the owl stuff while trying to run the check.</p>
+
+<p>Secondly, I included the source so feel free to use Visual C# to hack it.</p>
+
+<p>Third thing is, well, the OWL sensor software is very slow to respond, infact if you don’t get any response from it after a few minutes I recommend turning the kettle on.  The check may take up to 10 minutes (how lame is that?) so I recommend you increase your time outs.</p>
+
+<p>Finally I’m not familiar with Visual Studio, that’s why I did so little in Windows.  I just wanted an output I could work with in a nice dark environment.</p>
+
+<p>The check in <strong>bin\release\sensorapp.exe</strong> waits for a signal from the transmitter then echos it to <a href="http://en.wikipedia.org/wiki/Command-line_interface" title="Command-line interface">command line</a>.  Do with it what you will.  I’m pulling it into a simple .bat file.</p>
+
+<p><a href="http://primaryschoolict.com/sensorapp.zip">Grab the files</a></p>
+
+<p><img src="images/reblog_e.png" alt="Reblog this post [with Zemanta]" /></p>

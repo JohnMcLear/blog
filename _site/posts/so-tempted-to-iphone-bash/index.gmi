@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+
+title: "So tempted to iPhone bash!" date: 2010-01-04 categories:
+
+* "etherpad"
+* "open-source"
+* "primary-pad"
+
+--------------------------------------------------------------------------------
+
+Modifying etherpad source today and needed to change this line
+
+*"PrimaryPad is not yet fully-functional on the iPhone."*
+
+So tempted to Change it to..
+
+*"PrimaryPad is not yet fully-functional on the iPhone. Ha!"*
+Or..
+
+*"PrimaryPad is not yet fully-functional on the iPhone. Looks like you don't fully respect open source!"*
+
+But of course Etherpad isn't fully-functional on the Android yet neither ;)

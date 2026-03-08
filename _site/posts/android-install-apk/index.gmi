@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+
+title: "Android install APK" date: 2010-06-28 categories:
+
+* "android"
+* "google"
+* "ict"
+
+tags:
+
+* "android-operating-system"
+* "android-sdk"
+* "tools"
+
+--------------------------------------------------------------------------------
+
+So you are beta testing an application or whatever and you have been given an .apk file to install.
+
+Before we start make sure you have the android device driver installed, if not you can download it here.[1]
+
+1.  Plug the phone in to your PC with a USB Cable.  When prompted DO NOT mount USB.
+
+2.  On the phone goto Settings --> Applications then click the **Unknown sources** tick box.
+
+3.  On your PC **Download** the Android SDK[2]
+
+4.  **Extract** the Android SDK to c:\androidsdk
+
+5.  **Copy** the .apk file you were given to c:\androidsdk\tools
+
+6.  Click Start --> Run then type in:
+
+> c:\androidsdk\tools\adb install -r c:\androidsdk\tools\*whatever.apk*
+
+**Make sure you replace whatever.apk with the name of the file you copied.**
+
+7. Your application should now be installed.  Visit the application menu on the Android device and look for your icon.
+
+###### Related articles by Zemanta
+
+* Lesson Not Learned: AT&T locks down the HTC Aria's app selection[3] (mobilecrunch.com)
+* Install Android packages directly from GitHub[4] (github.com)
+* HTC Aria Rooted Two Days After Release, Instructions Are Live[5] (androidpolice.com)
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[6]
+
+=> http://developer.android.com/sdk/win-usb.html 1: http://developer.android.com/sdk/win-usb.html
+=> http://code.google.com/android/intro/installing.html 2: http://code.google.com/android/intro/installing.html
+=> http://www.mobilecrunch.com/2010/06/15/lesson-not-learned-att-locks-down-the-htc-arias-app-selection/ 3: http://www.mobilecrunch.com/2010/06/15/lesson-not-learned-att-locks-down-the-htc-arias-app-selection/
+=> http://github.com/blog/665-apk-downloads-for-android-projects 4: http://github.com/blog/665-apk-downloads-for-android-projects
+=> http://www.androidpolice.com/2010/06/22/htc-aria-rooted-two-days-after-release-instructions-are-live/ 5: http://www.androidpolice.com/2010/06/22/htc-aria-rooted-two-days-after-release-instructions-are-live/
+=> http://www.zemanta.com/ 6: http://www.zemanta.com/

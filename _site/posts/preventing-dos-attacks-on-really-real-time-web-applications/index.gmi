@@ -1,0 +1,121 @@
+--------------------------------------------------------------------------------
+
+title: "Preventing DoS attacks on Really-real time web applications" date: 2020-05-26
+
+--------------------------------------------------------------------------------
+
+So you have a really-real time web app. Let's assume your stack is built with something like SocketIO, Express, NodeJS.
+
+By default if you roll out this stack you will hit a soft limit at somewhere close to 10,000 messages per second per CPU core. You may think "well I will just scale horizontally and throw more cores at it" and that would be a good idea if you wanted to push a DoS problem onto your bank account instead of handling it at a technical level.
+
+10,000 messages per second sounds like a lot right? It's not, considering a single 2.7Ghz with 2Gb ram client can spin up 1,000 SocketIO cli clients easily you can imagine that if your SocketIO uses rooms or sends to each client that you only need 10 messages from a single malicious client and **your Node app will no longer be available.**
+
+You can, will and should optimize your code, reviewing any blocking processes with the node profiler[1] and optimizing your operating system and running node process. This will get you gains but again, even 100% *gains* wont be sufficient to stop even the most basic of attacks.
+
+Next you may say, okay well I will just make sure users sign up to my application so if it is attacked I can block that user, and while you should block malicious users this wont stop your web app hitting 100% CPU and experiencing a DoS attack.
+
+Finally, and hopefully it was obvious we were getting here, you land at **Rate limiting SocketIO connections**. And you have to do this by IP address. This may seem dragonian but the problem is that a socket IO connection from the CLI client is unique, so if you assign a token or credential or somet hash to each socket based on attributes each connection will look unique.
+
+You may think that rate limiting "change" or "edit" events or even "join" events will be sufficient but it wont. You will need to rate limit all socketIO messages to and from IP addresses. To get the value used here you will need to collect metrics (using something like measured) of user usage to find out a nominal value of socket messages per second per client.
+
+Source[2]
+
+```
+const app = require('http').createServer();
+const io = require('socket.io')(app);
+const { RateLimiterMemory } = require('rate-limiter-flexible');
+
+app.listen(3000);
+
+const rateLimiter = new RateLimiterMemory(
+  {
+    points: 5, // This is the same as number of socket messages as discussed above as "value"
+    duration: 1, // per second
+  });
+
+io.on('connection', (socket) => {
+  socket.on('message', async (data) => { // here message is an incoming message, you will want to also restrict outbound messages.
+    try {
+      await rateLimiter.consume(socket.handshake.address); // consume 1 point per event from IP
+      socket.emit('news', { 'data': data });
+      socket.broadcast.emit('news', { 'data': data });
+    } catch(rejRes) {
+      // no available points to consume
+      // emit error or warning message
+      socket.emit('blocked', { 'retry-ms': rejRes.msBeforeNext });
+    }
+  });
+});
+```
+
+SocketIO doesn't natively provide the ability to intercept every message so you may have to hack that in yourself, ultimately you will need to limit all connectivity to a socket, not just a specific message type. If I ever find an elegant solution for this that doesn't hack at SocketIO code I will update this post.
+
+Alternatively, if you prefer the Token Bucket Algorithm the flood-protection[3] module may be preferable but being mindful no IP address restrictions are in place.
+
+You will also need to limit the number of connected sessions can exist in your server from a specific IP address.
+
+```
+var ipPool = {};
+var limit = 100; // allow 100 connections from an IP address
+io.on('connection', (socket) => {
+  ipPool[socket.ipAddress] =  ipPool[socket.ipAddress] + 1 || 1;
+  if(ipPool[socket.ipAddress] >= limit){
+    socket.emit("Too many connections from this IP address");
+    socket.disconnect();
+    return;
+  }
+}
+```
+
+And we have to remember to reduce the value on disconnect..
+
+```
+io.on('disconnect', (socket) => {
+  if(ipPool[socket.ipAddress]) {
+    ipPool[socket.ipAddress] = ipPool[socket.ipAddress] - 1;
+  }
+}
+```
+
+Finally you will need to stop new connections (ideally just to this node process)once you are at a specific counter or known restriction when your CPU will hit a specific threshold, for example ~50%. In Etherpad we found that once our `pendingEdits` value hits `50` then the CPU gets to roughly `50`. Letting it run up to `100` edits means Etherpad is unavailable. So once we get to 50 `pendingEdits` on a single node we reject new connections.
+
+```
+io.on('connection', (socket) => {
+  if(pendingEdits >= 50) {
+    socket.emit("Server busy");
+    socket.disconnect();
+  }
+}
+```
+
+For all of the above examples where you limit by IP, you may want to allow for a whitelist of IP addresses which will not be rejected.
+
+So to summarize with the three steps above we have.
+
+1. Rate Limited the amount of socket IO messages we send based on IP Address.
+2. Only allowed up to 100 connections established per IP address.
+3. Stopped new connections once the node instance hits a specific threshold.
+
+## Considering remaining DoS vectors.
+
+An attacker could have a bunch of IP addresses.
+Assuming:
+
+* a = 100 connections are allowed per IP address
+* b = 5 messages are allowed per second
+
+If we use the formula `a * b = c` where c is the amount of messages per second a single IP address has created we can see that this single IP address can make 500 messages per second.
+
+We know that a rough benchmark for number of messages per second processable by SocketIO is somewhere in the region of 10,000. So now we can see that with 20 IP addresses an attacker could perform a DoS on this node instance. This is somewhat mitigated by our `pendingEdits` check but this will still provide a poor UX due to new users being unable to use our web app (existing users will continue to function).
+
+Setting the a value less than 100 might restrict institutions such as businesses and schools who route lots of connections through a specific IP address.
+
+Setting the b to a lower value might break application functionality.
+
+## Is it possible to rate limit new connections
+
+No. This gains nothing, you could have a small swarm of 100 unique IP addresses connect to an instance every 10 seconds for a 1000 seconds and you would have 100 * 100 = 100,000 connections on your instance. As soon as one message is sent to all clients your node instance would instantly be blocked and CPU core consumed.
+
+=> https://nodejs.org/en/docs/guides/simple-profiling/ 1: https://nodejs.org/en/docs/guides/simple-profiling/
+=> https://github.com/animir/node-rate-limiter-flexible/wiki/Overall-example#websocket-single-connection-prevent-flooding 2: https://github.com/animir/node-rate-limiter-flexible/wiki/Overall-example#websocket-single-connection-prevent-flooding
+=> https://github.com/yatki/flood-protection 3: https://github.com/yatki/flood-protection

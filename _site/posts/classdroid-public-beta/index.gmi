@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+
+title: "Classdroid public beta" date: 2010-07-15 categories:
+
+* "android"
+* "ict"
+* "primary"
+* "primary-blogger"
+* "wordpress"
+
+--------------------------------------------------------------------------------
+
+=> images/camera_icon_mr_mclear.png [IMG]
+[1]
+
+Here is the Classdroid[2] apk for public beta. We only have support for primaryblogger and xparena(not a live service) available right now. We are waiting on Moodle V2 to bring moodle support in.
+
+1. Get the Classdroid.apk[3] 2. Read this guide for how to install an .apk[4] 3. Make sure you have a Primaryblogger[5] account & Blog 4. Have fun :)
+
+Note:  We still have a lot of GUI tweeking to do but most of the functionality now exists. We will be releasing the source code once beta testing is complete.
+
+Thanks to this guy[6] for the great custom artwork/logo/icon!
+
+Go here for info on classdroid[7]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/07/camera_icon_mr_mclear.png 1: https://mclear.co.uk/wp-content/uploads/2010/07/camera_icon_mr_mclear.png
+=> https://mclear.co.uk/pages/classdroid 2: https://mclear.co.uk/pages/classdroid
+=> http://primaryschoolict.com/Classdroid.apk 3: http://primaryschoolict.com/Classdroid.apk
+=> https://mclear.co.uk/2010/06/28/android-install-apk/ 4: https://mclear.co.uk/2010/06/28/android-install-apk/
+=> http://primaryblogger.co.uk 5: http://primaryblogger.co.uk
+=> http://raindropmemory.deviantart.com/ 6: http://raindropmemory.deviantart.com/
+=> https://mclear.co.uk/pages/classdroid 7: https://mclear.co.uk/pages/classdroid

@@ -1,0 +1,33 @@
+<p>Sugar won’t install by default. I have tried hitting tab and adding <strong>noreplace-paravirt to no avail :(</strong></p>
+
+<p>This is a screen dump of what I have..</p>
+
+<p><a href="http://4.bp.blogspot.com/_NislCXjnul0/StsvXbvx3OI/AAAAAAAACR0/cA4HTVcxVsY/s1600-h/sugar.png"><img src="images/sugar.png" alt="" /></a></p>
+
+<p>Adding <strong>add vga=0x32D will boot me into the GUI but I have no mouse!</strong></p>
+
+<p>Adding i8042.noloop gives me a mouse!</p>
+
+<p>How to do it:</p>
+
+<p>Grab the ISO Image from <a href="http://wiki.sugarlabs.org/go/Downloads">http://wiki.sugarlabs.org/go/Downloads</a></p>
+
+<ol>
+  <li>Create a Virtual PC</li>
+  <li>Set RAM to 256MB</li>
+  <li>Mount Sugar ISO image</li>
+  <li>Start up your Virtual PC</li>
+  <li>A message will pop up saying “Automatic boot up in 1 second” - Hit TAB!</li>
+  <li>You will see a line saying “vmlinuz0 initrd=initrd0.img root=CDLABEL=Soas2-200906221314 rootfstype=auto ro liveimg quiet rhbg”. Remove the last 2 words (quiet and rhbg)</li>
+  <li>Add “vga=0x32D i8042.noloop” to the end of the line</li>
+</ol>
+
+<p>The line should read…</p>
+
+<p><strong>vmlinuz0 initrd=initrd0.img root=CDLABEL=Soas2-200906221314 rootfstype=auto ro liveimg vga=0x32D i8042.noloop</strong></p>
+
+<p>*Note the CDLABEL value may change dependant on the release you use!</p>
+
+<p>**Note Files will not be saved in this version, there will be no persistence so updates will not be saved either. This is not the case if you boot from a USB Key</p>
+
+<p>Congrats - Working Sugar on a virtual PC :)</p>

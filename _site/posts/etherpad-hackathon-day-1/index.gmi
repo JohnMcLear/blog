@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad Hackathon day 1" date: 2010-10-08 categories:
+
+* "etherpad"
+* "primary-pad"
+
+--------------------------------------------------------------------------------
+
+=> images/102_0013-550x309.jpg [IMG]
+[1]
+
+We have got a lot done[2].
+
+We have recorded about 2 hours of video so far, taken a mass of pics,  written lots of code[3] and debugged lots of bugs[4].
+
+=> https://mclear.co.uk/2010/10/08/etherpad-hackathon-day-1/102_0013/ 1: https://mclear.co.uk/2010/10/08/etherpad-hackathon-day-1/102_0013/
+=> http://john.primarypad.com/etherpadagenda 2: http://john.primarypad.com/etherpadagenda
+=> http://github.com/ether/pad/commits/master 3: http://github.com/ether/pad/commits/master
+=> http://github.com/ether/pad/issues 4: http://github.com/ether/pad/issues

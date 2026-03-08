@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad Lite V1 to Etherpad V1.1 Upgrade Path" date: 2012-05-29 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+1. git pull
+2. Open settings.json -> Copy your database settings into your clipboard
+3. Copy settings.template.json over settings.json
+4. If you use dirty.db change the path from “../var/dirty.db” to “var/dirty.db”
+5. Paste your database settings into settings.json
+6. Make sure the paths in /etc/init.d/etherpad-lite are correct if you use it.
+7. Start Etherpad Lite. (Using whatever technique you want, usually /etc/init.d/etherpad-lite start)

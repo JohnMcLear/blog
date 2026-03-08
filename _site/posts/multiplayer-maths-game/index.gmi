@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "Multiplayer maths game" date: 2011-04-30 categories:
+
+* "ict"
+* "primary-games"
+* "primary-games-arena"
+* "primary-school"
+* "primary-school-arena"
+* "primary-school-games"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+
+--------------------------------------------------------------------------------
+
+=> images/webthumb.php [IMG]
+[1]Description: Your Numbers up
+
+Play show[2]
+
+Suitable for ages: 6,7,8,10..
+
+=> http://primarygamesarena.com/show2826 1: http://primarygamesarena.com/show2826
+=> http://primarygamesarena.com/show2826 2: http://primarygamesarena.com/show2826

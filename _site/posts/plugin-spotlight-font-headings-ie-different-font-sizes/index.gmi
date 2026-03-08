@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+title: "Plugin spotlight: Font Headings IE different font sizes" date: 2012-05-29 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+=> images/heading_plugin.png [IMG]
+[1]
+
+Want to make a piece of text stand out? Now you can with this fantastic plugin from FourplusOne you can choose from a number of font sizes and styles.
+Plugin Author: FourPlusOne
+Plugin on npm[2]
+
+=> http://etherpad.org/files/2012/04/heading_plugin.png 1: http://etherpad.org/files/2012/04/heading_plugin.png
+=> http://search.npmjs.org/#/ep_headings 2: http://search.npmjs.org/#/ep_headings

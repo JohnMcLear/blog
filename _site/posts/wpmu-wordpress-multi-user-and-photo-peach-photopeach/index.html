@@ -1,0 +1,39 @@
+<p>You need to extend the embed array in kses.php to allow for the additional param’s passed by PhotoPeach..</p>
+
+<p>Something like this..</p>
+
+<p>‘embed’ =&gt; array (</p>
+
+<p>‘style’ =&gt; array (),</p>
+
+<p>‘type’ =&gt; array (),</p>
+
+<p>‘id’ =&gt; array (),</p>
+
+<p>‘height’ =&gt; array (),</p>
+
+<p>‘width’ =&gt; array (),</p>
+
+<p>‘allowscriptaccess’ =&gt; array (),</p>
+
+<p>‘allowfullscreen’ =&gt; array (),</p>
+
+<p>‘flashvars’ =&gt; array (),</p>
+
+<p>‘movie’ =&gt; array (),</p>
+
+<p>‘photos’ =&gt; array (),</p>
+
+<p>‘src’ =&gt; array ()),</p>
+
+<p>Look out for ‘embed’ =&gt; array (</p>
+
+<p>this is where you add your params then close your array with</p>
+
+<p>),</p>
+
+<p>dont forget to close with ,</p>
+
+<p>This took me an hour or so to figure out how to do so hopefully you will be able to do it quicker.</p>
+
+<p>“Hey I’m Ben, Community Guy at #Photopeach. Just wanted to say thanks for your WPMU embed fix and we’re adding it to our FAQ.”</p>

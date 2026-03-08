@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Simple up vote/down vote electronics project" date: 2011-02-08 categories:
+
+* "electronics"
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+This simple electronics project[1] is a great idea for something kids could make in year 6 or so..  Or at least I think so!
+
+It wont cost that much and I recon if you asked me nicely I could get the boards cut.
+
+Thanks to Hack a day[2] for the nod!
+
+=> http://www.sunreign.com/info/LedrepairFacebookCommunicator 1: http://www.sunreign.com/info/LedrepairFacebookCommunicator
+=> http://hackaday.com/ 2: http://hackaday.com/

@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad with Shibboleth Authentication (Technical document)" date: 2010-03-05 categories:
+
+* "etherpad"
+* "shibboleth"
+
+--------------------------------------------------------------------------------
+
+=> images/ShibEpad.png [IMG]
+[1]I want to login to Etherpad with my UK federation/Shibboleth login.
+
+Firstly I need to get my SP working.
+Configure SP & Apache initially..
+I need to configure Tomcat to use Shibboleth for Authentication[2] configure Jetty to use Shibboleth Authentication.[3]
+Once this is done I will have the users attributes as environment variables.
+
+Now I have the variables I need to create a script to check the variables and create an account if required.  All sounds pretty simple right?  Let's hope so, as I make progress I will document my changes.
+
+I'm referring to the LDAP plugin patch code for how to handle "talking to etherpad".
+
+ETA is 3/4 weeks.  Sucks that I need to use Apache but oh well!!
+
+Note:  Etherpad runs on Jetty, not Tomcat and doesn't require Apache.  It is the shibboleth element of this that requires Apache to operate.
+
+Note:  Thanks to nuba for reminding me about Jetty.
+
+=> http://4.bp.blogspot.com/_NislCXjnul0/S4_e2Pn6LnI/AAAAAAAACsw/WExEbrus3vM/s1600-h/ShibEpad.png 1: http://4.bp.blogspot.com/_NislCXjnul0/S4_e2Pn6LnI/AAAAAAAACsw/WExEbrus3vM/s1600-h/ShibEpad.png
+=> http://wiki.oss-watch.ac.uk/ShibbolethTomcatIntegration 2: http://wiki.oss-watch.ac.uk/ShibbolethTomcatIntegration
+=> http://docs.codehaus.org/display/JETTY/Configuring+AJP13+Using+mod_jk 3: http://docs.codehaus.org/display/JETTY/Configuring+AJP13+Using+mod_jk

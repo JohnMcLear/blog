@@ -1,0 +1,23 @@
+<p>Etherpad won’t start and errors with output</p>
+
+<blockquote>
+  <p>Etherpad Startup execution failed with non-200 response: 500</p>
+</blockquote>
+
+<p><strong>Cause:</strong></p>
+
+<p>Etherpad can’t talk to MySql</p>
+
+<p><strong>Things to check:</strong></p>
+
+<p>1. Your /etc/hosts</p>
+
+<p>2. Your MySQL conf under networking - /etc/mysql/my.cnf</p>
+
+<p>3. Your MySQL conf  bind-address - /etc/mysql/my.cnf</p>
+
+<p>4. The etherpad.SQL_JDBC_URL value in /usr/share/etherpad/etherpad/etc/etherpad.local.properties</p>
+
+<p>Make sure these are correct then restart mysql.  Don’t assume that connecting with mysql -uroot -ppassword etherpad is a good test.</p>
+
+<p><a href="http://www.zemanta.com/" title="Enhanced by Zemanta"><img src="images/zemified_e.png" alt="Enhanced by Zemanta" /></a></p>

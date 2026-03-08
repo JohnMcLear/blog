@@ -1,0 +1,31 @@
+<p>After weeks of tweeking i finally found an environment that works smoothly</p>
+
+<p>2GB VM</p>
+
+<p>I kept my ${MXRAM} at 1800M</p>
+
+<p>$JAVA -classpath $CP \</p>
+
+<p>-server \</p>
+
+<p>-Xmx${MXRAM} \</p>
+
+<p>-Xms${MXRAM} \</p>
+
+<p>-Djava.awt.headless=true \</p>
+
+<p>-XX:MaxGCPauseMillis=500 \</p>
+
+<p>-XX:+UseParallelGC \</p>
+
+<p>-Dappjet.jmxremote=true \</p>
+
+<p>$JAVA_OPTS \</p>
+
+<p>net.appjet.oui.main \</p>
+
+<p>--configFile=${cfg_file} \</p>
+
+<p>”$@”</p>
+
+<p>Note the lack of logging etc.</p>

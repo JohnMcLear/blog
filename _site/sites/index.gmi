@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+
+title: "Creations" date: 2010-03-10
+
+--------------------------------------------------------------------------------
+
+## Organizations
+
+Primary Technology[1] - Schools ICT services.  Majority Shareholder.
+
+Mclear[2] - The parent company that's making your finger smarter.  Sold majority share to MTG Co. Ltd.   Minority Shareholder
+
+## Technical
+
+Wordpress Varnish VCL config[3] - A VCL config that enables scaling of Wordpress using Varnish Cache.
+
+## Concepts
+
+Eyes to the front[4] - A classroom application for rewarding pupil attention
+
+Project XPA[5] - An experience points platform.
+
+## Historical / sold
+
+Primary School Teaching[6] - Teacher resource sharing run by a community of teachers.  Discontinued.
+
+Primary Box[7] - Really real time secrets.  Discontinued.
+
+Schools Web 2 catalogue[8] - A searchable collection of Web2 resources for Primary School Educators.  Discontinued.
+
+Super Trumps - Web-based hero/avatar creator and comparison game designed for schools.  Discontinued.
+
+Primary School TV wordpress plug-in / widget[9] - A simple wordpress plug-in for embedding the latest videos from Primary School TV.  Discontinued.
+
+Profanity filter API[10] - A simple profanity filter API that detects curse words and returns a score based on the naughtiness of the string (English language only).  Discontinued.
+
+Primary Paint[11] - Really real time collaborative painting built on Scribblar[12] technology.  Discontinued.
+
+Satpin[13] - Simple link sharing for KS1.  Discontinued.
+
+Primary School TV[14] - Safe online video for Primary Schools.  Discontinued.
+
+Free online autocue software[15] - A free online autocue / teleprompter and i wrote a jQuery plugin to compliment it.  Discontinued.[16]
+
+Primary School important Events[17] (UK focused) - Dates for important events such as Christmas, New year, and special days such as aids awareness day.  Discontinued.
+
+PrimaryWall[18] - Collaborative sticky notes designed with simplicity in mind.  Discontinued.
+
+Classdroid[19] - An Android application reviewing, grading and publishing pupils class work.  Discontinued.
+
+SearchyPants[20] - Customizable Safe Search engine.  Discontinued.
+
+Primary School Avatar comparison tool[21] - A tool built with Isotope that shows different outputs of various avatar creators so you can pick one that suits your personal style.  Discontinued.
+
+NFC Ring[22] - Your Finger, Smarter.  Sold to MTG Co. Ltd.
+
+Etherpad foundation[23] - The foundation behind the Etherpad open source software.  Resigned from board 2022.  Absorbed by SFC.
+
+Visa Payment Ring[24] - A ring that can be used to make payments.  Sold to MTG Co. Ltd.
+
+Primary Pad[25] - Really real time collaborative text editing built on Etherpad[26] technology.  Discontinued.
+
+Primary Games Arena[27] - Hundreds of categorized educational games run by a community of teachers.  Discontinued.
+
+School Holidays[28] - A site to publish and find your school holiday dates[29].  Discontinued.
+
+Primary / School Email[30] - The UKs #1 school email service.  Discontinued.
+
+Primary Blogger[31] - Free blogging service for primary schools built on Wordpress.[32]  Discontinued.
+
+Free online pictogram creator[33] - A free online pictogram creator/editor/generator aka pictograph & pictogramme.  Discontinued.
+
+Random Name Selector[34] - A random person / name / item selector designed to be used at Teachmeets and also useful to use to pick something random in the classroom.  Discontinued.
+
+Primary Games Arena Plugin / Widget[35] - A simple wordpress plug-in for embedding the latest games from Primary Games Arena.  Discontinued.
+
+BrainPOP Wordpress plug-in[36] - A simple Wordpress plug-in for embedding BrainPOP content.  Discontinued.
+
+Primary School Safe Search[37] - Safe internet search built on Google[38] technology run by a community of teachers.  Discontinued.
+
+=> http://primaryt.co.uk 1: http://primaryt.co.uk
+=> http://mclear.com 2: http://mclear.com
+=> https://mclear.co.uk/2011/10/05/wordpress-varnish-cache-config-vcl/ 3: https://mclear.co.uk/2011/10/05/wordpress-varnish-cache-config-vcl/
+=> https://mclear.co.uk/sites/eyes-to-the-front-classroom-software-concept/ 4: https://mclear.co.uk/sites/eyes-to-the-front-classroom-software-concept/
+=> https://mclear.co.uk/sites/xparena-a-decentralized-learning-reward-platform/ 5: https://mclear.co.uk/sites/xparena-a-decentralized-learning-reward-platform/
+=> http://primaryschoolteaching.co.uk 6: http://primaryschoolteaching.co.uk
+=> http://primarybox.com 7: http://primarybox.com
+=> http://primaryschoolict.com/web2.php 8: http://primaryschoolict.com/web2.php
+=> https://mclear.co.uk/primarytv-wordpress-plugin/ 9: https://mclear.co.uk/primarytv-wordpress-plugin/
+=> http://wiki.primaryt.co.uk/profanity-filter-api/ 10: http://wiki.primaryt.co.uk/profanity-filter-api/
+=> http://primarypaint.co.uk 11: http://primarypaint.co.uk
+=> http://www.scribblar.com 12: http://www.scribblar.com
+=> http://satpin.com 13: http://satpin.com
+=> http://primaryschool.tv 14: http://primaryschool.tv
+=> http://primaryschoolict.com/autoCue/ 15: http://primaryschoolict.com/autoCue/
+=> https://github.com/johnyma22/autoCue 16: https://github.com/johnyma22/autoCue
+=> http://primaryschoolict.com/dates.php 17: http://primaryschoolict.com/dates.php
+=> http://primarywall.com 18: http://primarywall.com
+=> https://mclear.co.uk/sites/classdroid/ 19: https://mclear.co.uk/sites/classdroid/
+=> http://searchypants.com/ 20: http://searchypants.com/
+=> http://primaryschoolict.com/avatars/ 21: http://primaryschoolict.com/avatars/
+=> http://nfcring.com 22: http://nfcring.com
+=> http://etherpad.org 23: http://etherpad.org
+=> http://etherpad.org 24: http://etherpad.org
+=> http://primarypad.com 25: http://primarypad.com
+=> http://etherpad.org 26: http://etherpad.org
+=> http://primarygamesarena.com 27: http://primarygamesarena.com
+=> http://myschoolholidays.com 28: http://myschoolholidays.com
+=> http://myschoolholidays.com 29: http://myschoolholidays.com
+=> http://schoolemail.co.uk 30: http://schoolemail.co.uk
+=> http://primaryblogger.co.uk 31: http://primaryblogger.co.uk
+=> http://wordpress.org 32: http://wordpress.org
+=> http://primaryschoolict.com/pictograph/ 33: http://primaryschoolict.com/pictograph/
+=> http://primaryschoolict.com/random-name-selector 34: http://primaryschoolict.com/random-name-selector
+=> http://wordpress.org/extend/plugins/top-5-educational-flash-interactive-games-for-schools/ 35: http://wordpress.org/extend/plugins/top-5-educational-flash-interactive-games-for-schools/
+=> http://wordpress.org/extend/plugins/brainpop-uk-learning-video/ 36: http://wordpress.org/extend/plugins/brainpop-uk-learning-video/
+=> http://primaryschoolict.com 37: http://primaryschoolict.com
+=> http://google.com/cse 38: http://google.com/cse

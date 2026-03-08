@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+
+title: "Getting a name wrong." date: 2012-02-01 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+We’re having a bit of a reflection period at the Etherpad foundation lately. A big issue for all of us is the name “Etherpad Lite”. **We really messed that up**. Etherpad Lite isn’t Light for the users, Etherpad Lite is light for the admin and the business’ bottom line.
+
+We made the code base 80% lighter, the application requirements 80% lighter, the system requirements 80% lighter but **we kept the majority of the functionality**.. In fact, we introduced more via an API. More potential for developers.. We also made it wayyyy easier for developers to get started as we reduced the whole 3 language stack(scala, java, javascript) down to just one language.
+
+So why Lite and why not V2?
+We didn’t want to upset any foundation members. We knew we had a bunch of talented Java guys we didn’t want to upset and lose so we took the 1/2 cocked descision and tried to keep everyone happy. In hindsight, this was a terrible mistake. We are now 100% sure that the pure JS approach is the future, adoptions are up, performance is up, all of the indicators the foundation committed to from day one are showing positive signs.
+
+We’re a family focused on making the collaborative web better. A group of people made this call and the same group of people are committed to finding a good solution.
+
+Like any organization or individual we know that we have to correct our mistake so we’re on the hunt for a better name for Etherpad Lite.
+
+A consideration is “LinePad” which would stand for Lite Is Not Ether.. Pad…
+Another consideration is NodePad, also Etherpad V2, also Etherpad N (N for Node), also Etherpad JS…
+
+So many choices, how do we make the right one?

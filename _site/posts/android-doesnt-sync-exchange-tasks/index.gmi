@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Android doesn't sync exchange tasks" date: 2009-08-13 categories:
+
+* "android"
+* "exchange"
+* "htc"
+* "snyc"
+* "tasks"
+
+--------------------------------------------------------------------------------
+
+I can't seem to find out how to configure some sort of task syncing for exchange server to my android htc hero.
+
+Anyone know of a way? I have sync enabled for my contacts, calendar & email.

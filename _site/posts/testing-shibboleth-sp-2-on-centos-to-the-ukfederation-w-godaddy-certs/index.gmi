@@ -1,0 +1,72 @@
+--------------------------------------------------------------------------------
+
+title: "Testing Shibboleth SP 2 on CentOS to the ukfederation w/ Godaddy certs" date: 2009-10-27 categories:
+
+* "janet"
+* "shibboleth"
+* "testing"
+
+--------------------------------------------------------------------------------
+
+**Part 4. Testing (2 hours)**
+
+Shibboleth can be started using **/sbin/service shibd start**
+
+Another option is to use: **service shibd restart**
+
+If the above doesn't work try **/usr/sbin/shibd -f**
+
+If you are going to use different commands to start shibd ensure that multiple copies are not running by doing **ps aux | grep shibd**
+
+If you see shibd -f & /usr/sbin/shibd..... then you need to kill them and start one. I recommend using **service shibd start.**
+
+Log files will be in: **/var/log/shibboleth/**
+
+Check the shibd.log file for errors using this command: **cat /var/log/shibboleth/shibd.log | grep ERROR**
+
+Your resource URL is **https://shib.yourdomain.com/secure[1]**
+
+Try browse to it.
+
+If you get nothing then Apache hasn't started properly, check the apache logs.
+
+You should get something that starts with the shibboleth logo OR a WAYF login screen.
+
+If you get the WAYF screen the things are going great, if you get the Shibboleth error message then we need to make some more configuration changes. See your logs and continue reading.
+
+If you get "Cannot connect to shibd process, a site adminstrator should be notified."
+
+then your SELINUX restrictions have kicked in. Check by doing
+
+**cat /var/log/audit/audit.log | grep shib**
+
+More info on SELinux can be found here or by using the **sestatus** command:
+
+A good output should look like this:
+
+> SELinux status: enabled
+> 
+> SELinuxfs mount: /selinux
+> 
+> Current mode: permissive
+> 
+> Mode from config file: enforcing
+> 
+> Policy version: 21
+> 
+> Policy from config file: targeted
+
+The fix for the SELinux problem is documented on Page 1 however I recommend being a bit more brutal if your environment is hyper fussy about security.
+
+Once you have a working setup you can browse to **http://shib.yourdomain.com/Shibboleth.sso/Metadata[2]** to get your automatically generated Metadata and proceed with the UK Federation registration process.
+
+When you speak to the UK Federation to approve your registration you will be asked to run this command from /etc/shibboleth
+
+**openssl x509 -sha1 -in sp.crt -noout -fingerprint**
+
+You will be asked to provide them with the fingerprint so keep a record of this.
+
+Griffin goes "meow".
+
+=> https://shib.yourdomain.com/secure 1: https://shib.yourdomain.com/secure
+=> http://shib.yourdomain.com/Shibboleth.sso/Metadata 2: http://shib.yourdomain.com/Shibboleth.sso/Metadata

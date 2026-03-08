@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------
+
+title: "elgg description box keeps clearing itself" date: 2009-07-04 categories:
+
+* "elgg-description-box-keeps-clearing-itself-embed"
+
+--------------------------------------------------------------------------------
+
+When you upload media in elgg and then try to type a description the box keeps clearing itself..

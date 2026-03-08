@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+
+title: "Is it possible to build Metro Desktop Tiles without Visual Studio?" date: 2011-11-14 categories:
+
+* "developer"
+* "developing"
+* "development"
+
+--------------------------------------------------------------------------------
+
+It pains me that I'm asking this but I have spent the last 3 hours using my favorite search engine looking for an answer to this question and I'm literally licking the pink knotted balloon of the internet right now so please hear me out..
+
+I hate developing on Microsoft platforms, it feels dirty. After watching the Windows 8 developer talks where they introduced Metro and had a bunch of students create their own tiles I figured how hard can it be?
+
+I'm not willing to use Visual Studio. Microsoft said Metro supports CSS/HTML/JS so I want to build my tile in notepad++. I don't mind creating my own manifests, that's fine, but I want to keep it open. I just don't see a way to do this without installing an "app(has to be a binary)" and then binding that app to the desktop and hoping that Windows finds the manifest for the tile and implements it.
+
+Anyone had any luck? I'd love a little tutorial that just shows me how to get started.. Once I'm up and running I will be good to go!
+
+Thanks :)
+
+TLDR: I refuse to use Visual Studio so I want a way to create a desktop tile for Microsoft Windows Metro that doesn't involve compiling anything.

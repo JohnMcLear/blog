@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "Using Abiword with Etherpad on Windows" date: 2011-12-04 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+Step 1. Download and install Abiword for Windows[1]
+
+Step 2. Download and install Notepad++[2]
+
+Step 3. Download and extract Etherpad[3]
+
+Step 4. Enter the Etherpad folder, right click settings.json - Edit the file in Notepad++
+
+Step 5. Find the line [code] abiword : null [/code]
+
+Step 6. Change this line to: [code] "abiword" : "C:\\Program Files (x86)\\AbiWord\\bin\\AbiWord.exe" [/code]
+
+Step 7. Run Etherpad.
+
+=> http://www.abisource.com/download/ 1: http://www.abisource.com/download/
+=> http://notepad-plus-plus.org/download/ 2: http://notepad-plus-plus.org/download/
+=> http://etherpad.org/etherpad-lite-win.zip 3: http://etherpad.org/etherpad-lite-win.zip

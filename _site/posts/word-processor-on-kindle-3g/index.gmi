@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+
+title: "Word Processor on kindle 3G" date: 2010-10-06 categories:
+
+* "etherpad"
+* "ict"
+* "primary"
+* "primary-pad"
+* "primary-school"
+
+--------------------------------------------------------------------------------
+
+PrimaryPad[1] appears to be the first collaborative word processor to be available for Kindle and it sure packs one hell of a Punch.  PrimaryPad[2] is based on Etherpad[3] so you can do really-real time collaboration over the net.  Currently the user interface is a bit tricky to operate but this will be improved over the next few months.
+
+What does this mean?  If someone calls you and asks you to proof read a letter you can easily do it on your kindle and make any changes in really-real time.
+
+What does it mean for schools?  Could this be the beginning of the demise of school infrastructures including servers/wireless networks.  Could 3G/HSDPA be your device connectivity of the future.
+
+This is the first announcement by the Etherpad foundation[4] due over the next 5 days, with another 4 expected it is great news and hopefully a sign of things to come!
+
+=> http://primarypad.com 1: http://primarypad.com
+=> http://primarypad.com 2: http://primarypad.com
+=> http://etherpad.org 3: http://etherpad.org
+=> http://etherpad.org 4: http://etherpad.org

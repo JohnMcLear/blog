@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+
+title: "Educational Gaming on a PC without a iwb/keyboard/mouse." date: 2010-05-29 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+* "review"
+
+--------------------------------------------------------------------------------
+
+Here are two alternative ways to control the Interactive whiteboard[1] or PC in your classroom while engaging in game based learning.
+
+I apologize for the slightly lame video quality, Camera Mouse stuff starts at 2 minutes 20 seconds.
+
+## Timocco[2]'s coloured object tracking.
+
+Using coloured objects and encouraging motor skills[3]. The timocco software (considering I only had a **limited access version**(wtdeuce?)) is average, I mean its okay but it's not web based and it's a bit of a pain to configure, the music is pretty annoying and the games don't really present much scope for learning.  The focus here is on an individual motor skills.  It would be interesting to see multi-player built into this package however I think the obstacle of it not being a web based tool should be overcome first.
+
+## Head tracking[4] with Camera Mouse 2010[5].
+
+**Why 'o Why** does this software not have a simple function that allows the mouse to be clicked when the operator snaps their fingers? Other than that, it was quite an eye opener for me how easy it was to get onto primary games arena and start learning.. Obvious obstacles of no keyboard so I can't input anything or do left/right.  Obvious frustration with the delay before mouse click too..   Other than that, the opportunity and scope for different applications such as this one[6] are obvious.  It was my second time trying to use this tool, it is extremely natural to adopt.  This application is not web based either but it is more of a way of extending your operating system as opposed to just extending an exclusive application.
+
+###### Related articles by Zemanta
+
+* Peter Molyneux: Natal more Revolutionary than the Mouse[7] (godisageek.com)
+* Magic Mouse Patents Revealed[8] (macstories.net)
+* Fly Mouse takes to the air with QWERTY keyboard, gyro, USB wireless[9] (engadget.com)
+
+=> images/reblog_e.png Reblog this post [with Zemanta] [IMG]
+
+Websites and info:
+Timocco[10]
+Camera Mouse 2010[11]
+The webcam I'm using - Microsoft Lifecam[12]
+
+=> http://en.wikipedia.org/wiki/Interactive_whiteboard 1: http://en.wikipedia.org/wiki/Interactive_whiteboard
+=> http://www.timocco.com/ 2: http://www.timocco.com/
+=> http://en.wikipedia.org/wiki/Motor_skill 3: http://en.wikipedia.org/wiki/Motor_skill
+=> http://en.wikipedia.org/wiki/Optical_motion_tracking 4: http://en.wikipedia.org/wiki/Optical_motion_tracking
+=> http://www.cameramouse.org/index.html 5: http://www.cameramouse.org/index.html
+=> https://mclear.co.uk/sites/eyes-to-the-front-classroom-software-concept/ 6: https://mclear.co.uk/sites/eyes-to-the-front-classroom-software-concept/
+=> http://www.godisageek.com/2010/02/peter-molyneux-natal-more-revolutionary-than-the-mouse/ 7: http://www.godisageek.com/2010/02/peter-molyneux-natal-more-revolutionary-than-the-mouse/
+=> http://www.macstories.net/news/magic-mouse-patents-revealed/ 8: http://www.macstories.net/news/magic-mouse-patents-revealed/
+=> http://www.engadget.com/2010/05/03/fly-mouse-takes-to-the-air-with-qwerty-keyboard-gyro-usb-wirel/ 9: http://www.engadget.com/2010/05/03/fly-mouse-takes-to-the-air-with-qwerty-keyboard-gyro-usb-wirel/
+=> http://www.timocco.com 10: http://www.timocco.com
+=> http://www.cameramouse.org/ 11: http://www.cameramouse.org/
+=> http://www.google.co.uk/products/catalog?q=microsoft+lifecam&amp;cid=612360608989386944&amp;ei=KH8BTKOXBpeiwAXj1ajNCQ&amp;sa=title&amp;ved=0CAcQ8wIwADgA#p 12: http://www.google.co.uk/products/catalog?q=microsoft+lifecam&amp;cid=612360608989386944&amp;ei=KH8BTKOXBpeiwAXj1ajNCQ&amp;sa=title&amp;ved=0CAcQ8wIwADgA#p

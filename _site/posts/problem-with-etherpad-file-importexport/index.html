@@ -1,0 +1,69 @@
+<p>In Etherpad when you click to export a Word .doc or .pdf file you get the error:</p>
+
+<p><strong>Error message:</strong> “Unsupported file type:.. Etherpad can only import txt, html, rtf, doc, and docx files.”</p>
+
+<p>Cause: Openoffice is not running or Etherpad not properly configured.</p>
+
+<p>Solution: Add the below to your Etherpad start up script before you start the Etherpad VM.</p>
+
+<p>/usr/bin/soffice.bin -headless -nofirststartwizard -accept=”socket,host=localhost,port=8100;urp;StarOffice.Service &amp;”</p>
+
+<p>Check the following files exist in the instrastructure/lib folder:</p>
+
+<p>activation.jar</p>
+
+<p>cos.jar</p>
+
+<p>dnsjava-2.0.6.jar</p>
+
+<p>jetty-sslengine-6.1.20.jar</p>
+
+<p>juh.jar</p>
+
+<p>ridl.jar</p>
+
+<p>tagsoup-1.2.jar</p>
+
+<p>c3p0-0.9.1.2.jar</p>
+
+<p>derby-10.5.1.1.jar java_uno.jar</p>
+
+<p>jetty-util-6.1.20.jar</p>
+
+<p>jurt.jar</p>
+
+<p>mysql-connector-java-5.1.10.jar</p>
+
+<p>sanselan-0.94aj.jar</p>
+
+<p>unoil.jar</p>
+
+<p>commons-lang-2.4.jar</p>
+
+<p>derbytools.jar</p>
+
+<p>jetty-6.1.20.jar</p>
+
+<p>json.jar</p>
+
+<p>mail.jar</p>
+
+<p>rhino-js-1.7r1.jar</p>
+
+<p>servlet-api-2.5-20081211.jar</p>
+
+<p>yuicompressor-2.4-appjet.jar</p>
+
+<p>You need to modify execution.scala and importexport.scala - See this document</p>
+
+<p>Notes:</p>
+
+<p>Check your etherpad.localdev-default.properties, you should have:</p>
+
+<p>etherpad.soffice = /usr/bin/soffice</p>
+
+<p>Also check during bin/rebuildjar.sh clearcache you don’t get any errors.</p>
+
+<p>I recommend following <a href="http://www.google.com/url?sa=D&amp;q=http://karteek.selfdabba.com/post/301488675/etherpad-opensourced&amp;usg=AFQjCNEgy1trdViiDO_-DqV7ym26QF2ftw">this guide</a> here if you haven’t yet..</p>
+
+<p><a href="http://groups.google.com/group/etherpad-open-source-discuss/browse_thread/thread/1f28d3fec872b905/bdadd85d6e1af59b">This was resolved in a discussion found here</a> (sorry it’s a lengthy discussion)</p>

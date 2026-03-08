@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+
+title: "In Safari a Livescribe embed returns: Flash could not connect to the Livescribe server" date: 2010-08-31 categories:
+
+* "ict"
+
+--------------------------------------------------------------------------------
+
+I'm using embed code to embed a livescribe object onto a web page and I'm getting an error but only in Safari. Embed code works fine in IE/FF/Chrome Code is:
+
+[html]
+
+<object height="316" width="224" align="middle" id="myFlashContent3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param value="http://www.livescribe.com/media/swf/pencastPlayer.swf?path=http://www.livescribe.com/cgi-bin/WebObjects/LDApp.woa/wa/flashXML?xml=0000C0A8011600003A99724B00000129451710B5B2790EAA" name="movie" /> <param value="high" name="quality" /> <param value="true" name="allowfullscreen" /> <object height="316" width="224" align="middle" data="http://www.livescribe.com/media/swf/pencastPlayer.swfpath=http://www.livescribe.com/cgi-bin/WebObjects/LDApp.woa/wa/flashXML?xml=0000C0A8011600003A99724B00000129451710B5B2790EAA" type="application/x-shockwave-flash"> <param value="high" name="quality" /> <param value="true" name="allowfullscreen" /> <a href="http://www.adobe.com/go/getflashplayer"><img alt="Get Adobe Flash player" src="http://www.adobe.com/images/shared/download\_buttons/get\_flash\_player.gif" /></a></object></object> [/html]
+
+Tried updating adobe Flash. Update went fine but still Livescribe still returning:
+
+> Flash could not connect to the Livescribe server, or your upload may have failed. Please delete this file from your Livescribe Online account and re-upload it with Livescribe Desktop.
+> 
+> (Code 3)
+
+Any ideas?
+
+**UPDATE: I managed to fix this by adding** codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0[1]" to the object code so now the embed code looks like this
+
+[html] <object height="316" width="224" align="middle" id="myFlashContent3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"> <param value="http://www.livescribe.com/media/swf/pencastPlayer.swf?path=http://www.livescribe.com/cgi-bin/WebObjects/LDApp.woa/wa/flashXML?xml=0000C0A8011600003A99724B00000129451710B5B2790EAA" name="movie" /> <param value="high" name="quality" /> <param value="true" name="allowfullscreen" /> <object height="316" width="224" align="middle" data="http://www.livescribe.com/media/swf/pencastPlayer.swfpath=http://www.livescribe.com/cgi-bin/WebObjects/LDApp.woa/wa/flashXML?xml=0000C0A8011600003A99724B00000129451710B5B2790EAA" type="application/x-shockwave-flash"> <param value="high" name="quality" /> <param value="true" name="allowfullscreen" /> <a href="http://www.adobe.com/go/getflashplayer"><img alt="Get Adobe Flash player" src="http://www.adobe.com/images/shared/download\_buttons/get\_flash\_player.gif" /></a></object></object> [/html]
+
+=> http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0 1: http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0

@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+title: "Bradford Schools Remote Access upgrades" date: 2011-11-02 categories:
+
+* "bradford"
+* "ict"
+* "primary-school"
+* "remote-access"
+
+--------------------------------------------------------------------------------
+
+On the 1st of November we implemented a number of upgrades to the Bradford Schools Remote Access system.
+
+What has changed?
+
+1. Remote Access is now smoother and faster. We are using new technology to ensure a smoother user experience.
+2. A new Desktop client means that you can access your schools Remote Access from your desktop or start menu without having to go through the web browser.
+3. Increased security means that you can be confident that only your staff are accessing your schools systems.
+
+What if I have a problem with the new system?
+
+Please get in touch and we will resolve it ASAP[1]
+
+Find out more about Bradford Schools Remote Access[2]
+
+Report Post As Inappropriate[3]
+
+=> http://primaryt.co.uk/contact.html 1: http://primaryt.co.uk/contact.html
+=> http://www.primaryt.co.uk/remoteaccess.php 2: http://www.primaryt.co.uk/remoteaccess.php
+=> http://blog.primaryt.co.uk?moderation_action=report_form&amp;object_type=post&amp;object_id=1011&amp;width=250&amp;height=300 3: http://blog.primaryt.co.uk?moderation_action=report_form&amp;object_type=post&amp;object_id=1011&amp;width=250&amp;height=300

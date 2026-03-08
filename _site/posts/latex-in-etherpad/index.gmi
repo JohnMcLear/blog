@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "LaTeX in Etherpad" date: 2015-04-29 categories:
+
+* "etherpad"
+
+--------------------------------------------------------------------------------
+
+=> images/687474703a2f2f692e696d6775722e636f6d2f786559416947772e706e67 [IMG]
+Inserting and collaborating on formulas in Etherpad[1] is really easy by simply installing the ep_mathjax[2] plugin.
+
+## What are these things?
+
+Etherpad[3] is an open-source collaborative editor. LaTeX[4] is a high-quality typesetting system
+
+## Getting started with LaTeX and Etherpad
+
+To install the plugin browse to `http://youretherpadhere/admin/plugins` and install the **ep_mathjax** plugin
+
+Once the plugin is installed click the ∏ button and you can begin writing LaTeX Markup. Submitting the form will insert the LaTeX representation of your text into the pad.
+
+=> http://etherpad.org 1: http://etherpad.org
+=> https://github.com/JohnMcLear/ep_mathjax 2: https://github.com/JohnMcLear/ep_mathjax
+=> http://etherpad.org 3: http://etherpad.org
+=> http://www.latex-project.org/ 4: http://www.latex-project.org/

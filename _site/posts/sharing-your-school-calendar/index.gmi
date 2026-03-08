@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+
+title: "Sharing your school calendar" date: 2011-10-05 categories:
+
+* "ict"
+* "primary-email"
+* "primary-school"
+* "primary-school-ict"
+* "primary-technology"
+* "school-email"
+
+--------------------------------------------------------------------------------
+
+Woohoo, Since I got upgraded on PrimaryEmail I had access to this new calendar sharing thing. Currently I'm sharing my free/busy but you can share anything you want. It works really well!
+
+```html
+<iframe src="http://exchange.schoolemail.co.uk/owa/calendar/John@primaryt.co.uk/Calendar/calendar.html" width="600" height="600"></iframe>
+```
+
+To enable sharing your calendar: Log in to your Primary Email or School Email[1] account via the website. Click Calendar Click Share Click Publish this calendar to the internet Change your settings and then get the Link for viewing calendar in a Web browser
+
+If you want to embed your calendar copy the Link for viewing calendar in a Web browser URL and embed it in an iframe, it will look something like this:
+
+[code] <iframe src="http://exchange.schoolemail.co.uk/owa/calendar/John@primaryt.co.uk/Calendar/calendar.html" width=600 height=600></iframe> [/code]
+
+=> http://primaryemail.co.uk 1: http://primaryemail.co.uk

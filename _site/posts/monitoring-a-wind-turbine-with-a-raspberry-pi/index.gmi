@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+
+title: "Monitoring a Wind Turbine with a Raspberry Pi" date: 2013-05-23 categories:
+
+* "javascript"
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+=> images/saphonian_turbine_bladeless.jpg saphonian_turbine_bladeless [IMG]
+[1]
+
+As a weekend project I wanted to receive an email if my wind turbine wasn't generating power when it should. I didn't want to spend loads of money on fancy new equipment so I hacked it together mostly with equipment I had lying about.
+
+## Requirements
+
+- Wind Turbine or Solar Panel (obviously) - Bridge rectifier (converts the AC from the turbine to DC) - Some sort of voltage regulator (10-24v --> 12v) (or to 5v and skip below) - Car cigarette lighter mobile phone charger (£5) - Raspberry Pi (£35) - Delta Sigma ADC (£25) - USB Cable (£1) - 1 Hour free - Met Office API Key (free -- UK Only)
+
+## Steps
+
+- Wire up the turbine and bridge rectifier - Pop the bridge rectifier into the voltage regulator - Put the regulated voltage through the car voltage adapter, this will give you 5v out - Wire the 5v from the turbine into channel 0 on the Delta Sigma - Pop the ADC into the Pi, follow this guide for setting up the software[2].
+
+## How it works
+
+- The Pi asks the Met Office what the current wind speed is. - If the wind speed is above a threshold then the Pi checks the turbine - If the turbine isn't generating 5v then email me.
+
+## Next Steps
+
+- Use Machine Learning to find a better balance on announcements - Rate limit announcements. - Measure integer of turbine output instead of boolean state. - Wire the Owl energy monitor up to the AC output of the grid tie inverter. - Store value of state in something like Graphite or using Nagios for announcements
+
+=> https://mclear.co.uk/wp-content/uploads/2013/05/saphonian_turbine_bladeless.jpg 1: https://mclear.co.uk/wp-content/uploads/2013/05/saphonian_turbine_bladeless.jpg
+=> https://github.com/johnmclear/house#wind-turbine 2: https://github.com/johnmclear/house#wind-turbine

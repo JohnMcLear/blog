@@ -1,0 +1,11 @@
+<p>This is a quick reference guide, for a <a href="http://www.enrise.com/2011/02/mobile-device-detection-with-wurfl-and-varnish/">proper understanding of what you are doing use this guide</a>. <a href="http://www.mobiledrupal.com/content/mobile-device-detection-varnish-0">This solution is easier to implement and has less of a cpu overhead.</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install libxml2-devel #OR apt-get intall libxml2-dev wget https://gist.github.com/raw/805710/9f34a18e528c20eff1c92672c6f1856ed849f5ea/wurfl.c wget https://gist.github.com/raw/805710/b9272d8a1d32d29034574c88b81fc79eb050e21b/wurfl.h gcc -c -o wurfl.o wurfl.c -I/usr/include/libxml2 -fPIC gcc -shared -Wl,-soname,libwurfl.so.1 -o libwurfl.so.1.0.1 wurfl.o -lxml2 wget http://downloads.sourceforge.net/project/wurfl/WURFL/latest/wurfl-latest.zip unzip wurfl-latest.zip mv wurfl.xml /etc/wurfl.xml cp libwurfl.so /usr/lib ln -s /usr/lib/libwurfl.so /usr/lib64/libwurfl.so
+</code></pre></div></div>
+
+<p>Edit your /etc/varnish/mobile.vcl using <a href="https://gist.github.com/raw/805710/c414644257e76eb3a7b0b2f3574d93cf7cf9d462/default.vcl">this as a guide</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/etc/init.d/varnish stop /usr/sbin/varnishd -s malloc,32M -a 0.0.0.0:80 -f /etc/varnish/mobile.vcl -p 'cc\_command=exec cc -fpic -shared -Wl,-x -lwurfl -o %o %s'
+</code></pre></div></div>
+
+<p>Test by looking in your server heads.. IE in PHP.. print_r ($_SERVER);</p>

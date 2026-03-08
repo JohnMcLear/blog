@@ -1,0 +1,20 @@
+<p>I had a PN532 NFC Reader device on an ESP32 running ESPHome and wanted a way to notify Home Assistant if the Reader became unavailable (and therefore stop functioning).</p>
+
+<p>Always use legit Elechouse PN532 devices, most online stores are selling counterfeits that fail to perform.</p>
+
+<p>Place the following blob in your ESPHome Device Config.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>interval:
+  - interval: 5s
+    then:
+      - lambda: |-
+          id(nfc_connected) = !(id(my_pn532).status_has_warning() || id(my_pn532).is_failed()) &amp;&amp; id(my_pn532).is_ready();
+
+binary_sensor:
+  - platform: template
+    name: "NFC Reader Availability"
+    lambda: |-
+      return id(nfc_connected);
+</code></pre></div></div>
+
+<p>The entity will appear in Home Assistant as “NFC Reader Availability” under the ESPHome Device.</p>

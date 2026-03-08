@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+
+title: "NEW FEATURE:  Forever image and more images on Safe Search" date: 2011-09-19 categories:
+
+* "ict"
+* "primary-school"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+* "safe-search"
+
+--------------------------------------------------------------------------------
+
+```html
+<iframe width="500" height="300" src="http://www.youtube.com/embed/WQF0CxgwZQ0" frameborder="0" allowfullscreen></iframe>
+```
+
+Safe Search[1] now has better image search functionality, returning more results and formatting them better for Primary Pupils! Try it out now 
+=> http://primaryt.primaryblogger.co.uk/wp-includes/images/smilies/icon_smile.gif :) [IMG]
+[2]
+
+=> http://primaryschoolict.com 1: http://primaryschoolict.com
+=> http://primaryschoolict.com/images.php?q=unicorn 2: http://primaryschoolict.com/images.php?q=unicorn

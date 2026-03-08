@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Visual avatar comparison tool" date: 2011-02-14 categories:
+
+* "ict"
+* "primary-school"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+I made a quick visual avatar comparison tool[1] so your class can help pick the best avatar style that suits them. The tool includes a youtube video..
+
+```html
+<iframe src="http://primaryschoolict.com/avatars" width="600" height="900"></iframe>
+```
+
+Visit the avatar comparison tool[2]
+
+=> http://primaryschoolict.com/avatars 1: http://primaryschoolict.com/avatars
+=> http://primaryschoolict.com/avatars 2: http://primaryschoolict.com/avatars

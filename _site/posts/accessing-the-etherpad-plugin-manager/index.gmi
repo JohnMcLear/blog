@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+
+title: "Accessing the Etherpad plugin manager" date: 2011-02-05 categories:
+
+* "etherpad"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+=> images/plugin-manager-550x115.png [IMG]
+[1]
+
+To access your Etherpad plugin manager visit **http://yourdomain.com/ep/admin[2] <-- you may need to alter port ie :9000**
+
+When prompted type your password then click Configuration -> Plugin Manager
+
+The default password is password
+
+=> https://mclear.co.uk/wp-content/uploads/2011/02/plugin-manager.png 1: https://mclear.co.uk/wp-content/uploads/2011/02/plugin-manager.png
+=> http://yourdomain.com/ep/admin 2: http://yourdomain.com/ep/admin

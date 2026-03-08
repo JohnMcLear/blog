@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+title: "More time options available for Random name selector stopwatch" date: 2011-04-28 categories:
+
+* "ict"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+
+--------------------------------------------------------------------------------
+
+=> images/Untitled.png [IMG]
+[1]
+You can now select 1,2,3,4,5,6 or 7 minutes from the stopwatch on the random name selector[2]. Enjoy!
+
+=> http://blog.primaryt.co.uk/files/2011/04/Untitled.png 1: http://blog.primaryt.co.uk/files/2011/04/Untitled.png
+=> http://primaryschoolict.com/random-name-selector/ 2: http://primaryschoolict.com/random-name-selector/

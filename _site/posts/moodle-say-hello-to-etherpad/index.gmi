@@ -1,0 +1,35 @@
+--------------------------------------------------------------------------------
+
+title: "Moodle, say hello to Etherpad" date: 2012-04-30 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+Today we’re pleased to announce a Moodle module that makes collaborative writing inside of Moodle a doddle[1]. Real time editing inside of Moodle brings even more functionality to the worlds most popular Educationally focused Learning Platform. If you want to try it out before you install you can use our sandbox Etherpad deployment at beta.etherpad.org
+
+If you require any assistance deploying Etherpad Lite or help installing new plugins or features then please get in touch.[2]
+
+PrimaryPad offers a hosted Etherpad Lite instance[3] too that can be leveraged so you don’t need to host your own, this service comes with an uptime guarantee and SLA that should provide your school with the piece of mind and simplicity of deployment.
+
+## Get the module now[4]
+
+Watch a video guide for how to get started.
+
+```html
+<iframe width="640" height="480" src="http://www.youtube.com/embed/fxc-taW6UBE" frameborder="0" allowfullscreen></iframe>
+```
+
+We want to send a huge thanks out to Chris K from Dearborn Public Schools[5] for leading on this project and also @spnova[6] who lead the development.
+
+Further reading ODT[7] PDF[8] DOC[9]
+
+=> https://github.com/ether/etherpad 1: https://github.com/ether/etherpad
+=> http://etherpad.org 2: http://etherpad.org
+=> http://primarypad.com 3: http://primarypad.com
+=> https://github.com/ether/etherpad 4: https://github.com/ether/etherpad
+=> http://blog.dearbornschools.org/webmaster 5: http://blog.dearbornschools.org/webmaster
+=> http://github.com/spnova 6: http://github.com/spnova
+=> http://etherpad.org/files/2012/04/etherpad-moodle-install.odt 7: http://etherpad.org/files/2012/04/etherpad-moodle-install.odt
+=> http://etherpad.org/files/2012/04/etherpad-moodle-install.pdf 8: http://etherpad.org/files/2012/04/etherpad-moodle-install.pdf
+=> http://etherpad.org/files/2012/04/etherpad-moodle-install.doc 9: http://etherpad.org/files/2012/04/etherpad-moodle-install.doc

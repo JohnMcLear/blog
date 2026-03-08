@@ -1,0 +1,51 @@
+<p>UPDATE: Me Gusta! All these things now exist. To improve your Etherpad plugin run</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node bin/plugins/checkPlugins.js ep_whatever
+
+</code></pre></div></div>
+
+<p>In this blog post I will propose some methods to improve Etherpad plugins. This is a musing for myself a brain dump / wish list of things we might want to have in the future.</p>
+
+<h2 id="test-coverage">Test coverage</h2>
+
+<p>Does a plugin have test coverage? No test coverage discovered?</p>
+
+<p>How to: Open Github issue including example source code.</p>
+
+<p>Does the plugin have CI? If not create it..</p>
+
+<p>How to: Create .travis file - Possible to automatically register repo as active in travis? <a href="https://github.com/ether/ep_comments/blob/master/.travis.yml">Example travis test file</a></p>
+
+<p>Automatically test plugins when a new version of Etherpad is released.</p>
+
+<p>How to: Github actions?</p>
+
+<h2 id="license">License</h2>
+
+<p>No License?</p>
+
+<p>How to: Suggest Apache 2 license to plugin as pull request</p>
+
+<h2 id="translations">Translations</h2>
+
+<p>If plugin has i18n, automatically register plugins to Translate Wiki. If not, suggest supporting i18n.</p>
+
+<h2 id="readme">Readme</h2>
+
+<p>Does the README file include a license?</p>
+
+<p>Does the README contain an animated gif of user experience?</p>
+
+<p>Does the plugin contain references to Etherpad as Etherpad lite?</p>
+
+<h2 id="common-faults">Common faults</h2>
+
+<p>Is <a href="https://github.com/JohnMcLear/ep_align/blob/master/.ep_initialized">.ep_initialized</a> included in the repo root? Send PR suggesting to remove it</p>
+
+<p>Does .gitignore exist in root? If not? Send PR suggesting content</p>
+
+<p>Does packages.json include link to repository?</p>
+
+<p>Does package include npm-debug.log? Send PR removing it</p>
+
+<p>JShint/lint?</p>

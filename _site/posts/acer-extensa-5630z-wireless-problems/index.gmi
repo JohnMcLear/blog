@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "Acer Extensa 5630z Wireless problems" date: 2009-05-07 categories:
+
+* "acer-wireless-problems"
+
+--------------------------------------------------------------------------------
+
+Acer Extensa 5630z Wireless was working fine on 'el budgeto points
+
+Moved the laptop onto a managed wireless solution and it keeps dropping packets.
+
+Quick fix, Goto configure the wireless adapter , click advanced, and set the Power Save Mode to Off
+
+Enjoy

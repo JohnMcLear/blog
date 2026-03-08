@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+
+title: "Google buy a microblogger service then kill it off" date: 2009-11-13 categories:
+
+* "google"
+
+--------------------------------------------------------------------------------
+
+=> images/googletwitter.png [IMG]
+[1]
+Finnish microblogging service Jaiku has been acquired by Google[2] (NSDQ: GOOG[3]) for an undisclosed sum, according to an announcement on the company’s site. Like its main competitor Twitter[4], Jaiku allows users to share short messages and presence alerts with each other, using either a computer or a mobile device. Oct 2007.
+
+Article source: http://paidcontent.co.uk/article/419-microblogging-platform-jaiku-acquired-by-google/[5]
+
+It does give to wonder why Google would want to buy the code from a Microblogger service though.
+
+=> http://4.bp.blogspot.com/_NislCXjnul0/SvzMwyyi_MI/AAAAAAAACaU/abh7o4aUYaQ/s1600-h/googletwitter.png 1: http://4.bp.blogspot.com/_NislCXjnul0/SvzMwyyi_MI/AAAAAAAACaU/abh7o4aUYaQ/s1600-h/googletwitter.png
+=> http://www.google.com/ 2: http://www.google.com/
+=> http://finance.paidcontent.org/paidcontent?Page=QUOTE&amp;Ticker=GOOG 3: http://finance.paidcontent.org/paidcontent?Page=QUOTE&amp;Ticker=GOOG
+=> http://www.twitter.com/ 4: http://www.twitter.com/
+=> http://paidcontent.co.uk/article/419-microblogging-platform-jaiku-acquired-by-google/ 5: http://paidcontent.co.uk/article/419-microblogging-platform-jaiku-acquired-by-google/

@@ -1,0 +1,115 @@
+<h2 id="part-3-apache-config-1-hour">Part 3. Apache config. (1 hour)</h2>
+
+<p>[bash] cd /etc/shibboleth openssl genrsa -des3 -out external.key 2048 openssl req -new -key external.key -out external.csr [/bash]</p>
+
+<p>The above will create a CSR request for your resource, when asked what the common name is enter something like shib.yourdomain.com - <strong>DO NOT</strong> use sp.yourdomain.com or the same common name as you used to register your SP!</p>
+
+<p>Edit the CSR and <strong>copy its contents into clipboard</strong>. Then login to your godaddy hosting account and <strong>paste the CSR request into your certificate reques</strong><strong>t.</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Godaddy will do their thing then get back to you with a CRT a few files usually within 24 hours.
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>When they get back to you with the files copy or download them the files to /etc/shibboleth
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Rename shib.yourdomain.com.crt to external.crt
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Rename gd_bundle.crt to external_int.crt and place it in /etc/shibboleth
+</code></pre></div></div>
+
+<p>**```
+Edit /etc/httpd/conf.d/ssl.conf</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&gt; Replace
+&gt; 
+&gt; ```
+&gt; SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+&gt; ```
+&gt; 
+&gt; ```
+&gt; With
+&gt; ```
+&gt; 
+&gt; ```
+&gt;  SSLCertificateKeyFile /etc/shibboleth/external.key
+&gt; ```
+&gt; 
+&gt; **Replace**
+&gt; 
+&gt; SSLCertificateFile /etc/pki/tls/private/localhost.crt
+&gt; 
+&gt; With
+&gt; 
+&gt; SSLCertificateFile /etc/shibboleth/external.crt
+&gt; 
+&gt; ```
+&gt; Under SSLCertificateKeyFile paste SSLCertificateChainFile /etc/shibboleth/external_int.crt
+&gt; ```
+
+</code></pre></div></div>
+<p>Edit /etc/httpd/conf/httpd.conf</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&gt; ```
+&gt; Replace
+&gt; ```
+&gt; 
+&gt; ```
+&gt;  UseCanonicalName Off
+&gt; ```
+&gt; 
+&gt; ```
+&gt; With
+&gt; ```
+&gt; 
+&gt; ```
+&gt;  UseCanonicalName On
+&gt; ```
+&gt; 
+&gt; ```
+&gt; Find the line beginning with ServerName
+&gt; ```
+&gt; 
+&gt; ```
+&gt; Comment it out
+&gt; ```
+&gt; 
+&gt; ```
+&gt; Below it type ServerName shib.yourdomain.com:80
+&gt; ```
+
+</code></pre></div></div>
+<p>/usr/sbin/apachectl restart</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+<p>/usr/sbin/apachectl start</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+<p>The above commands will restart Apache or start it if it hasn’t already been started</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+<p>Edit  /etc/sysconfig/iptables &amp; above all REJECT rules paste:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+&gt; ```
+&gt; -A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+&gt; ```
+&gt; 
+&gt; ```
+&gt; -A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 443 -j ACCEPT
+&gt; ```
+&gt; 
+&gt; ```
+&gt; -A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 8443 -j ACCEPT
+&gt; ```
+
+</code></pre></div></div>
+<p>/sbin/service iptables restart</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+<p>If everything restarts without any errors then:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+<p>Continue to the testing phase
+```**</p>

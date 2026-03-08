@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------
+
+title: "3 font APIs and a font stack generator" date: 2010-12-22 categories:
+
+* "developer"
+* "developing"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+So you want to change the font on your website and you want it to be a funkier font? Google appears to lower their competitors in Google search results so I figured I would give them a fighting chance.
+
+PrimaryBlogger[1] has the Google Font API plugin enabled by default.  You can install the plugin from the "Add New" tab under the plugins section of your WordPress admin. Or, upload the plugin folder to your server and do it the old fashioned way.
+
+Here are 3 font APIs you could use:
+
+## 
+=> images/foundries201008121-550x163.gif [IMG]
+[2]
+
+## TypeKit[3]
+
+Free for 2 fonts, slightly fussy to deploy, requires sign up, requires a badge on your website.
+
+--------------------------------------------------------------------------------
+
+## 
+=> images/webfonts1-550x310.png [IMG]
+[4]http://typekit.com/tour/library[5]
+
+http://typekit.com/tour/library[6]
+
+## Fonts.Com Developer Font API[7]
+
+Thousands of fonts, slightly fussy to deploy, requires sign up, requires a badge on your website.
+
+--------------------------------------------------------------------------------
+
+=> images/font_directory_logo_beta1.gif [IMG]
+[8]
+
+## Google Fonts API[9]
+
+Google Font API is probably the easiest of the 3 to deploy and doesn't require a badge or sign up. It is the most limited as far as # of fonts to chose from.
+
+--------------------------------------------------------------------------------
+
+## 
+=> images/awesome-550x284.png [IMG]
+[10] Awesome Font stack[11]
+
+http://awesome-fontstacks.com/[12]A super slick font selector/generator that gives you the files and CSS to go ahead and get started. I like it because you can try multiple fonts together before downloading them.
+
+Find our more about webfonts[13]
+
+###### Related articles
+
+* Introducing the Ubuntu Font Family to the web[14] (googlewebfonts.blogspot.com)
+* Google now offering worldwide usage stats for its Fonts API [TNW Google][15] (thenextweb.com)
+* Ubuntu Font added to Google Font Directory (omgubuntu.co.uk)
+* Google Font Previewer[16] (googlesystem.blogspot.com)
+* 22 Best free fonts for Designers[17] (shoutmeloud.com)
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[18]
+
+=> http://primaryblogger.co.uk 1: http://primaryblogger.co.uk
+=> https://mclear.co.uk/wp-content/uploads/2010/12/foundries201008121.gif 2: https://mclear.co.uk/wp-content/uploads/2010/12/foundries201008121.gif
+=> http://typekit.com/tour/library 3: http://typekit.com/tour/library
+=> https://mclear.co.uk/wp-content/uploads/2010/12/webfonts1.png 4: https://mclear.co.uk/wp-content/uploads/2010/12/webfonts1.png
+=> http://typekit.com/tour/library 5: http://typekit.com/tour/library
+=> http://typekit.com/tour/library 6: http://typekit.com/tour/library
+=> http://webfonts.fonts.com/ 7: http://webfonts.fonts.com/
+=> https://mclear.co.uk/wp-content/uploads/2010/12/font_directory_logo_beta1.gif 8: https://mclear.co.uk/wp-content/uploads/2010/12/font_directory_logo_beta1.gif
+=> http://code.google.com/apis/webfonts/ 9: http://code.google.com/apis/webfonts/
+=> https://mclear.co.uk/wp-content/uploads/2010/12/awesome.png 10: https://mclear.co.uk/wp-content/uploads/2010/12/awesome.png
+=> http://awesome-fontstacks.com/ 11: http://awesome-fontstacks.com/
+=> http://awesome-fontstacks.com/ 12: http://awesome-fontstacks.com/
+=> http://www.webfonts.info/ 13: http://www.webfonts.info/
+=> http://googlewebfonts.blogspot.com/2010/12/introducing-ubuntu-font-family-to-web.html 14: http://googlewebfonts.blogspot.com/2010/12/introducing-ubuntu-font-family-to-web.html
+=> http://thenextweb.com/google/2010/11/25/google-now-offering-worldwide-usage-stats-for-its-fonts-api/ 15: http://thenextweb.com/google/2010/11/25/google-now-offering-worldwide-usage-stats-for-its-fonts-api/
+=> http://googlesystem.blogspot.com/2010/07/google-font-previewer.html 16: http://googlesystem.blogspot.com/2010/07/google-font-previewer.html
+=> http://www.shoutmeloud.com/22-best-free-fonts-for-designers.html 17: http://www.shoutmeloud.com/22-best-free-fonts-for-designers.html
+=> http://www.zemanta.com/ 18: http://www.zemanta.com/

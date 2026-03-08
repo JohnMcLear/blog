@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+
+title: "A short Etherpad Lite talk" date: 2012-01-02 categories:
+
+* "features"
+
+--------------------------------------------------------------------------------
+
+```html
+<iframe width="560" height="315" src="http://www.youtube.com/embed/O0iUfphD6UA" frameborder="0" allowfullscreen></iframe>
+```
+
+Report Post As Inappropriate[1]
+
+=> http://etherpad.org?moderation_action=report_form&amp;object_type=post&amp;object_id=547&amp;width=250&amp;height=300 1: http://etherpad.org?moderation_action=report_form&amp;object_type=post&amp;object_id=547&amp;width=250&amp;height=300

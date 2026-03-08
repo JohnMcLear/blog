@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+
+title: "Google Cloudcourse is not a learning platform" date: 2010-05-26 categories:
+
+* "google"
+* "ict"
+* "primary"
+* "primary-school"
+* "primary-school-ict"
+* "review"
+
+--------------------------------------------------------------------------------
+
+**
+=> images/logo_1601.png [IMG]
+[1]***"CloudCourse is a course scheduling system. " -- Google Code[2].*
+
+**Not a learning platform.  (as claimed by this post[3])**
+
+C'mon people, just because something is a web based tool that can be used WITHIN a learning platform doesn't mean it IS a learning platform.  Educators are already confused enough with companies offering them learning platforms that don't do what a learning platform should do according to Becta(RIP) and Wikipedia[4].
+
+*Obviously a lot of people are still confused to what is a learning platform.  I recommend you watch this video[5].*
+
+***There is a live version of cloudcourse for YOU TO PLAY WITH here.[6]***
+
+It is pretty much irrelevant for Primary Schools, I will try to find a creative way to use it in a primary but don't hold your breath...
+
+I am waiting on a call/email from Irwin(from the CloudCourse team) who will hopefully disagree with me and prove me wrong.
+
+**Does Cloudcourse compete with Frog, Moodle & other learning platforms?  No.**
+
+###### Related articles by Zemanta
+
+* The VLE challenge[7] (mclear.co.uk)
+* CloudCourse: An Enterprise Application in the Cloud[8] (google-opensource.blogspot.com)
+* Is Google Getting In To the LMS Business?[9] (downes.ca)
+
+=> images/reblog_e.png Reblog this post [with Zemanta] [IMG]
+
+=> https://mclear.co.uk/wp-content/uploads/2010/05/logo_1601.png 1: https://mclear.co.uk/wp-content/uploads/2010/05/logo_1601.png
+=> http://code.google.com/p/cloudcourse/ 2: http://code.google.com/p/cloudcourse/
+=> http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html 3: http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html
+=> http://en.wikipedia.org/wiki/Virtual_learning_environment 4: http://en.wikipedia.org/wiki/Virtual_learning_environment
+=> https://mclear.co.uk/2010/05/25/what-is-a-learning-platform/ 5: https://mclear.co.uk/2010/05/25/what-is-a-learning-platform/
+=> https://primarycourse.appspot.com/ 6: https://primarycourse.appspot.com/
+=> https://mclear.co.uk/2010/03/26/the-vle-challenge/ 7: https://mclear.co.uk/2010/03/26/the-vle-challenge/
+=> http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html 8: http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html
+=> http://www.downes.ca/cgi-bin/page.cgi?post=52503 9: http://www.downes.ca/cgi-bin/page.cgi?post=52503

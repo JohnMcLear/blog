@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Primary Blogger update" date: 2009-09-10 categories:
+
+* "primary-blogger"
+* "primary-school-ict"
+
+--------------------------------------------------------------------------------
+
+Hi all, just FYI when we updated Primary Blogger[1] to the latest version of wordpress it broke RSS feeds. We fixed it using this fix.[2]
+
+We also added an FAQ[3] to the site[4].
+
+Thanks!
+
+=> http://primaryblogger.co.uk 1: http://primaryblogger.co.uk
+=> http://www.flyaga.info/en/wordpress/plugins/fix-rss-feed-error-wordpress-plugins.htm/ 2: http://www.flyaga.info/en/wordpress/plugins/fix-rss-feed-error-wordpress-plugins.htm/
+=> http://primaryblogger.co.uk/ 3: http://primaryblogger.co.uk/
+=> http://primaryblogger.co.uk 4: http://primaryblogger.co.uk

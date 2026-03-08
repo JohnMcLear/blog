@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+
+title: "Primary Blogger upgrades" date: 2011-05-17 categories:
+
+* "blog"
+* "ict"
+* "primary-blogger"
+* "primary-school"
+* "primary-schools"
+* "primary-schools-ict"
+* "primary-technology"
+* "wordpress"
+
+--------------------------------------------------------------------------------
+
+The PrimaryBlogger upgrades have been successful, you should hopefully notice a speed improvement when logged into your blog’s dashboard.
+
+Enjoy 
+=> http://blog.primaryt.co.uk/wp-includes/images/smilies/icon_smile.gif :) [IMG]

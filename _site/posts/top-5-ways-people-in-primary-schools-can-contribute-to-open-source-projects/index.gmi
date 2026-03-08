@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+title: "Top 5 ways people in Primary Schools can contribute to open source projects" date: 2009-07-20 categories:
+
+* "free"
+* "ict"
+* "learning"
+* "open-source"
+* "primary-schools"
+* "top-5"
+
+--------------------------------------------------------------------------------
+
+People working and learning Primary Schools benefit greatly from open source, with limited budgets available to spend on software since the e-learning credit pool of excessive levels of money were available schools have been shocked to find the reality of the cost of software so have opted for free hosted solutions which build their revenue from ads and other alternatives.
+
+Open source tends to mean not for profit and this tends to mean the school pay nothing for the service, this is only possible if people who use the software contribute back to the community to improve the service.
+
+How can you or someone in your school help the open source community?
+
+**1. Tell the community about your experiences using the product/service.**
+
+**2. Proof read for bad grammar and** **speeling** **mistakes and/or write documentation for usage.**
+
+**3. Create resources for the service (if applicable).**
+
+**4. Recommend the service/product to a friend.**
+
+**5. Donate to the organization providing the service/product.**
+
+If you do just 1 of 5 of these for each of the open source services you use then you are making your life slightly better each time.

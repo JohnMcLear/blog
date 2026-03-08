@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "Testbase theme for Office 2007 or simplfied Office 2007 user interface" date: 2009-05-11 categories:
+
+* "adm"
+* "childrens"
+* "group-policy"
+* "kids"
+* "office"
+* "office-2007"
+* "pack"
+* "primary-school"
+* "pupils"
+* "simple"
+* "student"
+* "testbase"
+* "theme"
+
+--------------------------------------------------------------------------------
+
+Does anyone know if either of these exist? I swear I have seen one that used group policy objects & ADM snap ins.
+
+I found the Office 2007 adms but all they allow you to do is disable objects, I want to hide/increase size/remove objects & entire tabs.
+
+I need them for a primary school to do a proof of concept.

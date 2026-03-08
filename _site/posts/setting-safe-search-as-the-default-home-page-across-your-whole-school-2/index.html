@@ -1,0 +1,72 @@
+<p><strong>Creating a Group Policy Object (GPO) to set Safe Search as your Homepage</strong></p>
+
+<ol>
+  <li>Open <strong>Group Policy Management Console</strong> – It is found under <strong>Administrative Tools</strong> on the server Start Menu</li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image002.jpg"><img src="images/clip_image002_thumb.jpg" alt="clip_image002" title="clip_image002" /></a></p>
+
+<ol>
+  <li>Right click on <strong>Group Policy Objects</strong> and select <strong>New</strong></li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image0041.jpg"><img src="images/clip_image004_thumb1.jpg" alt="clip_image004" title="clip_image004" /></a></p>
+
+<ol>
+  <li>Name the policy “<strong>Users – Set Homepage</strong>” – This will be a user policy rather than a computer policy, using a meaningful description will help administration later on.</li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image006.jpg"><img src="images/clip_image006_thumb.jpg" alt="clip_image006" title="clip_image006" /></a></p>
+
+<ol>
+  <li><strong>Right click</strong> on the policy and select <strong>Edit</strong>. The Group Policy Editor will now open.</li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image008.jpg"><img src="images/clip_image008_thumb.jpg" alt="clip_image008" title="clip_image008" /></a></p>
+
+<ol>
+  <li>Browse through the tree structure to display I<strong>mportant URLs</strong> in the right hand side of the browser</li>
+</ol>
+
+<p><strong>User Configuration &gt; Windows Settings &gt; Internet Explorer Maintenance &gt; URLs</strong></p>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image010.jpg"><img src="images/clip_image010_thumb.jpg" alt="clip_image010" title="clip_image010" /></a></p>
+
+<ol>
+  <li><strong>Right click</strong> on <strong>Important URLs</strong> and select <strong>Properties</strong></li>
+</ol>
+
+<p>Enter the following address for the homepage URL into the dialogue box</p>
+
+<p><a href="http://www.primaryschoolict.com">Http://www.primaryschoolict.com</a></p>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image012.jpg"><img src="images/clip_image012_thumb.jpg" alt="clip_image012" title="clip_image012" /></a></p>
+
+<ol>
+  <li>
+    <p>Click on <strong>Ok</strong> and close the <strong>Group Policy Editor</strong></p>
+  </li>
+  <li>
+    <p>Within the <strong>Group Policy Management</strong> Window browse to the Organisational Unit containing your school users</p>
+  </li>
+  <li>
+    <p><strong>Right click</strong> on the Organisation Unit and select <strong>Link an existing GPO.</strong></p>
+  </li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image014.jpg"><img src="images/clip_image014_thumb.jpg" alt="clip_image014" title="clip_image014" /></a></p>
+
+<ol>
+  <li>Select your new GPO from the list and click <strong>Ok</strong></li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image016.jpg"><img src="images/clip_image016_thumb.jpg" alt="clip_image016" title="clip_image016" /></a></p>
+
+<ol>
+  <li>Your new GPO is now linked and will be applied to the users contained within the Organisational Unit you selected</li>
+</ol>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg"><img src="images/clip_image018_thumb1.jpg" alt="clip_image018" title="clip_image018" /></a></p>
+
+<p><a href="http://blog.primaryt.co.uk/files/2011/06/clip_image0181.jpg"></a><br />
+<strong>Please be aware if you have another GPO applied at a higher level, for example in the Default Domain Policy settings may not be applied as anticipated. This can happen if you have two conflicting GPO’s. For example if you have two policies to set the homepage, one using www.bbc.co.uk and another using <a href="http://www.google.co.uk/">www.google.co.uk</a>, one of the setting will take precedence.</strong></p>

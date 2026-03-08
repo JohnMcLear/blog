@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+
+title: "Etherpad 1.1 released!" date: 2010-10-25 categories:
+
+* "etherpad"
+* "ict"
+
+--------------------------------------------------------------------------------
+
+Yay, we managed to get 1.1 out of the door! It has taken a lot longer than hoped but we hope you enjoy it :)
+
+Etherpad foundation press release[1]
+
+=> http://etherpad.org/2010/10/14/241/ 1: http://etherpad.org/2010/10/14/241/

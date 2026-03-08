@@ -1,0 +1,9 @@
+<p><a href="http://code.google.com/p/skipfish/">Skipfish</a> is a tool that can test your websites for exploits. <strong>Do not use skipfish to be evil.</strong></p>
+
+<p>[bash] # Note: Not using a package manager so the docs are cross OS. # Note: Check for the latest version before doing the “Grab” parts. Grab <a href="http://ftp.gnu.org/gnu/libidn/libidn-1.18.tar.gz">http://ftp.gnu.org/gnu/libidn/libidn-1.18.tar.gz</a> tar -zxvf libidn-1.18.tar.gz cd libidn-1.18 ./configure make make install cd ..</p>
+
+<p>Grab <a href="http://skipfish.googlecode.com/files/skipfish-1.84b.tgz">http://skipfish.googlecode.com/files/skipfish-1.84b.tgz</a> tar -zxvf skipfish-1.84b.tgz cd skipfish-1.84b make</p>
+
+<p># Refer to README if you want to not run a “heavy” test cp dictionaries/complete.wl skipfish.wl</p>
+
+<p>mkdir /tmp/skipfish ./skipfish -o /tmp/skipfish http://domain.com/ [/bash]</p>

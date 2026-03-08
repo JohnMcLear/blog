@@ -1,0 +1,52 @@
+--------------------------------------------------------------------------------
+
+title: "Google Apps in a Primary School – Getting Started guide" date: 2009-11-24 categories:
+
+* "apps"
+* "google"
+* "ict"
+* "primary"
+* "primary-email"
+* "primary-school-email"
+* "primary-school-ict"
+* "school-email"
+
+--------------------------------------------------------------------------------
+
+**Considerations**
+
+**What is Google Apps?**
+
+Google Apps is a Google provided alternative to a very popular Word processing and spreadsheet editing application frequently used in Primary Schools. Google Apps also includes Google Sites (Individual sites & wikis) Gmail, Google Calendars and Google Talk. Google Apps is free for schools. More information on Google Apps can be found at http://google.com/apps/[1]
+
+**Is Google Apps right for your primary school?**
+
+Google Apps Education edition requires internet connectivity to function. If your school has unreliable internet then Google Apps may not be for you. If you allow pupils to take devices home or they have computers at home then Google Apps is probably for you as you can access the same files from anywhere with an internet connection. Truthfully speaking a lot of schools that move from Microsoft products to Google Apps do it when they review their licensing cost or are due a large upgrade. Microsoft Office costs £32 per machine for an educational VLK license, as more devices go into schools this cost is increasing and pupils are encouraged to continue learning outside of the school; can your school and your pupil’s parents afford this cost?
+
+**The 3 main benefits of Google Apps.**
+
+1.
+
+ Stability and remote storage – work is saved on the internet.
+2.
+
+ Collaboration – Pupils and teachers can easily share work.
+3.
+
+ Accessibility – Work can be accessed from home or school.
+
+**Education Edition Vs Standard Edition.**
+
+http://sites.google.com/site/colettecassinelli/apps[2] - This website shows the Pros and Cons Google Apps Education Edition Vs a standard Google account. Google Standard Edition requires for the child to be 13+ so it is not really possible to use standard edition without extra considerations. One big pro the site doesn’t mention is that with Google Apps Education edition you can use single sign on in the form of shibboleth. This removes the maintenance of creating "per pupil accounts" and also Shibboleth handles what user information is passed making the data protection much easier to manage. I have only documented the Education Edition sign up for the above reasons and this is our recommended solution.
+
+**How long will it take for me to configure?**
+
+The maximum time from start to finish is 1 week, this is due to Google approving the establishment’s entitlement to the service. If you decide to do all of the configuration work yourself it will take about 2/4 hours depending on your technical understanding and ability and access to a DNS control panel for your domain. You may chose to get your schools parents to sign an acceptable use policy, there is an example Agreement available for UK schools here à http://primaryschoolteaching.co.uk/pg/pages/view/8763/[3]
+
+**Google Apps is right for me, Continue to the preparation of a Primary School Google Apps Education Edition[4]** **à[5]**
+
+=> http://google.com/apps/ 1: http://google.com/apps/
+=> http://sites.google.com/site/colettecassinelli/apps 2: http://sites.google.com/site/colettecassinelli/apps
+=> http://primaryschoolteaching.co.uk/pg/pages/view/8763/ 3: http://primaryschoolteaching.co.uk/pg/pages/view/8763/
+=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/ 4: https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/
+=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/ 5: https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/

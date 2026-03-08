@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+
+title: "Microsoft Exchange blog" date: 2011-07-08
+
+--------------------------------------------------------------------------------
+
+[caption id="" align="alignright" width="300" caption="Image via Wikipedia"]
+=> images/300px-Exchange-2010logo.jpg http://img.tecnologiapyme.com/2009/11/exchange... [IMG]
+[1][/caption]
+
+A few years back I stopped most of my work on our pretty nice Microsoft Exchange service and handled over full control the extremely competant Mark at Primary Technology[2].  Mark has many years experience working on our Microsoft Exchange for schools service[3] and I have to say his recent blogging on Exchange 2007 to 2010 migration is fantastic[4].  If you have a minute and you're into Microsoft Exchange stuff then check out Marks fantastic blog[5]!
+
+Also keep your eye on things changing at School Email, we're introducing the new interface and a bunch of other amazing new feature that we are sure schools are going to absolutely love!
+
+=> images/zemified_e.png Enhanced by Zemanta [IMG]
+[6]
+
+=> http://commons.wikipedia.org/wiki/File:Exchange-2010logo.jpg 1: http://commons.wikipedia.org/wiki/File:Exchange-2010logo.jpg
+=> http://primaryt.co.uk 2: http://primaryt.co.uk
+=> http://schoolemail.co.uk 3: http://schoolemail.co.uk
+=> http://blog.markftw.com/category/exchange-server/ 4: http://blog.markftw.com/category/exchange-server/
+=> http://blog.markftw.com/ 5: http://blog.markftw.com/
+=> http://www.zemanta.com/ 6: http://www.zemanta.com/

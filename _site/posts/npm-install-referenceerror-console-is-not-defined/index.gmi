@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+title: "npm install ReferenceError: console is not defined" date: 2011-01-29 categories:
+
+* "developer"
+* "developing"
+* "ict"
+* "javascript"
+* "nodejs"
+
+--------------------------------------------------------------------------------
+
+Trying to install npm[1] with: [bash]curl http://npmjs.org/install.sh[2] | sh[/bash]
+
+Returns: [code]ReferenceError: console is not defined:[/code]
+
+Cause: NodeJS not properly installed.
+
+Solution: Goto NodeJS download[3] and get the latest tar package and install it yourself. Usual install procedure: [bash] tar -zxvf node-whatever.tar.gz cd node-whatever ./configure make make install [/bash]
+
+Now try again and it should work :)
+
+=> http://npmjs.org/ 1: http://npmjs.org/
+=> http://npmjs.org/install.sh 2: http://npmjs.org/install.sh
+=> http://nodejs.org/#download 3: http://nodejs.org/#download

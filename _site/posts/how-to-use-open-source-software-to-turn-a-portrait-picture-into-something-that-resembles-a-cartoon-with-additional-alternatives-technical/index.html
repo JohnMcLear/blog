@@ -1,0 +1,57 @@
+<p>Important notes: Not everyone thinks a cartoon looks the same, cartoons come in many different formats and I try to present some options on this page. This is a technical document and not for general purpose consumption.</p>
+
+<p>ImageMagick++ and GMIC are required. GimpUI is not but Gimp is. Unix is probably required and is recommended.</p>
+
+<p>What I have tried to do is take a normal picture of a primary school kid and treat it so that it is more appealing to the pupil to put on an object of their personal posession.</p>
+
+<p>I have released my findings so if anyone else tries to do the same thing they can:</p>
+
+<p>Simplfied instructions:</p>
+
+<p>Install GIMP-Devel</p>
+
+<p>Install Dependancies for ImageMagick++</p>
+
+<p>Install ImageMagick++</p>
+
+<p>Install Dependancies for GMIC (take note on ftw3)</p>
+
+<p>Install GMIC (takes a long time)</p>
+
+<p>Once GMIC is installed run the commands that I have placed above each example.</p>
+
+<p>You may wish to process this with PHP or Python or so, that should be very simple to do :)</p>
+
+<p>GMIC seems to have much lower overheads than ImageMagick++.</p>
+
+<p>Original Image:</p>
+
+<p><a href="http://kinnairdphotography.com/content/00/01/39/27/66/userimages/LexiSyd122607CRPRET2plvrtstb047%20copy.jpg"><img src="images/LexiSyd122607CRPRET2plvrtstb047%20copy.jpg" alt="" /></a></p>
+
+<p><a href="http://kinnairdphotography.com/content/00/01/39/27/66/userimages/LexiSyd122607CRPRET2plvrtstb047%20copy.jpg"></a></p>
+
+<p><strong>GMIC command:</strong></p>
+
+<p><strong>gmic example.jpg -tetris 50 -o example3.jpg</strong></p>
+
+<p><strong>GMIC command:</strong></p>
+
+<p><strong>gmic example.jpg -edges 30 -o example5.jpg</strong></p>
+
+<p>**</p>
+
+<p><strong>GMIC command:</strong></p>
+
+<p><strong>gmic example.jpg -drawing 30 -o example7.jpg</strong></p>
+
+<p><strong>GMIC command:</strong></p>
+
+<p><strong>gmic example.jpg -stencilbw 20 -o example6.jpg</strong></p>
+
+<p><em>Yes this looks very weird but if you apply the same effect to the picture of a boy they look like Harry Potter which is pretty cool if your a Primary School kid..</em></p>
+
+<p><strong>GMIC command:</strong></p>
+
+<p><strong>gmic example.jpg -pencilbw 1 -o example8.jpg</strong></p>
+
+<p>**</p>

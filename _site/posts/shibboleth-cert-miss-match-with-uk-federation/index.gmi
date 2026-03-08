@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+
+title: "Shibboleth Cert miss-match with UK Federation" date: 2009-11-02 categories:
+
+* "shibboleth"
+* "uk-federation"
+
+--------------------------------------------------------------------------------
+
+=> images/padlock%5B1%5D.jpg [IMG]
+[1]
+I'm wasn't sure how this happened but this error appeared in my SP:
+
+2009-11-02 15:39:30 ERROR OpenSSL [3]: path validation failure: self signed certificate
+
+2009-11-02 15:39:30 ERROR XMLTooling.SOAPTransport.CURL [3]: supplied TrustEngine failed to validate SSL/TLS server certificate
+
+2009-11-02 15:39:30 ERROR Shibboleth.AttributeResolver.Query [3]: exception during SAML query to xxxxx AttributeQuery: CURLSOAPTransport failed while contacting SOAP endpoint (xxxx): SSL certificate problem, verify that the CA cert is OK. Details:
+
+2009-11-02 15:39:30 ERROR Shibboleth.AttributeResolver.Query [3]: unable to obtain a SAML response from attribute authority
+
+Note: I replaced my IDP paths with xxxx for the purpose of this post.
+
+I got in touch with the UK Federation asking if they could shed any light on the problem.
+
+It turns out that this was due to my IDP information not being correct at the metadata end. I notified the UK Federation and they updated my record and republished their metadata and it started working again :)
+
+Thanks to Sara for helping out with this.
+
+Note: was the value that wasn't changed at federation level.
+
+=> http://2.bp.blogspot.com/_NislCXjnul0/Su8sHhzyvxI/AAAAAAAACXo/UyN65HcJRTo/s1600-h/padlock%5B1%5D.jpg 1: http://2.bp.blogspot.com/_NislCXjnul0/Su8sHhzyvxI/AAAAAAAACXo/UyN65HcJRTo/s1600-h/padlock%5B1%5D.jpg

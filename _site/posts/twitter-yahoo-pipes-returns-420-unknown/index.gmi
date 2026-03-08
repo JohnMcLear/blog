@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+title: "Twitter &amp; Yahoo pipes returns 420 Unknown" date: 2010-04-28 tags:
+
+* "twitter"
+* "yahoo-pipe"
+
+--------------------------------------------------------------------------------
+
+=> images/34060v1-max-150x150.png Image representing Pipes as depicted in CrunchBase [IMG]
+[1]
+
+Have you tried to use Yahoo Pipes with twitter lately and had problems?
+
+I am trying to get a search feed into pipes so I can work with it but I keep getting:
+
+> warning error fetching http://search.twitter.com/search.atom?q=example[2] (420 Unknown)
+
+I am assuming this is due to Yahoo Pipes sending too many requests to twitter?
+
+Does anyone know a good work around for this?
+
+Is the work around to stop using yahoo pipes?
+
+=> images/reblog_e.png Reblog this post [with Zemanta] [IMG]
+
+=> http://www.crunchbase.com/product/pipes 1: http://www.crunchbase.com/product/pipes
+=> http://search.twitter.com/search.atom?q=example 2: http://search.twitter.com/search.atom?q=example

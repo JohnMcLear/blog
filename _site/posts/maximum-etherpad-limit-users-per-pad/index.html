@@ -1,0 +1,67 @@
+<p>Quotas.js restricts this and by default reads:</p>
+
+<p>function getMaxSimultaneousPadEditors(globalPadId) {</p>
+
+<p>if (isProDomainRequest()) {</p>
+
+<p>if (pne_utils.isPNE()) {</p>
+
+<p>return licensing.getMaxUsersPerPad();</p>
+
+<p>} else {</p>
+
+<p>return 1e6;</p>
+
+<p>}</p>
+
+<p>} else {</p>
+
+<p>// etherpad.com public pads</p>
+
+<p>if (globalPadId &amp;&amp; stringutils.startsWith(globalPadId, “conf-“)) {</p>
+
+<p>return 64;</p>
+
+<p>} else {</p>
+
+<p>return 32;</p>
+
+<p>}</p>
+
+<p>}</p>
+
+<p>return 1e6;</p>
+
+<p>}</p>
+
+<p>function getMaxSavedRevisionsPerPad() {</p>
+
+<p>if (isProDomainRequest()) {</p>
+
+<p>return 1e3;</p>
+
+<p>} else {</p>
+
+<p>// free public etherpad.com</p>
+
+<p>return 100;</p>
+
+<p>}</p>
+
+<p>}</p>
+
+<p><strong>So to summarize:</strong></p>
+
+<p>Depending on the mode you are in depends on the amount you have</p>
+
+<p>Non-Pro –&gt;</p>
+
+<p>Max per time on 1 pad: 64</p>
+
+<p>Max revisions: 100</p>
+
+<p>Pro –&gt;</p>
+
+<p>Max per time: Unlimited</p>
+
+<p>Max revisions: Unlimited</p>

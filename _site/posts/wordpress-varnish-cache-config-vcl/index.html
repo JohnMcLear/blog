@@ -1,0 +1,55 @@
+<p>Note: <a href="https://github.com/johnmclear/Wordpress-Varnish-VCL">I am now providing VCLs in separate branches on github as the Varnish VCL syntax has changed</a>.</p>
+
+<p><a href="https://www.varnish-cache.org/docs/trunk/installation/upgrade.html">Thanks to scoof for documenting the Varnish VCL changes.</a></p>
+
+<h2 id="what-is-this-for-non-technical-folks">What is this for non-technical folks?</h2>
+
+<p>Wordpress sucks at delivering the same content over and over again, actually, I should rephrase that, wordpress rocks 99% of the time but if you serve a page over and over again it will quickly exhaust your servers resource which will mean wordpress will go slow.  Varnish Cache speeds up Wordpress by serving pages from memory instead of doinmagicg a bunch of hard work.</p>
+
+<h2 id="why-should-i-use-this-vcl">Why should I use this VCL?</h2>
+
+<p>I have done a number of different VCLs that can be used with varnish and wordpress but this is the final revision for now. It is designed for Varnish 2 but should work on 3 with no to very little modifications, I have tweaked this VCL over a few years and I’m finally happy with it.</p>
+
+<p>Features:</p>
+
+<ul>
+  <li>Supports multiple back-ends</li>
+  <li>Supports round-robin</li>
+  <li>Supports Purging using the <a href="http://wordpress.org/extend/plugins/wordpress-varnish/" title="Wordpress Varnish Plugin">Varnish Wordpress plugin</a></li>
+  <li>Supports logged in users</li>
+  <li>Supports password protected pages</li>
+  <li>Supports Mobile devices</li>
+  <li>Provides long client side caching</li>
+  <li>Forwards the correct client IP to the web daemon.</li>
+  <li>Doesn’t cache 404s, 503, 500 etc.</li>
+  <li>Doesn’t cache wp-admin, login, preview, signup</li>
+  <li>Caches static objects such as images</li>
+  <li>Supports Multisite</li>
+  <li>Includes debug/log messages.</li>
+  <li>Really clean code, proper tabbing etc.</li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+
+<p><a href="https://www.varnish-cache.org/">Varnish</a>, <a href="http://wordpress.org">Wordpress</a>, The <a href="http://wordpress.org/extend/plugins/wordpress-varnish/" title="Wordpress Varnish Plugin">Varnish Wordpress plugin</a> installed and working, <a href="http://stderr.net/apache/rpaf/">mod_rpaf</a> installed in apache or an nginx equivalent.</p>
+
+<h2 id="why-have-i-made-this">Why have I made this?</h2>
+
+<p>I was going to make a VCL generator but then I remembered most people will use this VCL as a point of reference and I’m lazy, let’s face it, being lazy is the biggest factor in me backing out of making a generator. The varnish configs I have done before have been overly verbose for what they did and rewriting them and cleaning them up means this config is much easier to understand and modify. Adding logging means that you can easily use <a href="https://mclear.co.uk/2011/04/25/varnishlog-cheat-sheet/" title="Varnishlog Cheat sheet">varnishlog to debug</a> any problems you have.</p>
+
+<h2 id="what-isnt-included">What isn’t included?</h2>
+
+<p>I didn’t include Custom error messages in this VCL.  It’s not because I’m lazy, it’s because custom error messages put a lot of cruft into the VCL and if you want custom error messages you should see this article.</p>
+
+<h2 id="let-me-at-it">Let me at it!</h2>
+
+<p><a href="https://github.com/johnmclear/Wordpress-Varnish-VCL/tree/Varnish3">Varnish v3</a> <a href="https://github.com/johnmclear/Wordpress-Varnish-VCL/blob/Varnish303/default.vcl">Varnish v3.03</a> <strong>Which version of Varnish am I running?</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>varnishd -V
+</code></pre></div></div>
+
+<h2 id="what-do-i-need-to-change">What do I need to change?</h2>
+
+<p>Search and replace myFirstServer and mySecondServer with your server names adding new backends where required. Make sure new backends are added to the round-robin cluster and the purge list.</p>
+
+<p>Once you are happy with your VCL save it in as /etc/varnish/default.vcl (remember to make a backup of your original file) and restart Varnish.  Any problems try to debug yourself but if you are stuck just give me a shout, I will be happy to help!</p>

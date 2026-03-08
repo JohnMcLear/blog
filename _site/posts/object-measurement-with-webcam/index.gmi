@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+
+title: "Object measurement with webcam" date: 2013-06-30 categories:
+
+* "developer"
+* "developing"
+* "development"
+
+--------------------------------------------------------------------------------
+
+## Shut up and show me the demo.
+
+I have been experimenting with using a webcam to measure an objects size, width and height.
+
+It works by comparing the size of a user defined box to the size of a magnetic strip (which is also user defined). I tested it against a ruler and it seems accurate but obviously the larger the object the more accurate it becomes. Right now it's setup to measure the size of a ring finger.
+
+As this is a weekend project I published the source up on github[1]. I haven't decided on a license yet so for now don't adopt it in any commercial applications but do feel free to contact me to chat about funding further development.
+
+I use getUserMedia / Canvas to do most of the interaction between the webcam and the browser and I'm using PaperJS for drawing the boxes onto the canvas. The actual math is really simple
+
+[code] // Takes a scale value and tries to figure out the mm diameter of each ring function scaleToRingSize(widthPx){ return (85.72500 / stripWidth * widthPx).toFixed(2); // 85.72500 being the width of a magnetic strip in mm } [/code]
+
+The fingers.js also contains code for converting ring sizes in mm to the nearest smaller ring size.[2] IE if your ring size is 22mm it will give you a ring size in US/EU that is 22.2mm instead of 20mm.
+
+I'm researching using Tracking.Js with some custom OpenCV maps to do better object detection, I know this is possible but right now the algos are a bit buggy and I'd need a lot of positive images to create a good training set. If I could do some object tracking in theory I could auto detect the strip / target object size and automate / realtime the whole measurement process and in theory I could do ask a server to do real time object detection, but that's for another day..
+
+The measurement app might not quite fit on your page, this is because it's 800px x 600px with absolute positioning, I guess I could make it use relative positioning but right now I'm not interested.
+
+The tool will work in all browsers that support getUserMedia which is IE11, FF 17, Chjrome 21, Safari 7 and Opera 12, iOS Safari, BBB 10, Opera Mobile 12. For more browser support queries see getUserMedia browser support[3]. Obviously if you are still using IE then you have probably made many other poor life decisions and you are beyond my help. Obviously because I'm using JS / CSS the app will work on a mobile and desktop webcam so you can in theory measure objects whilst on the move.
+
+I had to worry about the overheads of the large javascript fabric.js library so I decided I didn't want the additional overheads of jQuery. It's entirely written in JS (with obv some CSS/HTML) throw into the mix. I could probably refactor it down to just JS without too much headache and this would give site admins the ability to do something like:
+
+[code] <script src="measurer.js"></script> var measure = new Measurer(); measure.create("targetDiv"); // can do it like this because getUserMedia is limited to one instance of browser/OS. measure.on('success', function(measurement){ alert("Got a measurement of", measurement); measure.destroy(); }); [/code]
+
+## You will need a card with a magnetic strip on the back, ideally a credit card as these are guaranteed to be a universal size.
+
+```html
+<iframe src="http://mclear.github.io/html5-measurer/" width="800" height="600"></iframe>
+```
+
+Final thoughts: None of the images are saved to a server but as you know these images are being passed through the Internet which means your ISP is sending a copy of them to the NSA. **I strongly recommend against using this tool to measure any part of your anatomy.**
+
+=> https://github.com/mclear/html5-measurer 1: https://github.com/mclear/html5-measurer
+=> https://github.com/mclear/html5-measurer/blob/gh-pages/fingers.js#L149 2: https://github.com/mclear/html5-measurer/blob/gh-pages/fingers.js#L149
+=> http://caniuse.com/#search=getusermedia 3: http://caniuse.com/#search=getusermedia

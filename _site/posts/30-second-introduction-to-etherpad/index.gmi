@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------
+
+title: "30 second introduction to Etherpad" date: 2010-04-05
+
+--------------------------------------------------------------------------------
+
+A very quick introduction to what Etherpad can do for you. I made this video for the Etherpad foundation[1]. If you are looking for Etherpad for your school check out Primary Pad[2].
+
+=> http://etherpad.org 1: http://etherpad.org
+=> http://primarypad.com 2: http://primarypad.com

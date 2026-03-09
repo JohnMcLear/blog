@@ -13,7 +13,7 @@ categories:
 
 Here is the [Classdroid](https://mclear.co.uk/pages/classdroid) apk for public beta. We only have support for primaryblogger and xparena(not a live service) available right now. We are waiting on Moodle V2 to bring moodle support in.
 
-1\. Get the [Classdroid.apk](http://primaryschoolict.com/Classdroid.apk) 2\. [Read this guide for how to install an .apk](https://mclear.co.uk/2010/06/28/android-install-apk/) 3\. Make sure you have a [Primaryblogger](http://primaryblogger.co.uk) account & Blog 4. Have fun :)
+1\. Get the [Classdroid.apk](http://primaryschoolict.com/Classdroid.apk) 2\. [Read this guide for how to install an .apk](/posts/android-install-apk/) 3\. Make sure you have a [Primaryblogger](http://primaryblogger.co.uk) account & Blog 4. Have fun :)
 
 Note:  We still have a lot of GUI tweeking to do but most of the functionality now exists. We will be releasing the source code once beta testing is complete.
 

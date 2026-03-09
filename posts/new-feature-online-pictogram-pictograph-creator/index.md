@@ -10,7 +10,7 @@ categories:
   - "safe-search"
 ---
 
-A few days ago Matt Lovegrove [mentioned he didn’t have any simple pictogram (aka pictogramme / pictograph) software for his network](https://mclear.co.uk/2011/09/25/ict-teaching-and-learning-framework/) so we went about making him something up!
+A few days ago Matt Lovegrove [mentioned he didn’t have any simple pictogram (aka pictogramme / pictograph) software for his network](/posts/ict-teaching-and-learning-framework/) so we went about making him something up!
 
 <iframe src="http://www.youtube.com/embed/URZ1Txpidhw?hl=en&amp;fs=1" frameborder="0" width="550" height="249"></iframe>
 

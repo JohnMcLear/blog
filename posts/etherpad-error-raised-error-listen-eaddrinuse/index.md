@@ -5,7 +5,7 @@ categories:
   - "etherpad"
 ---
 
-[![](images/ops-e1351181088502-550x83.jpg "ops")](https://mclear.co.uk/2012/10/25/etherpad-error-raised-error-listen-eaddrinuse/ops/)
+[![](images/ops-e1351181088502-550x83.jpg "ops")](images/ops-e1351181088502.jpg)
 
 This error is caused by the port you are trying to listen on is already in use (possibly by Etherpad or another piece of software)
 

@@ -16,7 +16,7 @@ categories:
 
 C'mon people, just because something is a web based tool that can be used WITHIN a learning platform doesn't mean it IS a learning platform.  Educators are already confused enough with companies offering them learning platforms that don't do what a learning platform should do according to Becta(RIP) and [Wikipedia](http://en.wikipedia.org/wiki/Virtual_learning_environment).
 
-_Obviously a lot of people are still confused to what is a learning platform.  I recommend you watch [this video](https://mclear.co.uk/2010/05/25/what-is-a-learning-platform/)._
+_Obviously a lot of people are still confused to what is a learning platform.  I recommend you watch [this video](/posts/what-is-a-learning-platform/)._
 
 _**[There is a live version of cloudcourse for YOU TO PLAY WITH here.](https://primarycourse.appspot.com/)**_
 
@@ -28,7 +28,7 @@ I am waiting on a call/email from Irwin(from the CloudCourse team) who will hope
 
 ###### Related articles by Zemanta
 
-- [The VLE challenge](https://mclear.co.uk/2010/03/26/the-vle-challenge/) (mclear.co.uk)
+- [The VLE challenge](/posts/the-vle-challenge/) (mclear.co.uk)
 - [CloudCourse: An Enterprise Application in the Cloud](http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html) (google-opensource.blogspot.com)
 - [Is Google Getting In To the LMS Business?](http://www.downes.ca/cgi-bin/page.cgi?post=52503) (downes.ca)
 

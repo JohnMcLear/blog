@@ -3,7 +3,7 @@ title: "Etherpad closure, it's official!"
 date: 2010-04-02
 ---
 
-So folks [Etherpad.com](http://etherpad.com) is definatley closing, and only 2 weeks later than [I predicted](https://mclear.co.uk/2009/12/21/etherpad-closure-shut-down-date-march-31st-2010/).  Do not fret though, [Etherpad.org](http://etherpad.org) (Run by the Open source Etherpad Foundation) has promised to have a good transition plan in place within the next 7 days and I will be helping with the process.  Etherpad isn't dead, if anything this is just the beginning :)
+So folks [Etherpad.com](http://etherpad.com) is definatley closing, and only 2 weeks later than [I predicted](/posts/etherpad-closure-shut-down-date-march-31st-2010/).  Do not fret though, [Etherpad.org](http://etherpad.org) (Run by the Open source Etherpad Foundation) has promised to have a good transition plan in place within the next 7 days and I will be helping with the process.  Etherpad isn't dead, if anything this is just the beginning :)
 
 Obviously I recommend schools use [Primary Pad](http://primarypad.com) but I am biased.
 

@@ -28,6 +28,6 @@ Video:
 
  
 
-[Live Example](http://digital.primaryblogger.co.uk) - [Guide for how to do it](https://mclear.co.uk/2011/04/14/how-to-achieve-a-free-digital-signage-solution-with-wordpress/)
+[Live Example](http://digital.primaryblogger.co.uk) - [Guide for how to do it](/posts/how-to-achieve-a-free-digital-signage-solution-with-wordpress/)
 
 [![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

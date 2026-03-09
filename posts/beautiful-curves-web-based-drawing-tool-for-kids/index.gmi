@@ -19,4 +19,4 @@ It wins in the coolness category too as it's built using canvas/JS so it's open 
 Nice!
 
 => http://tholman.com/experiments/html5/beautiful-curves/ 1: http://tholman.com/experiments/html5/beautiful-curves/
-=> https://mclear.co.uk/2011/11/13/beautiful-curves-web-based-drawing-tool-for-kids/pretty/ 2: https://mclear.co.uk/2011/11/13/beautiful-curves-web-based-drawing-tool-for-kids/pretty/
+=> images/pretty.png 2: images/pretty.png

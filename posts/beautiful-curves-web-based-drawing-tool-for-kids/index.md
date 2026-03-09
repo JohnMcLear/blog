@@ -7,7 +7,7 @@ categories:
   - "primary-school-ict"
 ---
 
-[Beautiful Curves](http://tholman.com/experiments/html5/beautiful-curves/) is a really nice web based tool for creating pretty drawings.[![](images/pretty-550x310.png "pretty")](https://mclear.co.uk/2011/11/13/beautiful-curves-web-based-drawing-tool-for-kids/pretty/)
+[Beautiful Curves](http://tholman.com/experiments/html5/beautiful-curves/) is a really nice web based tool for creating pretty drawings.[![](images/pretty-550x310.png "pretty")](images/pretty.png)
 
 No doubt you will do what I did and either write your name or draw a face!
 

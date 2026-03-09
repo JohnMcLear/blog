@@ -80,7 +80,7 @@ You decide!
 ***Sources:*** View sources on this pad
 
 => https://mclear.co.uk/wp-content/uploads/2011/01/tumblr_leyz30x5gW1qe0eclo1_r5_5001.gif 1: https://mclear.co.uk/wp-content/uploads/2011/01/tumblr_leyz30x5gW1qe0eclo1_r5_5001.gif
-=> https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/ 2: https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/
+=> /posts/why-were-not-exhibiting-at-bett/ 2: /posts/why-were-not-exhibiting-at-bett/
 => http://ianaddison.net/?p=613 3: http://ianaddison.net/?p=613
 => http://www.teachmeet.org.uk/ 4: http://www.teachmeet.org.uk/
 => http://technostories.wordpress.com/2011/01/16/london-calling/ 5: http://technostories.wordpress.com/2011/01/16/london-calling/

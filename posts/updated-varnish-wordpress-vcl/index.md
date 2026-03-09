@@ -8,7 +8,7 @@ categories:
   - "wordpress"
 ---
 
-## [THIS VARNISH CONFIG HAS BEEN UPDATED AND IS AVAILABLE HERE](https://mclear.co.uk/2011/10/05/wordpress-varnish-cache-config-vcl/ "Wordpress Varnish VCL")
+## [THIS VARNISH CONFIG HAS BEEN UPDATED AND IS AVAILABLE HERE](/posts/wordpress-varnish-cache-config-vcl/ "Wordpress Varnish VCL")
 
 I have been tweaking a varnish vcl config for Wordpress for quite some time and I wanted to share it..  Thanks to everyone(especially DocWilco)  in #varnish on Linpro IRC for helping
 

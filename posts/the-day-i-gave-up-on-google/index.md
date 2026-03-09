@@ -5,7 +5,7 @@ categories:
   - "google"
 ---
 
-[![](images/rip_google_china1.png "rip_google_china[1]")](https://mclear.co.uk/2011/12/15/the-day-i-gave-up-on-google/rip_google_china1/) I can't even give Google my money. I can't contact them. I can't report a bug. I can't use their services and/or pay them to improve their services.
+[![](images/rip_google_china1.png "rip_google_china[1]")](images/rip_google_china1.png) I can't even give Google my money. I can't contact them. I can't report a bug. I can't use their services and/or pay them to improve their services.
 
 Microsoft's alternative to Google's product is a joke, no surprise there...
 

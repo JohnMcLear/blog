@@ -11,7 +11,7 @@ categories:
 
 [![](images/tumblr_leyz30x5gW1qe0eclo1_r5_5001.gif "tumblr_leyz30x5gW1qe0eclo1_r5_500[1]")](https://mclear.co.uk/wp-content/uploads/2011/01/tumblr_leyz30x5gW1qe0eclo1_r5_5001.gif)
 
-After my [pre-BETT post](https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/) I knew I had to write a review that was sound and well balanced.  Unlike my pre-BETT post I'm not going to give EMAP a chance to respond "in article" as I don't want to wait 3 months to post this (yes that is a dig in the ribs, keep on reading Joe..  You may be mildly pleased..).  My post mostly quotes other people, by doing that I hope to have a balanced review.
+After my [pre-BETT post](/posts/why-were-not-exhibiting-at-bett/) I knew I had to write a review that was sound and well balanced.  Unlike my pre-BETT post I'm not going to give EMAP a chance to respond "in article" as I don't want to wait 3 months to post this (yes that is a dig in the ribs, keep on reading Joe..  You may be mildly pleased..).  My post mostly quotes other people, by doing that I hope to have a balanced review.
 
 ## What did people like?
 

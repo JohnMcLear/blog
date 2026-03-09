@@ -35,5 +35,5 @@ Note: I'm too lazy to include stats.
 
 Summary: **Use the free version**, get used to using a CDN for offloading some page content.  Make sure you setup analytics before so you can review your page speed load times.   Amazon and Google have similar offerings that will probably have a higher QOS ergo provide a better ROI.
 
-=> https://mclear.co.uk/2012/04/29/cloudflare-my-experience/h8gmq1/ 1: https://mclear.co.uk/2012/04/29/cloudflare-my-experience/h8gmq1/
+=> images/H8gmQ1.gif 1: images/H8gmQ1.gif
 => http://MySchoolHolidays.com 2: http://MySchoolHolidays.com

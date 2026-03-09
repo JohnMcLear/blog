@@ -31,8 +31,8 @@ Quick thanks to John at Brightbox[10] for providing the hosting for the project 
 => images/zemified_e.png Enhanced by Zemanta [IMG]
 [12]
 
-=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 1: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
-=> https://mclear.co.uk/2011/01/30/real-time-mouse-activity-w-nodejs-sockets/ 2: https://mclear.co.uk/2011/01/30/real-time-mouse-activity-w-nodejs-sockets/
+=> /posts/introducing-catch-a-multiplayer-html-game/ 1: /posts/introducing-catch-a-multiplayer-html-game/
+=> /posts/real-time-mouse-activity-w-nodejs-sockets/ 2: /posts/real-time-mouse-activity-w-nodejs-sockets/
 => http://en.wikipedia.org/wiki/User_interface_design 3: http://en.wikipedia.org/wiki/User_interface_design
 => http://www.microsoft.com/windows/internet-explorer/default.aspx 4: http://www.microsoft.com/windows/internet-explorer/default.aspx
 => http://www.google.com/chrome 5: http://www.google.com/chrome

@@ -9,7 +9,7 @@ categories:
   - "review"
 ---
 
-![veho](images/veho.png "veho") As you may know I'm reviewing [13 digital cameras](https://mclear.co.uk/2010/02/17/let-the-recording-begin/) with local Primary Schools, I'm about 1/2 way through capturing all the software procedures and decent shots of the cameras but the last 2 cameras have made me lose the will to live.
+![veho](images/veho.png "veho") As you may know I'm reviewing [13 digital cameras](/posts/let-the-recording-begin/) with local Primary Schools, I'm about 1/2 way through capturing all the software procedures and decent shots of the cameras but the last 2 cameras have made me lose the will to live.
 
 Stupidly I played with the Kodak, Creative and Flip cameras first and had a [reasonably good software experience](http://youtube.com/johnyma22).
 

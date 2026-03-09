@@ -14,7 +14,7 @@ title: "Drawing with PrimaryPad" date: 2010-10-21 categories:
 
 We made our first Text based/ascii primarypad drawing.  Can you guess what it is?
 
-https://mclear.co.uk/2010/10/21/drawing-with-primarypad/paint-with-primarypad/[2]
+images/paint-with-primarypad.png[2]
 
-=> https://mclear.co.uk/2010/10/21/drawing-with-primarypad/paint-with-primarypad-2/ 1: https://mclear.co.uk/2010/10/21/drawing-with-primarypad/paint-with-primarypad-2/
-=> https://mclear.co.uk/2010/10/21/drawing-with-primarypad/paint-with-primarypad/ 2: https://mclear.co.uk/2010/10/21/drawing-with-primarypad/paint-with-primarypad/
+=> images/paint-with-primarypad.png 1: images/paint-with-primarypad.png
+=> images/paint-with-primarypad.png 2: images/paint-with-primarypad.png

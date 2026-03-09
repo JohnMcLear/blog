@@ -40,5 +40,5 @@ If you chose to use GMail you can add a CNAME called mail, you will also need to
 => http://www.nominet.org.uk/ 3: http://www.nominet.org.uk/
 => http://yourdomain.com/ 4: http://yourdomain.com/
 => http://primaryemail.co.uk 5: http://primaryemail.co.uk
-=> https://mclear.co.uk/2009/11/24/registering-google-apps-education-edition-for-your-primary-school/ 6: https://mclear.co.uk/2009/11/24/registering-google-apps-education-edition-for-your-primary-school/
-=> https://mclear.co.uk/2009/11/24/registering-google-apps-education-edition-for-your-primary-school/ 7: https://mclear.co.uk/2009/11/24/registering-google-apps-education-edition-for-your-primary-school/
+=> /posts/registering-google-apps-education-edition-for-your-primary-school/ 6: /posts/registering-google-apps-education-edition-for-your-primary-school/
+=> /posts/registering-google-apps-education-edition-for-your-primary-school/ 7: /posts/registering-google-apps-education-edition-for-your-primary-school/

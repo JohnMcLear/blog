@@ -20,6 +20,6 @@ The highlights of the project so far is witnessing Etherpad being used to rewrit
 => http://primaryt.co.uk 1: http://primaryt.co.uk
 => http://etherpad.org 2: http://etherpad.org
 => http://primarypad.com 3: http://primarypad.com
-=> https://mclear.co.uk/2011/08/15/being-part-of-an-open-source-project-isnt-just-for-geeks/ 4: https://mclear.co.uk/2011/08/15/being-part-of-an-open-source-project-isnt-just-for-geeks/
+=> /posts/being-part-of-an-open-source-project-isnt-just-for-geeks/ 4: /posts/being-part-of-an-open-source-project-isnt-just-for-geeks/
 => http://twitter.com/pitapoison 5: http://twitter.com/pitapoison
 => http://primaryt.co.uk 6: http://primaryt.co.uk

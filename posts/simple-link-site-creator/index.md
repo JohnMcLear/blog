@@ -7,7 +7,7 @@ categories:
   - "primary-school-ict"
 ---
 
-You may recall a few days ago I [posted some concept pictures of a very simple link interface for use in early years/ks1](https://mclear.co.uk/2010/09/07/quick-primary-school-link-creator/).  Anyway here is an updated look at the admin interface:
+You may recall a few days ago I [posted some concept pictures of a very simple link interface for use in early years/ks1](/posts/quick-primary-school-link-creator/).  Anyway here is an updated look at the admin interface:
 
 [![](images/ian-addison-site-admin-mode-on-html.png "ian-addison-site-admin-mode-on-html")](https://mclear.co.uk/wp-content/uploads/2010/09/ian-addison-site-admin-mode-on-html.png)
 

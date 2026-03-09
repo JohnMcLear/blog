@@ -37,7 +37,7 @@ Buy a new domain from Godaddy and make DNS changes myself à http://godaddy.com[
 
 Buy a new managed domain (£50) à http://primaryt.co.uk/contact.html[2]
 
-I don’t know my control panel Login credentials, please help me![3] à[4]https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/[5]
+I don’t know my control panel Login credentials, please help me![3] à[4]/posts/configuring-dns-cname-records-for-google-apps-education-edition/[5]
 
 I am going to contact my DNS provider and ask them to make the changes[6] à[7]
 
@@ -45,10 +45,10 @@ I have bought a new domain from an ISP and I am going to make the changes myself
 
 => http://godaddy.com/ 1: http://godaddy.com/
 => http://primaryt.co.uk/contact.html 2: http://primaryt.co.uk/contact.html
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 3: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 4: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 5: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 6: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 7: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 8: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
-=> https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/ 9: https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 3: /posts/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 4: /posts/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 5: /posts/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 6: /posts/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 7: /posts/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 8: /posts/configuring-dns-cname-records-for-google-apps-education-edition/
+=> /posts/configuring-dns-cname-records-for-google-apps-education-edition/ 9: /posts/configuring-dns-cname-records-for-google-apps-education-edition/

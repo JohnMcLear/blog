@@ -3,7 +3,7 @@ title: "OWL energy monitor to nagios"
 date: 2012-09-02
 ---
 
-[![](images/nagios_owl-550x196.png "nagios_owl")](https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-nagios/nagios_owl/)
+[![](images/nagios_owl-550x196.png "nagios_owl")](images/nagios_owl.png)
 
 I have been able to get my CM160 owl energy monitor to provide data to nagios. This allows me to track energy usage in my house.
 

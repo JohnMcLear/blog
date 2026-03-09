@@ -10,7 +10,7 @@ categories:
   - "youtube"
 ---
 
-[![](images/from-you-to-youtube-0617091.jpg "Evolution")](https://mclear.co.uk/2010/10/13/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/from-you-to-youtube-0617091/)
+[![](images/from-you-to-youtube-0617091.jpg "Evolution")](images/from-you-to-youtube-0617091.jpg)
 
 Over the next month I will be working with the [Youtube](http://youtube.com) team trying to implement changes that will make Youtube a safer tool to use in the Primary Classroom.  We managed to achieve a relatively safe Google Search experience through [Safe search](http://primaryschoolict.com) and we hope to copy that successful process over to Video.
 

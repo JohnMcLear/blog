@@ -32,9 +32,9 @@ Didnt get my wind turbine up
 Blood and Bones \[Film\]  
 Name fail  
 [Jaldi Jaldi destroyed curry  
-](https://mclear.co.uk/2009/10/31/jaldi-jaldi-mumtaz-fast-food-curry-on-the-go-review/)[Window frames failed](https://mclear.co.uk/2009/10/17/window-frame-fail/)  
+](/posts/jaldi-jaldi-mumtaz-fast-food-curry-on-the-go-review/)[Window frames failed](/posts/window-frame-fail/)  
 Bradford Council destroyed Bradford city centre  
-[Conservatives had no clarity on technology in education](https://mclear.co.uk/2009/12/14/conservatives-will-be-radical-on-education/)  
+[Conservatives had no clarity on technology in education](/posts/conservatives-will-be-radical-on-education/)  
 800x600 is re-born due to netbooks
 
 Project Natal demo video way to premature

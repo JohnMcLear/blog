@@ -23,4 +23,4 @@ My nagios command(commands.cfg) looks like this: [code] define command{ command_
 
 and my service like this: [code] define service{ use generic-service ; Name of service template to use host_name localhost service_description Power usage check_command check_owl!20!5 action_url /nagiosgraph/cgi-bin/show.cgi?host=$HOSTNAME$&amp;service=$SERVICEDESC$register } [/code]
 
-=> https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-nagios/nagios_owl/ 1: https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-nagios/nagios_owl/
+=> images/nagios_owl.png 1: images/nagios_owl.png

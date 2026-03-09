@@ -38,6 +38,6 @@ You may be wondering if you should sign up for the Skype in the Classroom[3] a
 So to summarize..  We are one step closer to getting 4G connected Windows devices, we have an elevated e-safety issue to address, Microsoft own yet another part of your life.
 
 => https://mclear.co.uk/wp-content/uploads/2011/05/289px-Skype_logo2.svg_.png 1: https://mclear.co.uk/wp-content/uploads/2011/05/289px-Skype_logo2.svg_.png
-=> https://mclear.co.uk/2011/03/09/should-we-be-showing-online-adverts-to-kids-in-primary-schools/ 2: https://mclear.co.uk/2011/03/09/should-we-be-showing-online-adverts-to-kids-in-primary-schools/
+=> /posts/should-we-be-showing-online-adverts-to-kids-in-primary-schools/ 2: /posts/should-we-be-showing-online-adverts-to-kids-in-primary-schools/
 => http://education.skype.com/ 3: http://education.skype.com/
 => http://primaryt.co.uk 4: http://primaryt.co.uk

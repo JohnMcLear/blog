@@ -21,7 +21,7 @@ Find out more about Etherpad[9]
 => https://mclear.co.uk/wp-content/uploads/2010/03/etherpad_on_android.png 1: https://mclear.co.uk/wp-content/uploads/2010/03/etherpad_on_android.png
 => http://msdn.microsoft.com/en-us/library/ms533720(VS.85).aspx 2: http://msdn.microsoft.com/en-us/library/ms533720(VS.85).aspx
 => http://www.neowin.net/news/opera-mini-5-beta-released 3: http://www.neowin.net/news/opera-mini-5-beta-released
-=> https://mclear.co.uk/2010/03/31/opera-mini-5-beta-designmode-support-is-very-partial/ 4: https://mclear.co.uk/2010/03/31/opera-mini-5-beta-designmode-support-is-very-partial/
+=> /posts/opera-mini-5-beta-designmode-support-is-very-partial/ 4: /posts/opera-mini-5-beta-designmode-support-is-very-partial/
 => http://stackoverflow.com/questions/335240/iphone-designmode-support 5: http://stackoverflow.com/questions/335240/iphone-designmode-support
 => http://en.wikipedia.org/wiki/WebKit 6: http://en.wikipedia.org/wiki/WebKit
 => http://www.kolbysoft.com/ 7: http://www.kolbysoft.com/

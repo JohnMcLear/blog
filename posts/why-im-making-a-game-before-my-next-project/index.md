@@ -8,7 +8,7 @@ categories:
   - "nodejs"
 ---
 
-[Quick link to the game I made](https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/)
+[Quick link to the game I made](/posts/introducing-catch-a-multiplayer-html-game/)
 
 [![](images/tumblr_let5asucR91qe0eclo1_r5_5001.gif "tumblr_let5asucR91qe0eclo1_r5_500[1]")](https://mclear.co.uk/wp-content/uploads/2011/02/tumblr_let5asucR91qe0eclo1_r5_5001.gif) Primary Technology is a good place to work, the main reason being is that I have a lot of freedom to be creative. The ability to be creative means I get to work with a lot of different platforms and technologies. The next project I have been asked to do is a "web based really real time light-weight open source collaborative sticky note tool" AKA [PrimaryWall](http://primarywall.com). o\_O
 
@@ -24,4 +24,4 @@ Any developers that read this think that I'm wasting my time and should just go 
 
 I think this post is mostly me justifying spending the next month building a game that has been ultimately funded by the public sector.. I know this may seem a little strange but NodeJS is relatively new and so is Javascript and I really need to learn before I create as to create something that is worthwhile for other people to contribute towards....
 
-[Quick link to the game I made](https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/)
+[Quick link to the game I made](/posts/introducing-catch-a-multiplayer-html-game/)

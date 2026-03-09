@@ -19,7 +19,7 @@ Grab the Child Car Seat Angle Tester App on the Play store[3]
 => images/fea-550x269.png Child Seat Angle Tester Download [IMG]
 [4]
 
-=> https://mclear.co.uk/2016/08/25/car-seat-angle-tester/ 1: https://mclear.co.uk/2016/08/25/car-seat-angle-tester/
+=> /posts/car-seat-angle-tester/ 1: /posts/car-seat-angle-tester/
 => https://github.com/JohnMcLear/Child-Car-Seat-Angle-Tester 2: https://github.com/JohnMcLear/Child-Car-Seat-Angle-Tester
 => https://play.google.com/store/apps/details?id=uk.co.mclear.carSeatAngleTester 3: https://play.google.com/store/apps/details?id=uk.co.mclear.carSeatAngleTester
 => https://play.google.com/store/apps/details?id=uk.co.mclear.carSeatAngleTester 4: https://play.google.com/store/apps/details?id=uk.co.mclear.carSeatAngleTester

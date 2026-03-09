@@ -41,8 +41,8 @@ I am waiting on a call/email from Irwin(from the CloudCourse team) who will hope
 => http://code.google.com/p/cloudcourse/ 2: http://code.google.com/p/cloudcourse/
 => http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html 3: http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html
 => http://en.wikipedia.org/wiki/Virtual_learning_environment 4: http://en.wikipedia.org/wiki/Virtual_learning_environment
-=> https://mclear.co.uk/2010/05/25/what-is-a-learning-platform/ 5: https://mclear.co.uk/2010/05/25/what-is-a-learning-platform/
+=> /posts/what-is-a-learning-platform/ 5: /posts/what-is-a-learning-platform/
 => https://primarycourse.appspot.com/ 6: https://primarycourse.appspot.com/
-=> https://mclear.co.uk/2010/03/26/the-vle-challenge/ 7: https://mclear.co.uk/2010/03/26/the-vle-challenge/
+=> /posts/the-vle-challenge/ 7: /posts/the-vle-challenge/
 => http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html 8: http://google-opensource.blogspot.com/2010/05/cloudcourse-enterprise-application-in.html
 => http://www.downes.ca/cgi-bin/page.cgi?post=52503 9: http://www.downes.ca/cgi-bin/page.cgi?post=52503

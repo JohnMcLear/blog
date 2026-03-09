@@ -13,7 +13,7 @@ categories:
 
 Here is my list of Emerging Technologies:
 
-- Web 2 Replacement (ie [Google Apps](https://mclear.co.uk/2009/11/24/google-apps-in-a-primary-school-%E2%80%93-getting-started-guide/), [Primary Email](http://primaryemail.co.uk/)) for non web applications
+- Web 2 Replacement (ie [Google Apps](/posts/google-apps-in-a-primary-school-%E2%80%93-getting-started-guide/), [Primary Email](http://primaryemail.co.uk/)) for non web applications
 - Single Sign on / Federated Login (Such as the [UK Federation)](http://www.ukfederation.org.uk/)
 - SMS, Email & Social networking sites ([Facebook](http://facebook.com/)/[Twitter](http://twitter.com/)) to communicate both with pupils and teachers
 - Netbook devices

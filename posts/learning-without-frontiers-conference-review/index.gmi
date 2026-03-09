@@ -60,8 +60,8 @@ Overall the event was extremely useful, the price point seems fair considering t
 [7]
 
 => https://mclear.co.uk/wp-content/uploads/2011/01/uoN2d1.jpg 1: https://mclear.co.uk/wp-content/uploads/2011/01/uoN2d1.jpg
-=> https://mclear.co.uk/2011/01/04/meetings-during-lwf-bett/ 2: https://mclear.co.uk/2011/01/04/meetings-during-lwf-bett/
-=> https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/ 3: https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/
+=> /posts/meetings-during-lwf-bett/ 2: /posts/meetings-during-lwf-bett/
+=> /posts/why-were-not-exhibiting-at-bett/ 3: /posts/why-were-not-exhibiting-at-bett/
 => http://elearningstuff.net/2011/01/09/lwf11/ 4: http://elearningstuff.net/2011/01/09/lwf11/
 => http://www.ictineducation.org/home-page/2011/1/10/evaluation-of-learning-without-frontiers-pre-conference.html 5: http://www.ictineducation.org/home-page/2011/1/10/evaluation-of-learning-without-frontiers-pre-conference.html
 => http://www.ictineducation.org/home-page/2011/1/10/guidance-for-the-bett-show-and-other-conferences.html 6: http://www.ictineducation.org/home-page/2011/1/10/guidance-for-the-bett-show-and-other-conferences.html

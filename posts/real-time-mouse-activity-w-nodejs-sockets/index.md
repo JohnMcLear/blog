@@ -9,7 +9,7 @@ categories:
   - "nodejs"
 ---
 
-[Quick link to the NodeJS/websocket game I made -- includes source](https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/)
+[Quick link to the NodeJS/websocket game I made -- includes source](/posts/introducing-catch-a-multiplayer-html-game/)
 
 Thanks to Reddit for helping me test this.
 
@@ -47,4 +47,4 @@ Run it with
 
 Test it by visiting http://whatever:8080
 
-[Quick link to the NodeJS/websocket game I made -- includes source](https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/)
+[Quick link to the NodeJS/websocket game I made -- includes source](/posts/introducing-catch-a-multiplayer-html-game/)

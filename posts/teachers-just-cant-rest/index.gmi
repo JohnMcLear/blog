@@ -14,5 +14,5 @@ I was doing some SEO work today on my school holidays and found a strange correl
 => images/corre-550x316.png [IMG]
 [2]
 
-=> https://mclear.co.uk/2012/06/09/teachers-just-cant-rest/school_holidays_and_gym_memberships/ 1: https://mclear.co.uk/2012/06/09/teachers-just-cant-rest/school_holidays_and_gym_memberships/
-=> https://mclear.co.uk/2012/06/09/teachers-just-cant-rest/corre/ 2: https://mclear.co.uk/2012/06/09/teachers-just-cant-rest/corre/
+=> images/school_holidays_and_gym_memberships.png 1: images/school_holidays_and_gym_memberships.png
+=> images/corre.png 2: images/corre.png

@@ -48,8 +48,8 @@ Overall the event was extremely useful, the price point seems fair considering t
 
 ###### Related articles
 
-- [Meetings during LWF & BETT](https://mclear.co.uk/2011/01/04/meetings-during-lwf-bett/) (mclear.co.uk)
-- [Why we're not exhibiting at BETT](https://mclear.co.uk/2011/01/07/why-were-not-exhibiting-at-bett/) (mclear.co.uk)
+- [Meetings during LWF & BETT](/posts/meetings-during-lwf-bett/) (mclear.co.uk)
+- [Why we're not exhibiting at BETT](/posts/why-were-not-exhibiting-at-bett/) (mclear.co.uk)
 - [Lwf11](http://elearningstuff.net/2011/01/09/lwf11/) (elearningstuff.net)
 - [Evaluation of Learning Without Frontiers Pre-Conference](http://www.ictineducation.org/home-page/2011/1/10/evaluation-of-learning-without-frontiers-pre-conference.html) (ictineducation.org)
 - [Guidance for the BETT Show (and other conferences)](http://www.ictineducation.org/home-page/2011/1/10/guidance-for-the-bett-show-and-other-conferences.html) (ictineducation.org)

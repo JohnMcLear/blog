@@ -25,7 +25,7 @@ When it comes to it, you have a few options for working with documents.
 
 1. Purchase the office suite.
 2. Use the free online tools by Microsoft - Microsoft Live @ Edu
-3. Use the free online tools by Google - [Google Apps Education Edition](https://mclear.co.uk/2009/11/24/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/)
+3. Use the free online tools by Google - [Google Apps Education Edition](/posts/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/)
 4. Use [open office](http://www.openoffice.org/) (Free).
 5. Use educationally focused alternatives such as [Glogster](http://edu.glogster.com), [Scribblar](http://www.scribblar.com/), [Empressr](http://www.empressr.com "Empressr"), [PrimaryPad](http://primarypad.com) - Each of these alternatives is specific to one job, and that job is done well. (Mostly free)
 

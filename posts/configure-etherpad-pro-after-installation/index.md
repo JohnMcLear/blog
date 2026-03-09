@@ -11,8 +11,8 @@ So you have Etherpad installed and working? Now you want to allow users to have 
 
 First off: Got your [\* dns wildcard](http://en.wikipedia.org/wiki/Wildcard_DNS_record) in place? You are going to need it.
 
-Then: [Set up your smtp server](https://mclear.co.uk/2009/12/21/etherpad-email-is-not-working/)
+Then: [Set up your smtp server](/posts/etherpad-email-is-not-working/)
 
-Finally: [Remove the need for SSL](https://mclear.co.uk/2009/12/21/etherpad-ssl-https-pro-setup/)
+Finally: [Remove the need for SSL](/posts/etherpad-ssl-https-pro-setup/)
 
-Oh yeah then:  [Fix the sign in link](https://mclear.co.uk/2009/12/21/etherpad-pro-sign-in-and-recovery-password-pages-not-working/)
+Oh yeah then:  [Fix the sign in link](/posts/etherpad-pro-sign-in-and-recovery-password-pages-not-working/)

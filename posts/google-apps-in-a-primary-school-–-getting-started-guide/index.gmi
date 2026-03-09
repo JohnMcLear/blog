@@ -48,5 +48,5 @@ The maximum time from start to finish is 1 week, this is due to Google approving
 => http://google.com/apps/ 1: http://google.com/apps/
 => http://sites.google.com/site/colettecassinelli/apps 2: http://sites.google.com/site/colettecassinelli/apps
 => http://primaryschoolteaching.co.uk/pg/pages/view/8763/ 3: http://primaryschoolteaching.co.uk/pg/pages/view/8763/
-=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/ 4: https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/
-=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/ 5: https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/
+=> /posts/primary-school-google-apps-education-edition-preparation/ 4: /posts/primary-school-google-apps-education-edition-preparation/
+=> /posts/primary-school-google-apps-education-edition-preparation/ 5: /posts/primary-school-google-apps-education-edition-preparation/

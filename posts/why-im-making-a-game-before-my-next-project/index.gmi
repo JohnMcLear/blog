@@ -28,10 +28,10 @@ I think this post is mostly me justifying spending the next month building a gam
 
 Quick link to the game I made[7]
 
-=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 1: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> /posts/introducing-catch-a-multiplayer-html-game/ 1: /posts/introducing-catch-a-multiplayer-html-game/
 => https://mclear.co.uk/wp-content/uploads/2011/02/tumblr_let5asucR91qe0eclo1_r5_5001.gif 2: https://mclear.co.uk/wp-content/uploads/2011/02/tumblr_let5asucR91qe0eclo1_r5_5001.gif
 => http://primarywall.com 3: http://primarywall.com
 => http://primaryt.co.uk 4: http://primaryt.co.uk
 => http://primarywall.com 5: http://primarywall.com
 => http://primarywall.com 6: http://primarywall.com
-=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 7: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> /posts/introducing-catch-a-multiplayer-html-game/ 7: /posts/introducing-catch-a-multiplayer-html-game/

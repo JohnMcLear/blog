@@ -23,6 +23,6 @@ categories:
 
 **Do not forget your username and password!**
 
-**[I want to use Single Sign On – Take me to the configuration stage](https://mclear.co.uk/2009/11/24/configuring-single-sign-on-for-google-apps-education-edition-to-primary-logon/)** **[à](https://mclear.co.uk/2009/11/24/configuring-single-sign-on-for-google-apps-education-edition-to-primary-logon/)**
+**[I want to use Single Sign On – Take me to the configuration stage](/posts/configuring-single-sign-on-for-google-apps-education-edition-to-primary-logon/)** **[à](/posts/configuring-single-sign-on-for-google-apps-education-edition-to-primary-logon/)**
 
-**[I don’t want to use Single Sign On – Take me to the Testing stage](https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/)** **[à](https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/)**
+**[I don’t want to use Single Sign On – Take me to the Testing stage](/posts/testing-your-primary-school-google-apps-education-edition-configuration/)** **[à](/posts/testing-your-primary-school-google-apps-education-edition-configuration/)**

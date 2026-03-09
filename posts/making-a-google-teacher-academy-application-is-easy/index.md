@@ -31,10 +31,10 @@ I exported each of the slides from Powerpoint to a .PNG file and then imported t
 
 - PrimaryPad
 - Powerpoint (no shame here) - There are lots of alternatives I could of used.
-- Camtasia Studio - [Alternative free tool instead of Camtasia Studio = Jaycut](https://mclear.co.uk/2010/06/07/jaycut-in-the-primary-classroom-video-editing/)
+- Camtasia Studio - [Alternative free tool instead of Camtasia Studio = Jaycut](/posts/jaycut-in-the-primary-classroom-video-editing/)
 - Youtube
 
-[View my application video](https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/)
+[View my application video](/posts/google-teacher-academy-submission/)
 
 [Matt Lovegrove's](http://twitter.com/mattlovegrove) [application video](http://www.youtube.com/watch?v=j2A23J9ybBQ)
 

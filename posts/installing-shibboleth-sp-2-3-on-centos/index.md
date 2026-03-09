@@ -14,4 +14,4 @@ curl -O http://download.opensuse.org/repositories/security://shibboleth/CentOS\_
 
 yum install shibboleth.i386 \[/bash\]
 
-Press y 3 times. Done. [Proceed to configuration..](https://mclear.co.uk/2009/10/27/configuring-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/)
+Press y 3 times. Done. [Proceed to configuration..](/posts/configuring-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/)

@@ -78,4 +78,4 @@ Now we must configure Apache for shibboleth[7]
 => http://localhost 4: http://localhost
 => https://localhost 5: https://localhost
 => http://metadata.ukfederation.org.uk/ukfederation-metadata.xml 6: http://metadata.ukfederation.org.uk/ukfederation-metadata.xml
-=> https://mclear.co.uk/2009/10/27/configuring-apache-for-shibboleth-on-centos-to-the-ukfederation-w-godaddy-certs/ 7: https://mclear.co.uk/2009/10/27/configuring-apache-for-shibboleth-on-centos-to-the-ukfederation-w-godaddy-certs/
+=> /posts/configuring-apache-for-shibboleth-on-centos-to-the-ukfederation-w-godaddy-certs/ 7: /posts/configuring-apache-for-shibboleth-on-centos-to-the-ukfederation-w-godaddy-certs/

@@ -30,7 +30,7 @@ I was first introduced to Mumble by a member of the Piraten Partiet, they use it
 Mumble's client is great, it's so unbelievably easy to use and lightweight, the whole project has a really good feel to it and I expect to see some really great things coming soon!
 
 => https://mclear.co.uk/wp-content/uploads/2011/07/11-skype1.jpg 1: https://mclear.co.uk/wp-content/uploads/2011/07/11-skype1.jpg
-=> https://mclear.co.uk/2011/05/10/what-microsofts-purchase-of-skype-means-for-primary-schools/ 2: https://mclear.co.uk/2011/05/10/what-microsofts-purchase-of-skype-means-for-primary-schools/
+=> /posts/what-microsofts-purchase-of-skype-means-for-primary-schools/ 2: /posts/what-microsofts-purchase-of-skype-means-for-primary-schools/
 => http://blog.mozilla.com/addons/2011/01/20/blocking-the-skype-toolbar-in-firefox/ 3: http://blog.mozilla.com/addons/2011/01/20/blocking-the-skype-toolbar-in-firefox/
 => http://primaryt.co.uk 4: http://primaryt.co.uk
 => http://www.tomsguide.com/us/microsoft-voip-skype-eavesdropping-patent,news-11650.html 5: http://www.tomsguide.com/us/microsoft-voip-skype-eavesdropping-patent,news-11650.html

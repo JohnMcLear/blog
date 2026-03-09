@@ -3,7 +3,7 @@ title: "Hacking a Peugeot Ion"
 date: 2020-01-27
 ---
 
-This is a follow up post to a previous attempt at [hacking the Peugeot Ion immobilizer.](https://mclear.co.uk/2019/10/11/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/) This is the success story, I will explain where I went wrong and how we solved the problem.
+This is a follow up post to a previous attempt at [hacking the Peugeot Ion immobilizer.](/posts/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/) This is the success story, I will explain where I went wrong and how we solved the problem.
 
 Before I get started I want to explain that by "Hacking" I mean gaining access to parts of the system that Mitsubishi usually tie down to their own infrastructure. I am not talking about a remote hack, denial of service or anything destructive. The purpose of this post is to inform and educate, any malicious, unkind, unfair or generally negative usage of this information is the choice of the reader. I provide no warranty and accept no liability.
 

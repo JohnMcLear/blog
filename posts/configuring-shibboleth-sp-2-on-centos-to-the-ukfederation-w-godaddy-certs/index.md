@@ -65,4 +65,4 @@ For now we are done in shibboleth2.xml
 
 Run ./keygen.sh to generate your new key pair \[bash\] mv sp-key.pem sp.key mv sp-cert.pem sp.crt \[/bash\]
 
-[Now we must configure Apache for shibboleth](https://mclear.co.uk/2009/10/27/configuring-apache-for-shibboleth-on-centos-to-the-ukfederation-w-godaddy-certs/)
+[Now we must configure Apache for shibboleth](/posts/configuring-apache-for-shibboleth-on-centos-to-the-ukfederation-w-godaddy-certs/)

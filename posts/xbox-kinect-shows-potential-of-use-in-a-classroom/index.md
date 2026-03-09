@@ -10,7 +10,7 @@ categories:
   - "microsoft"
 ---
 
-[![](images/0kI981-550x187.png "0kI98[1]")](https://mclear.co.uk/2010/11/14/xbox-kinect-shows-potential-of-use-in-a-classroom/0ki981/) Unless you have been living in a dark shell for the last 6 months you will know about Microsoft kinect. In my opinion the advertising for kinect doesn't show the actual potential of the kinect technology. I think the most promising aspect of Kinect is the Speech recognition and it looks like Microsoft may of actually got this right..
+[![](images/0kI981-550x187.png "0kI98[1]")](images/0kI981.png) Unless you have been living in a dark shell for the last 6 months you will know about Microsoft kinect. In my opinion the advertising for kinect doesn't show the actual potential of the kinect technology. I think the most promising aspect of Kinect is the Speech recognition and it looks like Microsoft may of actually got this right..
 
 Each bing = good.
 

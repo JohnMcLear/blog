@@ -32,4 +32,4 @@ Any of the above can be skipped if you don’t want to use the corresponding ite
 
 If you chose to use GMail you can add a CNAME called mail, you will also need to configure MX accounts, this task will vary from school to school, again we recommend schools use [Primary Email](http://primaryemail.co.uk).
 
-**[Continue to Registering Google Apps Education Edition](https://mclear.co.uk/2009/11/24/registering-google-apps-education-edition-for-your-primary-school/)** **[à](https://mclear.co.uk/2009/11/24/registering-google-apps-education-edition-for-your-primary-school/)**
+**[Continue to Registering Google Apps Education Edition](/posts/registering-google-apps-education-edition-for-your-primary-school/)** **[à](/posts/registering-google-apps-education-edition-for-your-primary-school/)**

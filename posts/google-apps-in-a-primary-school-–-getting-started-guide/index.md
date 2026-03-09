@@ -38,4 +38,4 @@ Google Apps Education edition requires internet connectivity to function. If you
 
 The maximum time from start to finish is 1 week, this is due to Google approving the establishment’s entitlement to the service. If you decide to do all of the configuration work yourself it will take about 2/4 hours depending on your technical understanding and ability and access to a DNS control panel for your domain. You may chose to get your schools parents to sign an acceptable use policy, there is an example Agreement available for UK schools here à http://primaryschoolteaching.co.uk/pg/pages/view/8763/
 
-**[Google Apps is right for me, Continue to the preparation of a Primary School Google Apps Education Edition](https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/)** **[à](https://mclear.co.uk/2009/11/24/primary-school-google-apps-education-edition-preparation/)**
+**[Google Apps is right for me, Continue to the preparation of a Primary School Google Apps Education Edition](/posts/primary-school-google-apps-education-edition-preparation/)** **[à](/posts/primary-school-google-apps-education-edition-preparation/)**

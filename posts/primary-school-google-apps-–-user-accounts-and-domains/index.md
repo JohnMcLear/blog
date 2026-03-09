@@ -36,8 +36,8 @@ Buy a new domain from Godaddy and make DNS changes myself à [http://godaddy.com
 
 Buy a new managed domain (£50) à [http://primaryt.co.uk/contact.html](http://primaryt.co.uk/contact.html)
 
-[I don’t know my control panel Login credentials, please help me!](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/) [à](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/)[](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/)
+[I don’t know my control panel Login credentials, please help me!](/posts/configuring-dns-cname-records-for-google-apps-education-edition/) [à](/posts/configuring-dns-cname-records-for-google-apps-education-edition/)[](/posts/configuring-dns-cname-records-for-google-apps-education-edition/)
 
-[I am going to contact my DNS provider and ask them to make the changes](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/) [à](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/)
+[I am going to contact my DNS provider and ask them to make the changes](/posts/configuring-dns-cname-records-for-google-apps-education-edition/) [à](/posts/configuring-dns-cname-records-for-google-apps-education-edition/)
 
-[I have bought a new domain from an ISP and I am going to make the changes myself](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/) [à](https://mclear.co.uk/2009/11/24/configuring-dns-cname-records-for-google-apps-education-edition/)
+[I have bought a new domain from an ISP and I am going to make the changes myself](/posts/configuring-dns-cname-records-for-google-apps-education-edition/) [à](/posts/configuring-dns-cname-records-for-google-apps-education-edition/)

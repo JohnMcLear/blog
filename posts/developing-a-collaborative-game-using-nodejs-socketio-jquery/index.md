@@ -7,9 +7,9 @@ categories:
   - "ict"
 ---
 
-[Quick link to the game I made](https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/)
+[Quick link to the game I made](/posts/introducing-catch-a-multiplayer-html-game/)
 
-You may remember a few months ago I did an article on [Real time mouse activity using NodeJS and Socket](https://mclear.co.uk/2011/01/30/real-time-mouse-activity-w-nodejs-sockets/), well I wanted to extend that functionality into some sort of game. It was obvious from the demo I made that people enjoyed interacting with each others cursors and I quite enjoyed working on it.
+You may remember a few months ago I did an article on [Real time mouse activity using NodeJS and Socket](/posts/real-time-mouse-activity-w-nodejs-sockets/), well I wanted to extend that functionality into some sort of game. It was obvious from the demo I made that people enjoyed interacting with each others cursors and I quite enjoyed working on it.
 
 Today was our second day working on the game and our [UI design](http://en.wikipedia.org/wiki/User_interface_design "User interface design") is pretty much done and so are 2 of the 3 minigames designs. The mechanics are coming along with a few cretins as we have to wrestle with [Internet Explorer](http://www.microsoft.com/windows/internet-explorer/default.aspx "Internet Explorer")'s(8+9b) interesting interpretation of how Socket should perform. Firefox and [Chrome](http://www.google.com/chrome "Google Chrome") have been a dream to work with the [jQuery](http://jquery.com/ "JQuery") implementation of the animations and the scoreboard have gone pretty smoothly..
 

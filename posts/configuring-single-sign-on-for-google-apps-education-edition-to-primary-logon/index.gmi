@@ -55,5 +55,5 @@ Note: Schools who don’t use Primary Logon will have to a) contact their school
 => http://primarylogon.co.uk/idp.crt 7: http://primarylogon.co.uk/idp.crt
 => http://primarylogon.co.uk/ 8: http://primarylogon.co.uk/
 => http://www.mclear.co.uk/2009/11/shibboleth-idp-configuration-for.html 9: http://www.mclear.co.uk/2009/11/shibboleth-idp-configuration-for.html
-=> https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/ 10: https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/
-=> https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/ 11: https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/
+=> /posts/testing-your-primary-school-google-apps-education-edition-configuration/ 10: /posts/testing-your-primary-school-google-apps-education-edition-configuration/
+=> /posts/testing-your-primary-school-google-apps-education-edition-configuration/ 11: /posts/testing-your-primary-school-google-apps-education-edition-configuration/

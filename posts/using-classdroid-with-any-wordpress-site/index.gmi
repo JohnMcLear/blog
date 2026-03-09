@@ -24,4 +24,4 @@ Either a) Download & install this plugin[5]
 => https://mclear.co.uk/sites/classdroid 2: https://mclear.co.uk/sites/classdroid
 => http://wordpress.org 3: http://wordpress.org
 => http://primaryblogger.co.uk 4: http://primaryblogger.co.uk
-=> //mclear.co.uk/2010/07/03/wordpress-enable-rpc-xml-site-wide/ 5: //mclear.co.uk/2010/07/03/wordpress-enable-rpc-xml-site-wide/
+=> /posts/wordpress-enable-rpc-xml-site-wide/ 5: /posts/wordpress-enable-rpc-xml-site-wide/

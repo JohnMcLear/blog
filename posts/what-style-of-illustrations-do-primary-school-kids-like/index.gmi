@@ -48,5 +48,5 @@ Well it means that in the future we will try to keep our art more vector based, 
 => https://mclear.co.uk/wp-content/uploads/2011/01/Spot-the-dog1.jpg 1: https://mclear.co.uk/wp-content/uploads/2011/01/Spot-the-dog1.jpg
 => https://mclear.co.uk/wp-content/uploads/2011/01/Spot-the-Dog-Spot-s-Cloth-Book1.jpg 2: https://mclear.co.uk/wp-content/uploads/2011/01/Spot-the-Dog-Spot-s-Cloth-Book1.jpg
 => http://primaryschoolict.com 3: http://primaryschoolict.com
-=> https://mclear.co.uk/2011/01/16/hiring-illustrators/ 4: https://mclear.co.uk/2011/01/16/hiring-illustrators/
+=> /posts/hiring-illustrators/ 4: /posts/hiring-illustrators/
 => http://www.zemanta.com/ 5: http://www.zemanta.com/

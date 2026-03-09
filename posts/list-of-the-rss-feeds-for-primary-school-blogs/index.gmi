@@ -178,5 +178,5 @@ Click here to add your blog to this list.[54] Primary Blogger schools are automa
 => http://feeds.feedburner.com/TarradaleBlog/ 50: http://feeds.feedburner.com/TarradaleBlog/
 => http://office.greenparkschool.org.uk/feed/ 51: http://office.greenparkschool.org.uk/feed/
 => http://feeds.feedburner.com/BlakedownCOfEPrimarySchool/ 52: http://feeds.feedburner.com/BlakedownCOfEPrimarySchool/
-=> https://mclear.co.uk/2009/10/17/one-aggregated-rss-feed-of-all-the-primary-school-blogs/ 53: https://mclear.co.uk/2009/10/17/one-aggregated-rss-feed-of-all-the-primary-school-blogs/
+=> /posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/ 53: /posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/
 => http://www.primaryt.co.uk/registerblog.html 54: http://www.primaryt.co.uk/registerblog.html

@@ -23,7 +23,7 @@
 /* Accessibility: Skip navigation link */
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: -100px;
     left: 0;
     padding: 8px 16px;
     background-color: var(--content-bg-light);

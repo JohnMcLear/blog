@@ -13,9 +13,9 @@ This is my attempt to trace the arc.
 
 ---
 
-## 2008–2010: The ICT evangelist
+## 2000–2012: Primary school ICT
 
-When I started writing here I was deep in the world of primary school ICT. I ran [Primary Technology](http://primaryt.co.uk), I talked at conferences, I was enthusiastic about almost every new thing: VLEs, learning platforms, Google Apps, interactive whiteboards, Android. If it was new and it touched education, I was probably writing a blog post about it.
+I started working in ICT for primary schools in 2000 and founded [Primary Technology](http://primaryt.co.uk) in 2004. By the time I started writing here in 2008 I had been doing this for eight years and was deep enough in the world that I thought I had most of the answers. I talked at conferences, I was enthusiastic about almost every new thing: VLEs, learning platforms, Google Apps, interactive whiteboards, Android. If it was new and it touched education, I was probably writing a blog post about it.
 
 Looking back, I was earnest to a fault. There was a post where I called Windows 7 genuinely inspiring. I meant it at the time.
 
@@ -41,25 +41,25 @@ That September I turned 30 and stepped down as Managing Director of Primary Tech
 
 ---
 
-## 2013–2016: Everything on one ring
+## 2013–2020: Everything on one ring
 
-The NFC Ring consumed several years of my life.
+The NFC Ring / McLear Ltd consumed seven years of my life.
 
 I spent most of my savings on a product that did not yet exist in a market that did not yet exist, took VC funding by selling 16% equity, launched a Kickstarter in July 2013 and watched it raise enough to prove the idea was real. By the time I launched the second Kickstarter in 2015, [I had put in about £144k](/posts/2016-nfc-ring-launch/) and would not see a penny back unless we raised over £200k. I married during this period. I ate a lot of curry. Those are, in the 2015 post, the two other benchmarks I gave for the intervening years.
 
-The ring project taught me things that no amount of reading about entrepreneurship would have. Risk is different when it is your actual savings and not a business school case study. Passion does not substitute for timing. A Kickstarter campaign is a lot of things — community builder, market validator, manufacturing deposit — but it is not a business plan. I do not regret doing it. I would do several things differently.
+Along the way, in 2016, I also stepped back from [Etherpad](/posts/farewell-etherpad/). Four years, over 100 plugins, around 30,000 lines of core code, roughly 1,500 commits. I am proud of the contribution. I am also glad I stepped back when I did rather than letting the project drag me along past the point where I had real energy for it.
 
-In 2016 I also stepped back from [Etherpad](/posts/farewell-etherpad/). Four years, over 100 plugins, around 30,000 lines of core code, roughly 1,500 commits. I am proud of the contribution. I am also glad I stepped back when I did rather than letting the project drag me along past the point where I had real energy for it.
+The ring project taught me things that no amount of reading about entrepreneurship would have. Risk is different when it is your actual savings and not a business school case study. Passion does not substitute for timing. A Kickstarter campaign is a lot of things — community builder, market validator, manufacturing deposit — but it is not a business plan. McLear Ltd wound down in 2020. I do not regret doing it. I would do several things differently.
 
 ---
 
-## 2020–2022: The house as a project
+## 2020–2024: Renewable projects
 
-In 2020 I started properly investing in the Grade 2 listed house I live in. By 2022 I had spent around £70k reducing the building's heat loss from 33kW to 15kW — insulation, secondary glazing, new doors, pointing, oversized radiators — and another £10k on solar and battery storage. [I wrote up the details here](/posts/4-things-i-wish-i-knew-about-reducing-the-carbon-footprint-a-grade-2-listed-house/).
+In 2020 I started properly investing in the Grade 2 listed house I live in. By 2022 I had spent around £70k reducing the building's heat loss from 33kW to 15kW — insulation, secondary glazing, new doors, pointing, oversized radiators — and another £10k on solar and battery storage. [I wrote up the details here](/posts/4-things-i-wish-i-knew-about-reducing-the-carbon-footprint-a-grade-2-listed-house/). The renewable work continued through to 2024.
 
-This project shifted something in me. I care about energy independence in a way I did not when I was writing posts about which Android phone had the best camera. The carbon footprint work is not finished. Long term I want the house to be as close to energy-independent as a 19th-century listed building in West Yorkshire can reasonably be.
+This project shifted something in me. I care about energy independence in a way I did not when I was writing posts about which Android phone had the best camera. Long term I want the house to be as close to energy-independent as a 19th-century listed building in West Yorkshire can reasonably be.
 
-The change in priorities here is real. In 2009 I was posting about wind turbines as a future project. In 2022 I was actually installing solar panels and dealing with the DNO's paperwork. It took longer than I expected and cost more than I planned, which is true of most things worth doing.
+The change in priorities here is real. In 2009 I was posting about wind turbines as a future project. By 2024 I had spent four years actually doing it — solar panels, battery storage, heat reduction, and wrangling DNO paperwork. It took longer than I expected and cost more than I planned, which is true of most things worth doing.
 
 ---
 

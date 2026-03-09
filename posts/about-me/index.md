@@ -11,7 +11,7 @@ categories:
 
 I'm passionate about creating ICT services that can be used worldwide by anyone at any time. I work with a large team of devoted professionals to try to accomplish this.
 
-I was born and raised in Bradford, UK. My schooling began at Heaton St Barnabas and proceeded to Dixons CTC. After discovering at an early age that I wanted to work with ICT I studied various programming languages and began working as a Technical support provider when I was 18. I now contribute to various open source projects as well as running two school ICT service provider companies.
+I was born and raised in Bradford, UK. My schooling began at Heaton St Barnabas and proceeded to Dixons CTC. After discovering at an early age that I wanted to work with ICT I studied various programming languages and began working in ICT for primary schools in 2000. I founded Primary Technology in 2004 and now contribute to various open source projects as well as running two school ICT service provider companies.
 
 My role in different organizations has been interesting and challenging. I have had the opportunity to manage large teams of some extremely skilled people so far and have enjoyed each challenge thoroughly, no matter how frustrating!
 

@@ -11,7 +11,7 @@ categories:
 
 [![](images/11-skype1-550x191.jpg "11-skype[1]")](https://mclear.co.uk/wp-content/uploads/2011/07/11-skype1.jpg)
 
-After [Microsoft's acquisition of Skype](https://mclear.co.uk/2011/05/10/what-microsofts-purchase-of-skype-means-for-primary-schools/) things have gone from bad to "omg are you kidding me?".   [Skype now installs bloatware on your computer](http://blog.mozilla.com/addons/2011/01/20/blocking-the-skype-toolbar-in-firefox/) and the frequency of adverts being displayed on your screen increasing dramatically I felt it was time to leave the sinking ship.
+After [Microsoft's acquisition of Skype](/posts/what-microsofts-purchase-of-skype-means-for-primary-schools/) things have gone from bad to "omg are you kidding me?".   [Skype now installs bloatware on your computer](http://blog.mozilla.com/addons/2011/01/20/blocking-the-skype-toolbar-in-firefox/) and the frequency of adverts being displayed on your screen increasing dramatically I felt it was time to leave the sinking ship.
 
 Don't get me wrong, I used Skype daily and it's still got some great projects running but Microsoft have a history of really messing up services like Skype but forcing us to all use them.  Sure we loved Skype before it got bloated, I remember when I used to install Skype and only use it for calls, now I'm constantly finding myself in a state of frustration when I have 20 ads to close, 50 payment reminders or the service fails to perform.
 

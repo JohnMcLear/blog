@@ -47,7 +47,7 @@ When it comes to it, you have a few options for working with documents.
 => http://www.microsoft.com/mac/products/excel2008/default.mspx 7: http://www.microsoft.com/mac/products/excel2008/default.mspx
 => http://office.microsoft.com/powerpoint 8: http://office.microsoft.com/powerpoint
 => http://office.microsoft.com/en-us/onenote/FX100487701033.aspx 9: http://office.microsoft.com/en-us/onenote/FX100487701033.aspx
-=> https://mclear.co.uk/2009/11/24/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/ 10: https://mclear.co.uk/2009/11/24/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/
+=> /posts/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/ 10: /posts/google-apps-in-a-primary-school-%e2%80%93-getting-started-guide/
 => http://www.openoffice.org/ 11: http://www.openoffice.org/
 => http://edu.glogster.com 12: http://edu.glogster.com
 => http://www.scribblar.com/ 13: http://www.scribblar.com/

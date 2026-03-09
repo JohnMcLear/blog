@@ -8,7 +8,7 @@ categories:
   - "primary-school-ict"
 ---
 
-The [Microsoft Kinect](http://www.xbox.com/kinect/ "Kinect") device has various practical uses in the classroom. I have [blogged about](https://mclear.co.uk/2010/11/14/xbox-kinect-shows-potential-of-use-in-a-classroom/) it a few times but some thinking today has made me question if the focus we should have in a classroom is towards many to one or if we should be putting more focus and investment into OLPC.
+The [Microsoft Kinect](http://www.xbox.com/kinect/ "Kinect") device has various practical uses in the classroom. I have [blogged about](/posts/xbox-kinect-shows-potential-of-use-in-a-classroom/) it a few times but some thinking today has made me question if the focus we should have in a classroom is towards many to one or if we should be putting more focus and investment into OLPC.
 
 I was thinking if you were given a choice to control the teachers white board would you rather do it with a device in front of you or would you rather do it with some sort of augmented control on your desk/in the air?
 

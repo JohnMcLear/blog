@@ -14,7 +14,7 @@ categories:
 
 It is never popular talking about how schools can save money on ICT or areas where spending is just too high.  Sorry if you fall out with me on this one..  These are all suggestions, I don't endorse any in any way, shape or form (this is mostly for political reasons...).
 
-For the most part you get what you pay for, so any savings may mean a drop in quality and a negative impact on teaching and learning.  The [conservative education policy](https://mclear.co.uk/2010/02/28/the-conservative-education-policy-is-lead-by-the-wrong-person/) is (we assume) run by people with more knowledge than myself so when they say schools need to spend less on ICT all I do is figure out how..
+For the most part you get what you pay for, so any savings may mean a drop in quality and a negative impact on teaching and learning.  The [conservative education policy](/posts/the-conservative-education-policy-is-lead-by-the-wrong-person/) is (we assume) run by people with more knowledge than myself so when they say schools need to spend less on ICT all I do is figure out how..
 
 **It is up to you to decide how they will impact your teaching and learning.**
 
@@ -72,7 +72,7 @@ a) Maintain your projects by [pro actively cleaning filters and performing reg
 
 Microsoft have now released their Office web apps so when you come to purchase new devices you can almost ignore the cost of Microsoft Office licensing.
 
-a) Get familiar with [Live @ Edu](http://liveatedu.com) & [Office Web Apps](https://mclear.co.uk/2010/06/11/microsoft-office-web-apps-2010-in-the-primary-classroom/) or [Google Web Apps](http://google.com/apps)
+a) Get familiar with [Live @ Edu](http://liveatedu.com) & [Office Web Apps](/posts/microsoft-office-web-apps-2010-in-the-primary-classroom/) or [Google Web Apps](http://google.com/apps)
 
 b) Become familiar with the vast array of [free web 2 tools](http://primaryschoolict.com/web2.php) for schools
 
@@ -87,6 +87,6 @@ a) Encourage your [technical support provider](http://primaryt.co.uk) to explore
 ###### Related articles by Zemanta
 
 - ['Dark age' fears](http://news.bbc.co.uk/go/rss/-/1/hi/education/10495726.stm) (news.bbc.co.uk)
-- [Curtains for Becta](https://mclear.co.uk/2010/05/24/curtains-for-becta/) (mclear.co.uk)
+- [Curtains for Becta](/posts/curtains-for-becta/) (mclear.co.uk)
 
 [![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

@@ -29,7 +29,7 @@ Install ntp date and set the date (you might want to add a cron job for this):
 
 **ntpdate pool.ntp.org**
 
-**NOTE: BELOW IS NOW DEFUNCT AND YOU SHOULD [USE THE DOCUMENTATION HERE](https://mclear.co.uk/2009/11/07/installing-shibboleth-sp-2-3-on-centos/) - although still complete the SELINUX section**
+**NOTE: BELOW IS NOW DEFUNCT AND YOU SHOULD [USE THE DOCUMENTATION HERE](/posts/installing-shibboleth-sp-2-3-on-centos/) - although still complete the SELINUX section**
 
 **cd /root/**
 
@@ -85,4 +85,4 @@ Or instead of doing above you can use system-config-securitylevel-tui to disable
 
 Will return the version of shibboleth installed. If it does then:
 
-[Continue to Part 2 (Configuring Shibboleth)](https://mclear.co.uk/2009/10/27/configuring-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/)
+[Continue to Part 2 (Configuring Shibboleth)](/posts/configuring-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/)

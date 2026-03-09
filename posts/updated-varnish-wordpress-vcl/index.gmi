@@ -65,4 +65,4 @@ sub vcl_recv { // Purge Wordpress requests for purge if (req.request == "PURGE")
 
 </pre> <div style="background-color: white;"><center> <img src="http://whatever.com/heavyload.jpg" alt="" width="600px" /></center> <h1>This website is unavailable</h1> If you are seeing this page, either maintenance is being performed or something really bad has happened. Try returning in a few minutes. If you still see this error in a few minutes please <a href="http://whatever.com/contact.html">contact us</a> <h2>Error "} obj.status " " obj.response {"</h2> "} obj.response {" on server "} req.backend {" <address><a href="http://whatever.com/">Us.</a></address></div> <pre> "}; return (deliver); } } [/code]
 
-=> https://mclear.co.uk/2011/10/05/wordpress-varnish-cache-config-vcl/ 1: https://mclear.co.uk/2011/10/05/wordpress-varnish-cache-config-vcl/
+=> /posts/wordpress-varnish-cache-config-vcl/ 1: /posts/wordpress-varnish-cache-config-vcl/

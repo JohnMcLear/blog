@@ -6,7 +6,7 @@ categories:
   - "development"
 ---
 
-[![](images/H8gmQ1.gif "H8gmQ[1]")](https://mclear.co.uk/2012/04/29/cloudflare-my-experience/h8gmq1/)**Cloudflare is a service that **speeds up your website or blog** loading speed times by handling your website DNS and acting as a CDN for your sites content. I tried it out on [MySchoolHolidays.com](http://MySchoolHolidays.com)** CF = Cloudflare.
+[![](images/H8gmQ1.gif "H8gmQ[1]")](images/H8gmQ1.gif)**Cloudflare is a service that **speeds up your website or blog** loading speed times by handling your website DNS and acting as a CDN for your sites content. I tried it out on [MySchoolHolidays.com](http://MySchoolHolidays.com)** CF = Cloudflare.
 
 Some things that rock:
 

@@ -29,9 +29,9 @@ Note:  TED talks for example are not classified as stand-up.
 
 ###### Related articles
 
-- [10 useful free services for UK Primary School ICT Co-ordinators](https://mclear.co.uk/2011/01/23/10-useful-free-services-for-uk-primary-school-ict-co-ordinators/) (mclear.co.uk)
-- [Primary School TV - Hello world](https://mclear.co.uk/2011/01/15/primary-school-tv-hello-world/) (mclear.co.uk)
-- [Changing Youtube to get it unblocked in the Primary Classroom](https://mclear.co.uk/2010/10/13/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/) (mclear.co.uk)
-- [Primary School TV show RSS feed](https://mclear.co.uk/2010/10/30/primary-school-tv-show-rss-feed/) (mclear.co.uk)
+- [10 useful free services for UK Primary School ICT Co-ordinators](/posts/10-useful-free-services-for-uk-primary-school-ict-co-ordinators/) (mclear.co.uk)
+- [Primary School TV - Hello world](/posts/primary-school-tv-hello-world/) (mclear.co.uk)
+- [Changing Youtube to get it unblocked in the Primary Classroom](/posts/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/) (mclear.co.uk)
+- [Primary School TV show RSS feed](/posts/primary-school-tv-show-rss-feed/) (mclear.co.uk)
 
 [![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

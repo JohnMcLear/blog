@@ -43,7 +43,7 @@ OLPC unveils device that doesn't exist to create hype[6]
 
 => http://primarypad.com/ 1: http://primarypad.com/
 => http://twitter.com/ 2: http://twitter.com/
-=> https://mclear.co.uk/2009/10/31/jaldi-jaldi-mumtaz-fast-food-curry-on-the-go-review/ 3: https://mclear.co.uk/2009/10/31/jaldi-jaldi-mumtaz-fast-food-curry-on-the-go-review/
-=> https://mclear.co.uk/2009/10/17/window-frame-fail/ 4: https://mclear.co.uk/2009/10/17/window-frame-fail/
-=> https://mclear.co.uk/2009/12/14/conservatives-will-be-radical-on-education/ 5: https://mclear.co.uk/2009/12/14/conservatives-will-be-radical-on-education/
+=> /posts/jaldi-jaldi-mumtaz-fast-food-curry-on-the-go-review/ 3: /posts/jaldi-jaldi-mumtaz-fast-food-curry-on-the-go-review/
+=> /posts/window-frame-fail/ 4: /posts/window-frame-fail/
+=> /posts/conservatives-will-be-radical-on-education/ 5: /posts/conservatives-will-be-radical-on-education/
 => http://news.bbc.co.uk/1/hi/technology/8428147.stm 6: http://news.bbc.co.uk/1/hi/technology/8428147.stm

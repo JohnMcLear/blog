@@ -43,4 +43,4 @@ If you use Primary Logon or have a Shibboleth IDP representing your school you c
 
 Note: Schools who don’t use Primary Logon will have to a) contact their schools Shibboleth/UK Federation Identity provider(Probably your LA/Council) and request that they add a record to their IDP for your Google apps. Instructions to do this are available at http://www.mclear.co.uk/2009/11/shibboleth-idp-configuration-for.html and b) get the correct Identity Provider Sign in page, Sign out page and Change Password URL from their Identity Provider.
 
-**[Now you are done configuring you can get to Testing your Primary School Google Apps Education Edition Configuration](https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/) [à](https://mclear.co.uk/2009/11/24/testing-your-primary-school-google-apps-education-edition-configuration/)**
+**[Now you are done configuring you can get to Testing your Primary School Google Apps Education Edition Configuration](/posts/testing-your-primary-school-google-apps-education-edition-configuration/) [à](/posts/testing-your-primary-school-google-apps-education-edition-configuration/)**

@@ -8,7 +8,7 @@ categories:
   - "primary-school-ict"
 ---
 
-I have written before about how [Wordpress can be used as a digital signage solution](https://mclear.co.uk/2010/05/19/free-digital-signage-alternatives-for-schools/) but never gone into much detail.  I figured the prompt Charles gave me was enough to get me to publish something more verbose..  So here goes...
+I have written before about how [Wordpress can be used as a digital signage solution](/posts/free-digital-signage-alternatives-for-schools/) but never gone into much detail.  I figured the prompt Charles gave me was enough to get me to publish something more verbose..  So here goes...
 
 1\. Create a wordpress blog..  I recommend schools use [PrimaryBlogger](http://primaryblogger.co.uk) (I'm massively biased) as it has all the plugins already available..
 

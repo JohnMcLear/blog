@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Check all external links and local images in blog posts for broken references.
+"""Check all external links, internal site links, and local images in blog posts.
 
 Scans every posts/*/index.md file, extracts URLs and image paths, verifies them,
 and writes a list of posts with broken links to _data/broken_posts.yml.
+
+Internal links (e.g. /posts/slug/) are verified by checking whether the
+corresponding directory and index.md file exist on disk.
 """
 
 import re
@@ -13,8 +16,9 @@ import requests
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-POSTS_DIR = Path(__file__).parent / "posts"
-DATA_DIR = Path(__file__).parent / "_data"
+REPO_DIR = Path(__file__).parent
+POSTS_DIR = REPO_DIR / "posts"
+DATA_DIR = REPO_DIR / "_data"
 OUTPUT_FILE = DATA_DIR / "broken_posts.yml"
 
 TIMEOUT = 10
@@ -44,6 +48,46 @@ def extract_urls(content: str) -> set:
 
 def is_external(url: str) -> bool:
     return url.startswith("http://") or url.startswith("https://")
+
+
+def is_internal_site(url: str) -> bool:
+    """Return True if the URL is a root-relative internal link to this site.
+
+    Only root-relative paths (e.g. /posts/slug/, /contact-me/) are treated as
+    internal.  Absolute URLs — including https://mclear.co.uk/ ones — are left
+    to the external URL checker so that things like wp-content links are checked
+    via HTTP rather than on disk.
+    """
+    return url.startswith("/") and not url.startswith("//")
+
+
+def internal_path(url: str) -> str:
+    """Return the URL path component for a root-relative internal URL."""
+    return url.split("?")[0].split("#")[0]
+
+
+def check_internal_link(url: str) -> bool:
+    """Return True if the internal link is broken (target does not exist on disk).
+
+    A path like /posts/slug/ is valid if posts/slug/index.md exists.
+    Other paths (e.g. /contact-me/, /feed.xml) are checked as repo paths.
+    URL-encoded characters in the path are decoded before the filesystem check.
+    """
+    from urllib.parse import unquote
+
+    path = unquote(internal_path(url)).rstrip("/")
+    if not path:
+        return False  # root link is always valid
+
+    # Check as a directory with index.md
+    candidate_dir = REPO_DIR / path.lstrip("/")
+    if (candidate_dir / "index.md").exists():
+        return False
+    # Check as a direct file
+    candidate_file = REPO_DIR / path.lstrip("/")
+    if candidate_file.exists():
+        return False
+    return True
 
 
 LOCAL_IMG_RE = re.compile(
@@ -113,12 +157,13 @@ def get_post_content(post_dir: Path) -> str:
 
 
 def collect_urls_for_post(post_dir: Path):
-    """Return (external_urls, local_image_paths) for a post."""
+    """Return (external_urls, internal_urls, local_image_paths) for a post."""
     content = get_post_content(post_dir)
     urls = extract_urls(content)
-    external = {u for u in urls if is_external(u)}
-    local_imgs = {u for u in urls if is_local_image(u)}
-    return external, local_imgs
+    external = {u for u in urls if is_external(u) and not is_internal_site(u)}
+    internal = {u for u in urls if is_internal_site(u) and not is_local_image(u)}
+    local_imgs = {u for u in urls if is_local_image(u) and not is_external(u)}
+    return external, internal, local_imgs
 
 
 def main():
@@ -130,16 +175,22 @@ def main():
 
     # Build a map: url -> set of post slugs that reference it
     url_to_posts: dict[str, set] = {}
-    # Local image checks can be done immediately (filesystem only)
+    # Local image and internal link checks are filesystem-only (no network)
     posts_with_broken_local_imgs: set = set()
+    posts_with_broken_internal: set = set()
 
     for post_dir in post_dirs:
         post_slug = f"/posts/{post_dir.name}/"
-        external_urls, local_imgs = collect_urls_for_post(post_dir)
+        external_urls, internal_urls, local_imgs = collect_urls_for_post(post_dir)
 
         for img in local_imgs:
             if check_local_image(post_dir, img):
                 posts_with_broken_local_imgs.add(post_slug)
+
+        for url in internal_urls:
+            if check_internal_link(url):
+                posts_with_broken_internal.add(post_slug)
+                print(f"  [broken-internal] {url}  (in {post_slug})")
 
         for url in external_urls:
             url_to_posts.setdefault(url, set()).add(post_slug)
@@ -165,7 +216,7 @@ def main():
                 print(f"  … {checked}/{len(unique_urls)} URLs checked")
 
     # Determine which posts have at least one broken reference
-    broken_posts: set = set(posts_with_broken_local_imgs)
+    broken_posts: set = set(posts_with_broken_local_imgs) | posts_with_broken_internal
     for url in broken_urls:
         broken_posts.update(url_to_posts[url])
 

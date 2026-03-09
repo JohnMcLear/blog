@@ -26,7 +26,7 @@ Go here for info on classdroid[7]
 => https://mclear.co.uk/wp-content/uploads/2010/07/camera_icon_mr_mclear.png 1: https://mclear.co.uk/wp-content/uploads/2010/07/camera_icon_mr_mclear.png
 => https://mclear.co.uk/pages/classdroid 2: https://mclear.co.uk/pages/classdroid
 => http://primaryschoolict.com/Classdroid.apk 3: http://primaryschoolict.com/Classdroid.apk
-=> https://mclear.co.uk/2010/06/28/android-install-apk/ 4: https://mclear.co.uk/2010/06/28/android-install-apk/
+=> /posts/android-install-apk/ 4: /posts/android-install-apk/
 => http://primaryblogger.co.uk 5: http://primaryblogger.co.uk
 => http://raindropmemory.deviantart.com/ 6: http://raindropmemory.deviantart.com/
 => https://mclear.co.uk/pages/classdroid 7: https://mclear.co.uk/pages/classdroid

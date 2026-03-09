@@ -121,6 +121,6 @@ http://feeds.feedburner.com/BlakedownCOfEPrimarySchool/
 
 **Last updated: 08/12/2009 -- Yep this is horribly out of date the below URL contains all the latest bits**
 
-[Click here for one RSS feed that contains all of the above blogs.](https://mclear.co.uk/2009/10/17/one-aggregated-rss-feed-of-all-the-primary-school-blogs/)
+[Click here for one RSS feed that contains all of the above blogs.](/posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/)
 
 [Click here to add your blog to this list.](http://www.primaryt.co.uk/registerblog.html) Primary Blogger schools are automatically populated, you do not need to request to be added if you use Primary Blogger. Just enjoy the tasty goodness!

@@ -95,7 +95,7 @@ a) Encourage your technical support provider[12] to explore on-demand live remot
 => images/zemified_e.png Enhanced by Zemanta [IMG]
 [15]
 
-=> https://mclear.co.uk/2010/02/28/the-conservative-education-policy-is-lead-by-the-wrong-person/ 1: https://mclear.co.uk/2010/02/28/the-conservative-education-policy-is-lead-by-the-wrong-person/
+=> /posts/the-conservative-education-policy-is-lead-by-the-wrong-person/ 1: /posts/the-conservative-education-policy-is-lead-by-the-wrong-person/
 => https://mclear.co.uk/wp-content/uploads/2010/07/Untitled-1.png 2: https://mclear.co.uk/wp-content/uploads/2010/07/Untitled-1.png
 => http://schoolemail.co.uk 3: http://schoolemail.co.uk
 => http://primaryt.co.uk/sims-cmis-network-support.html 4: http://primaryt.co.uk/sims-cmis-network-support.html
@@ -103,10 +103,10 @@ a) Encourage your technical support provider[12] to explore on-demand live remot
 => http://schoolbackups.co.uk 6: http://schoolbackups.co.uk
 => http://primaryt.co.uk/ict-projector-whiteboard-installation.html 7: http://primaryt.co.uk/ict-projector-whiteboard-installation.html
 => http://liveatedu.com 8: http://liveatedu.com
-=> https://mclear.co.uk/2010/06/11/microsoft-office-web-apps-2010-in-the-primary-classroom/ 9: https://mclear.co.uk/2010/06/11/microsoft-office-web-apps-2010-in-the-primary-classroom/
+=> /posts/microsoft-office-web-apps-2010-in-the-primary-classroom/ 9: /posts/microsoft-office-web-apps-2010-in-the-primary-classroom/
 => http://google.com/apps 10: http://google.com/apps
 => http://primaryschoolict.com/web2.php 11: http://primaryschoolict.com/web2.php
 => http://primaryt.co.uk 12: http://primaryt.co.uk
 => http://news.bbc.co.uk/go/rss/-/1/hi/education/10495726.stm 13: http://news.bbc.co.uk/go/rss/-/1/hi/education/10495726.stm
-=> https://mclear.co.uk/2010/05/24/curtains-for-becta/ 14: https://mclear.co.uk/2010/05/24/curtains-for-becta/
+=> /posts/curtains-for-becta/ 14: /posts/curtains-for-becta/
 => http://www.zemanta.com/ 15: http://www.zemanta.com/

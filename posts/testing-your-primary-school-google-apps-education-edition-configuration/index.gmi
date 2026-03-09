@@ -26,5 +26,5 @@ By now you get the idea… You can also access your Google Apps (including the a
 => http://sites.yourdomain.com/ 1: http://sites.yourdomain.com/
 => http://docs.yourdomain.com/ 2: http://docs.yourdomain.com/
 => http://google.com/a/yourdomain.com 3: http://google.com/a/yourdomain.com
-=> https://mclear.co.uk/2009/11/24/troubleshooting-google-apps-and-shibboleth/ 4: https://mclear.co.uk/2009/11/24/troubleshooting-google-apps-and-shibboleth/
-=> https://mclear.co.uk/2009/11/24/troubleshooting-google-apps-and-shibboleth/ 5: https://mclear.co.uk/2009/11/24/troubleshooting-google-apps-and-shibboleth/
+=> /posts/troubleshooting-google-apps-and-shibboleth/ 4: /posts/troubleshooting-google-apps-and-shibboleth/
+=> /posts/troubleshooting-google-apps-and-shibboleth/ 5: /posts/troubleshooting-google-apps-and-shibboleth/

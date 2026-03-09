@@ -44,5 +44,5 @@ Your results will take a little while to come through and this can be tested by 
 
 Disclaimer: I did try to use Open Web Analytics to accomplish this but it's PHP class had an error[2] so I gave up.
 
-=> https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-google-analytics/owl_google_analytics/ 1: https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-google-analytics/owl_google_analytics/
+=> images/owl_google_analytics.png 1: images/owl_google_analytics.png
 => http://forums.openwebanalytics.com/?topic=php-class-invocation-error-in-example-code 2: http://forums.openwebanalytics.com/?topic=php-class-invocation-error-in-example-code

@@ -19,6 +19,6 @@ Finally: Remove the need for SSL[3]
 Oh yeah then:  Fix the sign in link[4]
 
 => http://en.wikipedia.org/wiki/Wildcard_DNS_record 1: http://en.wikipedia.org/wiki/Wildcard_DNS_record
-=> https://mclear.co.uk/2009/12/21/etherpad-email-is-not-working/ 2: https://mclear.co.uk/2009/12/21/etherpad-email-is-not-working/
-=> https://mclear.co.uk/2009/12/21/etherpad-ssl-https-pro-setup/ 3: https://mclear.co.uk/2009/12/21/etherpad-ssl-https-pro-setup/
-=> https://mclear.co.uk/2009/12/21/etherpad-pro-sign-in-and-recovery-password-pages-not-working/ 4: https://mclear.co.uk/2009/12/21/etherpad-pro-sign-in-and-recovery-password-pages-not-working/
+=> /posts/etherpad-email-is-not-working/ 2: /posts/etherpad-email-is-not-working/
+=> /posts/etherpad-ssl-https-pro-setup/ 3: /posts/etherpad-ssl-https-pro-setup/
+=> /posts/etherpad-pro-sign-in-and-recovery-password-pages-not-working/ 4: /posts/etherpad-pro-sign-in-and-recovery-password-pages-not-working/

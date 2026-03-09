@@ -5,7 +5,7 @@ categories:
   - "ict"
 ---
 
-[![](images/iMute.png "iMute")](https://mclear.co.uk/2010/10/05/intermute-the-process-of-muting-internet-activity-on-your-tv/imute/)So you want to have a load of cool social features on your TV, great, but when the kids are watching CBBC or you and the Mrs are enjoying a film you might want do temporarily disable all those tweets and Facebook updates.  **Fear not, a solution is at hand.**
+[![](images/iMute.png "iMute")](images/iMute.png)So you want to have a load of cool social features on your TV, great, but when the kids are watching CBBC or you and the Mrs are enjoying a film you might want do temporarily disable all those tweets and Facebook updates.  **Fear not, a solution is at hand.**
 
 You simply hit the iMute button.  iMute/Intermute/InternetMute.  It mutes all your internet jabber and leaves you to enjoy some great TV content.
 

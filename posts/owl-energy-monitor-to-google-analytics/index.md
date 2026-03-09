@@ -6,7 +6,7 @@ categories:
   - "google"
 ---
 
-[![](images/owl_google_analytics-550x231.png "owl_google_analytics")](https://mclear.co.uk/2012/09/02/owl-energy-monitor-to-google-analytics/owl_google_analytics/)
+[![](images/owl_google_analytics-550x231.png "owl_google_analytics")](images/owl_google_analytics.png)
 
 I have been able to get my CM160 owl energy monitor to provide data to Google Analytics. This allows me to track energy usage in my house.
 

@@ -66,6 +66,6 @@ Once you are happy with your VCL save it in as /etc/varnish/default.vcl (remembe
 => http://wordpress.org 5: http://wordpress.org
 => http://wordpress.org/extend/plugins/wordpress-varnish/ 6: http://wordpress.org/extend/plugins/wordpress-varnish/
 => http://stderr.net/apache/rpaf/ 7: http://stderr.net/apache/rpaf/
-=> https://mclear.co.uk/2011/04/25/varnishlog-cheat-sheet/ 8: https://mclear.co.uk/2011/04/25/varnishlog-cheat-sheet/
+=> /posts/varnishlog-cheat-sheet/ 8: /posts/varnishlog-cheat-sheet/
 => https://github.com/johnmclear/Wordpress-Varnish-VCL/tree/Varnish3 9: https://github.com/johnmclear/Wordpress-Varnish-VCL/tree/Varnish3
 => https://github.com/johnmclear/Wordpress-Varnish-VCL/blob/Varnish303/default.vcl 10: https://github.com/johnmclear/Wordpress-Varnish-VCL/blob/Varnish303/default.vcl

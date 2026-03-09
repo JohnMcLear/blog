@@ -10,7 +10,7 @@ categories:
   - "installations"
 ---
 
-**[IMPORTANT NOTE: ETHERPAD HAS BEEN REPLACED BY ETHERPAD LITE. YOU SHOULD FOLLOW THIS GUIDE.](https://mclear.co.uk/2011/08/01/install-etherpad-lite-on-ubuntu/)**
+**[IMPORTANT NOTE: ETHERPAD HAS BEEN REPLACED BY ETHERPAD LITE. YOU SHOULD FOLLOW THIS GUIDE.](/posts/install-etherpad-lite-on-ubuntu/)**
 
 IMPORTANT NOTE: THIS DOCUMENTATION IS NOW DATED.  You can now install [Etherpad](http://etherpad.org) from apt.
 

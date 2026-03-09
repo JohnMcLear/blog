@@ -19,7 +19,7 @@ My todo list: http://john.primarypad.com/ianlink[4]
 
 This service isn't ready and it may never actually get released but I figured you might like to have a look to see what I'm playing with :)
 
-=> https://mclear.co.uk/2010/09/07/quick-primary-school-link-creator/ 1: https://mclear.co.uk/2010/09/07/quick-primary-school-link-creator/
+=> /posts/quick-primary-school-link-creator/ 1: /posts/quick-primary-school-link-creator/
 => https://mclear.co.uk/wp-content/uploads/2010/09/ian-addison-site-admin-mode-on-html.png 2: https://mclear.co.uk/wp-content/uploads/2010/09/ian-addison-site-admin-mode-on-html.png
 => http://satpin.com 3: http://satpin.com
 => http://john.primarypad.com/ianlink 4: http://john.primarypad.com/ianlink

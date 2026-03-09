@@ -48,8 +48,8 @@ Note:  TED talks for example are not classified as stand-up.
 => http://en.wikipedia.org/wiki/Stand-up_comedy 7: http://en.wikipedia.org/wiki/Stand-up_comedy
 => http://primaryschool.tv 8: http://primaryschool.tv
 => http://primaryschool.tv 9: http://primaryschool.tv
-=> https://mclear.co.uk/2011/01/23/10-useful-free-services-for-uk-primary-school-ict-co-ordinators/ 10: https://mclear.co.uk/2011/01/23/10-useful-free-services-for-uk-primary-school-ict-co-ordinators/
-=> https://mclear.co.uk/2011/01/15/primary-school-tv-hello-world/ 11: https://mclear.co.uk/2011/01/15/primary-school-tv-hello-world/
-=> https://mclear.co.uk/2010/10/13/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/ 12: https://mclear.co.uk/2010/10/13/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/
-=> https://mclear.co.uk/2010/10/30/primary-school-tv-show-rss-feed/ 13: https://mclear.co.uk/2010/10/30/primary-school-tv-show-rss-feed/
+=> /posts/10-useful-free-services-for-uk-primary-school-ict-co-ordinators/ 10: /posts/10-useful-free-services-for-uk-primary-school-ict-co-ordinators/
+=> /posts/primary-school-tv-hello-world/ 11: /posts/primary-school-tv-hello-world/
+=> /posts/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/ 12: /posts/changing-youtube-to-get-it-unblocked-in-the-primary-classroom/
+=> /posts/primary-school-tv-show-rss-feed/ 13: /posts/primary-school-tv-show-rss-feed/
 => http://www.zemanta.com/ 14: http://www.zemanta.com/

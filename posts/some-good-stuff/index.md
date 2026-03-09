@@ -7,7 +7,7 @@ Every now and again I write about some good stuff, here is my latest good stuff.
 
 ## Whiteboard paint
 
-[![maxresdefault[1]](images/maxresdefault1-550x309.jpg)](https://mclear.co.uk/wp-content/uploads/2013/10/maxresdefault1.jpg) I use whiteboard paint in my office, [I have written about it before](https://mclear.co.uk/2010/05/25/dry-wipe-erasable-paint-iwb-paint/), it's still really useful. I specifically use Rust-Oleum Dry Erase Whiteboard Paint, you can buy it online or at homebase in the UK.
+[![maxresdefault[1]](images/maxresdefault1-550x309.jpg)](https://mclear.co.uk/wp-content/uploads/2013/10/maxresdefault1.jpg) I use whiteboard paint in my office, [I have written about it before](/posts/dry-wipe-erasable-paint-iwb-paint/), it's still really useful. I specifically use Rust-Oleum Dry Erase Whiteboard Paint, you can buy it online or at homebase in the UK.
 
 ## Nokia 925 & Huwaei ascend
 

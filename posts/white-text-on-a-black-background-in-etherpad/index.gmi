@@ -17,4 +17,4 @@ Open /static/custom/pad.css and add:
 
 Save, close, hit refresh..
 
-=> https://mclear.co.uk/2012/02/23/white-text-on-a-black-background-in-etherpad/whiteonblack/ 1: https://mclear.co.uk/2012/02/23/white-text-on-a-black-background-in-etherpad/whiteonblack/
+=> images/whiteonblack.png 1: images/whiteonblack.png

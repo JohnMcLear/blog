@@ -13,6 +13,6 @@ categories:
 
 4\. I shouldn't hastily bash out blog posts when I find out a new software threat to privacy or security, I should probably put a 24 hour buffer in or something.
 
-5. [The kids **still** make the job worthwhile](https://mclear.co.uk/2010/07/08/message-of-the-day/).
+5. [The kids **still** make the job worthwhile](/posts/message-of-the-day/).
 
 [![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

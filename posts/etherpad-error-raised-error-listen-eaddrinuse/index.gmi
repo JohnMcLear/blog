@@ -17,4 +17,4 @@ To fix this **make sure all other instances of etherpad lite are stopped then re
 
 If the problem still persists try to **change the port in settings.json** and then restart Etherpad Lite.
 
-=> https://mclear.co.uk/2012/10/25/etherpad-error-raised-error-listen-eaddrinuse/ops/ 1: https://mclear.co.uk/2012/10/25/etherpad-error-raised-error-listen-eaddrinuse/ops/
+=> images/ops-e1351181088502.jpg 1: images/ops-e1351181088502.jpg

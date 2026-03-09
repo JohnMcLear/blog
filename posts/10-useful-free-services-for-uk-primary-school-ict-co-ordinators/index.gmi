@@ -46,11 +46,11 @@ That's all folks.. Enjoy!
 => http://primaryschool.tv 4: http://primaryschool.tv
 => http://lists.schoolemail.co.uk/?p=subscribe&amp;id=8 5: http://lists.schoolemail.co.uk/?p=subscribe&amp;id=8
 => http://primarygamesarena.com 6: http://primarygamesarena.com
-=> https://mclear.co.uk/2009/10/17/one-aggregated-rss-feed-of-all-the-primary-school-blogs/ 7: https://mclear.co.uk/2009/10/17/one-aggregated-rss-feed-of-all-the-primary-school-blogs/
+=> /posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/ 7: /posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/
 => http://primaryblogger.co.uk 8: http://primaryblogger.co.uk
 => http://myschoolholidays.com 9: http://myschoolholidays.com
 => http://searchypants.com 10: http://searchypants.com
 => http://primaryschoolict.com 11: http://primaryschoolict.com
 => https://mclear.co.uk/sites/classdroid/ 12: https://mclear.co.uk/sites/classdroid/
-=> https://mclear.co.uk/2010/03/28/aggregated-rss-feed-of-primary-school-ict-leaders/ 13: https://mclear.co.uk/2010/03/28/aggregated-rss-feed-of-primary-school-ict-leaders/
+=> /posts/aggregated-rss-feed-of-primary-school-ict-leaders/ 13: /posts/aggregated-rss-feed-of-primary-school-ict-leaders/
 => http://primaryschoolict.com/web2.php 14: http://primaryschoolict.com/web2.php

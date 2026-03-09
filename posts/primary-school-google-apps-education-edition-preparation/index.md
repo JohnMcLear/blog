@@ -26,4 +26,4 @@ OR 2. Handle the process yourself but ask your DNS provider or web hosting provi
 
 OR 3. Gain access to your DNS control panel and do all of the procedure yourself. Warning: This is quite technically challenging. There is no charge for this but it takes a few hours if it’s the first time you have done it.
 
-**[If you chose option 2 or 3 then continue to deciding on your user accounts and domains.](https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/)** **[à](https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/)**
+**[If you chose option 2 or 3 then continue to deciding on your user accounts and domains.](/posts/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/)** **[à](/posts/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/)**

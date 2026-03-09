@@ -13,4 +13,4 @@ I often have problems debugging Etherpad Lite in IE mostly due to IE having a hi
 => images/how_to_debug_javascript_in_IE-550x372.png [IMG]
 [1]
 
-=> https://mclear.co.uk/2012/03/26/when-debugging-ie-stop-it-using-cache/how_to_debug_javascript_in_ie/ 1: https://mclear.co.uk/2012/03/26/when-debugging-ie-stop-it-using-cache/how_to_debug_javascript_in_ie/
+=> images/how_to_debug_javascript_in_IE.png 1: images/how_to_debug_javascript_in_IE.png

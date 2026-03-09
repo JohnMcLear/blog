@@ -52,6 +52,6 @@ Test it by visiting http://whatever:8080[2]
 
 Quick link to the NodeJS/websocket game I made -- includes source[3]
 
-=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 1: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> /posts/introducing-catch-a-multiplayer-html-game/ 1: /posts/introducing-catch-a-multiplayer-html-game/
 => http://whatever:8080 2: http://whatever:8080
-=> https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/ 3: https://mclear.co.uk/2011/04/06/introducing-catch-a-multiplayer-html-game/
+=> /posts/introducing-catch-a-multiplayer-html-game/ 3: /posts/introducing-catch-a-multiplayer-html-game/

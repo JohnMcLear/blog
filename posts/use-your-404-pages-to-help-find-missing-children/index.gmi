@@ -14,4 +14,4 @@ If you visit a page on my blog that has gone missing it will now hopefully help 
 
 I'm going to ask Primary Technology to consider rolling this out across all of their sites! What do you think, would you be happy if your schools blog 404 pages helped to find missing children?
 
-=> https://mclear.co.uk/2012/09/25/use-your-404-pages-to-help-find-missing-children/notfound/ 1: https://mclear.co.uk/2012/09/25/use-your-404-pages-to-help-find-missing-children/notfound/
+=> images/notfound.png 1: images/notfound.png

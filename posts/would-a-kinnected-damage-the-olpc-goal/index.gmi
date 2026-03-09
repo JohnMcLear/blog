@@ -47,7 +47,7 @@ In theory it should aid it by giving kids a more natural way of interacting andÂ
 [7]
 
 => http://www.xbox.com/kinect/ 1: http://www.xbox.com/kinect/
-=> https://mclear.co.uk/2010/11/14/xbox-kinect-shows-potential-of-use-in-a-classroom/ 2: https://mclear.co.uk/2010/11/14/xbox-kinect-shows-potential-of-use-in-a-classroom/
+=> /posts/xbox-kinect-shows-potential-of-use-in-a-classroom/ 2: /posts/xbox-kinect-shows-potential-of-use-in-a-classroom/
 => http://en.wikipedia.org/wiki/List_of_acronyms_and_initialisms%3A_I 3: http://en.wikipedia.org/wiki/List_of_acronyms_and_initialisms%3A_I
 => http://en.wikipedia.org/wiki/Educational_technology 4: http://en.wikipedia.org/wiki/Educational_technology
 => http://en.wikipedia.org/wiki/Interactive_whiteboard 5: http://en.wikipedia.org/wiki/Interactive_whiteboard

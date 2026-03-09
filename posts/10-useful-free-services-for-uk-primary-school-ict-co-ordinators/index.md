@@ -22,7 +22,7 @@ In 2010 I worked on a bucket load of free projects that should be useful for ICT
 
 5\. [Primary Games Arena](http://primarygamesarena.com) - The easiest way to find a suitable Game to support your pupils learning.
 
-6\. [Primary School Blog Feed](https://mclear.co.uk/2009/10/17/one-aggregated-rss-feed-of-all-the-primary-school-blogs/) - Looking for inspiration for how to get started blogging? Just steal/borrow ideas from other schools. Don't worry, we won't tell anyone :) If you want to get started blogging you might want to check out [PrimaryBlogger](http://primaryblogger.co.uk)
+6\. [Primary School Blog Feed](/posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/) - Looking for inspiration for how to get started blogging? Just steal/borrow ideas from other schools. Don't worry, we won't tell anyone :) If you want to get started blogging you might want to check out [PrimaryBlogger](http://primaryblogger.co.uk)
 
 7\. [My School Holidays](http://myschoolholidays.com) - Looking for your school holiday dates and want an easy way to share them?
 
@@ -32,7 +32,7 @@ In 2010 I worked on a bucket load of free projects that should be useful for ICT
 
 10\. [Classdroid](https://mclear.co.uk/sites/classdroid/) - The easiest way to record pupil assessment, this app is for Android devices and is currently in its infancy.
 
-11\. [ICT Leaders blogs](https://mclear.co.uk/2010/03/28/aggregated-rss-feed-of-primary-school-ict-leaders/). Okay so I went over 10. Whoops. Ever wondered what other Primary School ICT leaders are up to? This is a collection of all of the known ICT leaders blogs.
+11\. [ICT Leaders blogs](/posts/aggregated-rss-feed-of-primary-school-ict-leaders/). Okay so I went over 10. Whoops. Ever wondered what other Primary School ICT leaders are up to? This is a collection of all of the known ICT leaders blogs.
 
 12\. Yipes.. I forgot another great one.. This list of [great free web2 alternatives for primary schools](http://primaryschoolict.com/web2.php) should help you find a web based free alternative to applications such as Microsoft Word and other germs.
 

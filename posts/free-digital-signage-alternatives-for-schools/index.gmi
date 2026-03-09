@@ -36,5 +36,5 @@ Live Example[8] - Guide for how to do it[9]
 => http://primaryblogger.co.uk 6: http://primaryblogger.co.uk
 => http://en.wikipedia.org/wiki/RSS 7: http://en.wikipedia.org/wiki/RSS
 => http://digital.primaryblogger.co.uk 8: http://digital.primaryblogger.co.uk
-=> https://mclear.co.uk/2011/04/14/how-to-achieve-a-free-digital-signage-solution-with-wordpress/ 9: https://mclear.co.uk/2011/04/14/how-to-achieve-a-free-digital-signage-solution-with-wordpress/
+=> /posts/how-to-achieve-a-free-digital-signage-solution-with-wordpress/ 9: /posts/how-to-achieve-a-free-digital-signage-solution-with-wordpress/
 => http://www.zemanta.com/ 10: http://www.zemanta.com/

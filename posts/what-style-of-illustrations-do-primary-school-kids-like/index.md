@@ -35,6 +35,6 @@ Well it means that in the future we will try to keep our art more vector based, 
 
 ###### Related articles
 
-- [Hiring Illustrators](https://mclear.co.uk/2011/01/16/hiring-illustrators/) (mclear.co.uk)
+- [Hiring Illustrators](/posts/hiring-illustrators/) (mclear.co.uk)
 
 [![Enhanced by Zemanta](images/zemified_e.png)](http://www.zemanta.com/ "Enhanced by Zemanta")

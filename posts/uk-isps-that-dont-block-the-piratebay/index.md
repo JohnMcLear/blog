@@ -5,7 +5,7 @@ categories:
   - "e-safety"
 ---
 
-[![](images/in-the-uk-piratebay-300x127.png "in the uk piratebay")](https://mclear.co.uk/2012/05/09/uk-isps-that-dont-block-the-piratebay/in-the-uk-piratebay/)
+[![](images/in-the-uk-piratebay-300x127.png "in the uk piratebay")](images/in-the-uk-piratebay.png)
 
 Sky, Everything Everywhere, TalkTalk, O2, Virgin Media and Orange are now blocking The Pirate Bay.  You should consider switching your ISP to one that doesn't block The Pirate Bay.  Please leave comments to let me know if your ISP is blocking websites or not.
 

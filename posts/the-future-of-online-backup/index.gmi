@@ -48,7 +48,7 @@ This post is just a brief overview of my research that I put into online backups
 => http://www.crunchbase.com/company/primary-technology 1: http://www.crunchbase.com/company/primary-technology
 => http://primaryt.co.uk 2: http://primaryt.co.uk
 => http://schoolbackups.co.uk 3: http://schoolbackups.co.uk
-=> https://mclear.co.uk/2011/06/22/remote-off-site-backup-comparison/ 4: https://mclear.co.uk/2011/06/22/remote-off-site-backup-comparison/
+=> /posts/remote-off-site-backup-comparison/ 4: /posts/remote-off-site-backup-comparison/
 => http://commons.wikipedia.org/wiki/File:P2P-network.svg 5: http://commons.wikipedia.org/wiki/File:P2P-network.svg
 => http://schoolbackups.co.uk 6: http://schoolbackups.co.uk
 => http://www.zemanta.com/ 7: http://www.zemanta.com/

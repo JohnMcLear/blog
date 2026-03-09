@@ -26,5 +26,5 @@ Using a different reader(actually we tried two) before was where we went wrong. 
 
 For modifications to the ROM contents use digitalkaos or another EEPROM car modification forum. They should be able to write the correct values with the corresponding checksum value.
 
-=> https://mclear.co.uk/2019/10/11/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/ 1: https://mclear.co.uk/2019/10/11/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/
+=> /posts/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/ 1: /posts/trying-and-failing-to-hack-a-peugeot-ion-immobilizer/
 => https://fobfix.com 2: https://fobfix.com

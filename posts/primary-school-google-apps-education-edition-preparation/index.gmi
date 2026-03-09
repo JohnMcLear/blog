@@ -33,5 +33,5 @@ OR 3. Gain access to your DNS control panel and do all of the procedure yourself
 => http://google.com/a/ 2: http://google.com/a/
 => http://primaryt.co.uk/contact.html 3: http://primaryt.co.uk/contact.html
 => http://primaryt.co.uk/contact.html 4: http://primaryt.co.uk/contact.html
-=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/ 5: https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/
-=> https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/ 6: https://mclear.co.uk/2009/11/24/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/
+=> /posts/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/ 5: /posts/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/
+=> /posts/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/ 6: /posts/primary-school-google-apps-%e2%80%93-user-accounts-and-domains/

@@ -42,7 +42,7 @@ Features:
 
 ## Why have I made this?
 
-I was going to make a VCL generator but then I remembered most people will use this VCL as a point of reference and I'm lazy, let's face it, being lazy is the biggest factor in me backing out of making a generator. The varnish configs I have done before have been overly verbose for what they did and rewriting them and cleaning them up means this config is much easier to understand and modify. Adding logging means that you can easily use [varnishlog to debug](https://mclear.co.uk/2011/04/25/varnishlog-cheat-sheet/ "Varnishlog Cheat sheet") any problems you have.
+I was going to make a VCL generator but then I remembered most people will use this VCL as a point of reference and I'm lazy, let's face it, being lazy is the biggest factor in me backing out of making a generator. The varnish configs I have done before have been overly verbose for what they did and rewriting them and cleaning them up means this config is much easier to understand and modify. Adding logging means that you can easily use [varnishlog to debug](/posts/varnishlog-cheat-sheet/ "Varnishlog Cheat sheet") any problems you have.
 
 ## What isn't included?
 

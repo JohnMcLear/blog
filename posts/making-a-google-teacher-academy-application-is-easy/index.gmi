@@ -70,8 +70,8 @@ Jan Webb's[24] application video[25]
 => http://www.flickr.com 4: http://www.flickr.com
 => http://www.techsmith.com/camtasia.asp 5: http://www.techsmith.com/camtasia.asp
 => http://www.youtube.com/ 6: http://www.youtube.com/
-=> https://mclear.co.uk/2010/06/07/jaycut-in-the-primary-classroom-video-editing/ 7: https://mclear.co.uk/2010/06/07/jaycut-in-the-primary-classroom-video-editing/
-=> https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/ 8: https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/
+=> /posts/jaycut-in-the-primary-classroom-video-editing/ 7: /posts/jaycut-in-the-primary-classroom-video-editing/
+=> /posts/google-teacher-academy-submission/ 8: /posts/google-teacher-academy-submission/
 => http://twitter.com/mattlovegrove 9: http://twitter.com/mattlovegrove
 => http://www.youtube.com/watch?v=j2A23J9ybBQ 10: http://www.youtube.com/watch?v=j2A23J9ybBQ
 => http://twitter.com/chickensaltash 11: http://twitter.com/chickensaltash

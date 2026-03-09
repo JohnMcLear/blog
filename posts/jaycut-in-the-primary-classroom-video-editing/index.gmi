@@ -18,6 +18,6 @@ As you can see it is very simple to use and accessible anywhere which makes it m
 
 => images/reblog_e.png Reblog this post [with Zemanta] [IMG]
 
-=> https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/ 1: https://mclear.co.uk/2010/05/31/google-teacher-academy-submission/
+=> /posts/google-teacher-academy-submission/ 1: /posts/google-teacher-academy-submission/
 => http://www.jaycut.com 2: http://www.jaycut.com
 => http://en.wikipedia.org/wiki/Video_editing 3: http://en.wikipedia.org/wiki/Video_editing

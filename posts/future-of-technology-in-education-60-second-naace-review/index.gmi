@@ -31,7 +31,7 @@ Also find more web based learning resources here[16]
 => http://www.tes.co.uk/forums.aspx 6: http://www.tes.co.uk/forums.aspx
 => http://naace.co.uk 7: http://naace.co.uk
 => https://mclear.co.uk/sites/classdroid 8: https://mclear.co.uk/sites/classdroid
-=> https://mclear.co.uk/2010/03/28/aggregated-rss-feed-of-primary-school-ict-leaders/ 9: https://mclear.co.uk/2010/03/28/aggregated-rss-feed-of-primary-school-ict-leaders/
+=> /posts/aggregated-rss-feed-of-primary-school-ict-leaders/ 9: /posts/aggregated-rss-feed-of-primary-school-ict-leaders/
 => http://schoolemail.co.uk 10: http://schoolemail.co.uk
 => http://primaryblogger.co.uk 11: http://primaryblogger.co.uk
 => http://www.swgfl.org.uk/Learning/Learning-Resources 12: http://www.swgfl.org.uk/Learning/Learning-Resources

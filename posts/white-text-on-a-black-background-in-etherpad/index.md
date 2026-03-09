@@ -5,7 +5,7 @@ categories:
   - "etherpad"
 ---
 
-[![](images/whiteonblack-550x191.png "whiteonblack")](https://mclear.co.uk/2012/02/23/white-text-on-a-black-background-in-etherpad/whiteonblack/)
+[![](images/whiteonblack-550x191.png "whiteonblack")](images/whiteonblack.png)
 
 Open /static/custom/pad.css and add:
 

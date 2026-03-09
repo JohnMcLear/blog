@@ -11,4 +11,4 @@ Java likes memory.  VPS has some serious issues with this.  This is not an Eth
 
 **Cause:** VPS has no swap memory free.
 
-**Solution:** Do not use a VPS as [documented here](https://mclear.co.uk/2010/02/24/etherpad-minimum-requirements-memory-ram/).  If you must use a VPS ensure you have some swap space.
+**Solution:** Do not use a VPS as [documented here](/posts/etherpad-minimum-requirements-memory-ram/).  If you must use a VPS ensure you have some swap space.

@@ -13,7 +13,7 @@ It seems to be working well.  I'm tempted to do the rest of my walls.  
   
 One thing to note:  Prepare your surfaces well, just a quick scotch down of most surfaces wont do.  Also ensure you don't have any hot lights beaming down on your surface as it may make the paint dry a bit funny..
 
-Next step is to try it with one of these [Epson projectors](https://mclear.co.uk/2010/03/29/new-iwbless-epson-projector-dont-impress-me-much/) that don't require an IWB.
+Next step is to try it with one of these [Epson projectors](/posts/new-iwbless-epson-projector-dont-impress-me-much/) that don't require an IWB.
 
 ###### Related articles by Zemanta
 

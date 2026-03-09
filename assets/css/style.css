@@ -345,6 +345,11 @@ img {
     height: auto;
 }
 
+.markdown-body img {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
 /* Specific styles for rendered markdown content */
 .markdown-body {
     line-height: 1.7;

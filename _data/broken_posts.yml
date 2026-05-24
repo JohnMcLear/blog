@@ -32,7 +32,6 @@ broken:
 - /posts/are-google-planning-to-put-google-wave-into-google-apps/
 - /posts/barcamp-bradford/
 - /posts/bdruamipn-4-days-of-craziness-2/
-- /posts/best-intro-ever/
 - /posts/bett-2010-what-floated-my-boat/
 - /posts/bett-2011-review/
 - /posts/big-brands-get-educational-games-horribly-wrong/
@@ -68,6 +67,7 @@ broken:
 - /posts/deploying-etherpad-at-scale-in-one-minute/
 - /posts/developing-a-collaborative-game-using-nodejs-socketio-jquery/
 - /posts/did-the-xbox-360-just-become-a-useful-writing-tool/
+- /posts/difference-between-kidrex-and-primary-school-safe-search/
 - /posts/disposing-of-a-single-bed-including-mattress-in-bradford-recycling/
 - /posts/dry-wipe-erasable-paint-iwb-paint/
 - /posts/e-ink-brings-fresh-thought-to-classrooms/
@@ -78,6 +78,7 @@ broken:
 - /posts/educational-success-in-hours-per-year-on-a-website/
 - /posts/elgg-etherpad-lite-plugin/
 - /posts/emerging-technologies-in-primary-education-2/
+- /posts/enabling-classdroid-with-wordpress-blogs/
 - /posts/etherpad-1-1-released/
 - /posts/etherpad-hackathon-2012-update/
 - /posts/etherpad-lite-at-the-ubuntu-developers-summit-5/
@@ -88,7 +89,6 @@ broken:
 - /posts/etherpad-with-active-directory-ldapad/
 - /posts/etherpad-with-shibboleth-authentication-technical-document/
 - /posts/everyone-wants-to-be-like-facebook/
-- /posts/explaining-the-edchat-poll-options-need-help/
 - /posts/facebook-connect-on-playstation-3-ps3/
 - /posts/fizzbook-sneak-preview/
 - /posts/free-digital-signage-alternatives-for-schools/
@@ -118,7 +118,9 @@ broken:
 - /posts/hello-world/
 - /posts/home-access-problem-please-help/
 - /posts/hosted-operating-systems-in-schools/
+- /posts/how-to-achieve-a-free-digital-signage-solution-with-wordpress/
 - /posts/how-to-create-a-crowd-in-an-airport-iceland-ash/
+- /posts/how-to-put-the-latest-cbbc-news-on-your-wordpress-blog/
 - /posts/how-to-use-open-source-software-to-turn-a-portrait-picture-into-something-that-resembles-a-cartoon-with-additional-alternatives-technical/
 - /posts/i-want/
 - /posts/ieee-ratifies-802-11n-11th-of-sep-2009/
@@ -174,6 +176,7 @@ broken:
 - /posts/my-thoughts-on-clcs-being-closed/
 - /posts/net-library-for-etherpad-lite-api/
 - /posts/new-feature-forever-image-and-more-images-on-safe-search/
+- /posts/new-home/
 - /posts/new-primarywall-features-search-results-count-and-wordle-export/
 - /posts/new-promethean-board/
 - /posts/new-release-etherpad-lite-v1-1-5/
@@ -182,6 +185,7 @@ broken:
 - /posts/nodejs-dublin/
 - /posts/npm-install-referenceerror-console-is-not-defined/
 - /posts/office-2010-for-free-is-it-time-for-your-school-to-upgrade/
+- /posts/one-aggregated-rss-feed-of-all-the-primary-school-blogs/
 - /posts/one-social-web-could-make-school-social-networking-a-reality/
 - /posts/orange-to-orange-isp-connectivity/
 - /posts/our-employment-tribunal-story/
@@ -220,6 +224,7 @@ broken:
 - /posts/primary-technology-on-twitter/
 - /posts/primary-technology-services-and-sky-broadband-4/
 - /posts/primaryblogger-new-home-page/
+- /posts/primaryblogger-updates-2/
 - /posts/primaryblogger-updates-3/
 - /posts/primaryblogger-updates/
 - /posts/primarypad-now-supports-speech-input/
@@ -255,6 +260,7 @@ broken:
 - /posts/setting-safe-search-as-the-default-home-page-across-your-whole-school-2/
 - /posts/shibboleth-cert-miss-match-with-uk-federation/
 - /posts/shibboleth-idp-configuration-for-multiple-organizations-google-apps/
+- /posts/shibboleth-sso-blogging-primary-blogger/
 - /posts/short-throw-projector-rumour/
 - /posts/should-we-be-showing-online-adverts-to-kids-in-primary-schools/
 - /posts/simple-tool-to-help-educators-vote/
@@ -275,6 +281,7 @@ broken:
 - /posts/tim-rylands-presentation-at-games-based-learning/
 - /posts/top-10-etherpad-plugins-2014/
 - /posts/top-10-google-android-apps-for-school-education/
+- /posts/top-10-tools-for-learning/
 - /posts/top-10-tv-in-2009/
 - /posts/top-5-microphones-to-use-in-a-primary-school-classroom/
 - /posts/transfer-videos-from-youtube-to-vimeo/
@@ -297,6 +304,8 @@ broken:
 - /posts/what-style-of-illustrations-do-primary-school-kids-like/
 - /posts/what-type-of-3d-is-avatar/
 - /posts/why-is-my-shibboleth-idp-so-slow-to-accept-the-first-connection/
+- /posts/why-we-should-teaching-blogging-in-school/
+- /posts/why-were-not-exhibiting-at-bett/
 - /posts/wireless-solutions-for-primary-schools/
 - /posts/wordpress-com-vs-primaryblogger-vs-self-hosted/
 - /posts/wordpress-timthumb-vulnerability/

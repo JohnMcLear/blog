@@ -128,6 +128,7 @@ broken:
 - /posts/ieee-ratifies-802-11n-11th-of-sep-2009/
 - /posts/if-technology-was-unlimited/
 - /posts/installing-etherpad-on-windows-cygwin/
+- /posts/installing-magickwand/
 - /posts/installing-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/
 - /posts/introducing-quixotry/
 - /posts/introducing-text-alignment-in-etherpad/
@@ -278,7 +279,6 @@ broken:
 - /posts/testing-etherpad-lite-9/
 - /posts/testing-your-primary-school-google-apps-education-edition-configuration/
 - /posts/the-conservative-education-policy-is-lead-by-the-wrong-person/
-- /posts/the-day-i-gave-up-on-google/
 - /posts/the-future-of-online-backup/
 - /posts/the-lasting-impact-of-e-learning-credits/
 - /posts/the-new-microsoft/
@@ -316,7 +316,6 @@ broken:
 - /posts/wireless-solutions-for-primary-schools/
 - /posts/wordpress-com-vs-primaryblogger-vs-self-hosted/
 - /posts/wordpress-timthumb-vulnerability/
-- /posts/wordpress-varnish-cache-config-vcl/
 - /posts/would-a-kinnected-damage-the-olpc-goal/
 - /posts/xbox-live-games-on-windows-mobile-7/
 - /posts/xparena-slowly-slowly/

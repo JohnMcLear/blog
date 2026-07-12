@@ -18,6 +18,7 @@ broken:
 - /posts/a-modern-forum-for-a-modern-web/
 - /posts/a-recommended-read-for-anyone-who-works-in-ict-in-education/
 - /posts/a-teachers-worth-around-the-world/
+- /posts/a-thumbnailer-that-works-iis-php/
 - /posts/a-week-in-the-life/
 - /posts/about-me/
 - /posts/adding-google-search-to-your-vle-or-learning-platform/
@@ -27,7 +28,6 @@ broken:
 - /posts/akasa-nero-cpu-cooling-results/
 - /posts/alternative-to-sparklebox/
 - /posts/an-unpopular-blog-post-7-ways-to-cut-ict-costs/
-- /posts/analogue-august/
 - /posts/android-install-apk/
 - /posts/android-v2-firmware-update-is-great/
 - /posts/are-google-planning-to-put-google-wave-into-google-apps/
@@ -78,6 +78,7 @@ broken:
 - /posts/educational-images/
 - /posts/educational-success-in-hours-per-year-on-a-website/
 - /posts/elgg-etherpad-lite-plugin/
+- /posts/embedding-education-games-in-your-blog/
 - /posts/emerging-technologies-in-primary-education-2/
 - /posts/enabling-classdroid-with-wordpress-blogs/
 - /posts/etherpad-1-1-released/
@@ -95,9 +96,9 @@ broken:
 - /posts/fizzbook-sneak-preview/
 - /posts/free-digital-signage-alternatives-for-schools/
 - /posts/from-flip-to-flop-to-mobile-phones-with-classdroid/
-- /posts/futube-youtube-player-review/
 - /posts/future-of-education-and-the-role-ict-will-play/
 - /posts/future-of-technology-in-education-60-second-naace-review/
+- /posts/game-based-learning/
 - /posts/game-teaches-kids-to-be-critical-of-advertising/
 - /posts/get-paid-to-add-table-support-to-etherpad-lite/
 - /posts/getting-author-ownership-right-in-a-collaborative-editor/
@@ -130,6 +131,7 @@ broken:
 - /posts/installing-etherpad-on-windows-cygwin/
 - /posts/installing-magickwand/
 - /posts/installing-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/
+- /posts/interactive-educational-volcano-games/
 - /posts/introducing-quixotry/
 - /posts/introducing-text-alignment-in-etherpad/
 - /posts/is-it-illegally-anticompetitive-for-google-to-give-schools-google-apps-for-free/
@@ -163,13 +165,14 @@ broken:
 - /posts/microsoft-sesp-licensing-the-reality/
 - /posts/minecraft-in-educational-classroom-learning/
 - /posts/mobile-device-ui/
-- /posts/mobile-phone-detection-with-varnish-quick-getting-started-guide/
 - /posts/monitoring-a-wind-turbine-with-a-raspberry-pi/
 - /posts/moodle-say-hello-to-etherpad/
 - /posts/more-colours-on-primarypad/
 - /posts/more-domains-go-onto-the-list/
 - /posts/more-time-options-available-for-random-name-selector-stopwatch/
 - /posts/moving-schools-to-ipv6/
+- /posts/multiplayer-maths-game/
+- /posts/multiplication-activity-game/
 - /posts/my-creative-twitter-cv-resume/
 - /posts/my-experience-of-ejamming-audio/
 - /posts/my-open-apology-to-bradford-schools/
@@ -211,7 +214,10 @@ broken:
 - /posts/primary-blogger-how-to-use-your-own-domain/
 - /posts/primary-blogger-update/
 - /posts/primary-blogger-upgrades/
+- /posts/primary-games-arena-is-now-up/
 - /posts/primary-games-arena-medals/
+- /posts/primary-games-arena-web2-tool-2/
+- /posts/primary-games-arena-web2-tool/
 - /posts/primary-school-game-api-portal-page-are-in-creation/
 - /posts/primary-school-google-apps-education-edition-preparation/
 - /posts/primary-school-google-apps-–-user-accounts-and-domains/
@@ -241,10 +247,8 @@ broken:
 - /posts/primarywall-finally-rears-its-ugly-head/
 - /posts/primarywall-maintenance/
 - /posts/primarywall-pro-accounts-are-now-available/
-- /posts/publishing-to-npm-on-git-commit-using-github-hooks-and-travis/
 - /posts/qr-codes-in-primary-education/
 - /posts/quest-for-the-perfect-camera-for-the-primary-school-classroom-of-2010/
-- /posts/quick-primary-school-link-creator/
 - /posts/ramesys-and-capita-sitting-in-a-tree/
 - /posts/remote-access-without-becta-dual-form-authentication/
 - /posts/remote-off-site-backup-comparison/
@@ -252,10 +256,12 @@ broken:
 - /posts/review-of-pearson-developer-tools/
 - /posts/rick-astley-would-never/
 - /posts/running-etherpad-on-php-on-apache/
+- /posts/safe-curriculum-games-plugin-widget-for-wordpress-wpmu/
 - /posts/safe-search-firefox-search-plugin-and-persona/
 - /posts/safe-search-gets-an-earth-day-snail/
 - /posts/safe-search-on-the-bradford-learning-network/
 - /posts/safe-search-tricks-by-tony-vincent/
+- /posts/samson-usb-mic-is-super-nice/
 - /posts/say-hello-to-etherpad-lite-v1-1-1/
 - /posts/scholarpack-review/
 - /posts/schools-closed-today/
@@ -269,6 +275,7 @@ broken:
 - /posts/short-throw-projector-rumour/
 - /posts/should-we-be-showing-online-adverts-to-kids-in-primary-schools/
 - /posts/simple-tool-to-help-educators-vote/
+- /posts/snapcasa-is-down-06-july-2009/
 - /posts/spacetime-characterization-of-real-time-collaborative-editing-author-feedback/
 - /posts/spending-review-education/
 - /posts/stick-it-to-the-bully/
@@ -290,13 +297,16 @@ broken:
 - /posts/top-10-google-android-apps-for-school-education/
 - /posts/top-10-tools-for-learning/
 - /posts/top-10-tv-in-2009/
+- /posts/top-5-edu-games-of-2010/
 - /posts/top-5-microphones-to-use-in-a-primary-school-classroom/
 - /posts/transfer-videos-from-youtube-to-vimeo/
 - /posts/translations-language-i10n-i18n-cordova-phonegap-app/
 - /posts/twitter-yahoo-pipes-returns-420-unknown/
 - /posts/twittersheep/
+- /posts/typeracer-in-the-primary-classroom/
 - /posts/understanding-etwinning/
 - /posts/unsharable/
+- /posts/urikares-game/
 - /posts/useful-website-for-anger-management-ukedchat/
 - /posts/ushahidi-post-tweets-to-api-php-example/
 - /posts/using-abiword-with-etherpad-on-windows/
@@ -312,7 +322,6 @@ broken:
 - /posts/what-type-of-3d-is-avatar/
 - /posts/why-is-my-shibboleth-idp-so-slow-to-accept-the-first-connection/
 - /posts/why-we-should-teaching-blogging-in-school/
-- /posts/why-were-not-exhibiting-at-bett/
 - /posts/wireless-solutions-for-primary-schools/
 - /posts/wordpress-com-vs-primaryblogger-vs-self-hosted/
 - /posts/wordpress-timthumb-vulnerability/

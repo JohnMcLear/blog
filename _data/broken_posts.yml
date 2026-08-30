@@ -136,7 +136,6 @@ broken:
 - /posts/installing-magickwand/
 - /posts/installing-shibboleth-sp-2-on-centos-to-the-ukfederation-w-godaddy-certs/
 - /posts/interactive-educational-volcano-games/
-- /posts/introducing-ep_slideshow-slideshows-in-etherpad/
 - /posts/introducing-quixotry/
 - /posts/introducing-text-alignment-in-etherpad/
 - /posts/is-it-illegally-anticompetitive-for-google-to-give-schools-google-apps-for-free/
@@ -282,6 +281,7 @@ broken:
 - /posts/shibboleth-sso-blogging-primary-blogger/
 - /posts/short-throw-projector-rumour/
 - /posts/should-we-be-showing-online-adverts-to-kids-in-primary-schools/
+- /posts/show-my-homework-review/
 - /posts/simple-tool-to-help-educators-vote/
 - /posts/snapcasa-is-down-06-july-2009/
 - /posts/spacetime-characterization-of-real-time-collaborative-editing-author-feedback/
@@ -292,9 +292,7 @@ broken:
 - /posts/temporarily-stop-others-writing-on-a-pad/
 - /posts/testing-etherpad-lite-9/
 - /posts/testing-your-primary-school-google-apps-education-edition-configuration/
-- /posts/the-case-for-etherpad-for-educators/
 - /posts/the-conservative-education-policy-is-lead-by-the-wrong-person/
-- /posts/the-day-i-gave-up-on-google/
 - /posts/the-future-of-online-backup/
 - /posts/the-lasting-impact-of-e-learning-credits/
 - /posts/the-new-microsoft/
@@ -324,7 +322,6 @@ broken:
 - /posts/video-conferencing-within-etherpad/
 - /posts/vizualization-of-significant-data-calendaringdistance/
 - /posts/web2-primary-school-go-go-magic-arms/
-- /posts/welcome-to-the-hackathon/
 - /posts/what-are-the-google-search-team-up-to/
 - /posts/what-microsofts-new-ees-licensing-model-means-for-primary-schools/
 - /posts/what-microsofts-purchase-of-skype-means-for-primary-schools/
@@ -332,7 +329,7 @@ broken:
 - /posts/what-type-of-3d-is-avatar/
 - /posts/why-is-my-shibboleth-idp-so-slow-to-accept-the-first-connection/
 - /posts/why-we-should-teaching-blogging-in-school/
-- /posts/why-were-not-exhibiting-at-bett/
+- /posts/why-your-school-infrastructure-matters-more-today-than-it-did-yesterday/
 - /posts/wireless-solutions-for-primary-schools/
 - /posts/wordpress-com-vs-primaryblogger-vs-self-hosted/
 - /posts/wordpress-timthumb-vulnerability/

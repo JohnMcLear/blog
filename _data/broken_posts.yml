@@ -100,6 +100,7 @@ broken:
 - /posts/finally-releasing-etherpad-1-5/
 - /posts/fizzbook-sneak-preview/
 - /posts/free-digital-signage-alternatives-for-schools/
+- /posts/free-online-autocue/
 - /posts/from-flip-to-flop-to-mobile-phones-with-classdroid/
 - /posts/futube-youtube-player-review/
 - /posts/future-of-education-and-the-role-ict-will-play/
@@ -140,6 +141,7 @@ broken:
 - /posts/interactive-educational-volcano-games/
 - /posts/introducing-quixotry/
 - /posts/introducing-text-alignment-in-etherpad/
+- /posts/introducing-the-random-name-selector-tool/
 - /posts/is-it-illegally-anticompetitive-for-google-to-give-schools-google-apps-for-free/
 - /posts/is-my-school-closed/
 - /posts/jaguar-f-pace-activity-key-wristband-details/
@@ -147,6 +149,7 @@ broken:
 - /posts/javascript-for-hardware-hacking/
 - /posts/jquery-autoque-plugin/
 - /posts/kings-science-academy-announced-in-bradford/
+- /posts/lcd-monitor-screen-cleaning-website/
 - /posts/learning-without-frontiers-conference-review/
 - /posts/list-of-the-rss-feeds-for-primary-school-blogs/
 - /posts/lister-primary-school-need-your-help/
@@ -172,6 +175,7 @@ broken:
 - /posts/minecraft-in-educational-classroom-learning/
 - /posts/mobile-device-ui/
 - /posts/mobile-phone-detection-with-varnish-quick-getting-started-guide/
+- /posts/mobile-support-to-primary-pad/
 - /posts/monitoring-a-wind-turbine-with-a-raspberry-pi/
 - /posts/moodle-say-hello-to-etherpad/
 - /posts/more-colours-on-primarypad/
@@ -189,6 +193,8 @@ broken:
 - /posts/my-thoughts-on-clcs-being-closed/
 - /posts/net-library-for-etherpad-lite-api/
 - /posts/new-feature-forever-image-and-more-images-on-safe-search/
+- /posts/new-feature-online-pictogram-pictograph-creator/
+- /posts/new-feature-printable-holiday-dates-onto-business-cards/
 - /posts/new-home/
 - /posts/new-primarywall-features-search-results-count-and-wordle-export/
 - /posts/new-promethean-board/
@@ -204,6 +210,7 @@ broken:
 - /posts/our-employment-tribunal-story/
 - /posts/our-team-blog-is-born/
 - /posts/owl-energy-monitor-to-google-analytics/
+- /posts/owl-nagios-check-plugin-basic-example-inc-source/
 - /posts/parents-of-pupils-can-upgrade-to-windows-7-for-just-35/
 - /posts/password-security-win/
 - /posts/pep-easing-onto-primarywall/
@@ -211,6 +218,9 @@ broken:
 - /posts/personalized-learning-vs-core-subject-learning/
 - /posts/persuasive-writing/
 - /posts/pgce-survival-guide-book/
+- /posts/pictogram-or-pictograph-which-is-right/
+- /posts/pictograph-tool-new-features/
+- /posts/playing-with-embedding-a-pictograph/
 - /posts/plugin-spotlight-font-headings-ie-different-font-sizes/
 - /posts/plugin-spotlight-linkify-3/
 - /posts/plugin-spotlight-speech-to-pad-5/
@@ -221,6 +231,7 @@ broken:
 - /posts/primary-blogger-how-to-use-your-own-domain/
 - /posts/primary-blogger-update/
 - /posts/primary-blogger-upgrades/
+- /posts/primary-emailschool-email-scheduled-maintenance/
 - /posts/primary-games-arena-is-now-up/
 - /posts/primary-games-arena-medals/
 - /posts/primary-games-arena-web2-tool-2/
@@ -237,6 +248,7 @@ broken:
 - /posts/primary-schools-hidden-broken-online-barriers-2/
 - /posts/primary-schools-hidden-broken-online-barriers-3/
 - /posts/primary-schools-hidden-broken-online-barriers/
+- /posts/primary-schools-single-or-dual-server-environment/
 - /posts/primary-technology-on-twitter/
 - /posts/primary-technology-services-and-sky-broadband-4/
 - /posts/primaryblogger-new-home-page/
@@ -259,6 +271,7 @@ broken:
 - /posts/quadblogging-with-primaryblogger/
 - /posts/quest-for-the-perfect-camera-for-the-primary-school-classroom-of-2010/
 - /posts/ramesys-and-capita-sitting-in-a-tree/
+- /posts/read-only-pictogram-embed/
 - /posts/remote-access-without-becta-dual-form-authentication/
 - /posts/remote-off-site-backup-comparison/
 - /posts/replacement-belts-for-murray-lawn-mower/
@@ -325,17 +338,20 @@ broken:
 - /posts/varnishlog-cheat-sheet/
 - /posts/video-chat-on-etherpad-gets-an-upgrade/
 - /posts/video-conferencing-within-etherpad/
+- /posts/visual-avatar-comparison-tool/
 - /posts/vizualization-of-significant-data-calendaringdistance/
 - /posts/web2-primary-school-go-go-magic-arms/
 - /posts/what-are-the-google-search-team-up-to/
 - /posts/what-microsofts-new-ees-licensing-model-means-for-primary-schools/
 - /posts/what-microsofts-purchase-of-skype-means-for-primary-schools/
 - /posts/what-style-of-illustrations-do-primary-school-kids-like/
+- /posts/what-the-last-4-days-have-tought-me/
 - /posts/what-type-of-3d-is-avatar/
 - /posts/why-we-should-teaching-blogging-in-school/
 - /posts/why-your-school-infrastructure-matters-more-today-than-it-did-yesterday/
 - /posts/wireless-solutions-for-primary-schools/
 - /posts/wordpress-com-vs-primaryblogger-vs-self-hosted/
+- /posts/wordpress-enable-rpc-xml-site-wide/
 - /posts/wordpress-timthumb-vulnerability/
 - /posts/would-a-kinnected-damage-the-olpc-goal/
 - /posts/xbox-kinect-shows-potential-of-use-in-a-classroom/
